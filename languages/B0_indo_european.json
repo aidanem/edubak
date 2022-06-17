@@ -1,0 +1,518 @@
+[
+    {
+        "name": "Indo-European"
+    },
+    {
+        "name": "Pre-Proto-Indo-European"
+    },
+    {
+        "name": "Early Proto-Indo-European",
+        "direct_parents": ["Pre-Proto-Indo-European"]
+    },
+    {
+        "name": "Proto-Indo-European",
+        "direct_parents": ["Pre-Proto-Indo-European","Early Proto-Indo-European"]
+    },
+    {
+        "name": "Late Indo-European dialect",
+        "direct_parents": ["Proto-Indo-European"]
+    },
+    {
+        "name": "Northwest Indo-European",
+        "direct_parents": ["Proto-Indo-European"]
+    },
+    {
+        "name": "Indeterminate Indo-European language",
+        "direct_parents": ["Proto-Indo-European"]
+    },
+    {
+        "name": "Greco-Armenian",
+        "direct_parents": ["Proto-Indo-European","Early Proto-Indo-European"]
+    },
+    {
+        "name": "Anatolian",
+        "direct_parents": ["Early Proto-Indo-European","Proto-Indo-European"],
+        "style_classes": ["anatolian"]
+    },
+    {
+        "name": "Hittite",
+        "bcp47": "hit-Xsux",
+        "direct_parents": ["Anatolian"]
+    },
+    {
+        "name": "Luwic",
+        "direct_parents": ["Anatolian"]
+    },
+    {
+        "name": "Luwian",
+        "direct_parents": ["Anatolian", "Luwic"]
+    },
+    {
+        "name": "Cuneiform Luwian",
+        "bcp47": "xlu-Xsux",
+        "direct_parents": ["Anatolian", "Luwic", "Luwian"]
+    },
+    {
+        "name": "Hieroglyphic Luwian",
+        "bcp47": "hlu-Hluw",
+        "direct_parents": ["Anatolian", "Luwic", "Luwian"]
+    },
+    {
+        "name": "Lycian",
+        "bcp47": "xlc-Lyci",
+        "direct_parents": ["Anatolian", "Luwic"]
+    },
+    {
+        "name": "Lydian",
+        "bcp47": "xld-Lydi",
+        "direct_parents": ["Anatolian"]
+    },
+    {
+        "name": "AlbanianGroup",
+        "direct_parents": ["Indo-European"],
+        "style_classes": ["albanian"]
+    
+    },
+    {
+        "name": "Pre-Albanian",
+        "direct_parents": ["Proto-Indo-European","AlbanianGroup"]
+    },
+    {
+        "name": "Proto-Albanian",
+        "direct_parents": ["Proto-Indo-European", "AlbanianGroup", "Pre-Albanian"]
+    },
+    {
+        "name": "Old Albanian",
+        "bcp47": "sqi-Latn",
+        "direct_parents": ["Proto-Indo-European", "AlbanianGroup", "Pre-Albanian", "Proto-Albanian"]
+    },
+    {
+        "name": "Albanian",
+        "bcp47": "sqi-Latn",
+        "direct_parents": ["Proto-Indo-European", "AlbanianGroup", "Pre-Albanian", "Proto-Albanian", "Old Albanian"]
+    },
+    {
+        "name": "Pre-Armenian",
+        "direct_parents": ["Proto-Indo-European","Greco-Armenian"]
+    },
+    {
+        "name": "Proto-Armenian",
+        "direct_parents": ["Proto-Indo-European", "Greco-Armenian", "Pre-Armenian"],
+        "style_classes": ["armenian"]
+    },
+    {
+        "name": "Old Armenian",
+        "bcp47": "xcl-Armn",
+        "direct_parents": ["Proto-Indo-European", "Greco-Armenian", "Proto-Armenian", "Pre-Armenian"]
+    },
+    {
+        "name": "Middle Armenian",
+        "bcp47": "axm-Armn",
+        "direct_parents": ["Old Armenian"]
+    
+    },
+    {
+        "name": "Armenian",
+        "bcp47": "hye-Armn",
+        "direct_parents": ["Old Armenian","Middle Armenian"]
+    
+    },
+    {
+        "name": "Balto-Slavic",
+        "direct_parents": ["Proto-Indo-European","Northwest Indo-European"],
+        "style_classes": ["baltoslavic"]
+    },
+    {
+        "name": "East Baltic",
+        "direct_parents": ["Balto-Slavic"]
+    },
+    {
+        "name": "Old Lithuanian",
+        "bcp47": "olt-Latn",
+        "direct_parents": ["Balto-Slavic","East Baltic"]
+    },
+    {
+        "name": "Lithuanian",
+        "bcp47": "lit-Latn",
+        "direct_parents": ["Balto-Slavic","East Baltic","Old Lithuanian"]
+    },
+    {
+        "name": "Latvian",
+        "bcp47": "lav-Latn",
+        "direct_parents": ["Balto-Slavic","East Baltic"]
+    },
+    {
+        "name": "West Baltic",
+        "direct_parents": ["Balto-Slavic"]
+    },
+    {
+        "name": "Old Prussian",
+        "bcp47": "prg-Latn",
+        "direct_parents": ["Balto-Slavic","West Baltic"]
+    },
+    {
+        "name": "Sudovian",
+        "bcp47": "xsv-Latn",
+        "direct_parents": ["Balto-Slavic","West Baltic"]
+    },
+    {
+        "name": "Slavic",
+        "direct_parents": ["Balto-Slavic"]
+    },
+    {
+        "name": "East Slavic",
+        "bcp47": "orv-Cyrl",
+        "direct_parents": ["Slavic"]
+    },
+    {
+        "name": "Old East Slavic",
+        "bcp47": "orv-Cyrl",
+        "direct_parents": ["Slavic","East Slavic"]
+    },
+    {
+        "name": "Belarusian",
+        "bcp47": "bel-Cyrl",
+        "direct_parents": ["East Slavic","Old East Slavic"]
+    },
+    {
+        "name": "Russian",
+        "bcp47": "rus-Cyrl",
+        "direct_parents": ["East Slavic","Old East Slavic"]
+    },
+    {
+        "name": "Ukrainian",
+        "bcp47": "ukr-Cyrl",
+        "direct_parents": ["East Slavic","Old East Slavic"],
+        "autocorrects": ["Ukranian"]
+    },
+    {
+        "name": "South Slavic",
+        "direct_parents": ["Slavic"]
+    },
+    {
+        "name": "Bulgarian",
+        "bcp47": "bul-Cyrl",
+        "direct_parents": ["Slavic","South Slavic"]
+    },
+    {
+        "name": "Old Church Slavonic",
+        "bcp47": "chu-Cyrs",
+        "direct_parents": ["Slavic","South Slavic"],
+        "autocorrects": ["Old Church Slavic"]
+    },
+    {
+        "name": "Serbo-Croatian",
+        "bcp47": "hbs-Cyrl",
+        "direct_parents": ["South Slavic"]
+    },
+    {
+        "name": "Slovene",
+        "bcp47": "slv-Cyrl",
+        "direct_parents": ["South Slavic"]
+    },
+    {
+        "name": "West Slavic",
+        "direct_parents": ["Slavic"]
+    },
+    {
+        "name": "Lechitic",
+        "direct_parents": ["West Slavic"]
+    },
+    {
+        "name": "Old Polish",
+        "bcp47": "pol-Latn",
+        "direct_parents": ["West Slavic","Lechitic"]
+    },
+    {
+        "name": "Polish",
+        "bcp47": "pol-Latn",
+        "direct_parents": ["West Slavic","Lechitic","Old Polish"]
+    },
+    {
+        "name": "Pomeranian",
+        "direct_parents": ["West Slavic","Lechitic"]
+    },
+    {
+        "name": "Slovincian",
+        "direct_parents": ["West Slavic","Lechitic","Pomeranian"]
+    },
+    {
+        "name": "Czech-Slovak",
+        "direct_parents": ["West Slavic"]
+    },
+    {
+        "name": "Old Czech",
+        "bcp47": "ces-Latn",
+        "direct_parents": ["West Slavic","Czech-Slovak"]
+    },
+    {
+        "name": "Czech",
+        "bcp47": "ces-Latn",
+        "direct_parents": ["West Slavic","Czech-Slovak","Old Czech"]
+    },
+    {
+        "name": "Slovak",
+        "bcp47": "slk-Latn",
+        "direct_parents": ["West Slavic","Czech-Slovak"]
+    },
+    {
+        "name": "Sorbian",
+        "bcp47": "wen-Latn",
+        "direct_parents": ["West Slavic"]
+    },
+    {
+        "name": "Italo-Celtic",
+        "direct_parents": ["Proto-Indo-European","Northwest Indo-European"]
+    },
+    {
+        "name": "Proto-Celtic",
+        "direct_parents": ["Proto-Indo-European", "Northwest Indo-European", "Italo-Celtic"],
+        "style_classes": ["celtic"]
+    },
+    {
+        "name": "Celtic",
+        "direct_parents": ["Proto-Indo-European", "Northwest Indo-European", "Italo-Celtic","Proto-Celtic"]
+    },
+    {
+        "name": "Insular Celtic",
+        "direct_parents": ["Celtic"]
+    },
+    {
+        "name": "Brythonic",
+        "direct_parents": ["Celtic","Insular Celtic"]
+    },
+    {
+        "name": "Old Welsh",
+        "bcp47": "owl-Latn",
+        "direct_parents": ["Brythonic"]
+    },
+    {
+        "name": "Middle Welsh",
+        "bcp47": "wlm-Latn",
+        "direct_parents": ["Brythonic","Old Welsh"]
+    },
+    {
+        "name": "Welsh",
+        "bcp47": "cym-Latn",
+        "direct_parents": ["Brythonic","Old Welsh","Middle Welsh"]
+    },
+    {
+        "name": "Old Breton",
+        "bcp47": "obt-Latn",
+        "direct_parents": ["Brythonic"]
+    },
+    {
+        "name": "Breton",
+        "bcp47": "bre-Latn",
+        "direct_parents": ["Brythonic", "Old Breton"]
+    },
+    {
+        "name": "Cornish",
+        "bcp47": "cor-Latn",
+        "direct_parents": ["Brythonic"]
+    },
+    {
+        "name": "Cumbric",
+        "bcp47": "xcb",
+        "direct_parents": ["Brythonic"]
+    },
+    {
+        "name": "Pictish",
+        "bcp47": "xpi",
+        "direct_parents": ["Brythonic"]
+    },
+    {
+        "name": "Hispano-Celtic",
+        "direct_parents": ["Celtic"]
+    },
+    {
+        "name": "Celtiberian",
+        "bcp47": "xce",
+        "direct_parents": ["Celtic","Hispano-Celtic"]
+    },
+    {
+        "name": "Goidelic",
+        "direct_parents": ["Celtic","Insular Celtic"]
+    },
+    {
+        "name": "Primitive Irish",
+        "bcp47": "pgl-Ogam",
+        "direct_parents": ["Celtic","Insular Celtic","Goidelic"]
+    },
+    {
+        "name": "Old Irish",
+        "bcp47": "sga-Latn",
+        "direct_parents": ["Celtic","Insular Celtic","Goidelic","Primitive Irish"]
+    },
+    {
+        "name": "Middle Irish",
+        "bcp47": "mga-Latn",
+        "direct_parents": ["Celtic","Insular Celtic","Goidelic","Primitive Irish", "Old Irish"]
+    },
+    {
+        "name": "Irish",
+        "bcp47": "gle-Latn",
+        "direct_parents": ["Celtic","Insular Celtic","Goidelic","Primitive Irish", "Old Irish","Middle Irish"]
+    },
+    {
+        "name": "Scottish Gaelic",
+        "bcp47": "gla-Latn",
+        "direct_parents": ["Celtic","Insular Celtic","Goidelic","Primitive Irish", "Old Irish","Middle Irish"]
+    },
+    {
+        "name": "Manx",
+        "bcp47": "glv-Latn",
+        "direct_parents": ["Celtic","Insular Celtic","Goidelic","Primitive Irish", "Old Irish","Middle Irish"]
+    },
+    {
+        "name": "Galatian",
+        "bcp47": "xga-Grek",
+        "direct_parents": ["Gaulish"]
+    },
+    {
+        "name": "Gaulish",
+        "bcp47": "xtg-Latn",
+        "direct_parents": ["Celtic"]
+    },
+    {
+        "name": "Lepontic",
+        "bcp47": "xlp-Ital",
+        "direct_parents": ["Celtic"]
+    },
+    {
+        "name": "Noric",
+        "bcp47": "nrc-Ital",
+        "direct_parents": ["Celtic"]
+    },
+    {
+        "name": "Dacian",
+        "bcp47": "xdc",
+        "direct_parents": ["Proto-Indo-European"]
+    },
+    {
+        "name": "Hellenic",
+        "direct_parents": ["Proto-Indo-European","Greco-Armenian"],
+        "style_classes": ["hellenic"]
+    },
+    {
+        "name": "Mycenaean Greek",
+        "bcp47": "gmy-Linb",
+        "direct_parents": ["Hellenic"],
+        "autocorrects": ["Mycenaean","Mycenean Greek"]
+    },
+    {
+        "name": "Aeolic Greek",
+        "bcp47": "grc-Grek",
+        "direct_parents": ["Hellenic"]
+    },
+    {
+        "name": "Arcadocypriot",
+        "bcp47": "grc-Grek",
+        "direct_parents": ["Hellenic"]
+    },
+    {
+        "name": "Attic Greek",
+        "bcp47": "grc-Grek",
+        "direct_parents": ["Hellenic"]
+    },
+    {
+        "name": "Homeric Greek",
+        "bcp47": "grc-Grek",
+        "direct_parents": ["Hellenic"]
+    },
+    {
+        "name": "Archaic Ionic Greek",
+        "bcp47": "grc-Grek",
+        "direct_parents": ["Hellenic"]
+    },
+    {
+        "name": "Ionic Greek",
+        "bcp47": "grc-Grek",
+        "direct_parents": ["Hellenic", "Archaic Ionic Greek"]
+    },
+    {
+        "name": "Classical Greek",
+        "bcp47": "grc-Grek",
+        "direct_parents": ["Hellenic","Homeric Greek","Attic Greek"]
+    },
+    {
+        "name": "Koine Greek",
+        "bcp47": "grc-Grek",
+        "direct_parents": ["Classical Greek"]
+    },
+    {
+        "name": "Byzantine Greek",
+        "bcp47": "grc-Grek",
+        "direct_parents": ["Classical Greek","Koine Greek"]
+    },
+    {
+        "name": "Greek",
+        "bcp47": "ell-Grek",
+        "direct_parents": ["Classical Greek","Koine Greek", "Byzantine Greek"]
+    },
+    {
+        "name": "Cappadocian Greek",
+        "bcp47": "cpg-Grek",
+        "direct_parents": ["Classical Greek","Koine Greek", "Byzantine Greek"]
+    },
+    {
+        "name": "Ancient Macedonian",
+        "bcp47": "xmk-Grek",
+        "direct_parents": ["Proto-Indo-European", "Hellenic"]
+    },
+    {
+        "name": "Illyrian",
+        "bcp47": "xil",
+        "direct_parents": ["Proto-Indo-European"]
+    },
+    {
+        "name": "Messapic",
+        "direct_parents": ["Proto-Indo-European"]
+    },
+    {
+        "name": "Messapian",
+        "bcp47": "cms-Grek",
+        "direct_parents": ["Proto-Indo-European","Messapic"]
+    },
+    {
+        "name": "Mysian",
+        "bcp47": "yms-Grek",
+        "direct_parents": ["Proto-Indo-European"]
+    },
+    {
+        "name": "Phrygian",
+        "bcp47": "xpg-Grek",
+        "direct_parents": ["Proto-Indo-European","Greco-Armenian"]
+    },
+    {
+        "name": "Thracian",
+        "bcp47": "txh-Grek",
+        "direct_parents": ["Proto-Indo-European","Greco-Armenian"]
+    },
+    {
+        "name": "Pre-Tocharian",
+        "direct_parents": ["Early Proto-Indo-European","Proto-Indo-European"],
+        "style_classes": ["tocharian"]
+    },
+    {
+        "name": "Tocharian",
+        "direct_parents": ["Early Proto-Indo-European","Proto-Indo-European","Pre-Tocharian"]
+    },
+    {
+        "name": "Arshian",
+        "bcp47": "xto-Brah",
+        "direct_parents": ["Tocharian"],
+        "autocorrects": ["Tocharian A","Agnean"]
+    },
+    {
+        "name": "Kushean",
+        "bcp47": "xtb-Brah",
+        "direct_parents": ["Tocharian"],
+        "autocorrects": ["Tocharian B","Kuchean","Kushan"]
+    },
+    {
+        "name": "Kroränian",
+        "direct_parents": ["Tocharian"],
+        "autocorrects": ["Tocharian C","Kroranian"]
+    }
+]

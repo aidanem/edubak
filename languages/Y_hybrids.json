@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Haitian Creole",
+        "bcp47": "hat-Latn",
+        "direct_parents": ["Middle French","French"],
+        "style_classes": ["creole"]
+    },
+    {
+        "name": "Hawaiʻian Creole English",
+        "bcp47": "hwc-Latn",
+        "direct_parents": ["English"],
+        "style_classes": ["creole"]
+    },
+    {
+        "name": "Sranan Tongo",
+        "bcp47": "srn-Latn",
+        "direct_parents": ["English"],
+        "style_classes": ["creole"]
+    }
+]

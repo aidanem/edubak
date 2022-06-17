@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Niger-Congo",
+        "style_classes": ["nigercongo"]
+    },
+    {
+        "name": "Atlantic-Congo",
+        "direct_parents": ["Niger-Congo"]
+    },
+    {
+        "name": "Mel",
+        "direct_parents": ["Niger-Congo","Atlantic-Congo"]
+    },
+    {
+        "name": "Senegambian",
+        "direct_parents": ["Niger-Congo","Atlantic-Congo"]
+    },
+    {
+        "name": "Volta-Congo",
+        "direct_parents": ["Niger-Congo","Atlantic-Congo"]
+    },
+    {
+        "name": "Benue-Congo",
+        "direct_parents": ["Niger-Congo","Atlantic-Congo","Volta-Congo"]
+    },
+    {
+        "name": "Central Nigerian",
+        "direct_parents": ["Niger-Congo","Atlantic-Congo","Volta-Congo","Benue-Congo"]
+    },
+    {
+        "name": "Bantoid-Cross",
+        "direct_parents": ["Niger-Congo","Atlantic-Congo","Volta-Congo","Benue-Congo"]
+    },
+    {
+        "name": "Bantoid",
+        "direct_parents": ["Niger-Congo","Atlantic-Congo","Volta-Congo","Benue-Congo","Bantoid-Cross"]
+    },
+    {
+        "name": "Bantu",
+        "direct_parents": ["Niger-Congo","Atlantic-Congo","Volta-Congo","Benue-Congo","Bantoid-Cross","Bantoid"]
+    },
+    {
+        "name": "Bantu",
+        "direct_parents": ["Niger-Congo","Atlantic-Congo","Volta-Congo","Benue-Congo","Bantoid-Cross","Bantoid"]
+    },
+    {
+        "name": "Northeast Bantu",
+        "direct_parents": ["Bantu"]
+    },
+    {
+        "name": "North East Coast Bantu",
+        "direct_parents": ["Bantu","Northeast Bantu"]
+    },
+    {
+        "name": "Swahili",
+        "bcp47": "swa-Latn",
+        "direct_parents": ["Bantu","Northeast Bantu","North East Coast Bantu"]
+    },
+    {
+        "name": "Southern Bantu",
+        "direct_parents": ["Bantu"]
+    },
+    {
+        "name": "Zulu",
+        "bcp47": "zul-Latn",
+        "direct_parents": ["Bantu","Southern Bantu"]
+    }
+]

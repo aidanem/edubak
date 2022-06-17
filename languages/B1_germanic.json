@@ -1,0 +1,236 @@
+[
+    {
+        "name": "Pre-Germanic",
+        "direct_parents": ["Proto-Indo-European", "Northwest Indo-European"]
+    },
+    {
+        "name": "Germanic",
+        "direct_parents": ["Proto-Indo-European", "Northwest Indo-European", "Pre-Germanic"],
+        "style_classes": ["germanic"],
+        "autocorrects": ["Germanc"]
+    },
+    {
+        "name": "East Germanic",
+        "direct_parents": ["Germanic"],
+        "autocorrects": ["Eastern Germanic"]
+    },
+    {
+        "name": "Gothic",
+        "bcp47": "got-Goth",
+        "fontname": "Noto Sans Gothic",
+        "direct_parents": ["East Germanic"]
+    },
+    {
+        "name": "Crimean Gothic",
+        "bcp47": "got-Latn",
+        "direct_parents": ["East Germanic","Gothic"]
+    },
+    {
+        "name": "Ostrogothic",
+        "bcp47": "got-Goth",
+        "fontname": "Noto Sans Gothic",
+        "direct_parents": ["East Germanic","Gothic"]
+    },
+    {
+        "name": "Visigothic",
+        "bcp47": "got-Goth",
+        "fontname": "Noto Sans Gothic",
+        "direct_parents": ["East Germanic","Gothic"]
+    },
+    {
+        "name": "Vandalic",
+        "direct_parents": ["East Germanic"]
+    },
+    {
+        "name": "North Germanic",
+        "bcp47": "gmq-Runr",
+        "direct_parents": ["Germanic"],
+        "autocorrects": ["Northern Germanic"]
+    },
+    {
+        "name": "Proto-Norse",
+        "bcp47": "non-Runr",
+        "direct_parents": ["North Germanic"]
+    },
+    {
+        "name": "Old Norse",
+        "bcp47": "non-Latn",
+        "direct_parents": ["North Germanic", "Proto-Norse"]
+    },
+    {
+        "name": "Old East Norse",
+        "bcp47": "non-Latn",
+        "direct_parents": ["Old Norse"]
+    },
+    {
+        "name": "Old Danish",
+        "bcp47": "dan-Latn",
+        "direct_parents": ["Old Norse","Old East Norse"]
+    },
+    {
+        "name": "Danish",
+        "bcp47": "dan-Latn",
+        "direct_parents": ["Old Norse","Old East Norse", "Old Danish"]
+    },
+    {
+        "name": "Old Swedish",
+        "bcp47": "swe-Latn",
+        "direct_parents": ["Old Norse","Old East Norse"]
+    },
+    {
+        "name": "Swedish",
+        "bcp47": "swe-Latn",
+        "direct_parents": ["Old Norse","Old East Norse","Old Swedish"]
+    },
+    {
+        "name": "Old West Norse",
+        "bcp47": "non-Latn",
+        "direct_parents": ["Old Norse"]
+    },
+    {
+        "name": "Faroese",
+        "bcp47": "fao-Latn",
+        "direct_parents": ["Old Norse","Old West Norse"]
+    },
+    {
+        "name": "Icelandic",
+        "bcp47": "isl-Latn",
+        "direct_parents": ["Old Norse","Old West Norse"],
+        "autocorrects": ["Icelandi","Icelaandic"]
+    },
+    {
+        "name": "Norn",
+        "bcp47": "nrn-Latn",
+        "direct_parents": ["Old Norse","Old West Norse"]
+    },
+    {
+        "name": "Norwegian",
+        "bcp47": "nor-Latn",
+        "direct_parents": ["Old Norse","Old West Norse"]
+    },
+    {
+        "name": "Old Gutnish",
+        "bcp47": "non-Latn",
+        "direct_parents": ["Old Norse"]
+    },
+    {
+        "name": "West Germanic",
+        "direct_parents": ["Germanic"],
+        "autocorrects": ["Western Germanic"]
+    },
+    {
+        "name": "Ingvaeonic",
+        "direct_parents": ["West Germanic"]
+    },
+    {
+        "name": "Anglo-Frisian",
+        "direct_parents": ["West Germanic", "Ingvaeonic"]
+    },
+    {
+        "name": "Anglic",
+        "direct_parents": ["West Germanic", "Anglo-Frisian" ]
+    },
+    {
+        "name": "Old English",
+        "bcp47": "ang-Latn",
+        "direct_parents": ["West Germanic", "Anglo-Frisian", "Anglic"]
+    },
+    {
+        "name": "Middle English",
+        "bcp47": "enm-Latn",
+        "direct_parents": ["Old English"]
+    },
+    {
+        "name": "English",
+        "bcp47": "eng-Latn",
+        "direct_parents": ["Old English", "Middle English"],
+        "style_classes": ["large"],
+        "autocorrects": ["Engish","Englsh"]
+    },
+    {
+        "name": "Scots",
+        "bcp47": "sco-Latn",
+        "direct_parents": ["Old English", "Middle English"]
+    },
+    {
+        "name": "Yola",
+        "bcp47": "yol-Latn",
+        "direct_parents": ["Old English", "Middle English"]
+    },
+    {
+        "name": "Irminonic",
+        "direct_parents": ["West Germanic"]
+    },
+    {
+        "name": "Old High German",
+        "bcp47": "goh-Latn",
+        "direct_parents": ["West Germanic","Irminonic"]
+    },
+    {
+        "name": "Middle High German",
+        "bcp47": "gmh-Latn",
+        "direct_parents": ["Old High German"]
+    },
+    {
+        "name": "German",
+        "bcp47": "deu-Latn",
+        "direct_parents": ["Old High German","Middle High German"]
+    },
+    {
+        "name": "Yiddish",
+        "bcp47": "yid-Hebr",
+        "direct_parents": ["Old High German","Middle High German"]
+    },
+    {
+        "name": "Lombardic",
+        "direct_parents": ["West Germanic","Irminonic"]
+    },
+    {
+        "name": "Istvaeonic",
+        "direct_parents": ["West Germanic"]
+    },
+    {
+        "name": "Frankish",
+        "bcp47": "frk-Runr",
+        "direct_parents": ["West Germanic","Istvaeonic"]
+    },
+    {
+        "name": "Old Dutch",
+        "bcp47": "odt-Latn",
+        "direct_parents": ["West Germanic","Istvaeonic","Frankish"]
+    },
+    {
+        "name": "Middle Dutch",
+        "bcp47": "dum-Latn",
+        "direct_parents": ["Frankish", "Old Dutch"]
+    },
+    {
+        "name": "Dutch",
+        "bcp47": "nld-Latn",
+        "direct_parents": ["Frankish", "Old Dutch", "Middle Dutch"]
+    },
+    {
+        "name": "Afrikaans",
+        "bcp47": "afr-Latn",
+        "direct_parents": ["Dutch"]
+    },
+    {
+        "name": "Old Saxon",
+        "direct_parents": ["West Germanic","Istvaeonic"]
+    },
+    {
+        "name": "Middle Low German",
+        "bcp47": "gml-Latn",
+        "direct_parents": ["Old Saxon"]
+    },
+    {
+        "name": "Low German",
+        "bcp47": "nds-Latn",
+        "direct_parents": ["Old Saxon","Middle Low German"]
+    },
+    {
+        "name": "Plautdietsch",
+        "bcp47": "nds-Latn",
+        "direct_parents": ["Old Saxon","Middle Low German"]
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Kartvelian",
+        "style_classes": ["kartvelian"]
+    },
+    {
+        "name": "Proto-Kartvelian",
+        "direct_parents": ["Kartvelian"]
+    },
+    {
+        "name": "Svan",
+        "bcp47": "sva-Geor",
+        "direct_parents": ["Kartvelian","Proto-Kartvelian"]
+    },
+    {
+        "name": "Karto-Zan",
+        "direct_parents": ["Kartvelian","Proto-Kartvelian"]
+    },
+    {
+        "name": "Old Georgian",
+        "bcp47": "oge-Geor",
+        "direct_parents": ["Kartvelian","Proto-Kartvelian","Karto-Zan"]
+    },
+    {
+        "name": "Georgian",
+        "bcp47": "kat-Geor",
+        "direct_parents": ["Kartvelian","Proto-Kartvelian","Karto-Zan","Old Georgian"]
+    },
+    {
+        "name": "Mingrelian",
+        "bcp47": "xmf-Geor",
+        "direct_parents": ["Kartvelian","Proto-Kartvelian","Karto-Zan"]
+    },
+    {
+        "name": "Northeast Caucasian",
+        "style_classes": ["northeast_caucasian"]
+    },
+    {
+        "name": "Avar",
+        "bcp47": "ava-Cyrl",
+        "direct_parents": ["Northeast Caucasian"]
+    },
+    {
+        "name": "Chechen",
+        "bcp47": "che-Cyrl",
+        "direct_parents": ["Northeast Caucasian"]
+    },
+    {
+        "name": "Dargwa",
+        "bcp47": "dar-Cyrl",
+        "direct_parents": ["Northeast Caucasian"]
+    },
+    {
+        "name": "Lak",
+        "bcp47": "lbe-Cyrl",
+        "direct_parents": ["Northeast Caucasian"]
+    },
+    {
+        "name": "Lezgic",
+        "direct_parents": ["Northeast Caucasian"]
+    },
+    {
+        "name": "Lezgi",
+        "bcp47": "lez-Cyrl",
+        "direct_parents": ["Northeast Caucasian","Lezgic"]
+    },
+    {
+        "name": "Old Udi",
+        "bcp47": "xag-Aghb",
+        "direct_parents": ["Northeast Caucasian","Lezgic"],
+        "autocorrects": ["Caucasian Albanian"]
+    },
+    {
+        "name": "Udi",
+        "bcp47": "udi",
+        "direct_parents": ["Northeast Caucasian","Lezgic","Old Udi"]
+    },
+    {
+        "name": "Northwest Caucasian",
+        "style_classes": ["northwest_caucasian"]
+    },
+    {
+        "name": "Abkhaz",
+        "bcp47": "abk-Cyrl",
+        "direct_parents": ["Northwest Caucasian"]
+    },
+    {
+        "name": "Kabardian",
+        "bcp47": "kbd-Cyrl",
+        "direct_parents": ["Northwest Caucasian"]
+    }
+]

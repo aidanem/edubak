@@ -1,0 +1,790 @@
+[
+    {
+        "name": "Adlam script",
+        "adjective": "Adlam",
+        "iso_15924": "Adlm",
+        "types": ["Alphabet"],
+        "alternate_names": ["Alkule Dandayɗe Leñol Mulugol"],
+        "direction": "RtL",
+        "time_start": 1989,
+        "time_end": null
+    },
+    {
+        "name": "Afaka script",
+        "adjective": "Afaka",
+        "iso_15924": "Afak",
+        "types": ["Syllabary"],
+        "time_start": 1910,
+        "time_end": null
+    },
+    {
+        "name": "Anatolian hieroglyphs",
+        "adjective": "Anatolian hieroglyphic",
+        "iso_15924": "Hluw",
+        "noto_fontname": "Noto Sans Anatolian Hieroglyphs",
+        "types": ["Logography"],
+        "direction": "LtR",
+        "time_start": -1300,
+        "time_end": -600
+    },
+    {
+        "name": "Arabic script",
+        "adjective": "Arabic",
+        "iso_15924": "Arab",
+        "noto_fontname": "Noto Naskh Arabic",
+        "types": ["Abjad","Alphabet"],
+        "direction": "RtL",
+        "time_start": 400,
+        "time_end": null
+    },
+    {
+        "name": "Perso-Arabic script",
+        "adjective": "Perso-Arabic",
+        "iso_15924": "Aran",
+        "noto_fontname": "Noto Nastaliq Urdu",
+        "types": ["Abjad","Alphabet"],
+        "alternate_names": ["Nastaliq","Nastaʿlīq"],
+        "direction": "RtL",
+        "time_start": 400,
+        "time_end": null
+    },
+    {
+        "name": "Imperial Aramaic script",
+        "adjective": "Imperial Aramaic",
+        "iso_15924": "Armi",
+        "noto_fontname": "Noto Sans Imperial Aramaic",
+        "direction": "RtL",
+        "types": ["Abjad"],
+        "alternate_names": ["Aramaic alphabet","Early Aramaic alphabet"],
+        "time_start": -800,
+        "time_end": 600
+    },
+    {
+        "name": "Aramaic square script",
+        "adjective": "Hebrew",
+        "iso_15924": "Hebr",
+        "noto_fontname": "Noto Sans Hebrew",
+        "types": ["Abjad"],
+        "direction": "RtL",
+        "alternate_names": ["Hebrew alphabet", "Jewish script"],
+        "time_start": -100,
+        "time_end": null
+    },
+    {
+        "name": "Armenian script",
+        "adjective": "Armenian",
+        "iso_15924": "Armn",
+        "noto_fontname": "Noto Sans Armenian",
+        "types": ["Alphabet"],
+        "direction": "LtR",
+        "time_start": 405,
+        "time_end": null
+    },
+    {
+        "name": "Avestan script",
+        "adjective": "Avestan",
+        "iso_15924": "Avst",
+        "noto_fontname": "Noto Sans Avestan",
+        "types": ["Alphabet"],
+        "direction": "RtL",
+        "time_start": 350,
+        "time_end": 1100
+    },
+    {
+        "name": "Bengali-Assamese script",
+        "adjective": "Bengali-Assamese",
+        "iso_15924": "Beng",
+        "noto_fontname": "Noto Sans Bengali",
+        "types": ["Abugida"],
+        "direction": "LtR",
+        "comment": "Eastern Nagari",
+        "time_start": 1100,
+        "time_end": null
+    },
+    {
+        "name": "Brahmi script",
+        "adjective": "Brahmi",
+        "iso_15924": "Brah",
+        "noto_fontname": "Noto Sans Brahmi",
+        "types": ["Abugida"],
+        "direction": "LtR",
+        "alternate_names": ["Ashokan script"],
+        "comment": "Eastern Nagari",
+        "time_start": -300,
+        "time_end": 500
+    },
+    {
+        "name": "Burmese script",
+        "adjective": "Burmese",
+        "iso_15924": "Mymr",
+        "noto_fontname": "Noto Sans Myanmar",
+        "types": ["Abugida"],
+        "direction": "LtR",
+        "time_start": 1000,
+        "time_end": null
+    },
+    {
+        "name": "Canadian Aboriginal Syllabics",
+        "adjective": "Canadian Aboriginal Syllabic",
+        "iso_15924": "Cans",
+        "noto_fontname": "Noto Sans Canadian Aboriginal",
+        "types": ["Abugida"],
+        "direction": "LtR",
+        "time_start": 1840,
+        "time_end": null
+    },
+    {
+        "name": "Caucasian Albanian script",
+        "adjective": "Caucasian Albanian",
+        "iso_15924": "Aghb",
+        "noto_fontname": "Noto Sans Caucasian Albanian",
+        "types": ["Alphabet"],
+        "direction": "LtR",
+        "time_start": 450,
+        "time_end": 1150
+    },
+    {
+        "name": "Cherokee script",
+        "adjective": "Cherokee",
+        "iso_15924": "Cher",
+        "noto_fontname": "Noto Sans Cherokee",
+        "types": ["Syllabary"],
+        "direction": "LtR",
+        "time_start": 1820,
+        "time_end": null
+    },
+    {
+        "name": "Chinese bronze script",
+        "adjective": "Old Chinese",
+        "iso_15924": "Hani",
+        "noto_fontname": "FZXiaoZhuanTi-S13T",
+        "types": ["Logography"],
+        "comment": "Using 'Hani' for Seal Script font for Old Chinese. Font works for simplified input unicode, not traditional",
+        "direction": "LtR",
+        "time_start": -1300,
+        "time_end": -300
+    },
+    {
+        "name": "Chinese characters",
+        "adjective": "Chinese",
+        "iso_15924": "Hant",
+        "noto_fontname": "Noto Sans SC, Noto Sans TC",
+        "types": ["Logography"],
+        "direction": "LtR",
+        "time_start": 200,
+        "time_end": null
+    },
+    {
+        "name": "Coptic script",
+        "adjective": "Coptic",
+        "iso_15924": "Copt",
+        "noto_fontname": "Noto Sans Coptic",
+        "types": ["Alphabet"],
+        "direction": "LtR",
+        "time_start": 200,
+        "time_end": null
+    },
+    {
+        "name": "Cuneiform",
+        "iso_15924": "Xsux",
+        "noto_fontname": "Noto Sans Cuneiform",
+        "types": ["Logography","Syllabary"],
+        "direction": "LtR",
+        "time_start": -2900,
+        "time_end": 75
+    },
+    {
+        "name": "Cyrillic script",
+        "adjective": "Cyrillic",
+        "iso_15924": "Cyrl",
+        "noto_fontname": "Noto Sans",
+        "types": ["Alphabet"],
+        "direction": "LtR",
+        "time_start": 890,
+        "time_end": null
+    },
+    {
+        "name": "Devanagari",
+        "adjective": "Devanagari",
+        "iso_15924": "Deva",
+        "noto_fontname": "Noto Sans Devanagari",
+        "types": ["Abugida"],
+        "direction": "LtR",
+        "time_start": 900,
+        "time_end": null
+    },
+    {
+        "name": "Egyptian hieroglyphs",
+        "adjective": "Egyptian",
+        "iso_15924": "Egyp",
+        "noto_fontname": "Noto Sans Egyptian Hieroglyphs",
+        "types": ["Logography"],
+        "direction": "LtR",
+        "alternate_names": ["Egyptian hieroglyphics"],
+        "time_start": -3000,
+        "time_end": 400
+    },
+    {
+        "name": "Elymaic script",
+        "adjective": "Elymaic",
+        "iso_15924": "Elym",
+        "noto_fontname": "Noto Sans Elymaic",
+        "direction": "RtL",
+        "time_start": -200,
+        "time_end": 300
+    },
+    {
+        "name": "Geʽez script",
+        "adjective": "Geʽez",
+        "iso_15924": "Ethi",
+        "noto_fontname": "Noto Sans Ethiopic",
+        "types": ["Abjad","Abugida"],
+        "direction": "LtR",
+        "comment": "Ethiopic",
+        "time_start": 100,
+        "time_end": null
+    },
+    {
+        "name": "Georgian scripts",
+        "adjective": "Georgian",
+        "iso_15924": "Geor",
+        "noto_fontname": "Noto Sans Georgian",
+        "types": ["Alphabet"],
+        "direction": "LtR",
+        "comment": "Georgian",
+        "time_start": 430,
+        "time_end": null
+    },
+    {
+        "name": "Asomtavruli alphabet",
+        "adjective": "Asomtavruli",
+        "iso_15924": "Geok",
+        "noto_fontname": "Noto Sans Georgian",
+        "types": ["Alphabet"],
+        "direction": "LtR",
+        "comment": "Georgian",
+        "time_start": 430,
+        "time_end": null
+    },
+    {
+        "name": "Nuskhuri alphabet",
+        "adjective": "Nuskhuri",
+        "iso_15924": "Geok",
+        "noto_fontname": "Noto Sans Georgian",
+        "types": ["Alphabet"],
+        "direction": "LtR",
+        "comment": "Georgian",
+        "time_start": 835,
+        "time_end": null
+    },
+    {
+        "name": "Mkhedruli alphabet",
+        "adjective": "Mkhedruli",
+        "iso_15924": "Geor",
+        "noto_fontname": "Noto Sans Georgian",
+        "types": ["Alphabet"],
+        "direction": "LtR",
+        "comment": "Georgian",
+        "time_start": 980,
+        "time_end": null
+    },
+    {
+        "name": "Glagolitic script",
+        "adjective": "Glagolitic",
+        "iso_15924": "Glag",
+        "noto_fontname": "Noto Sans Glagolitic",
+        "types": ["Alphabet"],
+        "direction": "LtR",
+        "time_start": 863,
+        "time_end": 1900
+    },
+    {
+        "name": "Gothic script",
+        "adjective": "Gothic",
+        "iso_15924": "Goth",
+        "noto_fontname": "Noto Sans Gothic",
+        "types": ["Alphabet"],
+        "direction": "LtR",
+        "time_start": 350,
+        "time_end": 600
+    },
+    {
+        "name": "Greek script",
+        "adjective": "Greek",
+        "iso_15924": "Grek",
+        "noto_fontname": "Helvetica",
+        "types": ["Alphabet"],
+        "direction": "LtR",
+        "comment": "Noto Sans fails some ancient diacritics",
+        "time_start": -800,
+        "time_end": null
+    },
+    {
+        "name": "Gujarati script",
+        "adjective": "Gujarati",
+        "iso_15924": "Gujr",
+        "noto_fontname": "Noto Sans Gujarati",
+        "types": ["Abugida"],
+        "direction": "LtR",
+        "time_start": 1592,
+        "time_end": null
+    },
+    {
+        "name": "Gurmukhi script",
+        "adjective": "Gurmukhi",
+        "iso_15924": "Guru",
+        "noto_fontname": "Noto Sans Gurmukhi",
+        "types": ["Abugida"],
+        "direction": "LtR",
+        "time_start": 1550,
+        "time_end": null
+    },
+    {
+        "name": "Hangul",
+        "adjective": "Hangul",
+        "iso_15924": "Hang",
+        "noto_fontname": "Noto Sans KR",
+        "types": ["Alphabet"],
+        "direction": "LtR",
+        "time_start": 1443,
+        "time_end": null
+    },
+    {
+        "name": "Hanifi Rohingya script",
+        "adjective": "Hanifi Rohingya",
+        "iso_15924": "Rohg",
+        "noto_fontname": "Noto Sans Hanifi Rohingya",
+        "types": ["Alphabet"],
+        "direction": "RtL",
+        "time_start": 1980,
+        "time_end": null
+    },
+    {
+        "name": "Old Italic script",
+        "adjective": "Italic",
+        "iso_15924": "Ital",
+        "noto_fontname": "Alphabetum Unicode",
+        "types": ["Alphabet"],
+        "alternate_names": ["Etruscan alphabet","Lugano alphabet"],
+        "time_start": -700,
+        "time_end": 100
+    },
+    {
+        "name": "Hiragana",
+        "adjective": "Hiragana",
+        "iso_15924": "Hira",
+        "noto_fontname": "Noto Sans Japanese",
+        "types": ["Syllabary"],
+        "direction": "LtR",
+        "comment": "Japanese kana",
+        "time_start": 800,
+        "time_end": null
+    },
+    {
+        "name": "Katakana",
+        "adjective": "Katakana",
+        "iso_15924": "Kana",
+        "noto_fontname": "Noto Sans Japanese",
+        "types": ["Syllabary"],
+        "direction": "LtR",
+        "comment": "Japanese kana",
+        "time_start": 800,
+        "time_end": null
+    },
+    {
+        "name": "Javanese script",
+        "adjective": "Javanese",
+        "iso_15924": "Java",
+        "noto_fontname": "Noto Sans Javanese",
+        "types": ["Abugida"],
+        "direction": "LtR",
+        "time_start": 1450,
+        "time_end": null
+    },
+    {
+        "name": "Kannada script",
+        "adjective": "Kannada",
+        "iso_15924": "Knda",
+        "noto_fontname": "Noto Sans Kannada",
+        "types": ["Abugida"],
+        "direction": "LtR",
+        "time_start": 1300,
+        "time_end": null
+    },
+    {
+        "name": "Khmer script",
+        "adjective": "Khmer",
+        "iso_15924": "Khmr",
+        "noto_fontname": "Noto Sans Khmer",
+        "types": ["Abugida"],
+        "direction": "LtR",
+        "time_start": 611,
+        "time_end": null
+    },
+    {
+        "name": "Lao script",
+        "adjective": "Lao",
+        "iso_15924": "Laoo",
+        "noto_fontname": "Noto Sans Lao, Noto Sans Thai",
+        "types": ["Abugida"],
+        "direction": "LtR",
+        "time_start": 1350,
+        "time_end": null
+    },
+    {
+        "name": "Latin script",
+        "adjective": "Latin",
+        "iso_15924": "Latn",
+        "noto_fontname": "Noto Sans",
+        "types": ["Alphabet"],
+        "direction": "LtR",
+        "alternate_names": ["Roman alphabet"],
+        "time_start": -300,
+        "time_end": null
+    },
+    {
+        "name": "Linear A",
+        "adjective": "Linear A",
+        "iso_15924": "Lina",
+        "noto_fontname": "Noto Sans Linear A",
+        "types": ["Undeciphered","Logography","Syllabary"],
+        "direction": "LtR",
+        "alternate_names": ["Minoan"],
+        "time_start": -1800,
+        "time_end": -1450
+    },
+    {
+        "name": "Linear B",
+        "adjective": "Linear B",
+        "iso_15924": "Linb",
+        "noto_fontname": "Noto Sans Linear B",
+        "types": ["Syllabary"],
+        "direction": "LtR",
+        "alternate_names": ["Mycenaean"],
+        "time_start": -1425,
+        "time_end": -1200
+    },
+    {
+        "name": "Lycian script",
+        "adjective": "Lycian",
+        "iso_15924": "Lyci",
+        "noto_fontname": "Noto Sans Lycian",
+        "types": ["Alphabet"],
+        "direction": "LtR",
+        "time_start": -500,
+        "time_end": -330
+    },
+    {
+        "name": "Lydian script",
+        "adjective": "Lydian",
+        "iso_15924": "Lydi",
+        "noto_fontname": "Noto Sans Lydian",
+        "types": ["Alphabet"],
+        "direction": "LtR",
+        "time_start": -700,
+        "time_end": -200
+    },
+    {
+        "name": "Malayalam script",
+        "adjective": "Malayalam",
+        "iso_15924": "Mlym",
+        "noto_fontname": "Noto Sans Malayalam",
+        "types": ["Abugida"],
+        "direction": "LtR",
+        "time_start": 830,
+        "time_end": null
+    },
+    {
+        "name": "Manichaean script",
+        "adjective": "Manichaean",
+        "iso_15924": "Mani",
+        "noto_fontname": "Noto Sans Manichaean",
+        "types": ["Abjad"],
+        "direction": "RtL",
+        "time_start": 250,
+        "time_end": 1050
+    },
+    {
+        "name": "Modi script",
+        "adjective": "Modi",
+        "iso_15924": "Modi",
+        "noto_fontname": "Noto Sans Modi",
+        "types": ["Abugida"],
+        "direction": "LtR"
+    },
+    {
+        "name": "Mongolian script",
+        "adjective": "Mongolian",
+        "iso_15924": "Mong",
+        "noto_fontname": "Noto Sans Mongolian",
+        "types": ["Alphabet"],
+        "direction": "TtB",
+        "time_start": 1204,
+        "time_end": null
+    },
+    {
+        "name": "Nabataean script",
+        "adjective": "Nabataean",
+        "iso_15924": "Nbat",
+        "noto_fontname": "Noto Sans Nabataean",
+        "types": ["Abjad"],
+        "direction": "RtL",
+        "time_start": -200,
+        "time_end": 400
+    },
+    {
+        "name": "Ogham",
+        "adjective": "Ogham",
+        "iso_15924": "Ogam",
+        "noto_fontname": "Noto Sans Ogham",
+        "types": ["Alphabet"],
+        "direction": "BtT",
+        "time_start": 400,
+        "time_end": 1000
+    },
+    {
+        "name": "Ol Chiki script",
+        "adjective": "Ol Chiki",
+        "iso_15924": "Olck",
+        "noto_fontname": "Noto Sans Ol Chiki",
+        "types": ["Alphabet"],
+        "direction": "LtR",
+        "time_start": 1925,
+        "time_end": null
+    },
+    {
+        "name": "Pahlavi scripts",
+        "adjective": "Pahlavi",
+        "iso_15924": "Prti",
+        "noto_fontname": "Noto Sans Inscriptional Parthian",
+        "types": ["Abjad"],
+        "direction": "RtL",
+        "comment": "Pahlavi"
+    },
+    {
+        "name": "Book Pahlavi",
+        "adjective": "Pahlavi",
+        "iso_15924": "Phlv",
+        "types": ["Abjad"],
+        "direction": "RtL",
+        "comment": "Pahlavi"
+    },
+    {
+        "name": "Inscriptional Pahlavi",
+        "adjective": "Pahlavi",
+        "iso_15924": "Phli",
+        "noto_fontname": "Noto Sans Inscriptional Pahlavi",
+        "types": ["Abjad"],
+        "direction": "RtL",
+        "comment": "Pahlavi"
+    },
+    {
+        "name": "Inscriptional Parthian",
+        "adjective": "Parthian",
+        "iso_15924": "Prti",
+        "noto_fontname": "Noto Sans Inscriptional Parthian",
+        "types": ["Abjad"],
+        "direction": "RtL",
+        "comment": "Pahlavi"
+    },
+    {
+        "name": "Psalter Pahlavi",
+        "adjective": "Pahlavi",
+        "iso_15924": "Phlp",
+        "noto_fontname": "Noto Sans Psalter Pahlavi",
+        "types": ["Abjad"],
+        "direction": "RtL",
+        "comment": "Pahlavi"
+    },
+    {
+        "name": "Old Persian cuneiform",
+        "adjective": "Old Persian",
+        "iso_15924": "Xpeo",
+        "noto_fontname": "Noto Sans Old Persian, Noto Sans Ugaritic, Noto Sans Cuneiform",
+        "types": ["Syllabary","Alphabet"],
+        "direction": "LtR",
+        "comment": "Supplement from other cuneiform fonts as necessary"
+    },
+    {
+        "name": "Phoenician script",
+        "adjective": "Phoenician",
+        "iso_15924": "Phnx",
+        "noto_fontname": "Noto Sans Phoenician",
+        "types": ["Abjad"],
+        "direction": "RtL"
+    },
+    {
+        "name": "Germanic runes",
+        "adjective": "Runic",
+        "iso_15924": "Runr",
+        "noto_fontname": "Alphabetum Unicode",
+        "types": ["Alphabet"],
+        "comment": "Runic",
+        "alternate_names": ["Runes", "Runic alphabet", "Futhark", "Futhorc"]
+    },
+    {
+        "name": "Samaritan script",
+        "adjective": "Samaritan",
+        "iso_15924": "Samr",
+        "noto_fontname": "Noto Sans Samaritan",
+        "types": ["Abjad"],
+        "direction": "RtL"
+    },
+    {
+        "name": "Siddham script",
+        "adjective": "Siddham",
+        "iso_15924": "Sidd",
+        "noto_fontname": "Noto Sans Siddham",
+        "types": ["Abugida"],
+        "direction": "LtR",
+        "alternate_names": ["Siddhaṃ script", "Siddhamātṛkā", "Siddhamatraka", "Bonji", "Xitan", "Xītán wénzi"]
+    },
+    {
+        "name": "Proto-Sinaitic script",
+        "adjective": "Sinaitic",
+        "iso_15924": "Psin",
+        "types": ["Abjad"],
+        "alternate_names": ["Proto-Canaanite script"]
+    },
+    {
+        "name": "Sinhala script",
+        "adjective": "Sinhala",
+        "iso_15924": "Sinh",
+        "noto_fontname": "Noto Sans Sinhala",
+        "types": ["Abugida"],
+        "direction": "LtR"
+    },
+    {
+        "name": "Sogdian script",
+        "adjective": "Sogdian",
+        "iso_15924": "Sogd",
+        "noto_fontname": "Noto Sans Sogdian",
+        "direction": "RtL"
+    },
+    {
+        "name": "Old Sogdian script",
+        "adjective": "Old Sogdian",
+        "iso_15924": "Sogo",
+        "noto_fontname": "Noto Sans Old Sogdian",
+        "direction": "RtL"
+    },
+    {
+        "name": "Old South Arabian script",
+        "adjective": "Old South Arabian",
+        "iso_15924": "Sarb",
+        "noto_fontname": "Noto Sans Old South Arabian",
+        "types": ["Abjad"],
+        "direction": "RtL"
+    },
+    {
+        "name": "Sundanese script",
+        "adjective": "Sundanese",
+        "iso_15924": "Sund",
+        "noto_fontname": "Noto Sans Sundanese",
+        "types": ["Abugida"],
+        "direction": "LtR"
+    },
+    {
+        "name": "Syriac script",
+        "adjective": "Syriac",
+        "iso_15924": "Syrc",
+        "noto_fontname": "Noto Sans Syriac Eastern, Noto Sans Syriac Western",
+        "types": ["Abjad"],
+        "direction": "RtL"
+    },
+    {
+        "name": "Tamil script",
+        "adjective": "Tamil",
+        "iso_15924": "Taml",
+        "noto_fontname": "Noto Sans Tamil",
+        "types": ["Abugida"],
+        "direction": "LtR"
+    },
+    {
+        "name": "Telugu script",
+        "adjective": "Telugu",
+        "iso_15924": "Telu",
+        "noto_fontname": "Noto Sans Telugu",
+        "types": ["Abugida"],
+        "direction": "LtR"
+    },
+    {
+        "name": "Tengwar script",
+        "adjective": "Tengwar",
+        "iso_15924": "Teng",
+        "noto_fontname": "Tengwar Formal CSUR",
+        "types": ["Abugida"],
+        "direction": "LtR"
+    },
+    {
+        "name": "Thai script",
+        "adjective": "Thai",
+        "iso_15924": "Thai",
+        "noto_fontname": "Noto Sans Thai",
+        "types": ["Abugida"],
+        "direction": "LtR"
+    },
+    {
+        "name": "Thaana",
+        "iso_15924": "Thaa",
+        "noto_fontname": "Noto Sans Thaana",
+        "types": ["Abugida"],
+        "direction": "RtL"
+    },
+    {
+        "name": "Tibetan script",
+        "adjective": "Tibetan",
+        "iso_15924": "Tibt",
+        "noto_fontname": "Noto Sans Tibetan",
+        "types": ["Abugida"],
+        "direction": "LtR"
+    },
+    {
+        "name": "Tifinagh script",
+        "adjective": "Tifinagh",
+        "iso_15924": "Tfng",
+        "noto_fontname": "Noto Sans Tifinagh",
+        "types": ["Abjad"],
+        "direction": "LtR"
+    },
+    {
+        "name": "Neo-Tifinagh alphabet",
+        "adjective": "Neo-Tifinagh",
+        "iso_15924": "Tfng",
+        "noto_fontname": "Noto Sans Tifinagh",
+        "types": ["Alphabet"],
+        "direction": "LtR"
+    },
+    {
+        "name": "Old Turkic script",
+        "adjective": "Old Turkic",
+        "iso_15924": "Orkh",
+        "noto_fontname": "Noto Sans Old Turkic",
+        "types": ["Alphabet"],
+        "direction": "RtL"
+    },
+    {
+        "name": "Ugaritic script",
+        "adjective": "Ugaritic",
+        "iso_15924": "Ugar",
+        "noto_fontname": "Noto Sans Ugaritic",
+        "types": ["Abjad"],
+        "direction": "LtR"
+    },
+    {
+        "name": "Old Uyghur script",
+        "adjective": "Old Uyghur",
+        "iso_15924": "Ougr",
+        "noto_fontname": "Noto Serif Old Uyghur",
+        "types": ["Alphabet"],
+        "direction": "TtB"
+    },
+    {
+        "name": "Yi syllables",
+        "adjective": "Yi",
+        "iso_15924": "Yiii",
+        "noto_fontname": "Noto Sans Yi",
+        "types": ["Syllabary"],
+        "direction": "LtR"
+    }
+]

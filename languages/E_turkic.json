@@ -1,0 +1,168 @@
+[
+    {
+        "name": "Proto-Turkic",
+        "style_classes": ["turkic"]
+    },
+    {
+        "name": "Turkic",
+        "direct_parents": ["Proto-Turkic","Turkic"]
+    },
+    {
+        "name": "Oghur",
+        "direct_parents": ["Proto-Turkic","Turkic"]
+    },
+    {
+        "name": "Chuvash",
+        "direct_parents": ["Turkic", "Oghur"],
+        "bcp47": "chv-Cyrl"
+    },
+    {
+        "name": "Common Turkic",
+        "direct_parents": ["Proto-Turkic","Turkic"]
+    },
+    {
+        "name": "Oghuz",
+        "direct_parents": ["Turkic", "Common Turkic"]
+    },
+    {
+        "name": "East Oghuz",
+        "direct_parents": ["Turkic", "Oghuz"]
+    },
+    {
+        "name": "Turkmen",
+        "direct_parents": ["Turkic", "Oghuz", "East Oghuz"],
+        "bcp47": "tuk"
+    },
+    {
+        "name": "West Oghuz",
+        "direct_parents": ["Turkic", "Oghuz"]
+    },
+    {
+        "name": "Azerbaijani",
+        "direct_parents": ["Turkic", "Oghuz", "West Oghuz"],
+        "bcp47": "aze-Latn"
+    },
+    {
+        "name": "Ottoman Turkish",
+        "direct_parents": ["Turkic", "Oghuz", "West Oghuz"],
+        "bcp47": "ota-Aran"
+    },
+    {
+        "name": "Turkish",
+        "bcp47": "tur-Latn",
+        "direct_parents": ["Turkic", "Oghuz", "West Oghuz","Ottoman Turkish"]
+    },
+    {
+        "name": "Kipchak",
+        "direct_parents": ["Turkic", "Common Turkic"]
+    },
+    {
+        "name": "North Kipchak",
+        "direct_parents": ["Turkic", "Common Turkic", "Kipchak"]
+    },
+    {
+        "name": "Bashkir",
+        "direct_parents": ["Turkic", "Common Turkic", "Kipchak", "North Kipchak"],
+        "bcp47": "bak-Cyrl"
+    },
+    {
+        "name": "Tatar",
+        "direct_parents": ["Turkic", "Common Turkic", "Kipchak", "North Kipchak"],
+        "bcp47": "tat-Cyrl"
+    },
+    {
+        "name": "South Kipchak",
+        "direct_parents": ["Turkic", "Common Turkic", "Kipchak"]
+    },
+    {
+        "name": "Kazakh",
+        "direct_parents": ["Turkic", "Common Turkic", "Kipchak", "South Kipchak"],
+        "bcp47": "kaz-Cyrl"
+    },
+    {
+        "name": "Karluk",
+        "direct_parents": ["Turkic", "Common Turkic"]
+    },
+    {
+        "name": "East Karluk",
+        "direct_parents": ["Turkic", "Common Turkic", "Karluk"]
+    },
+    {
+        "name": "Uyghur",
+        "direct_parents": ["Turkic", "Common Turkic", "Karluk", "East Karluk"],
+        "bcp47": "uig-Arab"
+    },
+    {
+        "name": "West Karluk",
+        "direct_parents": ["Turkic", "Common Turkic", "Karluk"]
+    },
+    {
+        "name": "Uzbek",
+        "direct_parents": ["Turkic", "Common Turkic", "Karluk", "West Karluk"],
+        "bcp47": "uzb-Latn"
+    },
+    {
+        "name": "Siberian Turkic",
+        "direct_parents": ["Turkic", "Common Turkic"]
+    },
+    {
+        "name": "North Siberian Turkic",
+        "direct_parents": ["Turkic", "Common Turkic", "Siberian Turkic"]
+    },
+    {
+        "name": "Dolgan",
+        "direct_parents": ["Turkic", "Common Turkic", "Siberian Turkic","North Siberian Turkic"],
+        "bcp47": "dlg-Cyrl"
+    },
+    {
+        "name": "South Siberian Turkic",
+        "direct_parents": ["Turkic", "Common Turkic", "Siberian Turkic"]
+    },
+    {
+        "name": "Altai Turkic",
+        "direct_parents": ["Turkic", "Common Turkic", "Siberian Turkic", "South Siberian Turkic"],
+        "bcp47": "atv-Cyrl"
+    },
+    {
+        "name": "Northern Altai",
+        "direct_parents": ["Siberian Turkic", "Altai Turkic"]
+    },
+    {
+        "name": "Sayan Turkic",
+        "direct_parents": ["Turkic", "Common Turkic", "Siberian Turkic", "South Siberian Turkic"]
+    },
+    {
+        "name": "Tuvan",
+        "direct_parents": ["Turkic", "Siberian Turkic", "Sayan Turkic"],
+        "bcp47": "tyv-Cyrl"
+    },
+    {
+        "name": "Tofa",
+        "direct_parents": ["Turkic", "Siberian Turkic", "Sayan Turkic"],
+        "bcp47": "kim-Cyrl"
+    },
+    {
+        "name": "Yenisei Turkic",
+        "direct_parents": ["Turkic", "Common Turkic", "Siberian Turkic", "South Siberian Turkic"]
+    },
+    {
+        "name": "Khakas",
+        "direct_parents": ["Turkic", "Siberian Turkic", "Yenisei Turkic"],
+        "bcp47": "kjh-Cyrl"
+    },
+    {
+        "name": "Shor",
+        "direct_parents": ["Turkic", "Siberian Turkic", "Yenisei Turkic"],
+        "bcp47": "cjs-Cyrl"
+    },
+    {
+        "name": "Old Turkic",
+        "direct_parents": ["Turkic", "Common Turkic", "Siberian Turkic"],
+        "bcp47": "otk-Orkh"
+    },
+    {
+        "name": "Old Uyghur",
+        "direct_parents": ["Turkic", "Common Turkic", "Siberian Turkic", "Old Turkic"],
+        "bcp47": "oui-Ougr"
+    }
+]

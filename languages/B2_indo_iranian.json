@@ -1,0 +1,352 @@
+[
+    {
+        "name": "Indo-Iranian",
+        "direct_parents": ["Proto-Indo-European"],
+        "style_classes": ["indoiranian"]
+    },
+    {
+        "name": "Indo-Aryan",
+        "direct_parents": ["Indo-Iranian"]
+    },
+    {
+        "name": "Dardic",
+        "direct_parents": ["Indo-Aryan"]
+    },
+    {
+        "name": "Kalasha",
+        "bcp47": "kls-Latn",
+        "direct_parents": ["Dardic"]
+    },
+    {
+        "name": "Kashmiri",
+        "bcp47": "kas-Aran",
+        "direct_parents": ["Dardic"]
+    },
+    {
+        "name": "Mitanni Aryan",
+        "direct_parents": ["Indo-Aryan"]
+    },
+    {
+        "name": "Vedic Sanskrit",
+        "bcp47": "san-Brah-vaidika",
+        "direct_parents": ["Indo-Aryan"]
+    },
+    {
+        "name": "Sanskrit",
+        "bcp47": "san-Brah",
+        "direct_parents": ["Indo-Aryan","Vedic Sanskrit"],
+        "autocorrects": ["Sankrit"]
+    },
+    {
+        "name": "Prakrit",
+        "bcp47": "pra-Brah",
+        "direct_parents": ["Vedic Sanskrit","Sanskrit"]
+    },
+    {
+        "name": "Gandhari Prakrit",
+        "direct_parents": ["Sanskrit","Prakrit"]
+    },
+    {
+        "name": "Elu",
+        "bcp47": "elu-Brah",
+        "direct_parents": ["Sanskrit","Prakrit"]
+    },
+    {
+        "name": "Sinhala",
+        "bcp47": "sin-Sinh",
+        "direct_parents": ["Elu"]
+    },
+    {
+        "name": "Dhivehi",
+        "bcp47": "div-Thaa",
+        "direct_parents": ["Elu"]
+    },
+    {
+        "name": "Magadhi",
+        "bcp47": "pka-Brah",
+        "direct_parents": ["Sanskrit","Prakrit"]
+    },
+    {
+        "name": "Bengali-Assamese",
+        "direct_parents": ["Magadhi"]
+    },
+    {
+        "name": "Assamese",
+        "bcp47": "asm-Beng",
+        "direct_parents": ["Magadhi","Bengali-Assamese"]
+    },
+    {
+        "name": "Bengali",
+        "bcp47": "ben-Beng",
+        "direct_parents": ["Magadhi","Bengali-Assamese"]
+    },
+    {
+        "name": "Rohingya",
+        "bcp47": "rhg-Rohg",
+        "direct_parents": ["Magadhi"]
+    },
+    {
+        "name": "Maharashtri",
+        "bcp47": "pmh-Brah",
+        "direct_parents": ["Sanskrit","Prakrit"],
+        "autocorrects": ["Maharastri"]
+    },
+    {
+        "name": "Old Marathi",
+        "bcp47": "omr-Modi",
+        "direct_parents": ["Maharashtri"]
+    },
+    {
+        "name": "Marathi",
+        "bcp47": "mar-Deva",
+        "direct_parents": ["Maharashtri","Old Marathi"]
+    },
+    {
+        "name": "Sauraseni",
+        "bcp47": "psu-Brah",
+        "direct_parents": ["Sanskrit","Prakrit"]
+    },
+    {
+        "name": "Madhya Sauraseni",
+        "direct_parents": ["Sauraseni"],
+        "autocorrects": ["Madhya"]
+    },
+    {
+        "name": "Hindustani",
+        "direct_parents": ["Madhya Sauraseni"]
+    },
+    {
+        "name": "Hindi",
+        "bcp47": "hin-Deva",
+        "direct_parents": ["Madhya Sauraseni", "Hindustani"]
+    },
+    {
+        "name": "Urdu",
+        "bcp47": "urd-Aran",
+        "direct_parents": ["Madhya Sauraseni", "Hindustani"]
+    },
+    {
+        "name": "Pahari",
+        "direct_parents": ["Sauraseni"]
+    },
+    {
+        "name": "Nepali",
+        "bcp47": "npi-Deva",
+        "direct_parents": ["Pahari","Sauraseni"]
+    },
+    {
+        "name": "Punjabi",
+        "bcp47": "pan-Guru",
+        "direct_parents": ["Sauraseni"]
+    },
+    {
+        "name": "Pali",
+        "bcp47": "pli-Brah",
+        "direct_parents": ["Sanskrit","Prakrit"]
+    },
+    {
+        "name": "Western Sauraseni",
+        "direct_parents": ["Sanskrit","Prakrit"]
+    },
+    {
+        "name": "Old Gujarati",
+        "bcp47": "guj-Gujr",
+        "direct_parents": ["Western Sauraseni"]
+    },
+    {
+        "name": "Gujarati",
+        "bcp47": "guj-Gujr",
+        "direct_parents": ["Western Sauraseni","Old Gujarati"]
+    },
+    {
+        "name": "Romani",
+        "bcp47": "rom-Latn",
+        "direct_parents": ["Sauraseni", "Western Sauraseni"]
+    },
+    {
+        "name": "Angloromani",
+        "bcp47": "rme-Latn",
+        "direct_parents": ["Romani"]
+    },
+    {
+        "name": "Vlax Romani",
+        "bcp47": "rmy-Latn",
+        "direct_parents": ["Romani"]
+    },
+    {
+        "name": "Welsh Romani",
+        "bcp47": "rmw-Latn",
+        "direct_parents": ["Romani"]
+    },
+    {
+        "name": "Iranian",
+        "direct_parents": ["Indo-Iranian"]
+    },
+    {
+        "name": "Avestan",
+        "bcp47": "ave-Avst",
+        "direct_parents": ["Iranian"]
+    },
+    {
+        "name": "Bactrian",
+        "bcp47": "xbc-Grek",
+        "direct_parents": ["Iranian"]
+    },
+    {
+        "name": "Pashto",
+        "bcp47": "pus-Arab",
+        "direct_parents": ["Iranian"]
+    },
+    {
+        "name": "Northern Iranian",
+        "direct_parents": ["Iranian"],
+        "autocorrects": ["North Iranian"]
+    },
+    {
+        "name": "Saka",
+        "direct_parents": ["Iranian","Northern Iranian"]
+    },
+    {
+        "name": "Khotani",
+        "bcp47": "kho-Brah",
+        "direct_parents": ["Northern Iranian","Saka"],
+        "autocorrects": ["Khotanese"]
+    },
+    {
+        "name": "Wakhi",
+        "bcp47": "wbl-Arab",
+        "direct_parents": ["Saka"]
+    },
+    {
+        "name": "Scythian",
+        "bcp47": "xsc",
+        "direct_parents": ["Iranian","Northern Iranian"]
+    },
+    {
+        "name": "Alanian",
+        "bcp47": "xsc",
+        "direct_parents": ["Northern Iranian","Scythian"]
+    },
+    {
+        "name": "Ossetian",
+        "bcp47": "oss-Cyrl",
+        "direct_parents": ["Northern Iranian","Scythian","Alanian"]
+    },
+    {
+        "name": "Sogdian",
+        "bcp47": "sog-Mani",
+        "direct_parents": ["Iranian","Northern Iranian"]
+    },
+    {
+        "name": "Western Iranian",
+        "direct_parents": ["Iranian"],
+        "autocorrects": ["West Iranian"]
+    },
+    {
+        "name": "Northwestern Iranian",
+        "direct_parents": ["Western Iranian"],
+        "autocorrects": ["Northwest Iranian"]
+    },
+    {
+        "name": "Balochi",
+        "bcp47": "bal-Aran",
+        "direct_parents": ["Northwestern Iranian"]
+    },
+    {
+        "name": "Kurdish",
+        "bcp47": "kmr-Latn",
+        "direct_parents": ["Western Iranian","Northwestern Iranian"],
+        "autocorrects": ["Kurish","Kudish"]
+    },
+    {
+        "name": "Kurmanji",
+        "bcp47": "kmr-Latn",
+        "direct_parents": ["Western Iranian","Northwestern Iranian","Kurdish"]
+    },
+    {
+        "name": "Kurmanji",
+        "bcp47": "kmr-Latn",
+        "direct_parents": ["Western Iranian","Northwestern Iranian","Kurdish"]
+    },
+    {
+        "name": "Mazanderani",
+        "bcp47": "mzn-Aran",
+        "direct_parents": ["Western Iranian","Northwestern Iranian"]
+    },
+    {
+        "name": "Medean",
+        "bcp47": "xme",
+        "direct_parents": ["Northwestern Iranian"]
+    },
+    {
+        "name": "Tatic",
+        "direct_parents": ["Northwestern Iranian","Medean"]
+    },
+    {
+        "name": "Kermanic",
+        "direct_parents": ["Northwestern Iranian","Medean","Tatic"]
+    },
+    {
+        "name": "Tari",
+        "direct_parents": ["Northwestern Iranian","Medean","Tatic","Kermanic"]
+    },
+    {
+        "name": "Behdināni",
+        "bcp47": "gbz-Aran",
+        "direct_parents": ["Northwestern Iranian","Medean","Tatic","Kermanic"]
+    },
+    {
+        "name": "Parthian",
+        "bcp47": "xpr-Mani",
+        "direct_parents": ["Northwestern Iranian"]
+    },
+    {
+        "name": "Southwestern Iranian",
+        "direct_parents": ["Western Iranian"],
+        "autocorrects": ["Southwest Iranian"]
+    },
+    {
+        "name": "Old Persian",
+        "bcp47": "peo-Xpeo",
+        "direct_parents": ["Western Iranian", "Southwestern Iranian"]
+    },
+    {
+        "name": "Middle Persian",
+        "bcp47": "xmn-Phli",
+        "direct_parents": ["Western Iranian", "Southwestern Iranian","Old Persian"]
+    },
+    {
+        "name": "Classical Persian",
+        "bcp47": "fas-Aran",
+        "direct_parents": ["Western Iranian", "Southwestern Iranian","Old Persian", "Middle Persian"]
+    },
+    {
+        "name": "Persian",
+        "bcp47": "fas-Aran",
+        "direct_parents": ["Western Iranian", "Southwestern Iranian","Old Persian", "Middle Persian", "Classical Persian"]
+    },
+    {
+        "name": "Iranian Persian",
+        "bcp47": "pes-Aran",
+        "direct_parents": ["Persian", "Classical Persian"]
+    },
+    {
+        "name": "Tajik",
+        "bcp47": "tgk-Cyrl",
+        "direct_parents": ["Old Persian", "Middle Persian"]
+    },
+    {
+        "name": "Nuristani",
+        "direct_parents": ["Indo-Iranian"]
+    },
+    {
+        "name": "Ashkun",
+        "bcp47": "ask",
+        "direct_parents": ["Nuristani"]
+    },
+    {
+        "name": "Kamviri",
+        "bcp47": "xvi",
+        "direct_parents": ["Nuristani"]
+    }
+]

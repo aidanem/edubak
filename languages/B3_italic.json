@@ -1,0 +1,246 @@
+[
+    {
+        "name": "Italic",
+        "direct_parents": ["Proto-Indo-European", "Northwest Indo-European", "Italo-Celtic"],
+        "dot_styles": ["color: gold"],
+        "style_classes": ["italic"]
+    },
+    {
+        "name": "Latino-Faliscan",
+        "direct_parents": ["Italic"]
+    },
+    {
+        "name": "Faliscan",
+        "bcp47": "xfa-Ital",
+        "direct_parents": ["Italic","Latino-Faliscan"]
+    },
+    {
+        "name": "Old Latin",
+        "bcp47": "lat-Ital",
+        "direct_parents": ["Italic","Latino-Faliscan"]
+    },
+    {
+        "name": "Latin",
+        "bcp47": "lat-Latn",
+        "direct_parents": ["Italic", "Old Latin","Latino-Faliscan"]
+    },
+    {
+        "name": "Classical Latin",
+        "bcp47": "lat-Latn",
+        "direct_parents": ["Italic", "Old Latin","Latin"]
+    },
+    {
+        "name": "Late Latin",
+        "bcp47": "lat-Latn",
+        "direct_parents": ["Latin"]
+    },
+    {
+        "name": "Medieval Latin",
+        "bcp47": "lat-Latn",
+        "direct_parents": ["Latin","Late Latin","Classical Latin"]
+    },
+    {
+        "name": "New Latin",
+        "bcp47": "lat-Latn",
+        "direct_parents": ["Latin","Late Latin","Classical Latin","Medieval Latin"]
+    },
+    {
+        "name": "Vulgar Latin",
+        "bcp47": "lat-Latn",
+        "direct_parents": ["Latin","Late Latin"]
+    },
+    {
+        "name": "Sardinian",
+        "bcp47": "srd-Latn",
+        "direct_parents": ["Latin","Late Latin","Vulgar Latin"],
+        "autocorrects": ["Sardinaian"]
+    },
+    {
+        "name": "Campidanese",
+        "bcp47": "sro-Latn",
+        "direct_parents": ["Sardinian"]
+    },
+    {
+        "name": "Logudorese",
+        "bcp47": "src-Latn",
+        "direct_parents": ["Sardinian"]
+    },
+    {
+        "name": "Continental Romance",
+        "direct_parents": ["Latin","Late Latin","Vulgar Latin"]
+    },
+    {
+        "name": "Eastern Romance",
+        "direct_parents": ["Latin","Late Latin", "Vulgar Latin", "Continental Romance"]
+    },
+    {
+        "name": "Aromanian",
+        "bcp47": "rup-Latn",
+        "direct_parents": ["Eastern Romance"]
+    },
+    {
+        "name": "Romanian",
+        "bcp47": "ron-Latn",
+        "direct_parents": ["Eastern Romance"]
+    },
+    {
+        "name": "Dalmatian",
+        "bcp47": "dlm-Latn",
+        "direct_parents": ["Vulgar Latin", "Continental Romance", "Eastern Romance"]
+    },
+    {
+        "name": "Western Romance",
+        "direct_parents": ["Latin","Late Latin","Vulgar Latin", "Continental Romance"]
+    },
+    {
+        "name": "Italian",
+        "bcp47": "ita-Latn",
+        "direct_parents": ["Continental Romance","Western Romance"]
+    },
+    {
+        "name": "Sicilian",
+        "bcp47": "scn-Latn",
+        "direct_parents": ["Continental Romance","Western Romance","Italian"]
+    },
+    {
+        "name": "Venetian",
+        "bcp47": "vec-Latn",
+        "direct_parents": ["Continental Romance","Western Romance"]
+    },
+    {
+        "name": "Mozarabic",
+        "bcp47": "mxi-Arab",
+        "direct_parents": ["Continental Romance","Western Romance"]
+    },
+    {
+        "name": "Gallo-Romance",
+        "direct_parents": ["Western Romance"]
+    },
+    {
+        "name": "Old French",
+        "bcp47": "fro-Latn",
+        "direct_parents": ["Medieval Latin","Western Romance","Gallo-Romance"]
+    },
+    {
+        "name": "Middle French",
+        "bcp47": "frm-Latn",
+        "direct_parents": ["Old French"]
+    },
+    {
+        "name": "French",
+        "bcp47": "fra-Latn",
+        "direct_parents": ["Western Romance","Old French","Middle French"]
+    },
+    {
+        "name": "Cajun French",
+        "bcp47": "frc-Latn",
+        "direct_parents": ["French"]
+    },
+    {
+        "name": "Norman",
+        "bcp47": "nrf-Latn",
+        "direct_parents": ["Old French"]
+    },
+    {
+        "name": "Anglo-Norman",
+        "bcp47": "xno-Latn",
+        "direct_parents": ["Old French","Norman"]
+    },
+    {
+        "name": "Jersey",
+        "bcp47": "nrf-Latn-JE",
+        "direct_parents": ["Old French","Norman"]
+    },
+    {
+        "name": "Guernsey",
+        "bcp47": "nrf-Latn-GG",
+        "direct_parents": ["Old French","Norman"]
+    },
+    {
+        "name": "Walon",
+        "bcp47": "wln-Latn",
+        "direct_parents": ["Old French"]
+    },
+    {
+        "name": "Gallo-Italic",
+        "direct_parents": ["Western Romance","Gallo-Romance"]
+    },
+    {
+        "name": "Emilian",
+        "bcp47": "egl-Latn",
+        "direct_parents": ["Western Romance","Gallo-Romance","Gallo-Italic"]
+    },
+    {
+        "name": "Occitano",
+        "bcp47": "pro-Latn",
+        "direct_parents": ["Western Romance","Gallo-Romance"]
+    },
+    {
+        "name": "Old Occitan",
+        "bcp47": "pro-Latn",
+        "direct_parents": ["Western Romance","Gallo-Romance","Occitano"]
+    },
+    {
+        "name": "Occitan",
+        "bcp47": "oci-Latn",
+        "direct_parents": ["Western Romance", "Gallo-Romance", "Occitano", "Old Occitan"]
+    },
+    {
+        "name": "Catalan",
+        "bcp47": "cat-Latn",
+        "direct_parents": ["Western Romance","Gallo-Romance","Occitano"]
+    },
+    {
+        "name": "Ibero-Romance",
+        "direct_parents": ["Western Romance"]
+    },
+    {
+        "name": "Old Spanish",
+        "bcp47": "osp-Latn",
+        "direct_parents": ["Western Romance","Ibero-Romance"]
+    },
+    {
+        "name": "Spanish",
+        "bcp47": "spa-Latn",
+        "direct_parents": ["Western Romance","Ibero-Romance","Old Spanish"]
+    },
+    {
+        "name": "Old Portuguese",
+        "bcp47": "por-Latn",
+        "direct_parents": ["Western Romance","Ibero-Romance"]
+    },
+    {
+        "name": "Portuguese",
+        "bcp47": "por-Latn",
+        "direct_parents": ["Western Romance","Ibero-Romance","Old Portuguese"]
+    },
+    {
+        "name": "Galician",
+        "bcp47": "glg-Latn",
+        "direct_parents": ["Western Romance","Ibero-Romance","Old Portuguese"]
+    },
+    {
+        "name": "Osco-Umbrian",
+        "direct_parents": ["Italic"]
+    },
+    {
+        "name": "Oscan",
+        "bcp47": "osc-Ital",
+        "direct_parents": ["Italic","Osco-Umbrian"]
+    },
+    {
+        "name": "Sabine",
+        "bcp47": "sbv-Ital",
+        "direct_parents": ["Italic","Osco-Umbrian"]
+    },
+    {
+        "name": "Umbrian",
+        "bcp47": "xum-Ital",
+        "direct_parents": ["Italic","Osco-Umbrian"]
+    },
+    {
+        "name": "Venetic",
+        "bcp47": "xve-Ital",
+        "direct_parents": ["Proto-Indo-European", "Northwest Indo-European", "Italo-Celtic", "Italic"]
+    }
+]

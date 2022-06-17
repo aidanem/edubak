@@ -1,0 +1,18 @@
+script,name,priority
+"Egyptian hieroglyphs","Gardiner's sign list order",1
+"Phoenician script","North Semitic order",1
+"Arabic script","Common hijāʾī order",1
+"Arabic script","Maghrebi abjadī order",2
+"Arabic script","Common abjadī order",3
+"Greek script","Classical Greek order",1
+"Greek script","Western Archaic Greek order",2
+"Old Italic script","Marsiliana tablet order",1
+"Old Italic script","Archaic Etruscan order",3
+"Old Italic script","Neo-Etruscan order",4
+"Latin script","English order",1
+"Latin script","Classical Latin order",2
+"Latin script","Old Latin order",3
+"Germanic runes","Elder Futhark order",1
+"Coptic script","Coptic order",1
+"Gothic script","Gothic numeric order",1
+"Armenian script","Armenian numeric order",1

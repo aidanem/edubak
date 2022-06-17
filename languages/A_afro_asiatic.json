@@ -1,0 +1,347 @@
+[
+    {
+        "name": "Afro-Asiatic",
+        "style_classes": ["afroasiatic"]
+    },
+    {
+        "name": "Proto-Afro-Asiatic",
+        "direct_parents": ["Afro-Asiatic"]
+    },
+    {
+        "name": "Berber",
+        "direct_parents": ["Afro-Asiatic","Proto-Afro-Asiatic"]
+    },
+    {
+        "name": "Amazigh",
+        "bcp47": "gnc",
+        "direct_parents": ["Berber"],
+        "autocorrects": ["Guanche"]
+    },
+    {
+        "name": "Northern Berber",
+        "direct_parents": ["Berber"]
+    },
+    {
+        "name": "Kabyle",
+        "bcp47": "kab-Latn",
+        "direct_parents": ["Berber","Northern Berber"]
+    },
+    {
+        "name": "Atlas Berber",
+        "direct_parents": ["Berber","Northern Berber"]
+    },
+    {
+        "name": "Tamazigh",
+        "bcp47": "tzm-Tfng",
+        "direct_parents": ["Berber","Northern Berber","Atlas Berber"]
+    },
+    {
+        "name": "Tashelhit",
+        "bcp47": "shi-Tfng",
+        "direct_parents": ["Berber","Northern Berber","Atlas Berber"],
+        "autocorrects": ["Taselhit","Shilha"]
+    },
+    {
+        "name": "Zenati",
+        "direct_parents": ["Berber","Northern Berber"]
+    },
+    {
+        "name": "Tarifit",
+        "bcp47": "rif-Latn",
+        "direct_parents": ["Berber","Northern Berber","Zenati"],
+        "autocorrects": ["Riffian"]
+    },
+    {
+        "name": "Shawiya",
+        "direct_parents": ["Berber","Northern Berber","Zenati"]
+    },
+    {
+        "name": "Tuareg",
+        "bcp47": "tmh-Tfng",
+        "direct_parents": ["Berber"]
+    },
+    {
+        "name": "Chadic",
+        "direct_parents": ["Afro-Asiatic","Proto-Afro-Asiatic"]
+    },
+    {
+        "name": "Central Chadic",
+        "direct_parents": ["Chadic"]
+    },
+    {
+        "name": "Gude",
+        "bcp47": "gde",
+        "direct_parents": ["Chadic", "Central Chadic"]
+    },
+    {
+        "name": "East Chadic",
+        "direct_parents": ["Chadic"]
+    },
+    {
+        "name": "Bidiyo",
+        "bcp47": "bid",
+        "direct_parents": ["Chadic", "East Chadic"]
+    },
+    {
+        "name": "Dangaléat",
+        "bcp47": "daa",
+        "direct_parents": ["Chadic", "East Chadic"]
+    },
+    {
+        "name": "West Chadic",
+        "direct_parents": ["Chadic"]
+    },
+    {
+        "name": "Boghom",
+        "bcp47": "bux",
+        "direct_parents": ["Chadic", "West Chadic"]
+    },
+    {
+        "name": "Hausa",
+        "bcp47": "hau-Latn",
+        "direct_parents": ["Chadic", "West Chadic"]
+    },
+    {
+        "name": "Pa'a",
+        "bcp47": "pqa",
+        "direct_parents": ["Chadic", "West Chadic"]
+    },
+    {
+        "name": "Tangale",
+        "bcp47": "tan",
+        "direct_parents": ["Chadic", "West Chadic"]
+    },
+    {
+        "name": "Cushitic",
+        "direct_parents": ["Afro-Asiatic","Proto-Afro-Asiatic"]
+    },
+    {
+        "name": "Blin",
+        "bcp47": "byn-Ethi",
+        "direct_parents": ["Cushitic"]
+    },
+    {
+        "name": "Gedeo",
+        "bcp47": "drs-Ethi",
+        "direct_parents": ["Cushitic"]
+    },
+    {
+        "name": "Oromo",
+        "bcp47": "orm-Latn",
+        "direct_parents": ["Cushitic"]
+    },
+    {
+        "name": "Somali",
+        "bcp47": "som-Latn",
+        "direct_parents": ["Cushitic"]
+    },
+    {
+        "name": "Egyptian",
+        "bcp47": "egy-Egyp",
+        "direct_parents": ["Afro-Asiatic","Proto-Afro-Asiatic"]
+    },
+    {
+        "name": "Demotic Egyptian",
+        "bcp47": "egy-Egyd",
+        "direct_parents": ["Egyptian"],
+        "autocorrects": ["Demotic"]
+    },
+    {
+        "name": "Coptic",
+        "bcp47": "cop-Copt",
+        "direct_parents": ["Egyptian","Demotic Egyptian"]
+    },
+    {
+        "name": "Fayyumic Coptic",
+        "bcp47": "cop-Copt",
+        "direct_parents": ["Coptic"]
+    },
+    {
+        "name": "Proto-Semitic",
+        "direct_parents": ["Afro-Asiatic","Proto-Afro-Asiatic"]
+    },
+    {
+        "name": "Semitic",
+        "direct_parents": ["Afro-Asiatic","Proto-Afro-Asiatic","Proto-Semitic"]
+    },
+    {
+        "name": "Central Semitic",
+        "direct_parents": ["Semitic"]
+    },
+    {
+        "name": "Arabic",
+        "bcp47": "ara-Arab",
+        "direct_parents": ["Semitic","Central Semitic"]
+    },
+    {
+        "name": "Old Arabic",
+        "direct_parents": ["Semitic","Central Semitic","Arabic"]
+    },
+    {
+        "name": "Classical Arabic",
+        "bcp47": "arb-Arab",
+        "direct_parents": ["Semitic","Central Semitic","Arabic","Old Arabic"]
+    },
+    {
+        "name": "Egyptian Arabic",
+        "bcp47": "arz-Arab",
+        "direct_parents": ["Arabic","Old Arabic"]
+    },
+    {
+        "name": "Levantine Arabic",
+        "bcp47": "ajp-Arab",
+        "direct_parents": ["Arabic","Old Arabic"]
+    },
+    {
+        "name": "Maghrebi Arabic",
+        "direct_parents": ["Arabic","Old Arabic"]
+    },
+    {
+        "name": "Libyan Arabic",
+        "direct_parents": ["Arabic","Old Arabic","Maghrebi Arabic"],
+        "bcp47": "ayl-Arab"
+    },
+    {
+        "name": "Algerian Arabic",
+        "bcp47": "arq-Arab",
+        "direct_parents": ["Arabic","Old Arabic","Maghrebi Arabic"]
+    },
+    {
+        "name": "Andalusi Arabic",
+        "bcp47": "xaa-Arab",
+        "direct_parents": ["Arabic","Old Arabic","Maghrebi Arabic"]
+    },
+    {
+        "name": "Moroccan Arabic",
+        "bcp47": "ary-Arab",
+        "direct_parents": ["Arabic","Old Arabic","Maghrebi Arabic"]
+    },
+    {
+        "name": "Sicilian Arabic",
+        "bcp47": "sqr-Arab",
+        "direct_parents": ["Arabic","Old Arabic","Maghrebi Arabic"]
+    },
+    {
+        "name": "Maltese",
+        "bcp47": "mlt-Latn",
+        "direct_parents": ["Arabic","Old Arabic","Maghrebi Arabic","Sicilian Arabic"]
+    },
+    {
+        "name": "Peninsular Arabic",
+        "direct_parents": ["Arabic","Old Arabic"]
+    },
+    {
+        "name": "Hijazi Arabic",
+        "bcp47": "acw-Arab",
+        "direct_parents": ["Arabic","Old Arabic","Peninsular Arabic"]
+    },
+    {
+        "name": "Yemeni Arabic",
+        "bcp47": "ayh-Arab",
+        "direct_parents": ["Arabic","Old Arabic","Peninsular Arabic"]
+    },
+    {
+        "name": "Northwest Semitic",
+        "direct_parents": ["Semitic","Central Semitic"]
+    },
+    {
+        "name": "Aramaic",
+        "bcp47": "arc-Armi",
+        "direct_parents": ["Semitic","Central Semitic","Northwest Semitic"]
+    },
+    {
+        "name": "Classical Syriac",
+        "bcp47": "syc-Syrc",
+        "direct_parents": ["Aramaic"]
+    },
+    {
+        "name": "Canaanite",
+        "direct_parents": ["Semitic","Central Semitic","Northwest Semitic"]
+    },
+    {
+        "name": "Ammonite",
+        "bcp47": "mis-Phnx",
+        "direct_parents": ["Semitic","Central Semitic","Northwest Semitic","Canaanite"]
+    },
+    {
+        "name": "Hebrew",
+        "bcp47": "heb-Hebr",
+        "direct_parents": ["Semitic","Central Semitic","Northwest Semitic","Canaanite"]
+    },
+    {
+        "name": "Phoenician",
+        "bcp47": "phn-Phnx",
+        "direct_parents": ["Semitic","Central Semitic","Northwest Semitic","Canaanite"]
+    },
+    {
+        "name": "Punic",
+        "bcp47": "xpu-Phnx",
+        "direct_parents": ["Phoenician"]
+    },
+    {
+        "name": "Amorite",
+        "direct_parents": ["Semitic","Central Semitic","Northwest Semitic"]
+    },
+    {
+        "name": "Ugaritic",
+        "bcp47": "uga-Ugar",
+        "direct_parents": ["Semitic", "Central Semitic", "Northwest Semitic", "Amorite"]
+    },
+    {
+        "name": "East Semitic",
+        "direct_parents": ["Semitic"]
+    },
+    {
+        "name": "Akkadian",
+        "bcp47": "akk-Xsux",
+        "direct_parents": ["Semitic","East Semitic"]
+    },
+    {
+        "name": "Assyrian",
+        "bcp47": "akk-Xsux",
+        "direct_parents": ["East Semitic","Akkadian"]
+    },
+    {
+        "name": "Babylonian",
+        "bcp47": "akk-Xsux",
+        "direct_parents": ["East Semitic","Akkadian"]
+    },
+    {
+        "name": "South Semitic",
+        "direct_parents": ["Semitic"]
+    },
+    {
+        "name": "Old South Arabian",
+        "bcp47": "xsa-Sarb",
+        "direct_parents": ["South Semitic"]
+    },
+    {
+        "name": "Sabaean",
+        "bcp47": "xsa-Sarb",
+        "direct_parents": ["South Semitic","Old South Arabian"]
+    },
+    {
+        "name": "Safaitic",
+        "bcp47": "xsa-Sarb",
+        "direct_parents": ["South Semitic","Old South Arabian"]
+    },
+    {
+        "name": "Ethiopic",
+        "direct_parents": ["Semitic","South Semitic"]
+    },
+    {
+        "name": "Amharic",
+        "bcp47": "amh-Ethi",
+        "direct_parents": ["Ethiopic"]
+    },
+    {
+        "name": "Ge'ez",
+        "bcp47": "gez-Ethi",
+        "direct_parents": ["Ethiopic"]
+    },
+    {
+        "name": "Tigrinya",
+        "bcp47": "tir-Ethi",
+        "direct_parents": ["Ethiopic"]
+    }
+]

@@ -1,0 +1,203 @@
+[
+    {
+        "name": "Sino-Austronesian"
+    },
+    {
+        "name": "Sino-Tibetan",
+        "direct_parents": ["Sino-Austronesian"],
+        "style_classes": ["sinotibetan"]
+    },
+    {
+        "name": "Proto-Sino-Tibetan",
+        "direct_parents": ["Sino-Tibetan"]
+    },
+    {
+        "name": "Karenic",
+        "direct_parents": ["Sino-Tibetan","Proto-Sino-Tibetan"]
+    },
+    {
+        "name": "S’gaw Karen",
+        "bcp47": "kar-Mymr",
+        "direct_parents": ["Sino-Tibetan","Karenic"],
+        "autocorrects": ["S'gaw Karen"]
+    },
+    {
+        "name": "Sal",
+        "direct_parents": ["Sino-Tibetan","Proto-Sino-Tibetan"],
+        "style_classes": ["sinotibetan"]
+    },
+    {
+        "name": "Jingpho",
+        "bcp47": "kac-Latn",
+        "direct_parents": ["Sal"]
+    },
+    {
+        "name": "Sintic",
+        "direct_parents": ["Sino-Tibetan","Proto-Sino-Tibetan"],
+        "style_classes": ["sintic"]
+    },
+    {
+        "name": "Old Chinese",
+        "bcp47": "och-Hani",
+        "direct_parents": ["Sino-Tibetan","Proto-Sino-Tibetan","Sintic"]
+    },
+    {
+        "name": "Chinese",
+        "bcp47": "zho-Hant",
+        "direct_parents": ["Old Chinese"]
+    },
+    {
+        "name": "Middle Chinese",
+        "bcp47": "ltc-Hant",
+        "direct_parents": ["Old Chinese"]
+    },
+    {
+        "name": "Literary Chinese",
+        "bcp47": "lzh-Hant",
+        "direct_parents": ["Old Chinese","Middle Chinese"]
+    },
+    {
+        "name": "Imperial Mandarin",
+        "bcp47": "cmn-Hant",
+        "direct_parents": ["Middle Chinese","Literary Chinese"]
+    },
+    {
+        "name": "Mandarin",
+        "bcp47": "cmn-Hant",
+        "direct_parents": ["Middle Chinese","Literary Chinese","Imperial Mandarin"]
+    },
+    {
+        "name": "Yue",
+        "bcp47": "yue-Hant",
+        "direct_parents": ["Middle Chinese","Literary Chinese"]
+    },
+    {
+        "name": "Cantonese",
+        "bcp47": "yue-Hant",
+        "direct_parents": ["Middle Chinese","Literary Chinese","Yue"]
+    },
+    {
+        "name": "Wu",
+        "bcp47": "wuu-Hant",
+        "direct_parents": ["Middle Chinese","Literary Chinese"]
+    },
+    {
+        "name": "Shanghainese",
+        "bcp47": "wuu-Hant",
+        "direct_parents": ["Middle Chinese","Literary Chinese","Wu"]
+    },
+    {
+        "name": "Min",
+        "bcp47": "nan-Hant",
+        "direct_parents": ["Old Chinese","Literary Chinese"]
+    },
+    {
+        "name": "Min Nan",
+        "bcp47": "nan-Hant",
+        "direct_parents": ["Old Chinese","Literary Chinese","Min"]
+    },
+    {
+        "name": "Hokkien",
+        "bcp47": "nan-Hant",
+        "direct_parents": ["Old Chinese","Min","Min Nan"]
+    },
+    {
+        "name": "Taiwanese",
+        "bcp47": "nan-Hant",
+        "direct_parents": ["Old Chinese","Literary Chinese","Min","Min Nan","Hokkien"]
+    },
+    {
+        "name": "Tibeto-Burman",
+        "direct_parents": ["Sino-Tibetan","Proto-Sino-Tibetan"],
+        "style_classes": ["sinotibetan"]
+    },
+    {
+        "name": "Lolo-Burmese",
+        "direct_parents": ["Tibeto-Burman"]
+    },
+    {
+        "name": "Burmese",
+        "bcp47": "mya-Mymr",
+        "direct_parents": ["Tibeto-Burman","Lolo-Burmese"]
+    },
+    {
+        "name": "Loloish",
+        "direct_parents": ["Tibeto-Burman","Lolo-Burmese"]
+    },
+    {
+        "name": "Nuosu",
+        "bcp47": "iii-Yiii",
+        "direct_parents": ["Tibeto-Burman","Lolo-Burmese","Loloish"]
+    },
+    {
+        "name": "Tibeto-Kanauri",
+        "direct_parents": ["Tibeto-Burman"]
+    },
+    {
+        "name": "Bodish",
+        "direct_parents": ["Tibeto-Burman","Tibeto-Kanauri"]
+    },
+    {
+        "name": "Tibetan",
+        "bcp47": "bod-Tibt",
+        "direct_parents": ["Tibeto-Burman","Tibeto-Kanauri","Bodish"]
+    },
+    {
+        "name": "Hmong-Mien",
+        "direct_parents": ["Sino-Austronesian"]
+    },
+    {
+        "name": "Hmong",
+        "bcp47": "hmn",
+        "direct_parents": ["Hmong-Mien","Sino-Austronesian"]
+    },
+    {
+        "name": "White Hmong",
+        "bcp47": "mww-Latn",
+        "direct_parents": ["Hmong"]
+    },
+    {
+        "name": "Mien",
+        "direct_parents": ["Hmong-Mien","Sino-Austronesian"]
+    },
+    {
+        "name": "Iu Mien",
+        "bcp47": "ium-Latn",
+        "direct_parents": ["Mien"]
+    },
+    {
+        "name": "Kra-Dai",
+        "direct_parents": ["Sino-Austronesian"]
+    },
+    {
+        "name": "Proto-Kra-Dai",
+        "direct_parents": ["Kra-Dai","Sino-Austronesian"]
+    },
+    {
+        "name": "Tai",
+        "direct_parents": ["Sino-Austronesian","Kra-Dai","Proto-Kra-Dai"]
+    },
+    {
+        "name": "Northern Tai",
+        "direct_parents": ["Tai"]
+    },
+    {
+        "name": "Zhuang",
+        "bcp47": "zha-Latn",
+        "direct_parents": ["Northern Tai"]
+    },
+    {
+        "name": "Southwestern Tai",
+        "direct_parents": ["Tai"]
+    },
+    {
+        "name": "Thai",
+        "bcp47": "tha-Thai",
+        "direct_parents": ["Southwestern Tai","Tai"]
+    },
+    {
+        "name": "Lao",
+        "bcp47": "lao-Laoo",
+        "direct_parents": ["Southwestern Tai","Tai"]
+    }
+]

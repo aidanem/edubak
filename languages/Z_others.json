@@ -1,0 +1,580 @@
+[
+    {
+        "name": "?"
+    },
+    {
+        "name": "Translingual",
+        "bcp47": "mul-Latn",
+        "style_classes": ["large"]
+    },
+    {
+        "name": "Vasconic",
+        "bcp47": "euq"
+    },
+    {
+        "name": "Aquitanian",
+        "bcp47": "xaq-Latn",
+        "direct_parents": ["Vasconic"]
+    },
+    {
+        "name": "Basque",
+        "bcp47": "eus-Latn",
+        "direct_parents": ["Vasconic","Aquitanian"]
+    },
+    {
+        "name": "Uralic",
+        "style_classes": ["uralic"]
+    },
+    {
+        "name": "Proto-Uralic",
+        "direct_parents": ["Uralic"]
+    },
+    {
+        "name": "Finno-Ugric",
+        "direct_parents": ["Uralic","Proto-Uralic"]
+    },
+    {
+        "name": "Finno-Samic",
+        "direct_parents": ["Uralic","Proto-Uralic","Finno-Ugric"]
+    },
+    {
+        "name": "Finnic",
+        "direct_parents": ["Uralic","Proto-Uralic","Finno-Ugric","Finno-Samic"]
+    },
+    {
+        "name": "Finnish",
+        "bcp47": "fin-Latn",
+        "direct_parents": ["Finnic"]
+    },
+    {
+        "name": "Estonian",
+        "bcp47": "ekk-Latn",
+        "direct_parents": ["Finnic"]
+    },
+    {
+        "name": "Karelian",
+        "bcp47": "krl-Latn",
+        "direct_parents": ["Finnic"]
+    },
+    {
+        "name": "Samoyedic",
+        "direct_parents": ["Uralic","Proto-Uralic"]
+    },
+    {
+        "name": "Nenets", 
+        "bcp47": "yrk-Cyrl",
+        "direct_parents": ["Samoyedic"]
+    },
+    {
+        "name": "Mordvinic",
+        "direct_parents": ["Uralic","Proto-Uralic"]
+    },
+    {
+        "name": "Erzya",
+        "bcp47": "myv-Cyrl",
+        "direct_parents": ["Uralic","Proto-Uralic","Mordvinic"]
+    },
+    {
+        "name": "Permic",
+        "direct_parents": ["Uralic","Proto-Uralic","Finno-Ugric"]
+    },
+    {
+        "name": "Udmurt",
+        "bcp47": "udm-Cyrl",
+        "direct_parents": ["Permic"]
+    },
+    {
+        "name": "Komi",
+        "bcp47": "kpv-Cyrl",
+        "direct_parents": ["Permic"]
+    },
+    {
+        "name": "Komi-Permyak",
+        "bcp47": "koi-Cyrl",
+        "direct_parents": ["Permic","Komi"]
+    },
+    {
+        "name": "Ugric",
+        "direct_parents": ["Uralic","Proto-Uralic","Finno-Ugric"]
+    },
+    {
+        "name": "Old Hungarian",
+        "bcp47": "ohu-Hung",
+        "direct_parents": ["Uralic","Proto-Uralic","Finno-Ugric","Ugric"]
+    },
+    {
+        "name": "Hungarian",
+        "bcp47": "hun-Latn",
+        "direct_parents": ["Uralic","Proto-Uralic","Finno-Ugric","Ugric","Old Hungarian"]
+    },
+    {
+        "name": "Samic",
+        "direct_parents": ["Uralic","Proto-Uralic","Finno-Ugric","Finno-Samic"]
+    },
+    {
+        "name": "Northern Sami",
+        "bcp47": "sme-Latn",
+        "direct_parents": ["Uralic","Proto-Uralic","Samic"]
+    },
+    {
+        "name": "Hurro-Urartian"
+    },
+    {
+        "name": "Hurrian",
+        "bcp47": "xhu-Xsux",
+        "direct_parents": ["Hurro-Urartian"]
+    },
+    {
+        "name": "Urartian",
+        "bcp47": "xur-Xsux",
+        "direct_parents": ["Hurro-Urartian"]
+    },
+    {
+        "name": "Elamite",
+        "bcp47": "elx-Xsux"
+    },
+    {
+        "name": "Dravidian",
+        "style_classes": ["dravidian"]
+    },
+    {
+        "name": "Proto-Dravidian",
+        "direct_parents": ["Dravidian"]
+    },
+    {
+        "name": "Southern Dravidian",
+        "direct_parents": ["Dravidian","Proto-Dravidian"]
+    },
+    {
+        "name": "Old Tamil",
+        "bcp47": "oty-Brah",
+        "direct_parents": ["Dravidian","Proto-Dravidian","Southern Dravidian"]
+    },
+    {
+        "name": "Tamil",
+        "bcp47": "tam-Taml",
+        "direct_parents": ["Dravidian","Proto-Dravidian","Southern Dravidian","Old Tamil"]
+    },
+    {
+        "name": "Malayalam",
+        "bcp47": "mal-Mlym",
+        "direct_parents": ["Dravidian","Proto-Dravidian","Southern Dravidian"]
+    },
+    {
+        "name": "Kannada",
+        "bcp47": "kan-Knda",
+        "direct_parents": ["Dravidian","Proto-Dravidian","Southern Dravidian"]
+    },
+    {
+        "name": "South-Central Dravidian",
+        "direct_parents": ["Dravidian","Proto-Dravidian"]
+    },
+    {
+        "name": "Telugu",
+        "bcp47": "tel-Telu",
+        "direct_parents": ["Dravidian","Proto-Dravidian","South-Central Dravidian"]
+    },
+    {
+        "name": "Central Dravidian",
+        "direct_parents": ["Dravidian","Proto-Dravidian"]
+    },
+    {
+        "name": "Northern Dravidian",
+        "direct_parents": ["Dravidian","Proto-Dravidian"]
+    },
+    {
+        "name": "Tungusic",
+        "style_classes": ["tungusic"]
+    },
+    {
+        "name": "Northern Tungusic",
+        "direct_parents": ["Tungusic"]
+    },
+    {
+        "name": "Evenki",
+        "bcp47": "evn-Cyrl",
+        "direct_parents": ["Tungusic","Northern Tungusic"]
+    },
+    {
+        "name": "Southern Tungusic",
+        "direct_parents": ["Tungusic"]
+    },
+    {
+        "name": "Manchu",
+        "bcp47": "mnc-Mong",
+        "direct_parents": ["Tungusic","Southern Tungusic"]
+    },
+    {
+        "name": "Koreanic"
+    },
+    {
+        "name": "Han",
+        "direct_parents": ["Koreanic"]
+    },
+    {
+        "name": "Sillan",
+        "direct_parents": ["Koreanic","Han"]
+    },
+    {
+        "name": "Middle Korean",
+        "bcp47": "okm-Hang",
+        "direct_parents": ["Koreanic","Han","Sillan"]
+    },
+    {
+        "name": "Korean",
+        "bcp47": "kor-Hang",
+        "direct_parents": ["Koreanic","Han","Sillan","Middle Korean"]
+    },
+    {
+        "name": "Japonic"
+    },
+    {
+        "name": "Pre-Japanese",
+        "direct_parents": ["Japonic"]
+    },
+    {
+        "name": "Old Japanese",
+        "bcp47": "ojp-Hant",
+        "direct_parents": ["Japonic","Pre-Japanese"]
+    },
+    {
+        "name": "Japanese",
+        "bcp47": "jpn-Hira",
+        "direct_parents": ["Japonic","Old Japanese"]
+    },
+    {
+        "name": "Ryukyuan",
+        "bcp47": "ryu",
+        "direct_parents": ["Japonic"]
+    },
+    {
+        "name": "Amami",
+        "bcp47": "ryn",
+        "direct_parents": ["Japonic","Ryukyuan"]
+    },
+    {
+        "name": "Miyako",
+        "bcp47": "mvi",
+        "direct_parents": ["Japonic","Ryukyuan"]
+    },
+    {
+        "name": "Okinawan",
+        "bcp47": "ryu",
+        "direct_parents": ["Japonic","Ryukyuan"]
+    },
+    {
+        "name": "Mongolic"
+    },
+    {
+        "name": "Middle Mongolian",
+        "bcp47": "xng-Mong",
+        "direct_parents": ["Mongolic"]
+    },
+    {
+        "name": "Mongolian",
+        "bcp47": "mon-Mong",
+        "direct_parents": ["Mongolic", "Middle Mongolian"]
+    },
+    {
+        "name": "Sumerian",
+        "bcp47": "sux-Xsux",
+        "style_classes": ["sumerian"]
+    },
+    {
+        "name": "Etruscan",
+        "bcp47": "ett-Ital",
+        "style_classes": ["etruscan"]
+    },
+    {
+        "name": "Austroasiatic",
+        "style_classes": ["austroasiatic"]
+    },
+    {
+        "name": "Mon-Khmer",
+        "direct_parents": ["Austroasiatic"]
+    },
+    {
+        "name": "Eastern Mon-Khmer",
+        "direct_parents": ["Austroasiatic","Mon-Khmer"]
+    },
+    {
+        "name": "Khmeric",
+        "direct_parents": ["Austroasiatic","Mon-Khmer","Eastern Mon-Khmer"]
+    },
+    {
+        "name": "Old Khmer",
+        "bcp47": "okz-Khmr",
+        "direct_parents": ["Austroasiatic","Mon-Khmer","Eastern Mon-Khmer","Khmeric"]
+    },
+    {
+        "name": "Khmer",
+        "bcp47": "khm-Khmr",
+        "direct_parents": ["Austroasiatic","Mon-Khmer","Eastern Mon-Khmer","Khmeric","Old Khmer"]
+    },
+    {
+        "name": "Vietic",
+        "direct_parents": ["Austroasiatic","Mon-Khmer","Eastern Mon-Khmer"]
+    },
+    {
+        "name": "Vietnamese",
+        "bcp47": "vie-Latn",
+        "direct_parents": ["Austroasiatic","Mon-Khmer","Eastern Mon-Khmer","Vietic"]
+    },
+    {
+        "name": "Northern Mon-Khmer",
+        "direct_parents": ["Austroasiatic","Mon-Khmer"]
+    },
+    {
+        "name": "Khasic",
+        "direct_parents": ["Austroasiatic","Mon-Khmer","Northern Mon-Khmer"]
+    },
+    {
+        "name": "Khasi",
+        "bcp47": "kha-Latn",
+        "direct_parents": ["Austroasiatic","Mon-Khmer","Northern Mon-Khmer","Khasic"]
+    },
+    {
+        "name": "Southern Mon-Khmer",
+        "direct_parents": ["Austroasiatic","Mon-Khmer"]
+    },
+    {
+        "name": "Aslian",
+        "direct_parents": ["Austroasiatic","Mon-Khmer"]
+    },
+    {
+        "name": "Temiar",
+        "bcp47": "tea",
+        "direct_parents": ["Austroasiatic","Mon-Khmer","Aslian"]
+    },
+    {
+        "name": "Monic",
+        "direct_parents": ["Austroasiatic","Mon-Khmer"]
+    },
+    {
+        "name": "Mon",
+        "bcp47": "mnw-Mymr",
+        "direct_parents": ["Austroasiatic","Mon-Khmer","Monic"]
+    },
+    {
+        "name": "Munda",
+        "direct_parents": ["Austroasiatic"]
+    },
+    {
+        "name": "Santali",
+        "bcp47": "sat-Olck",
+        "direct_parents": ["Austroasiatic","Munda"]
+    },
+    {
+        "name": "Eskimo-Aleut"
+    },
+    {
+        "name": "Eskimo",
+        "direct_parents": ["Eskimo-Aleut"]
+    },
+    {
+        "name": "Inuit",
+        "direct_parents": ["Eskimo-Aleut","Eskimo"]
+    },
+    {
+        "name": "Kalaallisut",
+        "bcp47": "kal-Latn",
+        "direct_parents": ["Eskimo-Aleut","Eskimo","Inuit"],
+        "autocorrects": ["Greenlandic"]
+    },
+    {
+        "name": "Arawakan"
+    },
+    {
+        "name": "Northern Arawakan",
+        "direct_parents": ["Arawakan"]
+    },
+    {
+        "name": "Taíno",
+        "direct_parents": ["Arawakan", "Northern Arawakan"],
+        "bcp47": "tnq",
+        "autocorrects": ["Taino"]
+    },
+    {
+        "name": "Wayuu",
+        "direct_parents": ["Arawakan", "Northern Arawakan"],
+        "bcp47": "guc-Latn"
+    },
+    {
+        "name": "Algic"
+    },
+    {
+        "name": "Yurok",
+        "bcp47": "yur-Latn",
+        "direct_parents": ["Algic"]
+    },
+    {
+        "name": "Algonquian",
+        "direct_parents": ["Algic"]
+    },
+    {
+        "name": "Central Algonquian",
+        "direct_parents": ["Algonquian"]
+    },
+    {
+        "name": "Cree",
+        "bcp47": "cre-Cans",
+        "direct_parents": ["Central Algonquian"]
+    },
+    {
+        "name": "Menominee",
+        "bcp47": "mez-Latn",
+        "direct_parents": ["Central Algonquian"]
+    },
+    {
+        "name": "Miami",
+        "bcp47": "mia",
+        "direct_parents": ["Central Algonquian"]
+    },
+    {
+        "name": "Ojibwe",
+        "bcp47": "oji-Cans",
+        "direct_parents": ["Central Algonquian"]
+    },
+    {
+        "name": "Eastern Algonquian",
+        "direct_parents": ["Algonquian"]
+    },
+    {
+        "name": "Abenaki",
+        "bcp47": "abe",
+        "direct_parents": ["Eastern Algonquian"]
+    },
+    {
+        "name": "Mahican",
+        "bcp47": "mjy",
+        "direct_parents": ["Eastern Algonquian"]
+    },
+    {
+        "name": "Massachusett",
+        "direct_parents": ["Eastern Algonquian"]
+    },
+    {
+        "name": "Powhatan",
+        "bcp47": "pim-Latn",
+        "direct_parents": ["Eastern Algonquian"]
+    },
+    {
+        "name": "Unami",
+        "bcp47": "unm",
+        "direct_parents": ["Eastern Algonquian"]
+    },
+    {
+        "name": "Plains Algonquian",
+        "direct_parents": ["Algonquian"]
+    },
+    {
+        "name": "Blackfoot",
+        "bcp47": "bla-Cans",
+        "direct_parents": ["Plains Algonquian"]
+    },
+    {
+        "name": "Cheyenne",
+        "bcp47": "chy-Latn",
+        "direct_parents": ["Plains Algonquian"]
+    },
+    {
+        "name": "Dené–Yeniseian"
+    },
+    {
+        "name": "Na-Dené",
+        "direct_parents": ["Dené–Yeniseian"]
+    },
+    {
+        "name": "Athbaskan",
+        "direct_parents": ["Na-Dené"]
+    },
+    {
+        "name": "Northern Athbaskan",
+        "direct_parents": ["Athbaskan"]
+    },
+    {
+        "name": "Athna",
+        "direct_parents": ["Athbaskan","Northern Athbaskan"]
+    },
+    {
+        "name": "Pacific Coast Athbaskan",
+        "direct_parents": ["Athbaskan"]
+    },
+    {
+        "name": "Hupa",
+        "bcp47": "hup-Latn",
+        "direct_parents": ["Athbaskan","Pacific Coast Athbaskan"]
+    },
+    {
+        "name": "Southern Athbaskan",
+        "direct_parents": ["Athbaskan"]
+    },
+    {
+        "name": "Navajo",
+        "bcp47": "nav-Latn",
+        "direct_parents": ["Athbaskan","Southern Athbaskan"]
+    },
+    {
+        "name": "Iroquoian",
+        "style_classes": ["iroquoian"]
+    },
+    {
+        "name": "Cherokee",
+        "bcp47": "chr-Cher",
+        "direct_parents": ["Iroquoian"]
+    },
+    {
+        "name": "Northern Iroquoian",
+        "direct_parents": ["Iroquoian"]
+    },
+    {
+        "name": "Nahuatl",
+        "direct_parents": ["Iroquoian"],
+        "bcp47": "nah-Latn"
+    },
+    {
+        "name": "Quechuan"
+    },
+    {
+        "name": "Quechua",
+        "bcp47": "qwe-Latn",
+        "direct_parents": ["Quechuan"]
+    },
+    {
+        "name": "Minoan",
+        "bcp47": "omn-Lina"
+    },
+    {
+        "name": "Nubian",
+        "bcp47": "nub-Copt"
+    },
+    {
+        "name": "Primitive Quendian"
+    },
+    {
+        "name": "Common Eldarin",
+        "direct_parents": ["Primitive Quendian"]
+    },
+    {
+        "name": "Quenya",
+        "bcp47": "qya-Teng",
+        "fontname": "Tengwar Formal CSUR",
+        "direct_parents": ["Primitive Quendian","Common Eldarin"]
+    },
+    {
+        "name": "Common Telerin",
+        "direct_parents": ["Primitive Quendian","Common Eldarin"]
+    },
+    {
+        "name": "Sindarin",
+        "direct_parents": ["Primitive Quendian","Common Eldarin","Common Telerin"]
+    },
+    {
+        "name": "Nandorin",
+        "direct_parents": ["Primitive Quendian","Common Eldarin","Common Telerin"]
+    },
+    {
+        "name": "Avarin",
+        "direct_parents": ["Primitive Quendian"]
+    }
+]

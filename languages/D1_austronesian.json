@@ -1,0 +1,380 @@
+[
+    {
+        "name": "Austronesian",
+        "direct_parents": ["Sino-Austronesian"],
+        "style_classes": ["austronesian"]
+    },
+    {
+        "name": "Proto-Austronesian",
+        "direct_parents": ["Sino-Austronesian","Austronesian"]
+    },
+    {
+        "name": "Formosan",
+        "direct_parents": ["Austronesian","Proto-Austronesian"]
+    },
+    {
+        "name": "Basay",
+        "bcp47": "bsq",
+        "direct_parents": ["Austronesian","Proto-Austronesian","Formosan"]
+    },
+    {
+        "name": "Paiwan",
+        "bcp47": "pwn-Latn",
+        "direct_parents": ["Austronesian","Proto-Austronesian","Formosan"]
+    },
+    {
+        "name": "Puyuma",
+        "bcp47": "pyu",
+        "direct_parents": ["Austronesian","Proto-Austronesian","Formosan"]
+    },
+    {
+        "name": "Siray",
+        "bcp47": "fos",
+        "direct_parents": ["Austronesian","Proto-Austronesian","Formosan"]
+    },
+    {
+        "name": "East Formosan",
+        "direct_parents": ["Austronesian","Proto-Austronesian","Formosan"]
+    },
+    {
+        "name": "Amis",
+        "bcp47": "ami-Latn",
+        "direct_parents": ["Austronesian","Formosan","East Formosan"]
+    },
+    {
+        "name": "Kavalan",
+        "bcp47": "ckv",
+        "direct_parents": ["Austronesian","Formosan","East Formosan"]
+    },
+    {
+        "name": "Northwest Formosan",
+        "direct_parents": ["Austronesian","Proto-Austronesian","Formosan"]
+    },
+    {
+        "name": "Pazeh",
+        "bcp47": "uun",
+        "direct_parents": ["Austronesian","Formosan","Northwest Formosan"]
+    },
+    {
+        "name": "Malayo-Polynesian",
+        "direct_parents": ["Austronesian","Proto-Austronesian"]
+    },
+    {
+        "name": "Bajau",
+        "bcp47": "bdl-Arab",
+        "direct_parents": ["Malayo-Polynesian"]
+    },
+    {
+        "name": "Bornean",
+        "direct_parents": ["Malayo-Polynesian"]
+    },
+    {
+        "name": "Barito",
+        "direct_parents": ["Malayo-Polynesian", "Bornean"]
+    },
+    {
+        "name": "Malagasy",
+        "bcp47": "mlg-Latn",
+        "direct_parents": ["Malayo-Polynesian", "Bornean", "Barito"]
+    },
+    {
+        "name": "Chamorro",
+        "bcp47": "cha-Latn",
+        "direct_parents": ["Malayo-Polynesian"]
+    },
+    {
+        "name": "Kawi",
+        "bcp47": "kaw-Java",
+        "direct_parents": ["Malayo-Polynesian"]
+    },
+    {
+        "name": "Javanese",
+        "bcp47": "jav-Latn",
+        "direct_parents": ["Malayo-Polynesian", "Kawi"]
+    },
+    {
+        "name": "Land Dayak",
+        "direct_parents": ["Malayo-Polynesian"]
+    },
+    {
+        "name": "Jagoi",
+        "bcp47": "sne",
+        "direct_parents": ["Malayo-Polynesian","Land Dayak"]
+    },
+    {
+        "name": "Malayo-Sumbawan",
+        "direct_parents": ["Malayo-Polynesian"]
+    },
+    {
+        "name": "Bali",
+        "bcp47": "ban-Latn",
+        "direct_parents": ["Malayo-Polynesian", "Malayo-Sumbawan"]
+    },
+    {
+        "name": "Chamic",
+        "direct_parents": ["Malayo-Polynesian", "Malayo-Sumbawan"]
+    },
+    {
+        "name": "Aceh",
+        "bcp47": "ace-Latn",
+        "direct_parents": ["Malayo-Polynesian", "Malayo-Sumbawan", "Chamic"]
+    },
+    {
+        "name": "Tsat",
+        "bcp47": "huq",
+        "direct_parents": ["Malayo-Polynesian", "Malayo-Sumbawan", "Chamic"]
+    },
+    {
+        "name": "Malayic",
+        "direct_parents": ["Malayo-Polynesian", "Malayo-Sumbawan"]
+    },
+    {
+        "name": "Iban",
+        "bcp47": "iba-Latn",
+        "direct_parents": ["Malayo-Polynesian", "Malayic"]
+    },
+    {
+        "name": "Malay",
+        "bcp47": "msa-Latn",
+        "direct_parents": ["Malayo-Polynesian", "Malayic"]
+    },
+    {
+        "name": "Mokenic",
+        "direct_parents": ["Malayo-Polynesian"]
+    },
+    {
+        "name": "Moken",
+        "bcp47": "mwt",
+        "direct_parents": ["Malayo-Polynesian","Mokenic"]
+    },
+    {
+        "name": "Sundanese",
+        "bcp47": "sun-Sund",
+        "direct_parents": ["Malayo-Polynesian"]
+    },
+    {
+        "name": "Philippine",
+        "direct_parents": ["Malayo-Polynesian"],
+        "autocorrects": ["Phillipine"]
+    },
+    {
+        "name": "Central Philippine",
+        "direct_parents": ["Malayo-Polynesian", "Philippine"]
+    },
+    {
+        "name": "Tagalog",
+        "bcp47": "tgl-Latn",
+        "direct_parents": ["Malayo-Polynesian", "Philippine", "Central Philippine"]
+    },
+    {
+        "name": "Binukid",
+        "bcp47": "bkd",
+        "direct_parents": ["Malayo-Polynesian", "Philippine"]
+    },
+    {
+        "name": "Cebuano",
+        "bcp47": "bkd-Latn",
+        "direct_parents": ["Malayo-Polynesian", "Philippine"]
+    },
+    {
+        "name": "Ilokano",
+        "bcp47": "ilo-Latn",
+        "direct_parents": ["Malayo-Polynesian", "Philippine"]
+    },
+    {
+        "name": "Sangir",
+        "bcp47": "sxn-Latn",
+        "direct_parents": ["Malayo-Polynesian", "Philippine"]
+    },
+    {
+        "name": "Yami",
+        "bcp47": "tao",
+        "direct_parents": ["Malayo-Polynesian", "Philippine"]
+    },
+    {
+        "name": "Timoric",
+        "direct_parents": ["Malayo-Polynesian"]
+    },
+    {
+        "name": "Tetun",
+        "bcp47": "tdt-Latn",
+        "direct_parents": ["Malayo-Polynesian", "Timoric"],
+        "autocorrects": ["Tetum"]
+    },
+    {
+        "name": "Uab Meto",
+        "bcp47": "aoz-Latn",
+        "direct_parents": ["Malayo-Polynesian", "Timoric"]
+    },
+    {
+        "name": "Oceanic",
+        "direct_parents": ["Malayo-Polynesian"]
+    },
+    {
+        "name": "Admiralty Islands",
+        "direct_parents": ["Oceanic"]
+    },
+    {
+        "name": "Loniu",
+        "bcp47": "los",
+        "direct_parents": ["Oceanic","Admiralty Islands"]
+    },
+    {
+        "name": "Manus",
+        "direct_parents": ["Oceanic","Admiralty Islands"]
+    },
+    {
+        "name": "Nyindrou",
+        "bcp47": "lid",
+        "direct_parents": ["Oceanic","Admiralty Islands","Manus"]
+    },
+    {
+        "name": "Titan",
+        "bcp47": "ttv",
+        "direct_parents": ["Oceanic","Admiralty Islands","Manus"]
+    },
+    {
+        "name": "Fijian",
+        "bcp47": "fij-Latn",
+        "direct_parents": ["Oceanic"]
+    },
+    {
+        "name": "Micronesian",
+        "direct_parents": ["Oceanic"]
+    },
+    {
+        "name": "Chuukese",
+        "bcp47": "chk-Latn",
+        "direct_parents": ["Oceanic", "Micronesian"]
+    },
+    {
+        "name": "Kiribati",
+        "bcp47": "gil-Latn",
+        "direct_parents": ["Oceanic", "Micronesian"]
+    },
+    {
+        "name": "Marshallese",
+        "bcp47": "mah-Latn",
+        "direct_parents": ["Oceanic", "Micronesian"]
+    },
+    {
+        "name": "Nauruan",
+        "bcp47": "nau-Latn",
+        "direct_parents": ["Oceanic", "Micronesian"]
+    },
+    {
+        "name": "Woleai",
+        "bcp47": "woe-Latn",
+        "direct_parents": ["Oceanic", "Micronesian"]
+    },
+    {
+        "name": "New Caledonian",
+        "direct_parents": ["Oceanic"]
+    },
+    {
+        "name": "Fwâi",
+        "bcp47": "fwa",
+        "direct_parents": ["Oceanic","New Caledonian"],
+        "autocorrects": ["Fwai"]
+    },
+    {
+        "name": "Nyelâyu",
+        "bcp47": "yly",
+        "direct_parents": ["Oceanic","New Caledonian"]
+    },
+    {
+        "name": "Ndrumbea",
+        "bcp47": "duf",
+        "direct_parents": ["Oceanic","New Caledonian"]
+    },
+    {
+        "name": "Pije",
+        "bcp47": "piz",
+        "direct_parents": ["Oceanic","New Caledonian"]
+    },
+    {
+        "name": "Xârâcùù",
+        "bcp47": "ane",
+        "direct_parents": ["Oceanic","New Caledonian"]
+    },
+    {
+        "name": "Polynesian",
+        "direct_parents": ["Malayo-Polynesian", "Oceanic"],
+        "dot_styles": ["color: aquamarine"],
+        "style_classes": ["polynesian"]
+    },
+    {
+        "name": "Tongic",
+        "direct_parents": ["Polynesian"]
+    },
+    {
+        "name": "Niuēan",
+        "bcp47": "niu-Latn",
+        "direct_parents": ["Polynesian", "Tongic"],
+        "autocorrects": ["Niuean"]
+    },
+    {
+        "name": "Tongan",
+        "bcp47": "ton-Latn",
+        "direct_parents": ["Polynesian", "Tongic"]
+    },
+    {
+        "name": "Niuafoʻou",
+        "bcp47": "num-Latn",
+        "direct_parents": ["Polynesian"],
+        "autocorrects": ["Niuafo'ou", "Niuafoou"]
+    },
+    {
+        "name": "Nuclear Polynesian",
+        "direct_parents": ["Polynesian"]
+    },
+    {
+        "name": "Samoan",
+        "bcp47": "smo-Latn",
+        "direct_parents": ["Polynesian","Nuclear Polynesian"]
+    },
+    {
+        "name": "Tuvaluan",
+        "bcp47": "tvl-Latn",
+        "direct_parents": ["Polynesian","Nuclear Polynesian"]
+    },
+    {
+        "name": "Eastern Polynesian",
+        "direct_parents": ["Polynesian","Nuclear Polynesian"]
+    },
+    {
+        "name": "Rapa Nui",
+        "bcp47": "rap-Latn",
+        "direct_parents": ["Polynesian", "Nuclear Polynesian", "Eastern Polynesian"]
+    },
+    {
+        "name": "Marquesic",
+        "direct_parents": ["Polynesian", "Nuclear Polynesian", "Eastern Polynesian"]
+    },
+    {
+        "name": "Hawaiʻian",
+        "bcp47": "haw-Latn",
+        "direct_parents": ["Polynesian", "Nuclear Polynesian", "Eastern Polynesian", "Marquesic"],
+        "autocorrects": ["Hawaiian", "Hawai'ian"]
+    },
+    {
+        "name": "Marquesan",
+        "bcp47": "mqm-Latn",
+        "direct_parents": ["Polynesian", "Nuclear Polynesian", "Eastern Polynesian", "Marquesic"]
+    },
+    {
+        "name": "Tahitic",
+        "direct_parents": ["Polynesian", "Nuclear Polynesian", "Eastern Polynesian"]
+    },
+    {
+        "name": "Tahitian",
+        "bcp47": "tah-Latn",
+        "direct_parents": ["Polynesian", "Nuclear Polynesian", "Eastern Polynesian", "Tahitic"]
+    },
+    {
+        "name": "Māori",
+        "bcp47": "mri-Latn",
+        "direct_parents": ["Polynesian", "Nuclear Polynesian", "Eastern Polynesian", "Tahitic"],
+        "autocorrects": ["Maori", "Maōri"]
+    }
+]
