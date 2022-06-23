@@ -1,0 +1,524 @@
+{
+    "A": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌀"}
+                ]
+            },
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "A"},
+                    {"form_type":"Minuscule", "unicode": "a"}
+                ]
+            }
+        ]
+    },
+    "Be": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌁"}
+                ]
+            },
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "B"},
+                    {"form_type":"Minuscule", "unicode": "b"}
+                ]
+            }
+        ]
+    },
+    "Ce": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌂"}
+                ]
+            },
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "C"},
+                    {"form_type":"Minuscule", "unicode": "c"}
+                ]
+            }
+        ]
+    },
+    "Ge": {
+        "characters": [
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "G"},
+                    {"form_type":"Minuscule", "unicode": "g"}
+                ]
+            }
+        ]
+    },
+    "De": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌃"}
+                ]
+            },
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "D"},
+                    {"form_type":"Minuscule", "unicode": "d"}
+                ]
+            }
+        ]
+    },
+    "E": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌄"}
+                ]
+            },
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "E"},
+                    {"form_type":"Minuscule", "unicode": "e"}
+                ]
+            }
+        ]
+    },
+    "Fe": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌅"}
+                ]
+            },
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "F"},
+                    {"form_type":"Minuscule", "unicode": "f"}
+                ]
+            }
+        ]
+    },
+    "Ze": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌆"}
+                ]
+            },
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Z"},
+                    {"form_type":"Minuscule", "unicode": "z"}
+                ]
+            }
+        ]
+    },
+    "He": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌇"}
+                ]
+            },
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "H"},
+                    {"form_type":"Minuscule", "unicode": "h"}
+                ]
+            }
+        ]
+    },
+    "The": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌈"}
+                ]
+            }
+        ]
+    },
+    "I": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌉"}
+                ]
+            },
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "I"},
+                    {"form_type":"Minuscule", "unicode": "i"}
+                ]
+            }
+        ]
+    },
+    "Je": {
+        "characters": [
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "J"},
+                    {"form_type":"Minuscule", "unicode": "j"}
+                ]
+            }
+        ]
+    },
+    "Ii": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌝"}
+                ]
+            }
+        ]
+    },
+    "Ka": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌊"}
+                ]
+            },
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "K"},
+                    {"form_type":"Minuscule", "unicode": "k"}
+                ]
+            }
+        ]
+    },
+    "El": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌋"}
+                ]
+            },
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "L"},
+                    {"form_type":"Minuscule", "unicode": "l"}
+                ]
+            }
+        ]
+    },
+    "Em": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌌"}
+                ]
+            },
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "M"},
+                    {"form_type":"Minuscule", "unicode": "m"}
+                ]
+            }
+        ]
+    },
+    "En": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌍"}
+                ]
+            },
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "N"},
+                    {"form_type":"Minuscule", "unicode": "n"}
+                ]
+            }
+        ]
+    },
+    "Esh": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌎"}
+                ]
+            }
+        ]
+    },
+    "O": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌏"}
+                ]
+            },
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "O"},
+                    {"form_type":"Minuscule", "unicode": "o"}
+                ]
+            }
+        ]
+    },
+    "Pe": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌐"}
+                ]
+            },
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "P"},
+                    {"form_type":"Minuscule", "unicode": "p"}
+                ]
+            }
+        ]
+    },
+    "She": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌑"}
+                ]
+            }
+        ]
+    },
+    "Ku": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌒"}
+                ]
+            },
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Q"},
+                    {"form_type":"Minuscule", "unicode": "q"}
+                ]
+            }
+        ]
+    },
+    "Er": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌓"}
+                ]
+            },
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "R"},
+                    {"form_type":"Minuscule", "unicode": "r"}
+                ]
+            }
+        ]
+    },
+    "Es": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌔"}
+                ]
+            },
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "S"},
+                    {"form_type":"Minuscule", "unicode": "s"}
+                ]
+            }
+        ]
+    },
+    "Te": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌕"}
+                ]
+            },
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "T"},
+                    {"form_type":"Minuscule", "unicode": "t"}
+                ]
+            }
+        ]
+    },
+    "U": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌖"}
+                ]
+            },
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "U"},
+                    {"form_type":"Minuscule", "unicode": "u"}
+                ]
+            }
+        ]
+    },
+    "Ve": {
+        "characters": [
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "V"},
+                    {"form_type":"Minuscule", "unicode": "v"}
+                ]
+            }
+        ]
+    },
+    "We": {
+        "characters": [
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "W"},
+                    {"form_type":"Minuscule", "unicode": "w"}
+                ]
+            }
+        ]
+    },
+    "Uu": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌞"}
+                ]
+            }
+        ]
+    },
+    "Ex": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌗"}
+                ]
+            },
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "X"},
+                    {"form_type":"Minuscule", "unicode": "x"}
+                ]
+            }
+        ]
+    },
+    "Phe": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌘"}
+                ]
+            }
+        ]
+    },
+    "Khe": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌙"}
+                ]
+            }
+        ]
+    },
+    "Ef": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌚"}
+                ]
+            }
+        ]
+    },
+    "Ers": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌛"}
+                ]
+            }
+        ]
+    },
+    "Che": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌜"}
+                ]
+            }
+        ]
+    },
+    "South Picene *": {
+        "characters": [
+            {
+                "script": "Old Italic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌟"}
+                ]
+            }
+        ]
+    },
+    "Greek Y": {
+        "characters": [
+            {
+                "script": "Latin",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Y"},
+                    {"form_type":"Minuscule", "unicode": "y"}
+                ]
+            }
+        ]
+    }
+}

@@ -11,6 +11,13 @@ module_path = os.path.abspath(os.path.dirname(__file__))
 
 DeclarativeGroup = declarative_base()
 
+class Base(DeclarativeGroup, hermes.DynamicReprMixin, hermes.CsvMixin):
+    __abstract__ = True
+    #csvmixin, jsonmixin?
+
+class MergeBase(Base, hermes.MergeMixin):
+    __abstract__ = True
+
 def default_engine():
     return hermes.SQLiteEngine(
         path = os.path.join(module_path, "database.db"),
@@ -19,6 +26,3 @@ def default_engine():
 
 def default_session():
     return default_engine().Session()
-
-from .writing import *
-from .language import *

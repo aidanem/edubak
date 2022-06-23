@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import json
 import logging
 import re
 
@@ -8,17 +9,16 @@ import sqlalchemy.orm
 
 import hermes
 
-from .declaration import DeclarativeGroup, default_engine, default_session
-from .writing import Script
+from .declaration import Base, MergeBase
+#from .writing import Script
 
 
-
-class Language(DeclarativeGroup, hermes.DynamicReprMixin, hermes.MergeMixin):
+class Language(MergeBase):
     __tablename__ = 'languages'
     
     id = sqla.Column(sqla.Integer, primary_key=True)
     name = sqla.Column(sqla.String, unique=True)
-    bcp47 = sqla.Column(sqla.String)
+    iso639 = sqla.Column(sqla.String)
     
     _unique_keys = [
         "name",
@@ -42,7 +42,7 @@ class Language(DeclarativeGroup, hermes.DynamicReprMixin, hermes.MergeMixin):
                 raise ValueError(f"No language found for input: {name!r}")
         return language
     
-    def script_from_bcp47(self, session):
+    """def script_from_bcp47(self, session):
         if self.bcp47 is not None:
             for tag_part in self.bcp47.split("-")[1:]:
                 try:
@@ -50,7 +50,7 @@ class Language(DeclarativeGroup, hermes.DynamicReprMixin, hermes.MergeMixin):
                 except ValueError:
                     continue
             else:
-                return None
+                return None"""
     
     children = sqlalchemy.orm.relationship(
         "Language",
@@ -68,9 +68,8 @@ class Language(DeclarativeGroup, hermes.DynamicReprMixin, hermes.MergeMixin):
         secondaryjoin = "LanguageDescentMapping.parent_id == Language.id",
     )
     
-    @classmethod
-    def write_json(session):
-        import json
+    """@classmethod
+    def write_json(session, filepath):
         from collections import defaultdict
         language_autocorrects = session.query(LanguageAutoCorrection).all()
         autocorrects_map = defaultdict(list)
@@ -84,20 +83,17 @@ class Language(DeclarativeGroup, hermes.DynamicReprMixin, hermes.MergeMixin):
             lang_dict = {
                 "name": language.name,
                 "subtag": language.subtag,
-                "style_classes": list(language.style_classes),
                 "direct_parents": [parent.name for parent in language.parents],
-                "autocorrects": autocorrects_map[id],
             }
             language_data.append(lang_dict)
     
     
-        with open("languages.json", "w") as json_file:
+        with open(filepath, "w") as json_file:
             json.dump(language_data, json_file, indent=2)
     
     @classmethod
-    def read_json(session, initialize=False):
-        import json
-        with open("languages.json", "r") as json_file:
+    def read_json(session, filepath, initialize=False):
+        with open(filepath, "r") as json_file:
             language_data = json.load(json_file)
         if initialize:
             default_engine().initialize_tables(
@@ -114,13 +110,11 @@ class Language(DeclarativeGroup, hermes.DynamicReprMixin, hermes.MergeMixin):
             language_obj = Language(
                 name = lang_dict["name"],
                 bcp47 = lang_dict["subtag"],
-                style_classes = []
             )
             hermes.prompt_merge(Language, language_obj, session, "name")
         session.commit()
         for lang_dict in language_data:
             language = Language.get_by_name(lang_dict["name"], session)
-            style_classes = set(language.style_classes).union(lang_dict["style_classes"])
             if lang_dict["direct_parents"]:
                 for parent_language_name in lang_dict["direct_parents"]:
                     parent = Language.get_by_name(parent_language_name, session)
@@ -129,24 +123,11 @@ class Language(DeclarativeGroup, hermes.DynamicReprMixin, hermes.MergeMixin):
                         child_id = language.id,
                     )
                     hermes.prompt_merge(Language, language_obj, session, "name")
-                    style_classes = style_classes.union(parent.style_classes)
-                    language.style_classes = list(style_classes)
                     session.merge(language_descent_obj)
-            if lang_dict["autocorrects"]:
-                for input in lang_dict["autocorrects"]:
-                    autocorrect_obj = LanguageAutoCorrection(
-                        language.id,
-                        input,
-                    )
-                    session.merge(autocorrect_obj)
-        session.commit()
+        session.commit()"""
 
 
-class LanguageDescentMapping(
-        DeclarativeGroup,
-        hermes.DynamicReprMixin,
-        hermes.MergeMixin
-    ):
+class LanguageDescentMapping(MergeBase):
     __tablename__ = 'language_descent_mapping'
     __table_args__ = (
         sqla.PrimaryKeyConstraint(
@@ -169,33 +150,7 @@ class LanguageDescentMapping(
         "child_id",
     ]
 
-class LanguageAutoCorrection(
-        DeclarativeGroup,
-        hermes.DynamicReprMixin,
-        hermes.MergeMixin
-    ):
-    __tablename__ = 'language_autocorrections'
-    
-    input = sqla.Column(sqla.String, primary_key=True)
-    language_id = sqla.Column(
-        sqla.Integer,
-        sqla.ForeignKey("languages.id")
-    )
-    
-    _unique_keys = ["input"]
-    
-    @classmethod
-    def get_language_by_input(cls, input, session):
-        language = session.query(
-                cls
-            ).filter(
-                cls.input == input,
-            ).one().language
-        return language
-    
-    language = sqlalchemy.orm.relationship("Language")
-
-class Word(DeclarativeGroup, hermes.DynamicReprMixin, hermes.MergeMixin):
+"""class Word(MergeBase):
     __tablename__ = 'words'
     
     id = sqla.Column(sqla.Integer, primary_key=True)
@@ -239,7 +194,7 @@ class DerivationType(DeclarativeGroup, hermes.DynamicReprMixin):
     name = sqla.Column(sqla.String, unique=True)
 
 
-class Derivation(DeclarativeGroup, hermes.DynamicReprMixin):
+class Derivation(Base):
     __tablename__ = 'word_derivations'
     
     __table_args__ = (
@@ -262,4 +217,4 @@ class Derivation(DeclarativeGroup, hermes.DynamicReprMixin):
         sqla.ForeignKey("word_derivation_types.id")
     )
     
-    derivation_type = sqlalchemy.orm.relationship("DerivationType")
+    derivation_type = sqlalchemy.orm.relationship("DerivationType")"""

@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+from collections import defaultdict
 import logging
 import re
 
@@ -8,41 +9,42 @@ import sqlalchemy.orm
 
 import hermes
 
-
-from .declaration import DeclarativeGroup
-
+from .declaration import Base, MergeBase
 
 iso_15924_pattern = re.compile("[A-Z][a-z]{3}")
 
-class ScriptFamily(DeclarativeGroup, hermes.DynamicReprMixin):
+class ScriptFamily(MergeBase):
     __tablename__ = 'script_families'
+    _unique_keys = ["name",]
 
     id = sqla.Column(sqla.Integer, primary_key=True)
     name = sqla.Column(sqla.String)
+    
     
     ordering_sequences = sqlalchemy.orm.relationship(
         "OrderingSequence",
-        back_populates='script'
+        back_populates='script_family'
     )
 
-class Script(DeclarativeGroup, hermes.DynamicReprMixin):
+class Script(MergeBase):
     __tablename__ = 'scripts'
+    _unique_keys = ["name",]
     
     id = sqla.Column(sqla.Integer, primary_key=True)
+    family_id = sqla.Column(
+        sqla.Integer,
+        sqla.ForeignKey("script_families.id")
+    )
     name = sqla.Column(sqla.String)
     adjective = sqla.Column(sqla.String)
-    iso_15924 = sqla.Column(sqla.String)
+    iso_15924 = sqla.Column(sqla.String, unique=True)
     #type_ = sqla.Column(sqla.String) # switch to multiple types per Script
     direction = sqla.Column(sqla.String)
     noto_fontname = sqla.Column(sqla.String)
     comment = sqla.Column(sqla.String)
     
+    
     characters = sqlalchemy.orm.relationship("Character", back_populates='script')
-
-    alternate_names = sqlalchemy.orm.relationship(
-        "ScriptAlternateNames",
-        back_populates='script'
-    )
 
     transliteration_schemes = sqlalchemy.orm.relationship(
         "TransliterationScheme",
@@ -50,60 +52,18 @@ class Script(DeclarativeGroup, hermes.DynamicReprMixin):
         primaryjoin = "Script.id == TransliterationScheme.source_script_id",
     )
     
-    type_mappings = sqlalchemy.orm.relationship("ScriptTypeMapping", back_populates='script')
-    
-    @classmethod
-    def get_by_iso_15924(cls, input, session):
-        # get any script entry which matches iso15924
-        if iso_15924_pattern.match(input) is not None:
-            try:
-                script = session.query(
-                        cls
-                    ).filter(
-                        cls.iso_15924 == input,
-                    ).first()
-                return script
-            except sqlalchemy.orm.exc.NoResultFound:
-                raise ValueError(f"{input!r} was not found in the script tags.")
-        else:
-            raise ValueError(f"{input!r} is not a valid ISO 15924 script tag.")
-    
-    # generate css file
-    
-    static_preface = """/* */
-span.orthography {
-    font-family: "Noto Sans", "Noto Sans UI";
-}
-span.orthography {font-style: normal;}
-span.orthography:not([lang]) {font-style: italic;}
-span.orthography[lang$="-Latn"] {font-style: italic;}
-"""
-    block_template = """
-/* {0.name} */
-span.orthography[lang*="-{0.iso_15924}"] {{
-    font-family: '{0.noto_fontname}';
-}}
-""".format
-    
-    
-    @classmethod
-    def export_css_file(cls, session, outfilename="orthography.css"):
-        
-        with open(outfilename, 'w', encoding = "utf-8",) as outfile:
-            outfile.write(cls.static_preface)
-            all_scripts = session.query(cls)
-            for script in all_scripts:
-                outfile.write(cls.block_template(script))
+    types = sqlalchemy.orm.relationship("ScriptType", back_populates='scripts', secondary="script_type_mapping")
 
-
-
-class ScriptType(DeclarativeGroup, hermes.DynamicReprMixin):
+class ScriptType(MergeBase):
     __tablename__ = 'script_types'
+    _unique_keys = ["name",]
     
     id = sqla.Column(sqla.Integer, primary_key=True)
     name = sqla.Column(sqla.String)
+    
+    scripts = sqlalchemy.orm.relationship("Script", back_populates='types', secondary="script_type_mapping")
 
-class ScriptTypeMapping(DeclarativeGroup, hermes.DynamicReprMixin):
+class ScriptTypeMapping(Base):
     __tablename__ = 'script_type_mapping'
     __table_args__ = (
         sqla.PrimaryKeyConstraint(
@@ -120,42 +80,25 @@ class ScriptTypeMapping(DeclarativeGroup, hermes.DynamicReprMixin):
         sqla.Integer,
         sqla.ForeignKey("script_types.id"),
     )
-    
-    script = sqlalchemy.orm.relationship("Script", back_populates='type_mappings')
-
-class ScriptAlternateNames(DeclarativeGroup, hermes.DynamicReprMixin):
-    __tablename__ = 'script_alternate_names'
-    
-    id = sqla.Column(sqla.Integer, primary_key=True)
-    script_id = sqla.Column(
-        sqla.Integer,
-        sqla.ForeignKey("scripts.id")
-    )
-    name = sqla.Column(sqla.String)
-    
-    script = sqlalchemy.orm.relationship(
-        "Script",
-        back_populates='alternate_names',
-    )
 
 
-class OrderingSequence(DeclarativeGroup, hermes.DynamicReprMixin):
+class OrderingSequence(Base):
     __tablename__ = 'ordering_sequences'
     __table_args__ = (
         sqla.UniqueConstraint(
-            'script_id',
+            'script_family_id',
             'priority',
         ),
         sqla.UniqueConstraint(
-            'script_id',
+            'script_family_id',
             'name',
         ),
     )
     
     id = sqla.Column(sqla.Integer, primary_key=True)
-    script_id = sqla.Column(
+    script_family_id = sqla.Column(
         sqla.Integer,
-        sqla.ForeignKey("scripts.id")
+        sqla.ForeignKey("script_families.id")
     )
     name = sqla.Column(sqla.String)
     priority = sqla.Column(sqla.Integer)
@@ -172,7 +115,7 @@ class OrderingSequence(DeclarativeGroup, hermes.DynamicReprMixin):
     
 
 
-class TransliterationScheme(DeclarativeGroup, hermes.DynamicReprMixin):
+class TransliterationScheme(Base):
     __tablename__ = 'transliteration_schemes'
     __table_args__ = (
         sqla.UniqueConstraint(
@@ -205,26 +148,55 @@ class TransliterationScheme(DeclarativeGroup, hermes.DynamicReprMixin):
     )
     
     mappings = sqlalchemy.orm.relationship("TransliterationMapping", back_populates='scheme')
-    
 
-class Character(DeclarativeGroup, hermes.DynamicReprMixin):
-    __tablename__ = 'characters'
+
+class Grapheme(MergeBase):
+    __tablename__ = 'graphemes'
+    __table_args__ = (
+        sqla.UniqueConstraint(
+            'script_family_id',
+            'name',
+        ),
+    )
+    _unique_keys = ["script_family_id","name"]
     
     id = sqla.Column(sqla.Integer, primary_key=True)
+    script_family_id = sqla.Column(
+        sqla.Integer,
+        sqla.ForeignKey("script_families.id")
+    )
+    name = sqla.Column(sqla.String)
+    name_meaning = sqla.Column(sqla.String)
+    
+    characters = sqlalchemy.orm.relationship("Character", back_populates='grapheme')
+    
+
+class Character(MergeBase):
+    __tablename__ = 'characters'
+    __table_args__ = (
+        sqla.UniqueConstraint(
+            'grapheme_id',
+            'script_id',
+        ),
+        sqla.UniqueConstraint(
+            'script_id',
+            'name',
+        ),
+    )
+    _unique_keys = ["grapheme_id","script_id"]
+    
+    id = sqla.Column(sqla.Integer, primary_key=True)
+    grapheme_id = sqla.Column(
+        sqla.Integer,
+        sqla.ForeignKey("graphemes.id")
+    )
     script_id = sqla.Column(
         sqla.Integer,
         sqla.ForeignKey("scripts.id", ondelete='SET NULL')
     )
-    diacritic = sqla.Column(sqla.Boolean, default=False)
-    
-    unicode_ = sqla.Column(sqla.Unicode, unique=True, index=True)
     
     name = sqla.Column(sqla.String)
     name_meaning = sqla.Column(sqla.String)
-    english_name = sqla.Column(sqla.String)
-    
-    def __str___(self):
-        return self.unicode_
     
     # make additional relations that get descent mapping,
     # instead of skipping directly to the related character (get confidence)
@@ -248,79 +220,61 @@ class Character(DeclarativeGroup, hermes.DynamicReprMixin):
         "Script",
         back_populates='characters',
     )
-    variants = sqlalchemy.orm.relationship(
-        "CharacterVariant",
-        back_populates='primary',
+    grapheme = sqlalchemy.orm.relationship(
+        "Grapheme",
+        back_populates='characters',
     )
+    forms = sqlalchemy.orm.relationship("CharacterForm", back_populates='character')
     orderings = sqlalchemy.orm.relationship(
         "OrderMapping",
         back_populates='character',
     )
     
-    def unicode_display(self):
-        """if self.diacritic:
-            return "\u25cc"+self.unicode_ #diacritic carrier, not working
-        else:"""
-        return self.unicode_
-    
-    def header_str(self, script=True):
-        main_str = ""
-        script_str = ""
-        u_ = self.unicode_display()
-        name_ = repr(self.english_name)
-        if self.unicode_ and self.english_name:
-            main_str = f'{u_} ({name_})'
-        elif self.unicode_:
-            main_str = u_
-        elif self.english_name:
-            main_str = name_
-        else:
-            main_str = f"unnamed character #{self.id}"
-        if script:
-            script_str = self.script.name + " "
-        
-        return self.script.name + " " + main_str
-    
-    def multiline_print(self, script=True, max_depth=2, indent=0):
-        
-        indent_str = " "*(indent*2)
-        print(indent_str + self.header_str(script))
-        if max_depth > 0:
-            if self.parents:
-                print(
-                    "{i}from: ".format(
-                        i = " "*(indent*2 + 1)
-                    )
-                )
-                for parent_character in self.parents:
-                    parent_character.multiline_print(
-                        max_depth = max_depth - 1,
-                        indent = indent + 1,
-                    )
-    
     def transliterate(self, scheme, session):
         import transliteration
         return transliteration.transliterate(self.unicode_, scheme, session)
+        
+        
+class CharacterForm(MergeBase):
+    __tablename__ = 'character_forms'
+    __table_args__ = (
+        sqla.UniqueConstraint(
+            'character_id',
+            'character_form_type_id',
+        ),
+    )
+    _unique_keys = ["character_id","character_form_type_id"]
     
-    @classmethod
-    def get_by_unicode_or_name(cls, character_identifier, session):
-        try:
-            return session.query(
-                cls,
-            ).filter(
-                cls.unicode_ == character_identifier,
-            ).one()
-        except sqla.orm.exc.NoResultFound:
-            try:
-                return session.query(
-                    cls,
-                ).filter(
-                    cls.name == character_identifier,
-                ).one()
-            except sqla.orm.exc.NoResultFound:
-                return None
+    id = sqla.Column(sqla.Integer, primary_key=True)
+    character_id = sqla.Column(
+        sqla.Integer,
+        sqla.ForeignKey("characters.id")
+    )
+    character_form_type_id = sqla.Column(
+        sqla.Integer,
+        sqla.ForeignKey("character_form_types.id")
+    )
+    code_point_id = sqla.Column(
+        sqla.Integer,
+        sqla.ForeignKey("code_points.id")
+    )
+    
+    character = sqlalchemy.orm.relationship(
+        "Character",
+        back_populates='forms',
+    )
+    form_type = sqlalchemy.orm.relationship("CharacterFormType")
+    unicode = sqlalchemy.orm.relationship("CodePoint")
+    
 
-class OrderMapping(DeclarativeGroup, hermes.DynamicReprMixin):
+class CharacterFormType(MergeBase):
+    __tablename__ = 'character_form_types'
+    _unique_keys = ["name",]
+    
+    id = sqla.Column(sqla.Integer, primary_key=True)
+    name = sqla.Column(sqla.String)
+
+class OrderMapping(Base):
     __tablename__ = 'order_mappings'
     __table_args__ = (
         sqla.PrimaryKeyConstraint(
@@ -347,7 +301,7 @@ class OrderMapping(DeclarativeGroup, hermes.DynamicReprMixin):
     character = sqlalchemy.orm.relationship("Character", back_populates='orderings')
 
 
-class TransliterationMapping(DeclarativeGroup, hermes.DynamicReprMixin):
+class TransliterationMapping(Base):
     __tablename__ = 'transliteration_mapping'
     
     scheme_id = sqla.Column(
@@ -364,7 +318,7 @@ class TransliterationMapping(DeclarativeGroup, hermes.DynamicReprMixin):
     )
 
 
-class CharacterDescentMapping(DeclarativeGroup, hermes.DynamicReprMixin):
+class CharacterDescentMapping(Base):
     __tablename__ = 'character_descent_mapping'
     __table_args__ = (
         sqla.PrimaryKeyConstraint(
@@ -384,10 +338,10 @@ class CharacterDescentMapping(DeclarativeGroup, hermes.DynamicReprMixin):
     confidence = sqla.Column(sqla.Boolean, default=True)
     
 
-sqla.Index(
+"""sqla.Index(
     'child_parent_ix', #index primary keys in opposite order
     CharacterDescentMapping.child_id,
     CharacterDescentMapping.parent_id,
-)
+)"""
 
 

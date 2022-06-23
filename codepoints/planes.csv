@@ -1,0 +1,8 @@
+id,name,short_name
+0,Basic Multilingual Plane,BMP
+1,Supplementary Multilingual Plane,SMP
+2,Supplementary Ideographic Plane,SIP
+3,Tertiary Ideographic Plane,TIP
+14,Supplementary Special-purpose Plane,SSP
+15,Supplementary Private Use Area A,SPUA-A
+16,Supplementary Private Use Area B,SPUA-B

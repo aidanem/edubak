@@ -1,0 +1,2017 @@
+{
+    "Aleph": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Phoenician",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤀"}
+                ]
+            },
+            {
+                "script": "Imperial Aramaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐡀"}
+                ]
+            },
+            {
+                "script": "Aramaic square script",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "א"}
+                ]
+            },
+            {
+                "script": "Elymaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐿠"}
+                ]
+            },
+            {
+                "script": "Manichaean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐫀"}
+                ]
+            },
+            {
+                "script": "Inscriptional Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭠"}
+                ]
+            },
+            {
+                "script": "Inscriptional Parthian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭀"}
+                ]
+            },
+            {
+                "script": "Psalter Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐮀"}
+                ]
+            },
+            {
+                "script": "Nabataean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐢁"},
+                    {"form_type":"Final", "unicode": "𐢀"}
+                ]
+            },
+            {
+                "script": "Samaritan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ࠀ"}
+                ]
+            },
+            {
+                "script": "Old Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼀"},
+                    {"form_type":"Final", "unicode": "𐼁"}
+                ]
+            },
+            {
+                "script": "Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼰"}
+                ]
+            },
+            {
+                "script": "Syriac",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ܐ"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎀"}
+                ]
+            }
+        ]
+    },
+    "Bet": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Phoenician",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤁"}
+                ]
+            },
+            {
+                "script": "Imperial Aramaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐡁"}
+                ]
+            },
+            {
+                "script": "Aramaic square script",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ב"}
+                ]
+            },
+            {
+                "script": "Elymaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐿡"}
+                ]
+            },
+            {
+                "script": "Manichaean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐫁"}
+                ]
+            },
+            {
+                "script": "Inscriptional Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭡"}
+                ]
+            },
+            {
+                "script": "Inscriptional Parthian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭁"}
+                ]
+            },
+            {
+                "script": "Psalter Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐮁"}
+                ]
+            },
+            {
+                "script": "Nabataean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐢃"},
+                    {"form_type":"Final", "unicode": "𐢂"}
+                ]
+            },
+            {
+                "script": "Samaritan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ࠁ"}
+                ]
+            },
+            {
+                "script": "Old Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼂"},
+                    {"form_type":"Final", "unicode": "𐼃"}
+                ]
+            },
+            {
+                "script": "Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼱"}
+                ]
+            },
+            {
+                "script": "Syriac",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ܒ"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎁"}
+                ]
+            }
+        ]
+    },
+    "Gimel": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Phoenician",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤂"}
+                ]
+            },
+            {
+                "script": "Imperial Aramaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐡂"}
+                ]
+            },
+            {
+                "script": "Aramaic square script",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ג"}
+                ]
+            },
+            {
+                "script": "Elymaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐿢"}
+                ]
+            },
+            {
+                "script": "Manichaean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐫃"}
+                ]
+            },
+            {
+                "script": "Inscriptional Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭢"}
+                ]
+            },
+            {
+                "script": "Inscriptional Parthian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭂"}
+                ]
+            },
+            {
+                "script": "Psalter Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐮂"}
+                ]
+            },
+            {
+                "script": "Nabataean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐢄"}
+                ]
+            },
+            {
+                "script": "Samaritan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ࠂ"}
+                ]
+            },
+            {
+                "script": "Old Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼄"}
+                ]
+            },
+            {
+                "script": "Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼲"}
+                ]
+            },
+            {
+                "script": "Syriac",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ܓ"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎂"}
+                ]
+            }
+        ]
+    },
+    "Dalet": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Phoenician",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤃"}
+                ]
+            },
+            {
+                "script": "Imperial Aramaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐡃"}
+                ]
+            },
+            {
+                "script": "Aramaic square script",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ד"}
+                ]
+            },
+            {
+                "script": "Elymaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐿣"}
+                ]
+            },
+            {
+                "script": "Manichaean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐫅"}
+                ]
+            },
+            {
+                "script": "Inscriptional Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭣"}
+                ]
+            },
+            {
+                "script": "Inscriptional Parthian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭃"}
+                ]
+            },
+            {
+                "script": "Psalter Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐮃"}
+                ]
+            },
+            {
+                "script": "Nabataean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐢅"}
+                ]
+            },
+            {
+                "script": "Samaritan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ࠃ"}
+                ]
+            },
+            {
+                "script": "Syriac",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ܕ"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎄"}
+                ]
+            }
+        ]
+    },
+    "He": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Phoenician",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤄"}
+                ]
+            },
+            {
+                "script": "Imperial Aramaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐡄"}
+                ]
+            },
+            {
+                "script": "Aramaic square script",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ה"}
+                ]
+            },
+            {
+                "script": "Elymaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐿤"}
+                ]
+            },
+            {
+                "script": "Manichaean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐫆"}
+                ]
+            },
+            {
+                "script": "Inscriptional Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭄"}
+                ]
+            },
+            {
+                "script": "Inscriptional Parthian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭤"}
+                ]
+            },
+            {
+                "script": "Psalter Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐮄"}
+                ]
+            },
+            {
+                "script": "Nabataean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐢇"},
+                    {"form_type":"Final", "unicode": "𐢆"}
+                ]
+            },
+            {
+                "script": "Samaritan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ࠄ"}
+                ]
+            },
+            {
+                "script": "Old Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼅"},
+                    {"form_type":"Final", "unicode": "𐢆"}
+                ]
+            },
+            {
+                "script": "Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼳"}
+                ]
+            },
+            {
+                "script": "Syriac",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ܗ"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎅"}
+                ]
+            }
+        ]
+    },
+    "Waw": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Phoenician",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤅"}
+                ]
+            },
+            {
+                "script": "Imperial Aramaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐡅"}
+                ]
+            },
+            {
+                "script": "Aramaic square script",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ו"}
+                ]
+            },
+            {
+                "script": "Elymaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐿥"}
+                ]
+            },
+            {
+                "script": "Manichaean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐫇"}
+                ]
+            },
+            {
+                "script": "Inscriptional Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭥"}
+                ]
+            },
+            {
+                "script": "Inscriptional Parthian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭅"}
+                ]
+            },
+            {
+                "script": "Psalter Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐮅"}
+                ]
+            },
+            {
+                "script": "Nabataean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐢈"}
+                ]
+            },
+            {
+                "script": "Samaritan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ࠅ"}
+                ]
+            },
+            {
+                "script": "Old Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼇"}
+                ]
+            },
+            {
+                "script": "Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼴"}
+                ]
+            },
+            {
+                "script": "Syriac",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ܘ"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎆"}
+                ]
+            }
+        ]
+    },
+    "Zayin": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Phoenician",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤆"}
+                ]
+            },
+            {
+                "script": "Imperial Aramaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐡆"}
+                ]
+            },
+            {
+                "script": "Aramaic square script",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ז"}
+                ]
+            },
+            {
+                "script": "Elymaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐿦"}
+                ]
+            },
+            {
+                "script": "Manichaean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐫉"}
+                ]
+            },
+            {
+                "script": "Inscriptional Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭦"}
+                ]
+            },
+            {
+                "script": "Inscriptional Parthian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭆"}
+                ]
+            },
+            {
+                "script": "Psalter Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐮆"}
+                ]
+            },
+            {
+                "script": "Nabataean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐢉"}
+                ]
+            },
+            {
+                "script": "Samaritan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ࠆ"}
+                ]
+            },
+            {
+                "script": "Old Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼈"}
+                ]
+            },
+            {
+                "script": "Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼵"}
+                ]
+            },
+            {
+                "script": "Syriac",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ܙ"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎇"}
+                ]
+            }
+        ]
+    },
+    "Heth": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Phoenician",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤇"}
+                ]
+            },
+            {
+                "script": "Imperial Aramaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐡇"}
+                ]
+            },
+            {
+                "script": "Aramaic square script",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ח"}
+                ]
+            },
+            {
+                "script": "Elymaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐿧"}
+                ]
+            },
+            {
+                "script": "Manichaean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐫍"}
+                ]
+            },
+            {
+                "script": "Inscriptional Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭧"}
+                ]
+            },
+            {
+                "script": "Inscriptional Parthian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭇"}
+                ]
+            },
+            {
+                "script": "Nabataean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐢊"}
+                ]
+            },
+            {
+                "script": "Samaritan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ࠇ"}
+                ]
+            },
+            {
+                "script": "Old Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼉"}
+                ]
+            },
+            {
+                "script": "Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼶"}
+                ]
+            },
+            {
+                "script": "Syriac",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ܚ"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎈"}
+                ]
+            }
+        ]
+    },
+    "Teth": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Phoenician",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤈"}
+                ]
+            },
+            {
+                "script": "Imperial Aramaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐡈"}
+                ]
+            },
+            {
+                "script": "Aramaic square script",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ט"}
+                ]
+            },
+            {
+                "script": "Elymaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐿨"}
+                ]
+            },
+            {
+                "script": "Manichaean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐫎"}
+                ]
+            },
+            {
+                "script": "Inscriptional Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭨"}
+                ]
+            },
+            {
+                "script": "Inscriptional Parthian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭈"}
+                ]
+            },
+            {
+                "script": "Psalter Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐮇"}
+                ]
+            },
+            {
+                "script": "Nabataean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐢋"}
+                ]
+            },
+            {
+                "script": "Samaritan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ࠈ"}
+                ]
+            },
+            {
+                "script": "Syriac",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ܛ"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎉"}
+                ]
+            }
+        ]
+    },
+    "Yodh": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Phoenician",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤉"}
+                ]
+            },
+            {
+                "script": "Imperial Aramaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐡉"}
+                ]
+            },
+            {
+                "script": "Aramaic square script",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "י"}
+                ]
+            },
+            {
+                "script": "Elymaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐿩"}
+                ]
+            },
+            {
+                "script": "Manichaean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐫏"}
+                ]
+            },
+            {
+                "script": "Inscriptional Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭩"}
+                ]
+            },
+            {
+                "script": "Inscriptional Parthian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭉"}
+                ]
+            },
+            {
+                "script": "Psalter Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐮈"}
+                ]
+            },
+            {
+                "script": "Nabataean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐢍"},
+                    {"form_type":"Final", "unicode": "𐢌"}
+                ]
+            },
+            {
+                "script": "Samaritan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ࠉ"}
+                ]
+            },
+            {
+                "script": "Old Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼊"}
+                ]
+            },
+            {
+                "script": "Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼷"}
+                ]
+            },
+            {
+                "script": "Syriac",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ܝ"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎊"}
+                ]
+            }
+        ]
+    },
+    "Kaph": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Phoenician",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤊"}
+                ]
+            },
+            {
+                "script": "Imperial Aramaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐡊"}
+                ]
+            },
+            {
+                "script": "Aramaic square script",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "כ"},
+                    {"form_type":"Final", "unicode": "ך"}
+                ]
+            },
+            {
+                "script": "Elymaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐿪"}
+                ]
+            },
+            {
+                "script": "Manichaean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐫐"}
+                ]
+            },
+            {
+                "script": "Inscriptional Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭪"}
+                ]
+            },
+            {
+                "script": "Inscriptional Parthian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭊"}
+                ]
+            },
+            {
+                "script": "Psalter Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐮉"}
+                ]
+            },
+            {
+                "script": "Nabataean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐢏"},
+                    {"form_type":"Final", "unicode": "𐢎"}
+                ]
+            },
+            {
+                "script": "Samaritan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ࠊ"}
+                ]
+            },
+            {
+                "script": "Old Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼋"}
+                ]
+            },
+            {
+                "script": "Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼸"}
+                ]
+            },
+            {
+                "script": "Syriac",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ܟ"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎊"}
+                ]
+            }
+        ]
+    },
+    "Lamedh": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Phoenician",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤋"}
+                ]
+            },
+            {
+                "script": "Imperial Aramaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐡋"}
+                ]
+            },
+            {
+                "script": "Aramaic square script",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ל"}
+                ]
+            },
+            {
+                "script": "Elymaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐿫"}
+                ]
+            },
+            {
+                "script": "Manichaean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐫓"}
+                ]
+            },
+            {
+                "script": "Nabataean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐢑"},
+                    {"form_type":"Final", "unicode": "𐢐"}
+                ]
+            },
+            {
+                "script": "Inscriptional Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭫"}
+                ]
+            },
+            {
+                "script": "Inscriptional Parthian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭋"}
+                ]
+            },
+            {
+                "script": "Psalter Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐮊"}
+                ]
+            },
+            {
+                "script": "Samaritan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ࠊ"}
+                ]
+            },
+            {
+                "script": "Old Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼌"}
+                ]
+            },
+            {
+                "script": "Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼹"}
+                ]
+            },
+            {
+                "script": "Syriac",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ܠ"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎍"}
+                ]
+            }
+        ]
+    },
+    "Mem": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Phoenician",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤌"}
+                ]
+            },
+            {
+                "script": "Imperial Aramaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐡌"}
+                ]
+            },
+            {
+                "script": "Aramaic square script",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "מ"},
+                    {"form_type":"Final", "unicode": "ם"}
+                ]
+            },
+            {
+                "script": "Elymaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐿬"}
+                ]
+            },
+            {
+                "script": "Manichaean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐫖"}
+                ]
+            },
+            {
+                "script": "Nabataean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐢓"},
+                    {"form_type":"Final", "unicode": "𐢒"}
+                ]
+            },
+            {
+                "script": "Inscriptional Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭬"}
+                ]
+            },
+            {
+                "script": "Inscriptional Parthian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭌"}
+                ]
+            },
+            {
+                "script": "Psalter Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐮋"}
+                ]
+            },
+            {
+                "script": "Samaritan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ࠌ"}
+                ]
+            },
+            {
+                "script": "Old Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼍"}
+                ]
+            },
+            {
+                "script": "Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼺"}
+                ]
+            },
+            {
+                "script": "Syriac",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ܡ"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎎"}
+                ]
+            }
+        ]
+    },
+    "Nun": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Phoenician",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤍"}
+                ]
+            },
+            {
+                "script": "Imperial Aramaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐡍"}
+                ]
+            },
+            {
+                "script": "Aramaic square script",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "נ"},
+                    {"form_type":"Final", "unicode": "ן"}
+                ]
+            },
+            {
+                "script": "Elymaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐿭"}
+                ]
+            },
+            {
+                "script": "Manichaean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐫗"}
+                ]
+            },
+            {
+                "script": "Nabataean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐢕"},
+                    {"form_type":"Final", "unicode": "𐢔"}
+                ]
+            },
+            {
+                "script": "Inscriptional Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭭"}
+                ]
+            },
+            {
+                "script": "Inscriptional Parthian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭍"}
+                ]
+            },
+            {
+                "script": "Psalter Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐮌"}
+                ]
+            },
+            {
+                "script": "Samaritan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ࠍ"}
+                ]
+            },
+            {
+                "script": "Old Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼎"},
+                    {"form_type":"Final", "unicode": "𐼏"},
+                    {"form_type":"Alternate Final", "unicode": "𐼐"}
+                ]
+            },
+            {
+                "script": "Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼻"}
+                ]
+            },
+            {
+                "script": "Syriac",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ܢ"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎐"}
+                ]
+            }
+        ]
+    },
+    "Samekh": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Phoenician",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤎"}
+                ]
+            },
+            {
+                "script": "Imperial Aramaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐡎"}
+                ]
+            },
+            {
+                "script": "Aramaic square script",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ס"}
+                ]
+            },
+            {
+                "script": "Elymaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐿮"}
+                ]
+            },
+            {
+                "script": "Manichaean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐫘"}
+                ]
+            },
+            {
+                "script": "Nabataean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐢖"}
+                ]
+            },
+            {
+                "script": "Inscriptional Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭮"}
+                ]
+            },
+            {
+                "script": "Inscriptional Parthian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭎"}
+                ]
+            },
+            {
+                "script": "Psalter Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐮍"}
+                ]
+            },
+            {
+                "script": "Samaritan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ࠎ"}
+                ]
+            },
+            {
+                "script": "Old Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼑"}
+                ]
+            },
+            {
+                "script": "Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼼"}
+                ]
+            },
+            {
+                "script": "Syriac",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ܣ"},
+                    {"form_type":"Final", "unicode": "ܤ"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎒"}
+                ]
+            }
+        ]
+    },
+    "Ayin": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Phoenician",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤏"}
+                ]
+            },
+            {
+                "script": "Imperial Aramaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐡏"}
+                ]
+            },
+            {
+                "script": "Aramaic square script",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ע"}
+                ]
+            },
+            {
+                "script": "Elymaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐿯"}
+                ]
+            },
+            {
+                "script": "Manichaean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐫙"}
+                ]
+            },
+            {
+                "script": "Nabataean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐢗"}
+                ]
+            },
+            {
+                "script": "Inscriptional Parthian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭏"}
+                ]
+            },
+            {
+                "script": "Samaritan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ࠏ"}
+                ]
+            },
+            {
+                "script": "Old Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼒"},
+                    {"form_type":"Alternate", "unicode": "𐼓"}
+                ]
+            },
+            {
+                "script": "Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼽"}
+                ]
+            },
+            {
+                "script": "Syriac",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ܥ"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎓"}
+                ]
+            }
+        ]
+    },
+    "Pe": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Phoenician",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤐"}
+                ]
+            },
+            {
+                "script": "Imperial Aramaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐡐"}
+                ]
+            },
+            {
+                "script": "Aramaic square script",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "פ"},
+                    {"form_type":"Final", "unicode": "ף"}
+                ]
+            },
+            {
+                "script": "Elymaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐿰"}
+                ]
+            },
+            {
+                "script": "Manichaean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐫛"}
+                ]
+            },
+            {
+                "script": "Nabataean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐢘"}
+                ]
+            },
+            {
+                "script": "Inscriptional Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭯"}
+                ]
+            },
+            {
+                "script": "Inscriptional Parthian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭐"}
+                ]
+            },
+            {
+                "script": "Psalter Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐮎"}
+                ]
+            },
+            {
+                "script": "Samaritan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ࠐ"}
+                ]
+            },
+            {
+                "script": "Old Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼔"}
+                ]
+            },
+            {
+                "script": "Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼾"}
+                ]
+            },
+            {
+                "script": "Syriac",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ܦ"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎔"}
+                ]
+            }
+        ]
+    },
+    "Tsade": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Phoenician",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤑"}
+                ]
+            },
+            {
+                "script": "Imperial Aramaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐡑"}
+                ]
+            },
+            {
+                "script": "Aramaic square script",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "צ"},
+                    {"form_type":"Final", "unicode": "ץ"}
+                ]
+            },
+            {
+                "script": "Elymaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐿱"}
+                ]
+            },
+            {
+                "script": "Manichaean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐫝"}
+                ]
+            },
+            {
+                "script": "Nabataean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐢙"}
+                ]
+            },
+            {
+                "script": "Inscriptional Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭰"}
+                ]
+            },
+            {
+                "script": "Inscriptional Parthian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭑"}
+                ]
+            },
+            {
+                "script": "Psalter Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐮏"}
+                ]
+            },
+            {
+                "script": "Samaritan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ࠑ"}
+                ]
+            },
+            {
+                "script": "Old Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼕"},
+                    {"form_type":"Final", "unicode": "𐼖"},
+                    {"form_type":"Alternate Final", "unicode": "𐼗"}
+                ]
+            },
+            {
+                "script": "Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼿"}
+                ]
+            },
+            {
+                "script": "Syriac",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ܨ"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎕"}
+                ]
+            }
+        ]
+    },
+    "Qoph": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Phoenician",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤒"}
+                ]
+            },
+            {
+                "script": "Imperial Aramaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐡒"}
+                ]
+            },
+            {
+                "script": "Aramaic square script",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ק"}
+                ]
+            },
+            {
+                "script": "Elymaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐿲"}
+                ]
+            },
+            {
+                "script": "Manichaean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐫞"}
+                ]
+            },
+            {
+                "script": "Nabataean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐢚"}
+                ]
+            },
+            {
+                "script": "Inscriptional Parthian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭒"}
+                ]
+            },
+            {
+                "script": "Samaritan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ࠒ"}
+                ]
+            },
+            {
+                "script": "Syriac",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ܩ"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎖"}
+                ]
+            }
+        ]
+    },
+    "Resh": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Phoenician",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤓"}
+                ]
+            },
+            {
+                "script": "Imperial Aramaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐡓"}
+                ]
+            },
+            {
+                "script": "Aramaic square script",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ר"}
+                ]
+            },
+            {
+                "script": "Elymaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐿳"}
+                ]
+            },
+            {
+                "script": "Manichaean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐫡"}
+                ]
+            },
+            {
+                "script": "Nabataean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐢛"}
+                ]
+            },
+            {
+                "script": "Inscriptional Parthian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭓"}
+                ]
+            },
+            {
+                "script": "Samaritan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ࠓ"}
+                ]
+            },
+            {
+                "script": "Old Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼘"}
+                ]
+            },
+            {
+                "script": "Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐽀"}
+                ]
+            },
+            {
+                "script": "Syriac",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ܪ"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎗"}
+                ]
+            }
+        ]
+    },
+    "Shin": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Phoenician",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤔"}
+                ]
+            },
+            {
+                "script": "Imperial Aramaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐡔"}
+                ]
+            },
+            {
+                "script": "Aramaic square script",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ש"}
+                ]
+            },
+            {
+                "script": "Elymaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐿴"}
+                ]
+            },
+            {
+                "script": "Manichaean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐫢"}
+                ]
+            },
+            {
+                "script": "Nabataean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐢝"},
+                    {"form_type":"Final", "unicode": "𐢜"}
+                ]
+            },
+            {
+                "script": "Inscriptional Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭱"}
+                ]
+            },
+            {
+                "script": "Inscriptional Parthian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭔"}
+                ]
+            },
+            {
+                "script": "Psalter Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐮐"}
+                ]
+            },
+            {
+                "script": "Samaritan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ࠔ"}
+                ]
+            },
+            {
+                "script": "Old Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼙"}
+                ]
+            },
+            {
+                "script": "Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐽁"}
+                ]
+            },
+            {
+                "script": "Syriac",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ܫ"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎌"}
+                ]
+            }
+        ]
+    },
+    "Taw": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Phoenician",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤕"}
+                ]
+            },
+            {
+                "script": "Imperial Aramaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐡕"}
+                ]
+            },
+            {
+                "script": "Aramaic square script",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ת"}
+                ]
+            },
+            {
+                "script": "Elymaic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐿵"}
+                ]
+            },
+            {
+                "script": "Manichaean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐫤"}
+                ]
+            },
+            {
+                "script": "Nabataean",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐢞"}
+                ]
+            },
+            {
+                "script": "Inscriptional Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭲"}
+                ]
+            },
+            {
+                "script": "Inscriptional Parthian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐭕"}
+                ]
+            },
+            {
+                "script": "Psalter Pahlavi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐮑"}
+                ]
+            },
+            {
+                "script": "Samaritan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ࠕ"}
+                ]
+            },
+            {
+                "script": "Old Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐼚"},
+                    {"form_type":"Final", "unicode": "𐼛"},
+                    {"form_type":"Alternate Final", "unicode": "𐼜"}
+                ]
+            },
+            {
+                "script": "Sogdian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐽂"}
+                ]
+            },
+            {
+                "script": "Syriac",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ܬ"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎚"}
+                ]
+            }
+        ]
+    }
+}

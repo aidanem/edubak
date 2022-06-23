@@ -1,12 +1,15 @@
 ###
 # SQL Alchemy helper functions
 ###
+import csv
+import json
+
 from sqlalchemy import create_engine
 from sqlalchemy.event import listen
 from sqlalchemy.orm import sessionmaker, class_mapper, ColumnProperty
 from sqlalchemy.pool import StaticPool
 from sqlalchemy.types import TypeDecorator, VARCHAR
-import json
+
 
 ### Engine Classes
 
@@ -123,9 +126,7 @@ class JSONType(TypeDecorator):
 
 ### Class Mixins
 
-class DynamicReprMixin(object):
-    # provides a dynamic stringification function that finds all column properties for the class, creating a string of the form:
-    # <Class(column1=value1, column2=value2, ...)>
+class DictMixin(object):
     
     def _dict_and_order(self):
         key_order = [prop.key for prop in class_mapper(self.__class__).iterate_properties if isinstance(prop, ColumnProperty)]
@@ -135,6 +136,8 @@ class DynamicReprMixin(object):
     def dict(self):
         column_dict, key_order = self._dict_and_order()
         return column_dict
+
+class DynamicReprMixin(DictMixin):
     
     def __repr__(self):
         prop_dict = self.dict()
@@ -142,6 +145,34 @@ class DynamicReprMixin(object):
             class_name = self.__class__.__name__,
             columns_str = ", ".join(["{key}={value}".format(key=key, value=repr(value)) for key, value in prop_dict.items()]),
         )
+
+class CsvMixin(DictMixin):
+    
+    @classmethod
+    def load_from_csv(cls, session, filepath, prompt_merge=False):
+        with open(filepath, 'r') as csv_file:
+            reader = csv.DictReader(csv_file)
+            for row in reader:
+                converted_dict = {}
+                for key, value in row.items():
+                    columns = converted_dict[key] = class_mapper(cls).columns
+                    if key in columns:
+                        converted_dict[key] = columns[key].type.python_type(value)
+                #column.type.python_type
+                cls_obj = cls(**converted_dict)
+                if prompt_merge:
+                    cls.prompt_merge(cls_obj, session)
+                else:
+                    session.add(cls_obj)
+    @classmethod
+    def write_to_csv(cls, session, filepath):
+        with open(filepath, 'w') as csv_file:
+            all_objects = session.query(cls).all()
+            _, key_order = all_objects[0]._dict_and_order()
+            writer = csv.DictWriter(csv_file, fieldnames=key_order)
+            writer.writeheader()
+            for object in all_objects:
+                writer.writerow(object.dict())
 
 ###
 # Unique Objects recipe from 
@@ -225,7 +256,7 @@ class MergeMixin(object):
             new_dict = instance.dict()
             new_dict.pop("id", None)
             if new_dict == existing_dict:
-                pass
+                return existing
             else:
                 print("Existing:")
                 print(existing_dict)
