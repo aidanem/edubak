@@ -1,0 +1,262 @@
+{
+    "Alp": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Bayt": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Gaml": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Dag": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Haw": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Waw": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Zayn": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Hasr": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Hayt": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Tab": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Yad": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Kap": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Lamd": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Maym": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Nahash": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Samk": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Ayn": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Gabi": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Pit": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Saday": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Qoba": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Rash": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Shimsh": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Shadeh": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Tann": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    },
+    "Taw": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            }
+        ]
+    }
+}

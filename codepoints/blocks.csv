@@ -133,7 +133,7 @@ id,name,start_point,size,plane_id,include_points
 132,Phags-pa,43072,64,0,0
 133,Saurashtra,43136,96,0,1
 134,Devanagari Extended,43232,32,0,0
-135,Kayah Li,43264,48,0,0
+135,Kayah Li,43264,48,0,1
 136,Rejang,43312,48,0,0
 137,Hangul Jamo Extended-A,43360,32,0,0
 138,Javanese,43392,96,0,1
@@ -169,11 +169,11 @@ id,name,start_point,size,plane_id,include_points
 168,Ancient Greek Numbers,65856,80,1,0
 169,Ancient Symbols,65936,64,1,0
 170,Phaistos Disc,66000,48,1,0
-171,Lycian,66176,32,1,0
+171,Lycian,66176,32,1,1
 172,Carian,66208,64,1,0
 173,Coptic Epact Numbers,66272,32,1,0
 174,Old Italic,66304,48,1,1
-175,Gothic,66352,32,1,0
+175,Gothic,66352,32,1,1
 176,Old Permic,66384,48,1,0
 177,Ugaritic,66432,32,1,1
 178,Old Persian,66464,64,1,1
@@ -192,7 +192,7 @@ id,name,start_point,size,plane_id,include_points
 191,Nabataean,67712,48,1,1
 192,Hatran,67808,32,1,0
 193,Phoenician,67840,32,1,1
-194,Lydian,67872,32,1,0
+194,Lydian,67872,32,1,1
 195,Meroitic Hieroglyphs,67968,32,1,0
 196,Meroitic Cursive,68000,96,1,0
 197,Kharoshthi,68096,96,1,0

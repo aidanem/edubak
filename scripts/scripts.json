@@ -4,6 +4,7 @@
         {
             "name": "Adlam",
             "iso_15924": "Adlm",
+            "noto_fontname": "Noto Sans Adlam",
             "types": ["Alphabet"],
             "alternate_names": ["Alkule Dandayɗe Leñol Mulugol"],
             "direction": "RtL",
@@ -145,6 +146,15 @@
             "direction": "LtR"
         },
         {
+            "name": "Burmese",
+            "iso_15924": "Mymr",
+            "noto_fontname": "Noto Sans Myanmar",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "time_start": 1000,
+            "time_end": null
+        },
+        {
             "name": "Chakma",
             "iso_15924": "Cakm",
             "noto_fontname": "Noto Sans Chakma",
@@ -159,15 +169,6 @@
             "direction": "LtR"
         },
         {
-            "name": "Burmese",
-            "iso_15924": "Mymr",
-            "noto_fontname": "Noto Sans Myanmar",
-            "types": ["Abugida"],
-            "direction": "LtR",
-            "time_start": 1000,
-            "time_end": null
-        },
-        {
             "name": "Devanagari",
             "iso_15924": "Deva",
             "noto_fontname": "Noto Sans Devanagari",
@@ -175,6 +176,20 @@
             "direction": "LtR",
             "time_start": 900,
             "time_end": null
+        },
+        {
+            "name": "Dhives Akuru",
+            "iso_15924": "Diak",
+            "noto_fontname": "Noto Serif Dives Akuru",
+            "types": ["Abugida"],
+            "direction": "LtR"
+        },
+        {
+            "name": "Dogri",
+            "iso_15924": "Dogr",
+            "noto_fontname": "Noto Serif Dogra",
+            "types": ["Abugida"],
+            "direction": "LtR"
         },
         {
             "name": "Gujarati",
@@ -222,6 +237,12 @@
             "time_end": null
         },
         {
+            "name": "Khom Thai",
+            "noto_fontname": "Patimokkha",
+            "types": ["Abugida"],
+            "direction": "LtR"
+        },
+        {
             "name": "Lao",
             "iso_15924": "Laoo",
             "noto_fontname": "Noto Sans Lao, Noto Sans Thai",
@@ -252,6 +273,13 @@
             "direction": "LtR",
             "time_start": 830,
             "time_end": null
+        },
+        {
+            "name": "Makasar",
+            "iso_15924": "Maka",
+            "noto_fontname": "Noto Serif Makasar",
+            "types": ["Abugida"],
+            "direction": "LtR"
         },
         {
             "name": "Meitei",
@@ -506,11 +534,27 @@
             "adjective": "Egyptian",
             "iso_15924": "Egyp",
             "noto_fontname": "Noto Sans Egyptian Hieroglyphs",
-            "types": ["Logography"],
+            "types": ["Logography","Abjad"],
             "direction": "LtR",
             "alternate_names": ["Egyptian hieroglyphics"],
             "time_start": -3000,
             "time_end": 400
+        },
+        {
+            "name": "Hieratic",
+            "iso_15924": "Egyh",
+            "types": ["Logography"],
+            "direction": "RtL",
+            "time_start": -2500,
+            "time_end": -500
+        },
+        {
+            "name": "Demotic",
+            "iso_15924": "Egyd",
+            "types": ["Logography"],
+            "direction": "RtL",
+            "time_start": -650,
+            "time_end": 500
         }
     ],
     "Georgian": [
@@ -688,12 +732,6 @@
     ],
     "North Semitic": [
         {
-            "name": "Proto-Sinaitic",
-            "iso_15924": "Psin",
-            "types": ["Abjad"],
-            "alternate_names": ["Proto-Canaanite"]
-        },
-        {
             "name": "Phoenician",
             "iso_15924": "Phnx",
             "noto_fontname": "Noto Sans Phoenician",
@@ -728,6 +766,15 @@
             "direction": "RtL",
             "time_start": -200,
             "time_end": 300
+        },
+        {
+            "name": "Mandaic",
+            "iso_15924": "Mand",
+            "noto_fontname": "Noto Sans Mandaic",
+            "types": ["Alphabet"],
+            "direction": "RtL",
+            "time_start": 400,
+            "time_end": null
         },
         {
             "name": "Manichaean",
@@ -810,6 +857,14 @@
             "noto_fontname": "Noto Sans Ugaritic",
             "types": ["Abjad"],
             "direction": "LtR"
+        }
+    ],
+    "Sinaitic": [
+        {
+            "name": "Proto-Sinaitic",
+            "iso_15924": "Psin",
+            "types": ["Abjad"],
+            "alternate_names": ["Proto-Canaanite"]
         }
     ],
     "South Semitic": [

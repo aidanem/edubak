@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
 
 from collections import defaultdict
+import csv
 import logging
 import re
 
 import sqlalchemy as sqla
 import sqlalchemy.orm
+from sqlalchemy.exc import NoResultFound
 
 import hermes
 
@@ -198,24 +200,6 @@ class Character(MergeBase):
     name = sqla.Column(sqla.String)
     name_meaning = sqla.Column(sqla.String)
     
-    # make additional relations that get descent mapping,
-    # instead of skipping directly to the related character (get confidence)
-    children = sqlalchemy.orm.relationship(
-        "Character",
-        secondary = "character_descent_mapping",
-        back_populates = "parents",
-        primaryjoin = "Character.id == CharacterDescentMapping.parent_id",
-        secondaryjoin = "CharacterDescentMapping.child_id == Character.id",
-    )
-    
-    parents = sqlalchemy.orm.relationship(
-        "Character",
-        secondary = "character_descent_mapping",
-        back_populates = "children",
-        primaryjoin = "Character.id == CharacterDescentMapping.child_id",
-        secondaryjoin = "CharacterDescentMapping.parent_id == Character.id",
-    )
-    
     script = sqlalchemy.orm.relationship(
         "Script",
         back_populates='characters',
@@ -265,6 +249,24 @@ class CharacterForm(MergeBase):
     )
     form_type = sqlalchemy.orm.relationship("CharacterFormType")
     unicode = sqlalchemy.orm.relationship("CodePoint")
+    
+    # make additional relations that get descent mapping,
+    # instead of skipping directly to the related character (get confidence)
+    children = sqlalchemy.orm.relationship(
+        "CharacterForm",
+        secondary = "character_descent_mapping",
+        back_populates = "parents",
+        primaryjoin = "CharacterForm.id == CharacterDescentMapping.parent_id",
+        secondaryjoin = "CharacterDescentMapping.child_id == CharacterForm.id",
+    )
+    
+    parents = sqlalchemy.orm.relationship(
+        "CharacterForm",
+        secondary = "character_descent_mapping",
+        back_populates = "children",
+        primaryjoin = "CharacterForm.id == CharacterDescentMapping.child_id",
+        secondaryjoin = "CharacterDescentMapping.parent_id == CharacterForm.id",
+    )
     
 
 class CharacterFormType(MergeBase):
@@ -318,7 +320,7 @@ class TransliterationMapping(Base):
     )
 
 
-class CharacterDescentMapping(Base):
+class CharacterDescentMapping(MergeBase):
     __tablename__ = 'character_descent_mapping'
     __table_args__ = (
         sqla.PrimaryKeyConstraint(
@@ -326,16 +328,66 @@ class CharacterDescentMapping(Base):
             'child_id',
         ),
     )
+    _unique_keys = ["parent_id","child_id"]
     
     parent_id = sqla.Column(
         sqla.Integer,
-        sqla.ForeignKey("characters.id"),
+        sqla.ForeignKey("character_forms.id"),
     )
     child_id = sqla.Column(
         sqla.Integer,
-        sqla.ForeignKey("characters.id"),
+        sqla.ForeignKey("character_forms.id"),
     )
     confidence = sqla.Column(sqla.Boolean, default=True)
+    
+    @classmethod
+    def load_from_csv(cls, session, filepath, prompt_merge=False):
+        with open(filepath, 'r') as csv_file:
+            reader = csv.reader(csv_file)
+            headers = next(reader)
+            for row in reader:
+                parent_grapheme, parent_script, parent_character_type, child_grapheme, child_script, child_character_type, confidence = row
+                try:
+                    parent = session.query(
+                            CharacterForm,
+                        ).join(
+                            CharacterForm.character,
+                            Character.grapheme,
+                            Character.script,
+                            CharacterForm.form_type
+                        ).filter(
+                            Grapheme.name == parent_grapheme,
+                            Script.name == parent_script,
+                            CharacterFormType.name == parent_character_type,
+                        ).one()
+                except NoResultFound:
+                    logging.error(f"Found no result for parent glyph <{parent_grapheme}:{parent_script}:{parent_character_type}>. Skipping descent row.")
+                    continue
+                try:
+                    child = session.query(
+                            CharacterForm,
+                        ).join(
+                            CharacterForm.character,
+                            Character.grapheme,
+                            Character.script,
+                            CharacterForm.form_type
+                        ).filter(
+                            Grapheme.name == child_grapheme,
+                            Script.name == child_script,
+                            CharacterFormType.name == child_character_type,
+                        ).one()
+                except NoResultFound:
+                    logging.error(f"Found no result for parent glyph <{child_grapheme}:{child_script}:{child_character_type}>. Skipping descent row.")
+                    continue
+                cls_obj = cls(
+                    parent_id = parent.id,
+                    child_id = child.id,
+                    confidence = bool(int(confidence)),
+                )
+                if prompt_merge:
+                    cls.prompt_merge(cls_obj, session)
+                else:
+                    session.add(cls_obj)
     
 
 """sqla.Index(

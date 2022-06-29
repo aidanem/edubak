@@ -2,12 +2,6 @@
     "Aleph": {
         "characters": [
             {
-                "script": "Proto-Sinaitic",
-                "forms": [
-                    {"form_type":"Normal"}
-                ]
-            },
-            {
                 "script": "Phoenician",
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐤀"}
@@ -97,12 +91,6 @@
     },
     "Bet": {
         "characters": [
-            {
-                "script": "Proto-Sinaitic",
-                "forms": [
-                    {"form_type":"Normal"}
-                ]
-            },
             {
                 "script": "Phoenician",
                 "forms": [
@@ -194,12 +182,6 @@
     "Gimel": {
         "characters": [
             {
-                "script": "Proto-Sinaitic",
-                "forms": [
-                    {"form_type":"Normal"}
-                ]
-            },
-            {
                 "script": "Phoenician",
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐤂"}
@@ -288,12 +270,6 @@
     "Dalet": {
         "characters": [
             {
-                "script": "Proto-Sinaitic",
-                "forms": [
-                    {"form_type":"Normal"}
-                ]
-            },
-            {
                 "script": "Phoenician",
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐤃"}
@@ -369,12 +345,6 @@
     },
     "He": {
         "characters": [
-            {
-                "script": "Proto-Sinaitic",
-                "forms": [
-                    {"form_type":"Normal"}
-                ]
-            },
             {
                 "script": "Phoenician",
                 "forms": [
@@ -466,12 +436,6 @@
     "Waw": {
         "characters": [
             {
-                "script": "Proto-Sinaitic",
-                "forms": [
-                    {"form_type":"Normal"}
-                ]
-            },
-            {
                 "script": "Phoenician",
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐤅"}
@@ -559,12 +523,6 @@
     },
     "Zayin": {
         "characters": [
-            {
-                "script": "Proto-Sinaitic",
-                "forms": [
-                    {"form_type":"Normal"}
-                ]
-            },
             {
                 "script": "Phoenician",
                 "forms": [
@@ -654,12 +612,6 @@
     "Heth": {
         "characters": [
             {
-                "script": "Proto-Sinaitic",
-                "forms": [
-                    {"form_type":"Normal"}
-                ]
-            },
-            {
                 "script": "Phoenician",
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐤇"}
@@ -742,12 +694,6 @@
     "Teth": {
         "characters": [
             {
-                "script": "Proto-Sinaitic",
-                "forms": [
-                    {"form_type":"Normal"}
-                ]
-            },
-            {
                 "script": "Phoenician",
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐤈"}
@@ -823,12 +769,6 @@
     },
     "Yodh": {
         "characters": [
-            {
-                "script": "Proto-Sinaitic",
-                "forms": [
-                    {"form_type":"Normal"}
-                ]
-            },
             {
                 "script": "Phoenician",
                 "forms": [
@@ -918,12 +858,6 @@
     },
     "Kaph": {
         "characters": [
-            {
-                "script": "Proto-Sinaitic",
-                "forms": [
-                    {"form_type":"Normal"}
-                ]
-            },
             {
                 "script": "Phoenician",
                 "forms": [
@@ -1015,12 +949,6 @@
     "Lamedh": {
         "characters": [
             {
-                "script": "Proto-Sinaitic",
-                "forms": [
-                    {"form_type":"Normal"}
-                ]
-            },
-            {
                 "script": "Phoenician",
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐤋"}
@@ -1109,12 +1037,6 @@
     },
     "Mem": {
         "characters": [
-            {
-                "script": "Proto-Sinaitic",
-                "forms": [
-                    {"form_type":"Normal"}
-                ]
-            },
             {
                 "script": "Phoenician",
                 "forms": [
@@ -1205,12 +1127,6 @@
     },
     "Nun": {
         "characters": [
-            {
-                "script": "Proto-Sinaitic",
-                "forms": [
-                    {"form_type":"Normal"}
-                ]
-            },
             {
                 "script": "Phoenician",
                 "forms": [
@@ -1304,12 +1220,6 @@
     "Samekh": {
         "characters": [
             {
-                "script": "Proto-Sinaitic",
-                "forms": [
-                    {"form_type":"Normal"}
-                ]
-            },
-            {
                 "script": "Phoenician",
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐤎"}
@@ -1399,12 +1309,6 @@
     "Ayin": {
         "characters": [
             {
-                "script": "Proto-Sinaitic",
-                "forms": [
-                    {"form_type":"Normal"}
-                ]
-            },
-            {
                 "script": "Phoenician",
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐤏"}
@@ -1481,12 +1385,6 @@
     },
     "Pe": {
         "characters": [
-            {
-                "script": "Proto-Sinaitic",
-                "forms": [
-                    {"form_type":"Normal"}
-                ]
-            },
             {
                 "script": "Phoenician",
                 "forms": [
@@ -1576,12 +1474,6 @@
     },
     "Tsade": {
         "characters": [
-            {
-                "script": "Proto-Sinaitic",
-                "forms": [
-                    {"form_type":"Normal"}
-                ]
-            },
             {
                 "script": "Phoenician",
                 "forms": [
@@ -1674,12 +1566,6 @@
     "Qoph": {
         "characters": [
             {
-                "script": "Proto-Sinaitic",
-                "forms": [
-                    {"form_type":"Normal"}
-                ]
-            },
-            {
                 "script": "Phoenician",
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐤒"}
@@ -1743,12 +1629,6 @@
     },
     "Resh": {
         "characters": [
-            {
-                "script": "Proto-Sinaitic",
-                "forms": [
-                    {"form_type":"Normal"}
-                ]
-            },
             {
                 "script": "Phoenician",
                 "forms": [
@@ -1825,12 +1705,6 @@
     },
     "Shin": {
         "characters": [
-            {
-                "script": "Proto-Sinaitic",
-                "forms": [
-                    {"form_type":"Normal"}
-                ]
-            },
             {
                 "script": "Phoenician",
                 "forms": [
@@ -1920,12 +1794,6 @@
     },
     "Taw": {
         "characters": [
-            {
-                "script": "Proto-Sinaitic",
-                "forms": [
-                    {"form_type":"Normal"}
-                ]
-            },
             {
                 "script": "Phoenician",
                 "forms": [

@@ -1,0 +1,669 @@
+{
+    "Alpha": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Α"},
+                    {"form_type":"Minuscule", "unicode": "α"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲁ"},
+                    {"form_type":"Minuscule", "unicode": "ⲁ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌰"}
+                ]
+            },
+            {
+                "script": "Lycian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐊀"}
+                ]
+            },
+            {
+                "script": "Lydian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤠"}
+                ]
+            }
+        ]
+    },
+    "Beta": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Β"},
+                    {"form_type":"Minuscule", "unicode": "β"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲃ"},
+                    {"form_type":"Minuscule", "unicode": "ⲃ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌱"}
+                ]
+            }
+        ]
+    },
+    "Gamma": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Γ"},
+                    {"form_type":"Minuscule", "unicode": "γ"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲅ"},
+                    {"form_type":"Minuscule", "unicode": "ⲅ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌲"}
+                ]
+            }
+        ]
+    },
+    "Delta": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Δ"},
+                    {"form_type":"Minuscule", "unicode": "δ"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲇ"},
+                    {"form_type":"Minuscule", "unicode": "ⲇ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌳"}
+                ]
+            }
+        ]
+    },
+    "Epsilon": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ε"},
+                    {"form_type":"Minuscule", "unicode": "ε"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲉ"},
+                    {"form_type":"Minuscule", "unicode": "ⲉ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌴"}
+                ]
+            }
+        ]
+    },
+    "Digamma": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ϝ"},
+                    {"form_type":"Minuscule", "unicode": "ϝ"},
+                    {"form_type":"Numeral", "unicode": "ϛ"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲋ"},
+                    {"form_type":"Minuscule", "unicode": "ⲋ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌵"}
+                ]
+            }
+        ]
+    },
+    "Zeta": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ζ"},
+                    {"form_type":"Minuscule", "unicode": "ζ"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲍ"},
+                    {"form_type":"Minuscule", "unicode": "ⲍ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌶"}
+                ]
+            }
+        ]
+    },
+    "Heta": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Η"},
+                    {"form_type":"Minuscule", "unicode": "η"},
+                    {"form_type":"Alternate", "unicode": "Ͱ"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲏ"},
+                    {"form_type":"Minuscule", "unicode": "ⲏ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌷"}
+                ]
+            }
+        ]
+    },
+    "Theta": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Θ"},
+                    {"form_type":"Minuscule", "unicode": "θ"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲑ"},
+                    {"form_type":"Minuscule", "unicode": "ⲑ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌸"}
+                ]
+            }
+        ]
+    },
+    "Iota": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ι"},
+                    {"form_type":"Minuscule", "unicode": "ι"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲓ"},
+                    {"form_type":"Minuscule", "unicode": "ⲓ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌹"}
+                ]
+            }
+        ]
+    },
+    "Kappa": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Κ"},
+                    {"form_type":"Minuscule", "unicode": "κ"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲕ"},
+                    {"form_type":"Minuscule", "unicode": "ⲕ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌺"}
+                ]
+            }
+        ]
+    },
+    "Lambda": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Λ"},
+                    {"form_type":"Minuscule", "unicode": "λ"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲗ"},
+                    {"form_type":"Minuscule", "unicode": "ⲗ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌻"}
+                ]
+            }
+        ]
+    },
+    "Mu": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Μ"},
+                    {"form_type":"Minuscule", "unicode": "μ"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲙ"},
+                    {"form_type":"Minuscule", "unicode": "ⲙ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌼"}
+                ]
+            }
+        ]
+    },
+    "Nu": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ν"},
+                    {"form_type":"Minuscule", "unicode": "ν"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲛ"},
+                    {"form_type":"Minuscule", "unicode": "ⲛ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌽"}
+                ]
+            }
+        ]
+    },
+    "Xi": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ξ"},
+                    {"form_type":"Minuscule", "unicode": "ξ"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲝ"},
+                    {"form_type":"Minuscule", "unicode": "ⲝ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌾"}
+                ]
+            }
+        ]
+    },
+    "Omicron": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ο"},
+                    {"form_type":"Minuscule", "unicode": "ο"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲟ"},
+                    {"form_type":"Minuscule", "unicode": "ⲟ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐌿"}
+                ]
+            }
+        ]
+    },
+    "Pi": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Π"},
+                    {"form_type":"Minuscule", "unicode": "π"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲡ"},
+                    {"form_type":"Minuscule", "unicode": "ⲡ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐍀"}
+                ]
+            }
+        ]
+    },
+    "Koppa": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ϙ"},
+                    {"form_type":"Minuscule", "unicode": "ϙ"},
+                    {"form_type":"Numeral", "unicode": "ϟ"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ϥ"},
+                    {"form_type":"Minuscule", "unicode": "ϥ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐍁"}
+                ]
+            }
+        ]
+    },
+    "Rho": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ρ"},
+                    {"form_type":"Minuscule", "unicode": "ρ"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲣ"},
+                    {"form_type":"Minuscule", "unicode": "ⲣ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐍂"}
+                ]
+            }
+        ]
+    },
+    "Sigma": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Σ"},
+                    {"form_type":"Minuscule", "unicode": "σ"},
+                    {"form_type":"Minuscule Final", "unicode": "ς"},
+                    {"form_type":"Alternate Majuscule", "unicode": "Ϲ"},
+                    {"form_type":"Alternate Minuscule", "unicode": "ϲ"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲥ"},
+                    {"form_type":"Minuscule", "unicode": "ⲥ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐍃"}
+                ]
+            }
+        ]
+    },
+    "Tau": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Τ"},
+                    {"form_type":"Minuscule", "unicode": "τ"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲧ"},
+                    {"form_type":"Minuscule", "unicode": "ⲧ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐍄"}
+                ]
+            }
+        ]
+    },
+    "Upsilon": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Υ"},
+                    {"form_type":"Minuscule", "unicode": "υ"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲩ"},
+                    {"form_type":"Minuscule", "unicode": "ⲩ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐍅"}
+                ]
+            }
+        ]
+    },
+    "Phi": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Φ"},
+                    {"form_type":"Minuscule", "unicode": "φ"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲫ"},
+                    {"form_type":"Minuscule", "unicode": "ⲫ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐍆"}
+                ]
+            }
+        ]
+    },
+    "Chi": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Χ"},
+                    {"form_type":"Minuscule", "unicode": "χ"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲭ"},
+                    {"form_type":"Minuscule", "unicode": "ⲭ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐍇"}
+                ]
+            }
+        ]
+    },
+    "Psi": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ψ"},
+                    {"form_type":"Minuscule", "unicode": "ψ"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲯ"},
+                    {"form_type":"Minuscule", "unicode": "ⲯ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐍈"}
+                ]
+            }
+        ]
+    },
+    "Omega": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ω"},
+                    {"form_type":"Minuscule", "unicode": "ω"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⲱ"},
+                    {"form_type":"Minuscule", "unicode": "ⲱ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐍉"}
+                ]
+            }
+        ]
+    },
+    "Sampi": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ͳ"},
+                    {"form_type":"Minuscule", "unicode": "ͳ"},
+                    {"form_type":"Numeral", "unicode": "ϡ"}
+                ]
+            },
+            {
+                "script": "Coptic",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ⳁ"},
+                    {"form_type":"Minuscule", "unicode": "ⳁ"}
+                ]
+            },
+            {
+                "script": "Gothic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐍊"}
+                ]
+            }
+        ]
+    }
+}

@@ -17,6 +17,7 @@ script_filepath = os.path.join(dirpath, "scripts.json")
 script_type_filepath = os.path.join(dirpath,"script_types.csv")
 character_form_type_filepath = os.path.join(dirpath,"character_form_types.csv")
 characters_dir = os.path.join(dirpath, "characters")
+descent_filepath = os.path.join(dirpath,"character_descent.csv")
 
 def load_scripts_from_json(session, filepath):
     with open(filepath, "r") as json_file:
@@ -118,11 +119,14 @@ def load_character_form(session, character_obj, form_data):
             
     else:
         code_point_index = None
-    form_type_obj = session.query(
-            db_writing.CharacterFormType
-        ).filter(
-            db_writing.CharacterFormType.name == form_data["form_type"],
-        ).one()
+    try:
+        form_type_obj = session.query(
+                db_writing.CharacterFormType
+            ).filter(
+                db_writing.CharacterFormType.name == form_data["form_type"],
+            ).one()
+    except NoResultFound:
+        logging.error(f"{form_data['form_type']}")
     form_obj = db_writing.CharacterForm(
         character_id = character_obj.id,
         character_form_type_id = form_type_obj.id,
@@ -168,11 +172,21 @@ if __name__ == "__main__":
         load_scripts_from_json(session, script_filepath)
         
         logging.info(f"Loading character form type data from {character_form_type_filepath}.")
-        db_writing.CharacterFormType.load_from_csv(session, character_form_type_filepath, prompt_merge=True)
+        db_writing.CharacterFormType.load_from_csv(
+            session,
+            character_form_type_filepath,
+            prompt_merge=True,
+        )
         
         script_families = session.query(db_writing.ScriptFamily).all()
         for script_family in script_families:
             load_characters_from_json(session, characters_dir, script_family)
+        
+        db_writing.CharacterDescentMapping.load_from_csv(
+            session,
+            descent_filepath,
+            prompt_merge = True,
+        )
         
     if args.write:
         logging.info(f"Writing script type data from {script_type_filepath}.")

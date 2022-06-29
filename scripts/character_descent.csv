@@ -1,0 +1,50 @@
+Parent Grapheme,Parent Script,Parent character type,Child Grapheme,Child Script,Child character type,Confidence
+F1,Egyptian hieroglyphs,Normal,Alp,Proto-Sinaitic,Normal,0
+O1,Egyptian hieroglyphs,Normal,Bayt,Proto-Sinaitic,Normal,0
+T14,Egyptian hieroglyphs,Normal,Gaml,Proto-Sinaitic,Normal,0
+O31,Egyptian hieroglyphs,Normal,Dag,Proto-Sinaitic,Normal,0
+K1,Egyptian hieroglyphs,Normal,Dag,Proto-Sinaitic,Normal,0
+K2,Egyptian hieroglyphs,Normal,Dag,Proto-Sinaitic,Normal,0
+A28,Egyptian hieroglyphs,Normal,Haw,Proto-Sinaitic,Normal,0
+G43,Egyptian hieroglyphs,Normal,Waw,Proto-Sinaitic,Normal,0
+Z4,Egyptian hieroglyphs,Normal,Zayn,Proto-Sinaitic,Normal,0
+N34,Egyptian hieroglyphs,Normal,Zayn,Proto-Sinaitic,Normal,0
+O6,Egyptian hieroglyphs,Normal,Hasr,Proto-Sinaitic,Normal,0
+N24,Egyptian hieroglyphs,Normal,Hasr,Proto-Sinaitic,Normal,0
+V28,Egyptian hieroglyphs,Normal,Hasr,Proto-Sinaitic,Normal,0
+V28,Egyptian hieroglyphs,Normal,Hayt,Proto-Sinaitic,Normal,0
+F35,Egyptian hieroglyphs,Normal,Tab,Proto-Sinaitic,Normal,0
+D36,Egyptian hieroglyphs,Normal,Yad,Proto-Sinaitic,Normal,0
+D46,Egyptian hieroglyphs,Normal,Kap,Proto-Sinaitic,Normal,0
+U20,Egyptian hieroglyphs,Normal,Lamd,Proto-Sinaitic,Normal,0
+N35,Egyptian hieroglyphs,Normal,Maym,Proto-Sinaitic,Normal,0
+I10,Egyptian hieroglyphs,Normal,Nahash,Proto-Sinaitic,Normal,0
+R11,Egyptian hieroglyphs,Normal,Samk,Proto-Sinaitic,Normal,0
+D4,Egyptian hieroglyphs,Normal,Ayn,Proto-Sinaitic,Normal,0
+V28,Egyptian hieroglyphs,Normal,Gabi,Proto-Sinaitic,Normal,0
+D21,Egyptian hieroglyphs,Normal,Pit,Proto-Sinaitic,Normal,0
+M22,Egyptian hieroglyphs,Normal,Saday,Proto-Sinaitic,Normal,0
+O34,Egyptian hieroglyphs,Normal,Qoba,Proto-Sinaitic,Normal,0
+D1,Egyptian hieroglyphs,Normal,Rash,Proto-Sinaitic,Normal,0
+D19,Egyptian hieroglyphs,Normal,Rash,Proto-Sinaitic,Normal,0
+N6,Egyptian hieroglyphs,Normal,Shimsh,Proto-Sinaitic,Normal,0
+M39,Egyptian hieroglyphs,Normal,Shadeh,Proto-Sinaitic,Normal,0
+M40,Egyptian hieroglyphs,Normal,Shadeh,Proto-Sinaitic,Normal,0
+M41,Egyptian hieroglyphs,Normal,Shadeh,Proto-Sinaitic,Normal,0
+M39,Egyptian hieroglyphs,Normal,Tann,Proto-Sinaitic,Normal,0
+M40,Egyptian hieroglyphs,Normal,Tann,Proto-Sinaitic,Normal,0
+M41,Egyptian hieroglyphs,Normal,Tann,Proto-Sinaitic,Normal,0
+Z9,Egyptian hieroglyphs,Normal,Taw,Proto-Sinaitic,Normal,0
+Alp,Proto-Sinaitic,Normal,Aleph,Phoenician,Normal,1
+Aleph,Phoenician,Normal,Aleph,Imperial Aramaic,Normal,1
+Aleph,Phoenician,Normal,Aleph,Samaritan,Normal,1
+Aleph,Imperial Aramaic,Normal,Aleph,Aramaic square script,Normal,1
+Aleph,Imperial Aramaic,Normal,Aleph,Nabataean,Normal,1
+Aleph,Imperial Aramaic,Normal,Aleph,Elymaic,Normal,1
+Aleph,Imperial Aramaic,Normal,Aleph,Syriac,Normal,1
+Aleph,Phoenician,Normal,Alpha,Greek,Majuscule,1
+Alpha,Greek,Majuscule,Alpha,Greek,Minuscule,1
+Alpha,Greek,Majuscule,Alpha,Coptic,Majuscule,1
+Alpha,Greek,Majuscule,A,Old Italic,Normal,1
+A,Old Italic,Normal,A,Latin,Majuscule,1
+A,Latin,Majuscule,A,Latin,Minuscule,1

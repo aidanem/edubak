@@ -40,7 +40,7 @@ def load_languages(session, dirpath):
     languages_list = []
     parents_dict = {}
     
-    for filename in sorted(dirpath):
+    for filename in sorted(os.listdir(dirpath)):
         if os.path.splitext(filename)[1] == ".json":
             json_filepath = os.path.join(dirpath,filename)
             file_languages, file_parents = load_json_file(session, json_filepath)

@@ -1,12 +1,20 @@
 id,name
 1,Normal
-2,Majuscule
-3,Minuscule
-4,Initial
-5,Medial
-6,Final
-7,Isolated
-8,Minuscule Final
-9,Alternate
-10,Alternate Final
-11,Formal
+2,Alternate
+3,Reversed
+4,Majuscule
+5,Alternate Majuscule
+6,Minuscule
+7,Minuscule Final
+8,Alternate Minuscule
+9,Initial
+10,Medial
+11,Final
+12,Alternate Final
+13,Isolated
+14,Formal
+15,Simplified
+16,Numeral
+17,Variant A
+18,Variant A Reversed
+19,Variant B
