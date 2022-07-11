@@ -111,10 +111,14 @@ def load_character(session, grapheme_obj, character_data):
         
 def load_character_form(session, character_obj, form_data):
     if form_data.get("unicode", None):
-        code_point_index = ord(form_data["unicode"])
-        code_point = session.query(CodePoint).get(code_point_index)
-        if code_point is None:
-            logging.warning(f"{code_point_index}/{CodePoint._hex_point(code_point_index)} is not in the database. No codepoint will be associated with the character form.")
+        if len(form_data["unicode"]) == 1:
+            code_point_index = ord(form_data["unicode"])
+            code_point = session.query(CodePoint).get(code_point_index)
+            if code_point is None:
+                logging.warning(f"{code_point_index}/{CodePoint._hex_point(code_point_index)} is not in the database. No codepoint will be associated with the character form.")
+                code_point_index = None
+        else:
+            logging.warning(f"Unicode data: {form_data['unicode']} for character {character_obj.script.name} {character_obj.grapheme.name} is multiple codepoints. Compositional unicode mapping is NYI.")
             code_point_index = None
             
     else:

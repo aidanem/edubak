@@ -43,23 +43,23 @@ id,name,start_point,size,plane_id,include_points
 42,Unified Canadian Aboriginal Syllabics,5120,640,0,1
 43,Ogham,5760,32,0,1
 44,Runic,5792,96,0,1
-45,Tagalog,5888,32,0,0
-46,Hanunoo,5920,32,0,0
-47,Buhid,5952,32,0,0
-48,Tagbanwa,5984,32,0,0
+45,Tagalog,5888,32,0,1
+46,Hanunoo,5920,32,0,1
+47,Buhid,5952,32,0,1
+48,Tagbanwa,5984,32,0,1
 49,Khmer,6016,128,0,1
 50,Mongolian,6144,176,0,1
 51,Unified Canadian Aboriginal Syllabics Extended,6320,80,0,1
 52,Limbu,6400,80,0,1
-53,Tai Le,6480,48,0,0
+53,Tai Le,6480,48,0,1
 54,New Tai Lue,6528,96,0,1
 55,Khmer Symbols,6624,32,0,0
-56,Buginese,6656,32,0,0
+56,Buginese,6656,32,0,1
 57,Tai Tham,6688,144,0,1
 58,Combining Diacritical Marks Extended,6832,80,0,1
 59,Balinese,6912,128,0,1
 60,Sundanese,7040,64,0,1
-61,Batak,7104,64,0,0
+61,Batak,7104,64,0,1
 62,Lepcha,7168,80,0,1
 63,Ol Chiki,7248,48,0,1
 64,Cyrillic Extended-C,7296,16,0,0
@@ -128,13 +128,13 @@ id,name,start_point,size,plane_id,include_points
 127,Bamum,42656,96,0,0
 128,Modifier Tone Letters,42752,32,0,0
 129,Latin Extended-D,42784,224,0,0
-130,Syloti Nagri,43008,48,0,0
+130,Syloti Nagri,43008,48,0,1
 131,Common Indic Number Forms,43056,16,0,0
-132,Phags-pa,43072,64,0,0
+132,Phags-pa,43072,64,0,1
 133,Saurashtra,43136,96,0,1
 134,Devanagari Extended,43232,32,0,0
 135,Kayah Li,43264,48,0,1
-136,Rejang,43312,48,0,0
+136,Rejang,43312,48,0,1
 137,Hangul Jamo Extended-A,43360,32,0,0
 138,Javanese,43392,96,0,1
 139,Myanmar Extended-B,43488,32,0,0
@@ -160,7 +160,7 @@ id,name,start_point,size,plane_id,include_points
 159,Combining Half Marks,65056,16,0,0
 160,CJK Compatibility Forms,65072,32,0,0
 161,Small Form Variants,65104,32,0,0
-162,Arabic Presentation Forms-B,65136,144,0,0
+162,Arabic Presentation Forms-B,65136,144,0,1
 163,Halfwidth and Fullwidth Forms,65280,240,0,0
 164,Specials,65520,16,0,0
 165,Linear B Syllabary,65536,128,1,0
@@ -217,13 +217,13 @@ id,name,start_point,size,plane_id,include_points
 216,Kaithi,69760,80,1,0
 217,Sora Sompeng,69840,48,1,0
 218,Chakma,69888,80,1,1
-219,Mahajani,69968,48,1,0
-220,Sharada,70016,96,1,0
+219,Mahajani,69968,48,1,1
+220,Sharada,70016,96,1,1
 221,Sinhala Archaic Numbers,70112,32,1,0
-222,Khojki,70144,80,1,0
-223,Multani,70272,48,1,0
-224,Khudawadi,70320,80,1,0
-225,Grantha,70400,128,1,0
+222,Khojki,70144,80,1,1
+223,Multani,70272,48,1,1
+224,Khudawadi,70320,80,1,1
+225,Grantha,70400,128,1,1
 226,Newa,70656,128,1,1
 227,Tirhuta,70784,96,1,1
 228,Siddham,71040,128,1,1
@@ -231,10 +231,10 @@ id,name,start_point,size,plane_id,include_points
 230,Mongolian Supplement,71264,32,1,0
 231,Takri,71296,80,1,1
 232,Ahom,71424,80,1,1
-233,Dogra,71680,80,1,0
+233,Dogra,71680,80,1,1
 234,Warang Citi,71840,96,1,0
 235,Dives Akuru,71936,96,1,1
-236,Nandinagari,72096,96,1,0
+236,Nandinagari,72096,96,1,1
 237,Zanabazar Square,72192,80,1,0
 238,Soyombo,72272,96,1,0
 239,Unified Canadian Aboriginal Syllabics Extended-A,72368,16,1,0

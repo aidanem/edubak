@@ -110,38 +110,225 @@
             "types": ["Abugida"],
             "direction": "LtR",
             "alternate_names": ["Ashokan"],
-            "comment": "Eastern Nagari",
             "time_start": -300,
             "time_end": 500
         },
         {
-            "name": "Ahom",
-            "iso_15924": "Ahom",
-            "noto_fontname": "Noto Serif Ahom",
+            "name": "Gupta",
             "types": ["Abugida"],
-            "direction": "LtR"
+            "direction": "LtR",
+            "comment": "AA",
+            "time_start": 350,
+            "time_end": 550
         },
         {
-            "name": "Balinese",
-            "iso_15924": "Bali",
-            "noto_fontname": "Noto Sans Balinese",
+            "name": "Sharada",
+            "iso_15924": "Shrd",
+            "noto_fontname": "Noto Sans Sharada",
             "types": ["Abugida"],
-            "direction": "LtR"
+            "direction": "LtR",
+            "comment": "AAA",
+            "time_start": 700,
+            "time_end": 2000
         },
         {
-            "name": "Bengali-Assamese",
+            "name": "Landa",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "comment": "AAAA",
+            "time_start": 950,
+            "time_end": 1050
+        },
+        {
+            "name": "Gurmukhi",
+            "iso_15924": "Guru",
+            "noto_fontname": "Noto Sans Gurmukhi",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "comment": "AAAAA",
+            "time_start": 1550,
+            "time_end": null
+        },
+        {
+            "name": "Khojki",
+            "iso_15924": "Khoj",
+            "noto_fontname": "Noto Sans Khojki",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "comment": "AAAAB"
+        },
+        {
+            "name": "Khudabadi",
+            "iso_15924": "Sind",
+            "noto_fontname": "Noto Sans Khudawadi",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "comment": "AAAAC",
+            "time_start": 1550,
+            "time_end": null
+        },
+        {
+            "name": "Mahajani",
+            "iso_15924": "Mahj",
+            "noto_fontname": "Noto Sans Mahajani",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "comment": "AAAAD"
+        },
+        {
+            "name": "Multani",
+            "iso_15924": "Mult",
+            "noto_fontname": "Noto Sans Multani",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "comment": "AAAAE"
+        },
+        {
+            "name": "Takri",
+            "iso_15924": "Takr",
+            "noto_fontname": "Noto Sans Takri",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "comment": "AAAB"
+        },
+        {
+            "name": "Dogri",
+            "iso_15924": "Dogr",
+            "noto_fontname": "Noto Serif Dogra",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "comment": "AAABA"
+        },
+        {
+            "name": "Sirmauri",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "comment": "AAABB"
+        },
+        {
+            "name": "Siddham",
+            "iso_15924": "Sidd",
+            "noto_fontname": "Noto Sans Siddham",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "alternate_names": ["Siddhaṃ", "Siddhamātṛkā", "Siddhamatraka", "Bonji", "Xitan", "Xītán wénzi"],
+            "comment": "AAB"
+        },
+        {
+            "name": "Nagari",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "comment": "AABA"
+        },
+        {
+            "name": "Devanagari",
+            "iso_15924": "Deva",
+            "noto_fontname": "Noto Sans Devanagari",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "comment": "AABAA",
+            "time_start": 900,
+            "time_end": null
+        },
+        {
+            "name": "Modi",
+            "iso_15924": "Modi",
+            "noto_fontname": "Noto Sans Modi",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "comment": "AABAB"
+        },
+        {
+            "name": "Gujarati",
+            "iso_15924": "Gujr",
+            "noto_fontname": "Noto Sans Gujarati",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "comment": "AABAC",
+            "time_start": 1592,
+            "time_end": null
+        },
+        {
+            "name": "Nandinagari",
+            "iso_15924": "Nand",
+            "noto_fontname": "Nandinagari Uni",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "comment": "AABAD"
+        },
+        {
+            "name": "Kaithi",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "comment": "AABAE"
+        },
+        {
+            "name": "Sylheti Nagari",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "comment": "AABAEA"
+        },
+        {
+            "name": "Gaudi",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "comment": "AABB"
+        },
+        {
+            "name": "Eastern Nagari",
             "iso_15924": "Beng",
             "noto_fontname": "Noto Sans Bengali",
             "types": ["Abugida"],
             "direction": "LtR",
-            "comment": "Eastern Nagari",
+            "comment": "AABBA, Bengali-Assamese",
             "time_start": 1100,
             "time_end": null
+        },
+        {
+            "name": "Odia",
+            "iso_15924": "Orya",
+            "noto_fontname": "Noto Sans Oriya UI",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "comment": "AABBB"
+        },
+        {
+            "name": "Tirhuta",
+            "iso_15924": "Tirh",
+            "noto_fontname": "Noto Sans Tirhuta",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "comment": "AABBC"
+        },
+        {
+            "name": "Nepal Script",
+            "adjective": "Nepali",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "comment": "AABC"
+        },
+        {
+            "name": "Pracalit",
+            "iso_15924": "Newa",
+            "noto_fontname": "Noto Sans Newa",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "comment": "AABCA"
         },
         {
             "name": "Bhaiksuki",
             "iso_15924": "Bhks",
             "noto_fontname": "Noto Sans Bhaiksuki",
+            "types": ["Abugida"],
+            "direction": "LtR"
+        },
+        {
+            "name": "Kawi"
+        },
+        {
+            "name": "Ahom",
+            "iso_15924": "Ahom",
+            "noto_fontname": "Noto Serif Ahom",
             "types": ["Abugida"],
             "direction": "LtR"
         },
@@ -169,15 +356,6 @@
             "direction": "LtR"
         },
         {
-            "name": "Devanagari",
-            "iso_15924": "Deva",
-            "noto_fontname": "Noto Sans Devanagari",
-            "types": ["Abugida"],
-            "direction": "LtR",
-            "time_start": 900,
-            "time_end": null
-        },
-        {
             "name": "Dhives Akuru",
             "iso_15924": "Diak",
             "noto_fontname": "Noto Serif Dives Akuru",
@@ -185,37 +363,12 @@
             "direction": "LtR"
         },
         {
-            "name": "Dogri",
-            "iso_15924": "Dogr",
-            "noto_fontname": "Noto Serif Dogra",
-            "types": ["Abugida"],
-            "direction": "LtR"
-        },
-        {
-            "name": "Gujarati",
-            "iso_15924": "Gujr",
-            "noto_fontname": "Noto Sans Gujarati",
+            "name": "Grantha",
+            "iso_15924": "Gran",
+            "noto_fontname": "Noto Sans Grantha",
             "types": ["Abugida"],
             "direction": "LtR",
-            "time_start": 1592,
-            "time_end": null
-        },
-        {
-            "name": "Gurmukhi",
-            "iso_15924": "Guru",
-            "noto_fontname": "Noto Sans Gurmukhi",
-            "types": ["Abugida"],
-            "direction": "LtR",
-            "time_start": 1550,
-            "time_end": null
-        },
-        {
-            "name": "Javanese",
-            "iso_15924": "Java",
-            "noto_fontname": "Noto Sans Javanese",
-            "types": ["Abugida"],
-            "direction": "LtR",
-            "time_start": 1450,
+            "time_start": 650,
             "time_end": null
         },
         {
@@ -275,37 +428,9 @@
             "time_end": null
         },
         {
-            "name": "Makasar",
-            "iso_15924": "Maka",
-            "noto_fontname": "Noto Serif Makasar",
-            "types": ["Abugida"],
-            "direction": "LtR"
-        },
-        {
             "name": "Meitei",
             "iso_15924": "Mtei",
             "noto_fontname": "Noto Sans Meetei Mayek",
-            "types": ["Abugida"],
-            "direction": "LtR"
-        },
-        {
-            "name": "Modi",
-            "iso_15924": "Modi",
-            "noto_fontname": "Noto Sans Modi",
-            "types": ["Abugida"],
-            "direction": "LtR"
-        },
-        {
-            "name": "Odia",
-            "iso_15924": "Orya",
-            "noto_fontname": "Noto Sans Oriya UI",
-            "types": ["Abugida"],
-            "direction": "LtR"
-        },
-        {
-            "name": "Pracalit",
-            "iso_15924": "Newa",
-            "noto_fontname": "Noto Sans Newa",
             "types": ["Abugida"],
             "direction": "LtR"
         },
@@ -317,24 +442,9 @@
             "direction": "LtR"
         },
         {
-            "name": "Siddham",
-            "iso_15924": "Sidd",
-            "noto_fontname": "Noto Sans Siddham",
-            "types": ["Abugida"],
-            "direction": "LtR",
-            "alternate_names": ["Siddhaṃ", "Siddhamātṛkā", "Siddhamatraka", "Bonji", "Xitan", "Xītán wénzi"]
-        },
-        {
             "name": "Sinhala",
             "iso_15924": "Sinh",
             "noto_fontname": "Noto Sans Sinhala",
-            "types": ["Abugida"],
-            "direction": "LtR"
-        },
-        {
-            "name": "Sundanese",
-            "iso_15924": "Sund",
-            "noto_fontname": "Noto Sans Sundanese",
             "types": ["Abugida"],
             "direction": "LtR"
         },
@@ -353,23 +463,9 @@
             "direction": "LtR"
         },
         {
-            "name": "Takri",
-            "iso_15924": "Takr",
-            "noto_fontname": "Noto Sans Takri",
-            "types": ["Abugida"],
-            "direction": "LtR"
-        },
-        {
             "name": "Tamil",
             "iso_15924": "Taml",
             "noto_fontname": "Noto Sans Tamil",
-            "types": ["Abugida"],
-            "direction": "LtR"
-        },
-        {
-            "name": "Tirhuta",
-            "iso_15924": "Tirh",
-            "noto_fontname": "Noto Sans Tirhuta",
             "types": ["Abugida"],
             "direction": "LtR"
         },
@@ -400,6 +496,146 @@
             "noto_fontname": "Noto Sans Tibetan",
             "types": ["Abugida"],
             "direction": "LtR"
+        }
+    ],
+    "Maritime Brahmic": [
+        {
+            "name": "Balinese",
+            "iso_15924": "Bali",
+            "noto_fontname": "Noto Sans Balinese",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "time_start": 1000,
+            "time_end": null
+        },
+        {
+            "name": "Batak",
+            "iso_15924": "Batk",
+            "noto_fontname": "Noto Sans Batak",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "time_start": 1300,
+            "time_end": null
+        },
+        {
+            "name": "Buda",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "time_start": 1350,
+            "time_end": 1750
+        },
+        {
+            "name": "Javanese",
+            "iso_15924": "Java",
+            "noto_fontname": "Noto Sans Javanese",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "time_start": 1450,
+            "time_end": null
+        },
+        {
+            "name": "Old Sundanese",
+            "noto_fontname": "Noto Sans Sundanese",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "time_start": 1350,
+            "time_end": 1750
+        },
+        {
+            "name": "Sundanese",
+            "iso_15924": "Sund",
+            "noto_fontname": "Noto Sans Sundanese",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "time_start": 1996,
+            "time_end": null
+        },
+        {
+            "name": "Lampung",
+            "types": ["Abugida"],
+            "direction": "LtR"
+        },
+        {
+            "name": "Lontara",
+            "iso_15924": "Bugi",
+            "noto_fontname": "Noto Sans Buginese",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "time_start": 1550,
+            "time_end": null
+        },
+        {
+            "name": "Makasar",
+            "iso_15924": "Maka",
+            "noto_fontname": "Noto Serif Makasar",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "time_start": 1650,
+            "time_end": 1850
+        },
+        {
+            "name": "Rencong",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "time_start": 1450,
+            "time_end": 1750
+        },
+        {
+            "name": "Rejang",
+            "iso_15924": "Rjng",
+            "noto_fontname": "Noto Sans Rejang",
+            "types": ["Abugida"],
+            "direction": "LtR"
+        },
+        {
+            "name": "Baybayin",
+            "iso_15924": "Tglg",
+            "noto_fontname": "Noto Sans Tagalog",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "time_start": 1250,
+            "time_end": 1800
+        },
+        {
+            "name": "Buhid",
+            "iso_15924": "Buhd",
+            "noto_fontname": "Noto Sans Buhid",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "time_start": 1300,
+            "time_end": null
+        },
+        {
+            "name": "Hanunó'o",
+            "iso_15924": "Hano",
+            "noto_fontname": "Noto Sans Hanunoo",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "time_start": 1300,
+            "time_end": null
+        },
+        {
+            "name": "Tagbanwa",
+            "iso_15924": "Tagb",
+            "noto_fontname": "Noto Sans Tagbanwa",
+            "types": ["Abugida"],
+            "direction": "LtR",
+            "time_start": 1300,
+            "time_end": null
+        },
+        {
+            "name": "Kapampángan",
+            "types": ["Abugida"],
+            "direction": "TtB",
+            "time_start": 1600,
+            "time_end": 1900
+        },
+        {
+            "name": "Kulitan",
+            "types": ["Abugida"],
+            "direction": "TtB",
+            "time_start": 1900,
+            "time_end": null
         }
     ],
     "Cherokee": [
@@ -526,6 +762,16 @@
             "direction": "LtR",
             "time_start": -700,
             "time_end": -200
+        }
+    ],
+    "Ho": [
+        {
+            "name": "Warang Citi",
+            "iso_15924": "Wara",
+            "noto_fontname": "Noto Sans Warang Citi",
+            "direction": "LtR",
+            "time_start": 1950,
+            "time_end": null
         }
     ],
     "Ancient Egyptian": [
@@ -730,6 +976,21 @@
             "time_end": null
         }
     ],
+    "Early Semitic": [
+        {
+            "name": "Proto-Sinaitic",
+            "iso_15924": "Psin",
+            "types": ["Abjad"],
+            "alternate_names": ["Proto-Canaanite"]
+        },
+        {
+            "name": "Ugaritic",
+            "iso_15924": "Ugar",
+            "noto_fontname": "Noto Sans Ugaritic",
+            "types": ["Abjad"],
+            "direction": "LtR"
+        }
+    ],
     "North Semitic": [
         {
             "name": "Phoenician",
@@ -850,21 +1111,6 @@
             "noto_fontname": "Noto Sans Syriac Eastern, Noto Sans Syriac Western",
             "types": ["Abjad"],
             "direction": "RtL"
-        },
-        {
-            "name": "Ugaritic",
-            "iso_15924": "Ugar",
-            "noto_fontname": "Noto Sans Ugaritic",
-            "types": ["Abjad"],
-            "direction": "LtR"
-        }
-    ],
-    "Sinaitic": [
-        {
-            "name": "Proto-Sinaitic",
-            "iso_15924": "Psin",
-            "types": ["Abjad"],
-            "alternate_names": ["Proto-Canaanite"]
         }
     ],
     "South Semitic": [

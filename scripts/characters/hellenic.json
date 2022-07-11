@@ -1,5 +1,6 @@
 {
-    "Alpha": {
+    "alpha": {
+        "numeral_value": 1,
         "characters": [
             {
                 "script": "Greek",
@@ -35,7 +36,8 @@
             }
         ]
     },
-    "Beta": {
+    "beta": {
+        "numeral_value": 2,
         "characters": [
             {
                 "script": "Greek",
@@ -56,10 +58,17 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐌱"}
                 ]
+            },
+            {
+                "script": "Lycian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐊂"}
+                ]
             }
         ]
     },
-    "Gamma": {
+    "gamma": {
+        "numeral_value": 3,
         "characters": [
             {
                 "script": "Greek",
@@ -80,10 +89,17 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐌲"}
                 ]
+            },
+            {
+                "script": "Lycian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐊄"}
+                ]
             }
         ]
     },
-    "Delta": {
+    "delta": {
+        "numeral_value": 4,
         "characters": [
             {
                 "script": "Greek",
@@ -104,10 +120,17 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐌳"}
                 ]
+            },
+            {
+                "script": "Lycian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐊅"}
+                ]
             }
         ]
     },
-    "Epsilon": {
+    "epsilon": {
+        "numeral_value": 5,
         "characters": [
             {
                 "script": "Greek",
@@ -128,10 +151,17 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐌴"}
                 ]
+            },
+            {
+                "script": "Lycian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐊆"}
+                ]
             }
         ]
     },
-    "Digamma": {
+    "digamma": {
+        "numeral_value": 6,
         "characters": [
             {
                 "script": "Greek",
@@ -153,10 +183,17 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐌵"}
                 ]
+            },
+            {
+                "script": "Lycian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐊇"}
+                ]
             }
         ]
     },
-    "Zeta": {
+    "zeta": {
+        "numeral_value": 7,
         "characters": [
             {
                 "script": "Greek",
@@ -177,10 +214,17 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐌶"}
                 ]
+            },
+            {
+                "script": "Lycian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐊈"}
+                ]
             }
         ]
     },
-    "Heta": {
+    "heta": {
+        "numeral_value": 8,
         "characters": [
             {
                 "script": "Greek",
@@ -202,10 +246,17 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐌷"}
                 ]
+            },
+            {
+                "script": "Lycian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐊛"}
+                ]
             }
         ]
     },
-    "Theta": {
+    "theta": {
+        "numeral_value": 9,
         "characters": [
             {
                 "script": "Greek",
@@ -226,10 +277,17 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐌸"}
                 ]
+            },
+            {
+                "script": "Lycian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐊉"}
+                ]
             }
         ]
     },
-    "Iota": {
+    "iota": {
+        "numeral_value": 10,
         "characters": [
             {
                 "script": "Greek",
@@ -250,10 +308,17 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐌹"}
                 ]
+            },
+            {
+                "script": "Lycian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐊊"}
+                ]
             }
         ]
     },
-    "Kappa": {
+    "kappa": {
+        "numeral_value": 20,
         "characters": [
             {
                 "script": "Greek",
@@ -274,10 +339,17 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐌺"}
                 ]
+            },
+            {
+                "script": "Lycian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐊋"}
+                ]
             }
         ]
     },
-    "Lambda": {
+    "lambda": {
+        "numeral_value": 30,
         "characters": [
             {
                 "script": "Greek",
@@ -298,10 +370,23 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐌻"}
                 ]
+            },
+            {
+                "script": "Lycian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐊍"}
+                ]
+            },
+            {
+                "script": "Lydian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐤩"}
+                ]
             }
         ]
     },
-    "Mu": {
+    "mu": {
+        "numeral_value": 40,
         "characters": [
             {
                 "script": "Greek",
@@ -322,10 +407,17 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐌼"}
                 ]
+            },
+            {
+                "script": "Lycian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐊎"}
+                ]
             }
         ]
     },
-    "Nu": {
+    "nu": {
+        "numeral_value": 50,
         "characters": [
             {
                 "script": "Greek",
@@ -346,10 +438,17 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐌽"}
                 ]
+            },
+            {
+                "script": "Lycian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐊏"}
+                ]
             }
         ]
     },
-    "Xi": {
+    "xi": {
+        "numeral_value": 60,
         "characters": [
             {
                 "script": "Greek",
@@ -373,7 +472,8 @@
             }
         ]
     },
-    "Omicron": {
+    "omicron": {
+        "numeral_value": 70,
         "characters": [
             {
                 "script": "Greek",
@@ -394,10 +494,17 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐌿"}
                 ]
+            },
+            {
+                "script": "Lycian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐊒"}
+                ]
             }
         ]
     },
-    "Pi": {
+    "pi": {
+        "numeral_value": 80,
         "characters": [
             {
                 "script": "Greek",
@@ -418,10 +525,28 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐍀"}
                 ]
+            },
+            {
+                "script": "Lycian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐊓"}
+                ]
             }
         ]
     },
-    "Koppa": {
+    "san": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Ϻ"},
+                    {"form_type":"Minuscule", "unicode": "ϻ"}
+                ]
+            }
+        ]
+    },
+    "koppa": {
+        "numeral_value": 90,
         "characters": [
             {
                 "script": "Greek",
@@ -443,10 +568,17 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐍁"}
                 ]
+            },
+            {
+                "script": "Lycian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐊔"}
+                ]
             }
         ]
     },
-    "Rho": {
+    "rho": {
+        "numeral_value": 100,
         "characters": [
             {
                 "script": "Greek",
@@ -467,10 +599,17 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐍂"}
                 ]
+            },
+            {
+                "script": "Lycian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐊕"}
+                ]
             }
         ]
     },
-    "Sigma": {
+    "sigma": {
+        "numeral_value": 200,
         "characters": [
             {
                 "script": "Greek",
@@ -494,10 +633,17 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "𐍃"}
                 ]
+            },
+            {
+                "script": "Lycian",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐊖"}
+                ]
             }
         ]
     },
-    "Tau": {
+    "tau": {
+        "numeral_value": 300,
         "characters": [
             {
                 "script": "Greek",
@@ -521,7 +667,8 @@
             }
         ]
     },
-    "Upsilon": {
+    "upsilon": {
+        "numeral_value": 400,
         "characters": [
             {
                 "script": "Greek",
@@ -545,7 +692,8 @@
             }
         ]
     },
-    "Phi": {
+    "phi": {
+        "numeral_value": 500,
         "characters": [
             {
                 "script": "Greek",
@@ -569,7 +717,18 @@
             }
         ]
     },
-    "Chi": {
+    "ksi": {
+        "characters": [
+            {
+                "script": "Greek",
+                "forms": [
+                    {"form_type":"Majuscule", "unicode": "Χ"}
+                ]
+            }
+        ]
+    },
+    "chi": {
+        "numeral_value": 600,
         "characters": [
             {
                 "script": "Greek",
@@ -593,7 +752,8 @@
             }
         ]
     },
-    "Psi": {
+    "psi": {
+        "numeral_value": 700,
         "characters": [
             {
                 "script": "Greek",
@@ -617,7 +777,8 @@
             }
         ]
     },
-    "Omega": {
+    "omega": {
+        "numeral_value": 800,
         "characters": [
             {
                 "script": "Greek",
@@ -641,7 +802,8 @@
             }
         ]
     },
-    "Sampi": {
+    "sampi": {
+        "numeral_value": 900,
         "characters": [
             {
                 "script": "Greek",

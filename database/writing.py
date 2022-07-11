@@ -268,6 +268,19 @@ class CharacterForm(MergeBase):
         secondaryjoin = "CharacterDescentMapping.parent_id == CharacterForm.id",
     )
     
+    def print_children(self, level=0):
+        try:
+            glyph = self.unicode.glyph
+        except AttributeError:
+            glyph = None
+        if glyph:
+            character_rep = f"{glyph} ({self.character.script.name} {self.character.grapheme.name})"
+        else:
+            character_rep = f"({self.character.script.name} {self.character.grapheme.name})"
+        print('  '*level,character_rep)
+        for child in self.children:
+            child.print_children(level+1)
+    
 
 class CharacterFormType(MergeBase):
     __tablename__ = 'character_form_types'
@@ -377,7 +390,7 @@ class CharacterDescentMapping(MergeBase):
                             CharacterFormType.name == child_character_type,
                         ).one()
                 except NoResultFound:
-                    logging.error(f"Found no result for parent glyph <{child_grapheme}:{child_script}:{child_character_type}>. Skipping descent row.")
+                    logging.error(f"Found no result for child glyph <{child_grapheme}:{child_script}:{child_character_type}>. Skipping descent row.")
                     continue
                 cls_obj = cls(
                     parent_id = parent.id,

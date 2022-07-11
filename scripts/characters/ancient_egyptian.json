@@ -979,17 +979,13 @@
             {
                 "script": "Hieratic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓀲"},
-                    {"form_type":"Variant A", "unicode": "𓀳"},
-                    {"form_type":"Variant B", "unicode": "𓀴"}
+                    {"form_type":"Normal", "unicode": "𓀲"}
                 ]
             },
             {
                 "script": "Demotic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓀲"},
-                    {"form_type":"Variant A", "unicode": "𓀳"},
-                    {"form_type":"Variant B", "unicode": "𓀴"}
+                    {"form_type":"Normal", "unicode": "𓀲"}
                 ]
             }
         ]
@@ -1008,17 +1004,13 @@
             {
                 "script": "Hieratic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓀵"},
-                    {"form_type":"Variant A", "unicode": "𓀶"},
-                    {"form_type":"Variant B", "unicode": "𓀷"}
+                    {"form_type":"Normal", "unicode": "𓀵"}
                 ]
             },
             {
                 "script": "Demotic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓀵"},
-                    {"form_type":"Variant A", "unicode": "𓀶"},
-                    {"form_type":"Variant B", "unicode": "𓀷"}
+                    {"form_type":"Normal", "unicode": "𓀵"}
                 ]
             }
         ]
@@ -1823,19 +1815,13 @@
             {
                 "script": "Hieratic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓁛"},
-                    {"form_type":"Variant A", "unicode": "𓁜"},
-                    {"form_type":"Variant A Reversed", "unicode": "𓁝"},
-                    {"form_type":"Reversed", "unicode": "𓁞"}
+                    {"form_type":"Normal", "unicode": "𓁛"}
                 ]
             },
             {
                 "script": "Demotic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓁛"},
-                    {"form_type":"Variant A", "unicode": "𓁜"},
-                    {"form_type":"Variant A Reversed", "unicode": "𓁝"},
-                    {"form_type":"Reversed", "unicode": "𓁞"}
+                    {"form_type":"Normal", "unicode": "𓁛"}
                 ]
             }
         ]
@@ -2014,15 +2000,13 @@
             {
                 "script": "Hieratic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓁦"},
-                    {"form_type":"Variant A", "unicode": "𓁧"}
+                    {"form_type":"Normal", "unicode": "𓁦"}
                 ]
             },
             {
                 "script": "Demotic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓁦"},
-                    {"form_type":"Variant A", "unicode": "𓁧"}
+                    {"form_type":"Normal", "unicode": "𓁦"}
                 ]
             }
         ]
@@ -5805,19 +5789,13 @@
             {
                 "script": "Hieratic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓄲"},
-                    {"form_type":"Reversed", "unicode": "𓄴"},
-                    {"form_type":"Variant A", "unicode": "𓄶"},
-                    {"form_type":"Variant A Reversed", "unicode": "𓄷"}
+                    {"form_type":"Normal", "unicode": "𓄲"}
                 ]
             },
             {
                 "script": "Demotic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓄲"},
-                    {"form_type":"Reversed", "unicode": "𓄴"},
-                    {"form_type":"Variant A", "unicode": "𓄶"},
-                    {"form_type":"Variant A Reversed", "unicode": "𓄷"}
+                    {"form_type":"Normal", "unicode": "𓄲"}
                 ]
             }
         ]
@@ -6357,7 +6335,8 @@
             {
                 "script": "Egyptian hieroglyphs",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓅖"}
+                    {"form_type":"Normal", "unicode": "𓅖"},
+                    {"form_type":"Variant A", "unicode": "𓅗"}
                 ]
             },
             {
@@ -6932,7 +6911,8 @@
             {
                 "script": "Egyptian hieroglyphs",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓅴"}
+                    {"form_type":"Normal", "unicode": "𓅴"},
+                    {"form_type":"Variant A", "unicode": "𓅵"}
                 ]
             },
             {
@@ -7008,35 +6988,13 @@
             {
                 "script": "Hieratic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓅸"},
-                    {"form_type":"Variant A", "unicode": "𓅹"}
+                    {"form_type":"Normal", "unicode": "𓅸"}
                 ]
             },
             {
                 "script": "Demotic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓅸"},
-                    {"form_type":"Variant A", "unicode": "𓅹"}
-                ]
-            }
-        ]
-    },
-    "G49": {
-        "description": "three ducklings in pool",
-        "characters": [
-            {
-                "script": "Egyptian hieroglyphs",
-                "forms": [
-                ]
-            },
-            {
-                "script": "Hieratic",
-                "forms": [
-                ]
-            },
-            {
-                "script": "Demotic",
-                "forms": [
+                    {"form_type":"Normal", "unicode": "𓅸"}
                 ]
             }
         ]
@@ -7560,7 +7518,8 @@
             {
                 "script": "Egyptian hieroglyphs",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓆓"}
+                    {"form_type":"Normal", "unicode": "𓆓"},
+                    {"form_type":"Variant A", "unicode": "𓆔"}
                 ]
             },
             {
@@ -7583,7 +7542,8 @@
             {
                 "script": "Egyptian hieroglyphs",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓆕"}
+                    {"form_type":"Normal", "unicode": "𓆕"},
+                    {"form_type":"Variant A", "unicode": "𓆖"}
                 ]
             },
             {
@@ -7997,19 +7957,22 @@
             {
                 "script": "Egyptian hieroglyphs",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓆩"}
+                    {"form_type":"Normal", "unicode": "𓆩"},
+                    {"form_type":"Reversed", "unicode": "𓆪"}
                 ]
             },
             {
                 "script": "Hieratic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓆩"}
+                    {"form_type":"Normal", "unicode": "𓆩"},
+                    {"form_type":"Reversed", "unicode": "𓆪"}
                 ]
             },
             {
                 "script": "Demotic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓆩"}
+                    {"form_type":"Normal", "unicode": "𓆩"},
+                    {"form_type":"Reversed", "unicode": "𓆪"}
                 ]
             }
         ]
@@ -9107,7 +9070,8 @@
             {
                 "script": "Egyptian hieroglyphs",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓇰"}
+                    {"form_type":"Normal", "unicode": "𓇰"},
+                    {"form_type":"Variant A", "unicode": "𓇱"}
                 ]
             },
             {
@@ -9120,29 +9084,6 @@
                 "script": "Demotic",
                 "forms": [
                     {"form_type":"Normal", "unicode": "𓇰"}
-                ]
-            }
-        ]
-    },
-    "N3": {
-        "description": "sky with sceptre",
-        "characters": [
-            {
-                "script": "Egyptian hieroglyphs",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𓇱"}
-                ]
-            },
-            {
-                "script": "Hieratic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𓇱"}
-                ]
-            },
-            {
-                "script": "Demotic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𓇱"}
                 ]
             }
         ]
@@ -9475,7 +9416,8 @@
             {
                 "script": "Egyptian hieroglyphs",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓈀"}
+                    {"form_type":"Normal", "unicode": "𓈀"},
+                    {"form_type":"Variant A", "unicode": "𓈁"}
                 ]
             },
             {
@@ -9843,7 +9785,8 @@
             {
                 "script": "Egyptian hieroglyphs",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓈔"}
+                    {"form_type":"Normal", "unicode": "𓈔"},
+                    {"form_type":"Variant A", "unicode": "𓈕"}
                 ]
             },
             {
@@ -9866,7 +9809,8 @@
             {
                 "script": "Egyptian hieroglyphs",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓈖"}
+                    {"form_type":"Normal", "unicode": "𓈖"},
+                    {"form_type":"Variant A", "unicode": "𓈗"}
                 ]
             },
             {
@@ -11223,7 +11167,9 @@
             {
                 "script": "Egyptian hieroglyphs",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓉡"}
+                    {"form_type":"Normal", "unicode": "𓉡"},
+                    {"form_type":"Variant A", "unicode": "𓉢"},
+                    {"form_type":"Variant B", "unicode": "𓉣"}
                 ]
             },
             {
@@ -14627,7 +14573,8 @@
             {
                 "script": "Egyptian hieroglyphs",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓌙"}
+                    {"form_type":"Normal", "unicode": "𓌙"},
+                    {"form_type":"Variant A", "unicode": "𓌚"}
                 ]
             },
             {
@@ -14640,29 +14587,6 @@
                 "script": "Demotic",
                 "forms": [
                     {"form_type":"Normal", "unicode": "𓌙"}
-                ]
-            }
-        ]
-    },
-    "T15": {
-        "description": "throw stick slanted",
-        "characters": [
-            {
-                "script": "Egyptian hieroglyphs",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𓌚"}
-                ]
-            },
-            {
-                "script": "Hieratic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𓌚"}
-                ]
-            },
-            {
-                "script": "Demotic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𓌚"}
                 ]
             }
         ]
@@ -16712,7 +16636,8 @@
             {
                 "script": "Egyptian hieroglyphs",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓎛"}
+                    {"form_type":"Normal", "unicode": "𓎛"},
+                    {"form_type":"Variant A", "unicode": "𓎜"}
                 ]
             },
             {
@@ -16735,7 +16660,8 @@
             {
                 "script": "Egyptian hieroglyphs",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𓎝"}
+                    {"form_type":"Normal", "unicode": "𓎝"},
+                    {"form_type":"Variant A", "unicode": "𓎞"}
                 ]
             },
             {

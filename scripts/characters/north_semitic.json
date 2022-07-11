@@ -1,5 +1,8 @@
 {
-    "Aleph": {
+    "aleph": {
+        "transliteration": {"Phonecian Transliteration": "ʾ"},
+        "ordering": {"North Semitic order": 1},
+        "numeral_value": 1,
         "characters": [
             {
                 "script": "Phoenician",
@@ -80,16 +83,13 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "ܐ"}
                 ]
-            },
-            {
-                "script": "Ugaritic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐎀"}
-                ]
             }
         ]
     },
-    "Bet": {
+    "bet": {
+        "transliteration": {"Phonecian Transliteration": "b"},
+        "ordering": {"North Semitic order": 2},
+        "numeral_value": 2,
         "characters": [
             {
                 "script": "Phoenician",
@@ -170,16 +170,13 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "ܒ"}
                 ]
-            },
-            {
-                "script": "Ugaritic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐎁"}
-                ]
             }
         ]
     },
-    "Gimel": {
+    "gimel": {
+        "transliteration": {"Phonecian Transliteration": "g"},
+        "ordering": {"North Semitic order": 3},
+        "numeral_value": 3,
         "characters": [
             {
                 "script": "Phoenician",
@@ -258,16 +255,13 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "ܓ"}
                 ]
-            },
-            {
-                "script": "Ugaritic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐎂"}
-                ]
             }
         ]
     },
-    "Dalet": {
+    "dalet": {
+        "transliteration": {"Phonecian Transliteration": "d"},
+        "ordering": {"North Semitic order": 4},
+        "numeral_value": 4,
         "characters": [
             {
                 "script": "Phoenician",
@@ -334,16 +328,13 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "ܕ"}
                 ]
-            },
-            {
-                "script": "Ugaritic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐎄"}
-                ]
             }
         ]
     },
-    "He": {
+    "he": {
+        "transliteration": {"Phonecian Transliteration": "h"},
+        "ordering": {"North Semitic order": 5},
+        "numeral_value": 5,
         "characters": [
             {
                 "script": "Phoenician",
@@ -424,16 +415,13 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "ܗ"}
                 ]
-            },
-            {
-                "script": "Ugaritic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐎅"}
-                ]
             }
         ]
     },
-    "Waw": {
+    "waw": {
+        "transliteration": {"Phonecian Transliteration": "w"},
+        "ordering": {"North Semitic order": 6},
+        "numeral_value": 6,
         "characters": [
             {
                 "script": "Phoenician",
@@ -512,16 +500,13 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "ܘ"}
                 ]
-            },
-            {
-                "script": "Ugaritic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐎆"}
-                ]
             }
         ]
     },
-    "Zayin": {
+    "zayin": {
+        "transliteration": {"Phonecian Transliteration": "z"},
+        "ordering": {"North Semitic order": 7},
+        "numeral_value": 7,
         "characters": [
             {
                 "script": "Phoenician",
@@ -600,16 +585,13 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "ܙ"}
                 ]
-            },
-            {
-                "script": "Ugaritic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐎇"}
-                ]
             }
         ]
     },
-    "Heth": {
+    "heth": {
+        "transliteration": {"Phonecian Transliteration": "ḥ"},
+        "ordering": {"North Semitic order": 8},
+        "numeral_value": 8,
         "characters": [
             {
                 "script": "Phoenician",
@@ -682,16 +664,13 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "ܚ"}
                 ]
-            },
-            {
-                "script": "Ugaritic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐎈"}
-                ]
             }
         ]
     },
-    "Teth": {
+    "teth": {
+        "transliteration": {"Phonecian Transliteration": "ṭ"},
+        "ordering": {"North Semitic order": 9},
+        "numeral_value": 9,
         "characters": [
             {
                 "script": "Phoenician",
@@ -758,16 +737,13 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "ܛ"}
                 ]
-            },
-            {
-                "script": "Ugaritic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐎉"}
-                ]
             }
         ]
     },
-    "Yodh": {
+    "yodh": {
+        "transliteration": {"Phonecian Transliteration": "j"},
+        "ordering": {"North Semitic order": 10},
+        "numeral_value": 10,
         "characters": [
             {
                 "script": "Phoenician",
@@ -847,16 +823,13 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "ܝ"}
                 ]
-            },
-            {
-                "script": "Ugaritic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐎊"}
-                ]
             }
         ]
     },
-    "Kaph": {
+    "kaph": {
+        "transliteration": {"Phonecian Transliteration": "k"},
+        "ordering": {"North Semitic order": 11},
+        "numeral_value": 20,
         "characters": [
             {
                 "script": "Phoenician",
@@ -937,16 +910,13 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "ܟ"}
                 ]
-            },
-            {
-                "script": "Ugaritic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐎊"}
-                ]
             }
         ]
     },
-    "Lamedh": {
+    "lamedh": {
+        "transliteration": {"Phonecian Transliteration": "l"},
+        "ordering": {"North Semitic order": 12},
+        "numeral_value": 30,
         "characters": [
             {
                 "script": "Phoenician",
@@ -1026,16 +996,13 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "ܠ"}
                 ]
-            },
-            {
-                "script": "Ugaritic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐎍"}
-                ]
             }
         ]
     },
-    "Mem": {
+    "mem": {
+        "transliteration": {"Phonecian Transliteration": "m"},
+        "ordering": {"North Semitic order": 13},
+        "numeral_value": 40,
         "characters": [
             {
                 "script": "Phoenician",
@@ -1116,16 +1083,13 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "ܡ"}
                 ]
-            },
-            {
-                "script": "Ugaritic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐎎"}
-                ]
             }
         ]
     },
-    "Nun": {
+    "nun": {
+        "transliteration": {"Phonecian Transliteration": "n"},
+        "ordering": {"North Semitic order": 14},
+        "numeral_value": 50,
         "characters": [
             {
                 "script": "Phoenician",
@@ -1208,16 +1172,13 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "ܢ"}
                 ]
-            },
-            {
-                "script": "Ugaritic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐎐"}
-                ]
             }
         ]
     },
-    "Samekh": {
+    "samekh": {
+        "transliteration": {"Phonecian Transliteration": "s"},
+        "ordering": {"North Semitic order": 15},
+        "numeral_value": 60,
         "characters": [
             {
                 "script": "Phoenician",
@@ -1297,16 +1258,13 @@
                     {"form_type":"Normal", "unicode": "ܣ"},
                     {"form_type":"Final", "unicode": "ܤ"}
                 ]
-            },
-            {
-                "script": "Ugaritic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐎒"}
-                ]
             }
         ]
     },
-    "Ayin": {
+    "ayin": {
+        "transliteration": {"Phonecian Transliteration": "ʿ"},
+        "ordering": {"North Semitic order": 16},
+        "numeral_value": 70,
         "characters": [
             {
                 "script": "Phoenician",
@@ -1374,16 +1332,13 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "ܥ"}
                 ]
-            },
-            {
-                "script": "Ugaritic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐎓"}
-                ]
             }
         ]
     },
-    "Pe": {
+    "pe": {
+        "transliteration": {"Phonecian Transliteration": "p"},
+        "ordering": {"North Semitic order": 17},
+        "numeral_value": 80,
         "characters": [
             {
                 "script": "Phoenician",
@@ -1463,16 +1418,13 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "ܦ"}
                 ]
-            },
-            {
-                "script": "Ugaritic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐎔"}
-                ]
             }
         ]
     },
-    "Tsade": {
+    "tsade": {
+        "transliteration": {"Phonecian Transliteration": "ṣ"},
+        "ordering": {"North Semitic order": 18},
+        "numeral_value": 90,
         "characters": [
             {
                 "script": "Phoenician",
@@ -1554,16 +1506,13 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "ܨ"}
                 ]
-            },
-            {
-                "script": "Ugaritic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐎕"}
-                ]
             }
         ]
     },
-    "Qoph": {
+    "qoph": {
+        "transliteration": {"Phonecian Transliteration": "q"},
+        "ordering": {"North Semitic order": 19},
+        "numeral_value": 100,
         "characters": [
             {
                 "script": "Phoenician",
@@ -1618,16 +1567,13 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "ܩ"}
                 ]
-            },
-            {
-                "script": "Ugaritic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐎖"}
-                ]
             }
         ]
     },
-    "Resh": {
+    "resh": {
+        "transliteration": {"Phonecian Transliteration": "r"},
+        "ordering": {"North Semitic order": 20},
+        "numeral_value": 200,
         "characters": [
             {
                 "script": "Phoenician",
@@ -1694,16 +1640,13 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "ܪ"}
                 ]
-            },
-            {
-                "script": "Ugaritic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐎗"}
-                ]
             }
         ]
     },
-    "Shin": {
+    "shin": {
+        "transliteration": {"Phonecian Transliteration": "š"},
+        "ordering": {"North Semitic order": 21},
+        "numeral_value": 300,
         "characters": [
             {
                 "script": "Phoenician",
@@ -1783,16 +1726,13 @@
                 "forms": [
                     {"form_type":"Normal", "unicode": "ܫ"}
                 ]
-            },
-            {
-                "script": "Ugaritic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐎌"}
-                ]
             }
         ]
     },
-    "Taw": {
+    "taw": {
+        "transliteration": {"Phonecian Transliteration": "t"},
+        "ordering": {"North Semitic order": 22},
+        "numeral_value": 400,
         "characters": [
             {
                 "script": "Phoenician",
@@ -1872,12 +1812,6 @@
                 "script": "Syriac",
                 "forms": [
                     {"form_type":"Normal", "unicode": "ܬ"}
-                ]
-            },
-            {
-                "script": "Ugaritic",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐎚"}
                 ]
             }
         ]

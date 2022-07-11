@@ -1,0 +1,532 @@
+{
+    "a": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬀"}
+                ]
+            }
+        ]
+    },
+    "ā": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬁"}
+                ]
+            }
+        ]
+    },
+    "å": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬂"}
+                ]
+            }
+        ]
+    },
+    "å̄": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬃"}
+                ]
+            }
+        ]
+    },
+    "ą": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬄"}
+                ]
+            }
+        ]
+    },
+    "ą̇": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬅"}
+                ]
+            }
+        ]
+    },
+    "ə": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬆"}
+                ]
+            }
+        ]
+    },
+    "ə̄": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬇"}
+                ]
+            }
+        ]
+    },
+    "e": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬈"}
+                ]
+            }
+        ]
+    },
+    "ē": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬉"}
+                ]
+            }
+        ]
+    },
+    "o": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬊"}
+                ]
+            }
+        ]
+    },
+    "ō": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬋"}
+                ]
+            }
+        ]
+    },
+    "i": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬌"}
+                ]
+            }
+        ]
+    },
+    "ī": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬍"}
+                ]
+            }
+        ]
+    },
+    "u": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬎"}
+                ]
+            }
+        ]
+    },
+    "ū": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬏"}
+                ]
+            }
+        ]
+    },
+    "ke": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬐"}
+                ]
+            }
+        ]
+    },
+    "xe": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬑"}
+                ]
+            }
+        ]
+    },
+    "x́e": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬒"}
+                ]
+            }
+        ]
+    },
+    "xᵛe": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬓"}
+                ]
+            }
+        ]
+    },
+    "ge": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬔"}
+                ]
+            }
+        ]
+    },
+    "ġe": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬕"}
+                ]
+            }
+        ]
+    },
+    "γe": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬖"}
+                ]
+            }
+        ]
+    },
+    "ce": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬗"}
+                ]
+            }
+        ]
+    },
+    "je": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬘"}
+                ]
+            }
+        ]
+    },
+    "te": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬙"}
+                ]
+            }
+        ]
+    },
+    "θe": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬚"}
+                ]
+            }
+        ]
+    },
+    "de": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬛"}
+                ]
+            }
+        ]
+    },
+    "ðe": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬜"}
+                ]
+            }
+        ]
+    },
+    "t̰e": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬝"}
+                ]
+            }
+        ]
+    },
+    "pe": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬞"}
+                ]
+            }
+        ]
+    },
+    "fe": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬟"}
+                ]
+            }
+        ]
+    },
+    "be": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬠"}
+                ]
+            }
+        ]
+    },
+    "βe": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬡"}
+                ]
+            }
+        ]
+    },
+    "ŋe": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬢"}
+                ]
+            }
+        ]
+    },
+    "ŋ́e": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬣"}
+                ]
+            }
+        ]
+    },
+    "ŋᵛe": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬤"}
+                ]
+            }
+        ]
+    },
+    "ne": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬥"}
+                ]
+            }
+        ]
+    },
+    "ńe": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬦"}
+                ]
+            }
+        ]
+    },
+    "ṇe": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬧"}
+                ]
+            }
+        ]
+    },
+    "me": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬨"}
+                ]
+            }
+        ]
+    },
+    "m̨e": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬩"}
+                ]
+            }
+        ]
+    },
+    "ye": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬫"}
+                ]
+            }
+        ]
+    },
+    "ẏe": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬪"}
+                ]
+            }
+        ]
+    },
+    "ve": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬬"}
+                ]
+            }
+        ]
+    },
+    "re": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬭"}
+                ]
+            }
+        ]
+    },
+    "se": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬯"}
+                ]
+            }
+        ]
+    },
+    "ze": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬰"}
+                ]
+            }
+        ]
+    },
+    "še": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬱"}
+                ]
+            }
+        ]
+    },
+    "že": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬲"}
+                ]
+            }
+        ]
+    },
+    "š́e": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬳"}
+                ]
+            }
+        ]
+    },
+    "ṣ̌e": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬴"}
+                ]
+            }
+        ]
+    },
+    "he": {
+        "characters": [
+            {
+                "script": "Avestan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐬵"}
+                ]
+            }
+        ]
+    }
+}

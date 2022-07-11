@@ -1,5 +1,5 @@
 {
-    "A": {
+    "a": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -16,7 +16,7 @@
             }
         ]
     },
-    "Be": {
+    "be": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -33,7 +33,7 @@
             }
         ]
     },
-    "Ce": {
+    "ce": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -50,7 +50,7 @@
             }
         ]
     },
-    "Ge": {
+    "ge": {
         "characters": [
             {
                 "script": "Latin",
@@ -61,7 +61,7 @@
             }
         ]
     },
-    "De": {
+    "de": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -78,7 +78,7 @@
             }
         ]
     },
-    "E": {
+    "e": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -95,7 +95,7 @@
             }
         ]
     },
-    "Fe": {
+    "fe": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -112,7 +112,7 @@
             }
         ]
     },
-    "Ze": {
+    "ze": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -129,7 +129,7 @@
             }
         ]
     },
-    "He": {
+    "he": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -146,7 +146,7 @@
             }
         ]
     },
-    "The": {
+    "the": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -156,7 +156,7 @@
             }
         ]
     },
-    "I": {
+    "i": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -173,7 +173,7 @@
             }
         ]
     },
-    "Je": {
+    "je": {
         "characters": [
             {
                 "script": "Latin",
@@ -184,7 +184,7 @@
             }
         ]
     },
-    "Ii": {
+    "ii": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -194,7 +194,7 @@
             }
         ]
     },
-    "Ka": {
+    "ka": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -211,7 +211,7 @@
             }
         ]
     },
-    "El": {
+    "el": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -228,7 +228,7 @@
             }
         ]
     },
-    "Em": {
+    "em": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -245,7 +245,7 @@
             }
         ]
     },
-    "En": {
+    "en": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -262,7 +262,7 @@
             }
         ]
     },
-    "Esh": {
+    "esh": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -272,7 +272,7 @@
             }
         ]
     },
-    "O": {
+    "o": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -289,7 +289,7 @@
             }
         ]
     },
-    "Pe": {
+    "pe": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -306,7 +306,7 @@
             }
         ]
     },
-    "She": {
+    "she": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -316,7 +316,7 @@
             }
         ]
     },
-    "Ku": {
+    "ku": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -333,7 +333,7 @@
             }
         ]
     },
-    "Er": {
+    "er": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -350,7 +350,7 @@
             }
         ]
     },
-    "Es": {
+    "es": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -367,7 +367,7 @@
             }
         ]
     },
-    "Te": {
+    "te": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -384,7 +384,7 @@
             }
         ]
     },
-    "U": {
+    "u": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -401,7 +401,7 @@
             }
         ]
     },
-    "Ve": {
+    "ve": {
         "characters": [
             {
                 "script": "Latin",
@@ -412,7 +412,7 @@
             }
         ]
     },
-    "We": {
+    "we": {
         "characters": [
             {
                 "script": "Latin",
@@ -423,7 +423,7 @@
             }
         ]
     },
-    "Uu": {
+    "uu": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -433,7 +433,7 @@
             }
         ]
     },
-    "Ex": {
+    "ex": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -450,7 +450,7 @@
             }
         ]
     },
-    "Phe": {
+    "phe": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -460,7 +460,7 @@
             }
         ]
     },
-    "Khe": {
+    "khe": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -470,7 +470,7 @@
             }
         ]
     },
-    "Ef": {
+    "ef": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -480,7 +480,7 @@
             }
         ]
     },
-    "Ers": {
+    "ers": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -490,7 +490,7 @@
             }
         ]
     },
-    "Che": {
+    "che": {
         "characters": [
             {
                 "script": "Old Italic",
@@ -510,7 +510,7 @@
             }
         ]
     },
-    "Greek Y": {
+    "Greek y": {
         "characters": [
             {
                 "script": "Latin",

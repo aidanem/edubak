@@ -1,5 +1,6 @@
 {
     "0": {
+        "numeral_value": 0,
         "characters": [
             {
                 "script": "Ahom",
@@ -26,7 +27,7 @@
                 ]
             },
             {
-                "script": "Bengali-Assamese",
+                "script": "Eastern Nagari",
                 "forms": [
                     {"form_type":"Normal", "unicode": "০"}
                 ]
@@ -95,6 +96,12 @@
                 "script": "Khmer",
                 "forms": [
                     {"form_type":"Normal", "unicode": "០"}
+                ]
+            },
+            {
+                "script": "Khudabadi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑋰"}
                 ]
             },
             {
@@ -182,6 +189,12 @@
                 ]
             },
             {
+                "script": "Sharada",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑇐"}
+                ]
+            },
+            {
                 "script": "Sundanese",
                 "forms": [
                     {"form_type":"Normal", "unicode": "᮰"}
@@ -245,6 +258,7 @@
         ]
     },
     "1": {
+        "numeral_value": 1,
         "characters": [
             {
                 "script": "Ahom",
@@ -271,7 +285,7 @@
                 ]
             },
             {
-                "script": "Bengali-Assamese",
+                "script": "Eastern Nagari",
                 "forms": [
                     {"form_type":"Normal", "unicode": "১"}
                 ]
@@ -340,6 +354,12 @@
                 "script": "Khmer",
                 "forms": [
                     {"form_type":"Normal", "unicode": "១"}
+                ]
+            },
+            {
+                "script": "Khudabadi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑋱"}
                 ]
             },
             {
@@ -427,6 +447,12 @@
                 ]
             },
             {
+                "script": "Sharada",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑇑"}
+                ]
+            },
+            {
                 "script": "Sundanese",
                 "forms": [
                     {"form_type":"Normal", "unicode": "᮱"}
@@ -491,6 +517,7 @@
         ]
     },
     "2": {
+        "numeral_value": 2,
         "characters": [
             {
                 "script": "Ahom",
@@ -517,7 +544,7 @@
                 ]
             },
             {
-                "script": "Bengali-Assamese",
+                "script": "Eastern Nagari",
                 "forms": [
                     {"form_type":"Normal", "unicode": "২"}
                 ]
@@ -586,6 +613,12 @@
                 "script": "Khmer",
                 "forms": [
                     {"form_type":"Normal", "unicode": "២"}
+                ]
+            },
+            {
+                "script": "Khudabadi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑋲"}
                 ]
             },
             {
@@ -670,6 +703,12 @@
                 "script": "Saurashtra",
                 "forms": [
                     {"form_type":"Normal", "unicode": "꣒"}
+                ]
+            },
+            {
+                "script": "Sharada",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑇒"}
                 ]
             },
             {

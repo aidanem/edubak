@@ -1,0 +1,1204 @@
+{
+    "a": {
+        "transliteration": {"ISO": "a", "IAST": "a"},
+        "ordering": {"Varnamala": 1},
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀅"}
+                ]
+            },
+            {
+                "script": "Gupta",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀅"}
+                ]
+            },
+            {
+                "script": "Sharada",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑆃"}
+                ]
+            },
+            {
+                "script": "Landa",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Gurmukhi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ਅ"}
+                ]
+            },
+            {
+                "script": "Khojki",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑈀"}
+                ]
+            },
+            {
+                "script": "Khudabadi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑊰"}
+                ]
+            },
+            {
+                "script": "Mahajani",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑅐"}
+                ]
+            },
+            {
+                "script": "Multani",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑊀"}
+                ]
+            },
+            {
+                "script": "Takri",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑚀"}
+                ]
+            },
+            {
+                "script": "Dogri",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑚀"}
+                ]
+            },
+            {
+                "script": "Siddham",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑖀"}
+                ]
+            },
+            {
+                "script": "Devanagari",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "अ"}
+                ]
+            },
+            {
+                "script": "Modi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑘀"}
+                ]
+            },
+            {
+                "script": "Gujarati",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "અ"}
+                ]
+            },
+            {
+                "script": "Nandinagari",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑦠"}
+                ]
+            },
+            {
+                "script": "Eastern Nagari",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "অ"}
+                ]
+            },
+            {
+                "script": "Odia",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ଅ"}
+                ]
+            },
+            {
+                "script": "Tirhuta",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑒁"}
+                ]
+            },
+            {
+                "script": "Pracalit",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑐀"}
+                ]
+            },
+            {
+                "script": "Bhaiksuki",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑰀"}
+                ]
+            },
+            {
+                "script": "Tibetan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ཨ"}
+                ]
+            },
+            {
+                "script": "Meitei",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ꯑ"}
+                ]
+            },
+            {
+                "script": "Lepcha",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ᰣ"}
+                ]
+            },
+            {
+                "script": "Limbu",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ᤀ"}
+                ]
+            },
+            {
+                "script": "Tamil",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "அ"}
+                ]
+            },
+            {
+                "script": "Grantha",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑌅"}
+                ]
+            },
+            {
+                "script": "Malayalam",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "അ"}
+                ]
+            },
+            {
+                "script": "Saurashtra",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ꢂ"}
+                ]
+            },
+            {
+                "script": "Khmer",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "អ"}
+                ]
+            },
+            {
+                "script": "Thai",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "อ"}
+                ]
+            },
+            {
+                "script": "Cham",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ꨀ"}
+                ]
+            },
+            {
+                "script": "Balinese",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ᬅ"}
+                ]
+            },
+            {
+                "script": "Javanese",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ꦄ"}
+                ]
+            },
+            {
+                "script": "Sinhala",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "අ"}
+                ]
+            },
+            {
+                "script": "Kannada",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ಅ"}
+                ]
+            },
+            {
+                "script": "Telugu",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "అ"}
+                ]
+            },
+            {
+                "script": "Burmese",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "အ"}
+                ]
+            }
+        ]
+    },
+    "ā": {
+        "transliteration": {"ISO": "ā", "IAST": "ā"},
+        "ordering": {"Varnamala": 2},
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀆"}
+                ]
+            },
+            {
+                "script": "Gupta",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀅"}
+                ]
+            },
+            {
+                "script": "Sharada",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑆄"}
+                ]
+            },
+            {
+                "script": "Landa",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Gurmukhi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ਆ"}
+                ]
+            },
+            {
+                "script": "Khojki",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑈁"}
+                ]
+            },
+            {
+                "script": "Khudabadi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑊱"}
+                ]
+            },
+            {
+                "script": "Takri",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑚁"}
+                ]
+            },
+            {
+                "script": "Dogri",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑠁"}
+                ]
+            },
+            {
+                "script": "Siddham",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑖁"}
+                ]
+            },
+            {
+                "script": "Devanagari",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "आ"}
+                ]
+            },
+            {
+                "script": "Modi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑘁"}
+                ]
+            },
+            {
+                "script": "Gujarati",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "આ"}
+                ]
+            },
+            {
+                "script": "Nandinagari",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑦡"}
+                ]
+            },
+            {
+                "script": "Sylheti Nagari",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ꠀ"}
+                ]
+            },
+            {
+                "script": "Eastern Nagari",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "আ"}
+                ]
+            },
+            {
+                "script": "Odia",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ଆ"}
+                ]
+            },
+            {
+                "script": "Tirhuta",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑒂"}
+                ]
+            },
+            {
+                "script": "Pracalit",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑐁"}
+                ]
+            },
+            {
+                "script": "Bhaiksuki",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑰁"}
+                ]
+            },
+            {
+                "script": "Tibetan",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ཨཱ"}
+                ]
+            },
+            {
+                "script": "Tamil",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ஆ"}
+                ]
+            },
+            {
+                "script": "Grantha",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑌆"}
+                ]
+            },
+            {
+                "script": "Malayalam",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ആ"}
+                ]
+            },
+            {
+                "script": "Saurashtra",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ꢃ"}
+                ]
+            },
+            {
+                "script": "Balinese",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ᬆ"}
+                ]
+            },
+            {
+                "script": "Sinhala",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ආ"}
+                ]
+            },
+            {
+                "script": "Kannada",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ಆ"}
+                ]
+            },
+            {
+                "script": "Telugu",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ఆ"}
+                ]
+            }
+        ]
+    },
+    "i": {
+        "transliteration": {"ISO": "i", "IAST": "i"},
+        "ordering": {"Varnamala": 3},
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀇"}
+                ]
+            }
+        ]
+    },
+    "ī": {
+        "transliteration": {"IAST": "ī", "IAST": "ī"},
+        "ordering": {"Varnamala": 4},
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀈"}
+                ]
+            }
+        ]
+    },
+    "u": {
+        "transliteration": {"ISO": "u", "IAST": "u"},
+        "ordering": {"Varnamala": 5},
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀉"}
+                ]
+            }
+        ]
+    },
+    "ū": {
+        "transliteration": {"IAST": "ū", "IAST": "ū"},
+        "ordering": {"Varnamala": 6},
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀊"}
+                ]
+            }
+        ]
+    },
+    "e": {
+        "transliteration": {"IAST": "e", "IAST": "e"},
+        "ordering": {"Varnamala": 7},
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀏"}
+                ]
+            }
+        ]
+    },
+    "o": {
+        "transliteration": {"ISO": "o", "IAST": "o"},
+        "ordering": {"Varnamala": 8},
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀑"}
+                ]
+            }
+        ]
+    },
+    "ai": {
+        "transliteration": {"IAST": "ai", "IAST": "ai"},
+        "ordering": {"Varnamala": 9},
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀐"}
+                ]
+            }
+        ]
+    },
+    "au": {
+        "transliteration": {"ISO": "au", "IAST": "au"},
+        "ordering": {"Varnamala": 10},
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀒"}
+                ]
+            }
+        ]
+    },
+    "r̥": {
+        "transliteration": {"ISO": "r̥", "IAST": "ṛ"},
+        "ordering": {"Varnamala": 11},
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀋"}
+                ]
+            }
+        ]
+    },
+    "r̥̄": {
+        "transliteration": {"ISO": "r̥̄", "IAST": "ṝ"},
+        "ordering": {"Varnamala": 12},
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀌"}
+                ]
+            }
+        ]
+    },
+    "l̥": {
+        "transliteration": {"ISO": "l̥", "IAST": "l̩"},
+        "ordering": {"Varnamala": 13},
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀍"}
+                ]
+            }
+        ]
+    },
+    "l̥̄": {
+        "transliteration": {"ISO": "l̥̄", "IAST": "ḹ"},
+        "ordering": {"Varnamala": 14},
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀎"}
+                ]
+            }
+        ]
+    },
+    "ka": {
+        "transliteration": {"ISO": "ka", "IAST": "ka"},
+        "ordering": {"Varnamala": 15},
+        "numeral_value": 1,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀓"}
+                ]
+            }
+        ]
+    },
+    "kha": {
+        "transliteration": {"ISO": "kha", "IAST": "kha"},
+        "ordering": {"Varnamala": 16},
+        "numeral_value": 2,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀔"}
+                ]
+            }
+        ]
+    },
+    "ga": {
+        "transliteration": {"ISO": "ga", "IAST": "ga"},
+        "ordering": {"Varnamala": 17},
+        "numeral_value": 3,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀕"}
+                ]
+            }
+        ]
+    },
+    "gha": {
+        "transliteration": {"ISO": "gha", "IAST": "gha"},
+        "ordering": {"Varnamala": 18},
+        "numeral_value": 4,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀖"}
+                ]
+            }
+        ]
+    },
+    "ṅa": {
+        "transliteration": {"ISO": "ṅa", "IAST": "ṅa"},
+        "ordering": {"Varnamala": 19},
+        "numeral_value": 5,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀗"}
+                ]
+            }
+        ]
+    },
+    "ca": {
+        "transliteration": {"ISO": "ca", "IAST": "ca"},
+        "ordering": {"Varnamala": 20},
+        "numeral_value": 6,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀘"}
+                ]
+            }
+        ]
+    },
+    "cha": {
+        "transliteration": {"ISO": "cha", "IAST": "cha"},
+        "ordering": {"Varnamala": 21},
+        "numeral_value": 7,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀙"}
+                ]
+            }
+        ]
+    },
+    "ja": {
+        "transliteration": {"ISO": "ja", "IAST": "ja"},
+        "ordering": {"Varnamala": 22},
+        "numeral_value": 8,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀚"}
+                ]
+            }
+        ]
+    },
+    "jha": {
+        "transliteration": {"ISO": "jha", "IAST": "jha"},
+        "ordering": {"Varnamala": 23},
+        "numeral_value": 9,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀛"}
+                ]
+            }
+        ]
+    },
+    "ña": {
+        "transliteration": {"ISO": "ña", "IAST": "ña"},
+        "ordering": {"Varnamala": 24},
+        "numeral_value": 10,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀜"}
+                ]
+            }
+        ]
+    },
+    "ṭa": {
+        "transliteration": {"ISO": "ṭa", "IAST": "ṭa"},
+        "ordering": {"Varnamala": 25},
+        "numeral_value": 11,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀝"}
+                ]
+            }
+        ]
+    },
+    "ṭha": {
+        "transliteration": {"ISO": "ṭha", "IAST": "ṭha"},
+        "ordering": {"Varnamala": 26},
+        "numeral_value": 12,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀞"}
+                ]
+            }
+        ]
+    },
+    "ḍa": {
+        "transliteration": {"ISO": "ḍa", "IAST": "ḍa"},
+        "ordering": {"Varnamala": 27},
+        "numeral_value": 13,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀟"}
+                ]
+            }
+        ]
+    },
+    "ḍha": {
+        "transliteration": {"ISO": "ḍha", "IAST": "ḍha"},
+        "ordering": {"Varnamala": 28},
+        "numeral_value": 14,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀠"}
+                ]
+            }
+        ]
+    },
+    "ṇa": {
+        "transliteration": {"ISO": "ṇa", "IAST": "ṇa"},
+        "ordering": {"Varnamala": 29},
+        "numeral_value": 15,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀡"}
+                ]
+            }
+        ]
+    },
+    "ta": {
+        "transliteration": {"ISO": "ta", "IAST": "ta"},
+        "ordering": {"Varnamala": 30},
+        "numeral_value": 16,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀢"}
+                ]
+            }
+        ]
+    },
+    "tha": {
+        "transliteration": {"ISO": "tha", "IAST": "tha"},
+        "ordering": {"Varnamala": 31},
+        "numeral_value": 17,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀣"}
+                ]
+            }
+        ]
+    },
+    "da": {
+        "transliteration": {"ISO": "da", "IAST": "da"},
+        "ordering": {"Varnamala": 32},
+        "numeral_value": 18,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀤"}
+                ]
+            }
+        ]
+    },
+    "dha": {
+        "transliteration": {"ISO": "dha", "IAST": "dha"},
+        "ordering": {"Varnamala": 33},
+        "numeral_value": 19,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀥"}
+                ]
+            }
+        ]
+    },
+    "na": {
+        "transliteration": {"ISO": "na", "IAST": "na"},
+        "ordering": {"Varnamala": 34},
+        "numeral_value": 20,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀦"}
+                ]
+            }
+        ]
+    },
+    "pa": {
+        "transliteration": {"ISO": "pa", "IAST": "pa"},
+        "ordering": {"Varnamala": 35},
+        "numeral_value": 21,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀧"}
+                ]
+            }
+        ]
+    },
+    "pha": {
+        "transliteration": {"ISO": "pha", "IAST": "pha"},
+        "ordering": {"Varnamala": 36},
+        "numeral_value": 22,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀨"}
+                ]
+            }
+        ]
+    },
+    "ba": {
+        "transliteration": {"ISO": "ba", "IAST": "ba"},
+        "ordering": {"Varnamala": 37},
+        "numeral_value": 23,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀩"}
+                ]
+            }
+        ]
+    },
+    "bha": {
+        "transliteration": {"ISO": "bha", "IAST": "bha"},
+        "ordering": {"Varnamala": 38},
+        "numeral_value": 24,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀪"}
+                ]
+            }
+        ]
+    },
+    "ma": {
+        "transliteration": {"ISO": "ma", "IAST": "ma"},
+        "ordering": {"Varnamala": 39},
+        "numeral_value": 25,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀫"}
+                ]
+            }
+        ]
+    },
+    "ya": {
+        "transliteration": {"ISO": "ya", "IAST": "ya"},
+        "ordering": {"Varnamala": 40},
+        "numeral_value": 30,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀬"}
+                ]
+            }
+        ]
+    },
+    "ra": {
+        "transliteration": {"ISO": "ra", "IAST": "ra"},
+        "ordering": {"Varnamala": 41},
+        "numeral_value": 40,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀭"}
+                ]
+            }
+        ]
+    },
+    "la": {
+        "transliteration": {"ISO": "la", "IAST": "la"},
+        "ordering": {"Varnamala": 42},
+        "numeral_value": 50,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀮"}
+                ]
+            }
+        ]
+    },
+    "va": {
+        "transliteration": {"ISO": "va", "IAST": "va"},
+        "ordering": {"Varnamala": 43},
+        "numeral_value": 60,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀯"}
+                ]
+            }
+        ]
+    },
+    "śa": {
+        "transliteration": {"ISO": "śa", "IAST": "śa"},
+        "ordering": {"Varnamala": 44},
+        "numeral_value": 70,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀰"}
+                ]
+            }
+        ]
+    },
+    "ṣa": {
+        "transliteration": {"ISO": "ṣa", "IAST": "ṣa"},
+        "ordering": {"Varnamala": 45},
+        "numeral_value": 80,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀱"}
+                ]
+            }
+        ]
+    },
+    "sa": {
+        "transliteration": {"ISO": "sa", "IAST": "sa"},
+        "ordering": {"Varnamala": 46},
+        "numeral_value": 90,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀲"}
+                ]
+            }
+        ]
+    },
+    "ha": {
+        "transliteration": {"ISO": "ha", "IAST": "ha"},
+        "ordering": {"Varnamala": 47},
+        "numeral_value": 100,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀳"}
+                ]
+            }
+        ]
+    },
+    "ḷa": {
+        "transliteration": {"ISO": "ḷa"},
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀴"}
+                ]
+            }
+        ]
+    },
+    "-ā": {
+        "transliteration": {"ISO": "ā", "IAST": "ā"},
+        "diacritic": 1,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀸"}
+                ]
+            }
+        ]
+    },
+    "-i": {
+        "transliteration": {"ISO": "i", "IAST": "i"},
+        "diacritic": 1,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀺"}
+                ]
+            }
+        ]
+    },
+    "-ī": {
+        "transliteration": {"ISO": "ī", "IAST": "ī"},
+        "diacritic": 1,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀻"}
+                ]
+            }
+        ]
+    },
+    "-u": {
+        "transliteration": {"ISO": "u", "IAST": "u"},
+        "diacritic": 1,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀼"}
+                ]
+            }
+        ]
+    },
+    "-ū": {
+        "transliteration": {"ISO": "ū", "IAST": "ū"},
+        "diacritic": 1,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀽"}
+                ]
+            }
+        ]
+    },
+    "-e": {
+        "transliteration": {"ISO": "e", "IAST": "e"},
+        "diacritic": 1,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑁂"}
+                ]
+            }
+        ]
+    },
+    "-o": {
+        "transliteration": {"ISO": "o", "IAST": "o"},
+        "diacritic": 1,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑁄"}
+                ]
+            }
+        ]
+    },
+    "-ai": {
+        "transliteration": {"ISO": "ai", "IAST": "ai"},
+        "diacritic": 1,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑁃"}
+                ]
+            }
+        ]
+    },
+    "-au": {
+        "transliteration": {"ISO": "au", "IAST": "au"},
+        "diacritic": 1,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑁅"}
+                ]
+            }
+        ]
+    },
+    "-r̥": {
+        "transliteration": {"ISO": "r̥", "IAST": "ṛ"},
+        "diacritic": 1,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀾"}
+                ]
+            }
+        ]
+    },
+    "-r̥̄": {
+        "transliteration": {"ISO": "r̥̄", "IAST": "ṝ"},
+        "diacritic": 1,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀿"}
+                ]
+            }
+        ]
+    },
+    "-l̥": {
+        "transliteration": {"ISO": "l̥", "IAST": "ḷ"},
+        "diacritic": 1,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑁀"}
+                ]
+            }
+        ]
+    },
+    "-l̥̄": {
+        "transliteration": {"ISO": "l̥̄", "IAST": "ḹ"},
+        "diacritic": 1,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑁁"}
+                ]
+            }
+        ]
+    },
+    "candrabindu": {
+        "transliteration": {"ISO": "m̐", "IAST": "˜"},
+        "diacritic": 1,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀀"}
+                ]
+            }
+        ]
+    },
+    "anusvara": {
+        "transliteration": {"ISO": "ṁ", "IAST": "ṃ"},
+        "diacritic": 1,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀁"}
+                ]
+            }
+        ]
+    },
+    "visarga": {
+        "transliteration": {"ISO": "ḥ", "IAST": "ḥ"},
+        "diacritic": 1,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑀂"}
+                ]
+            }
+        ]
+    },
+    "virama": {
+        "transliteration": {"ISO": "", "IAST": ""},
+        "diacritic": 1,
+        "characters": [
+            {
+                "script": "Brahmi",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𑁆"}
+                ]
+            }
+        ]
+    }
+}

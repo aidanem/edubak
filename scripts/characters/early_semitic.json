@@ -1,0 +1,458 @@
+{
+    "alp": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎀"}
+                ]
+            }
+        ]
+    },
+    "bayt": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎁"}
+                ]
+            }
+        ]
+    },
+    "gaml": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎂"}
+                ]
+            }
+        ]
+    },
+    "dag": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎄"}
+                ]
+            }
+        ]
+    },
+    "haw": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎅"}
+                ]
+            }
+        ]
+    },
+    "waw": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎆"}
+                ]
+            }
+        ]
+    },
+    "zayn": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎇"}
+                ]
+            }
+        ]
+    },
+    "hasr": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎃"}
+                ]
+            }
+        ]
+    },
+    "hayt": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎈"}
+                ]
+            }
+        ]
+    },
+    "tab": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎉"}
+                ]
+            }
+        ]
+    },
+    "yad": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎊"}
+                ]
+            }
+        ]
+    },
+    "kap": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎋"}
+                ]
+            }
+        ]
+    },
+    "lamd": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎍"}
+                ]
+            }
+        ]
+    },
+    "maym": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎎"}
+                ]
+            }
+        ]
+    },
+    "diqq": {
+        "characters": [
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎏"}
+                ]
+            }
+        ]
+    },
+    "nahash": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎐"}
+                ]
+            }
+        ]
+    },
+    "zu": {
+        "characters": [
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎑"}
+                ]
+            }
+        ]
+    },
+    "samk": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎒"}
+                ]
+            }
+        ]
+    },
+    "ayn": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎓"}
+                ]
+            }
+        ]
+    },
+    "gabi": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎙"}
+                ]
+            }
+        ]
+    },
+    "pit": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎔"}
+                ]
+            }
+        ]
+    },
+    "saday": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎕"}
+                ]
+            }
+        ]
+    },
+    "qoba": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎖"}
+                ]
+            }
+        ]
+    },
+    "rash": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎗"}
+                ]
+            }
+        ]
+    },
+    "shimsh": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎌"}
+                ]
+            }
+        ]
+    },
+    "shadeh": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎝"}
+                ]
+            }
+        ]
+    },
+    "tann": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎘"}
+                ]
+            }
+        ]
+    },
+    "taw": {
+        "characters": [
+            {
+                "script": "Proto-Sinaitic",
+                "forms": [
+                    {"form_type":"Normal"}
+                ]
+            },
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎚"}
+                ]
+            }
+        ]
+    },
+    "i": {
+        "characters": [
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎛"}
+                ]
+            }
+        ]
+    },
+    "u": {
+        "characters": [
+            {
+                "script": "Ugaritic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "𐎜"}
+                ]
+            }
+        ]
+    }
+}

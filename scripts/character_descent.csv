@@ -1,50 +1,489 @@
 Parent Grapheme,Parent Script,Parent character type,Child Grapheme,Child Script,Child character type,Confidence
-F1,Egyptian hieroglyphs,Normal,Alp,Proto-Sinaitic,Normal,0
-O1,Egyptian hieroglyphs,Normal,Bayt,Proto-Sinaitic,Normal,0
-T14,Egyptian hieroglyphs,Normal,Gaml,Proto-Sinaitic,Normal,0
-O31,Egyptian hieroglyphs,Normal,Dag,Proto-Sinaitic,Normal,0
-K1,Egyptian hieroglyphs,Normal,Dag,Proto-Sinaitic,Normal,0
-K2,Egyptian hieroglyphs,Normal,Dag,Proto-Sinaitic,Normal,0
-A28,Egyptian hieroglyphs,Normal,Haw,Proto-Sinaitic,Normal,0
-G43,Egyptian hieroglyphs,Normal,Waw,Proto-Sinaitic,Normal,0
-Z4,Egyptian hieroglyphs,Normal,Zayn,Proto-Sinaitic,Normal,0
-N34,Egyptian hieroglyphs,Normal,Zayn,Proto-Sinaitic,Normal,0
-O6,Egyptian hieroglyphs,Normal,Hasr,Proto-Sinaitic,Normal,0
-N24,Egyptian hieroglyphs,Normal,Hasr,Proto-Sinaitic,Normal,0
-V28,Egyptian hieroglyphs,Normal,Hasr,Proto-Sinaitic,Normal,0
-V28,Egyptian hieroglyphs,Normal,Hayt,Proto-Sinaitic,Normal,0
-F35,Egyptian hieroglyphs,Normal,Tab,Proto-Sinaitic,Normal,0
-D36,Egyptian hieroglyphs,Normal,Yad,Proto-Sinaitic,Normal,0
-D46,Egyptian hieroglyphs,Normal,Kap,Proto-Sinaitic,Normal,0
-U20,Egyptian hieroglyphs,Normal,Lamd,Proto-Sinaitic,Normal,0
-N35,Egyptian hieroglyphs,Normal,Maym,Proto-Sinaitic,Normal,0
-I10,Egyptian hieroglyphs,Normal,Nahash,Proto-Sinaitic,Normal,0
-R11,Egyptian hieroglyphs,Normal,Samk,Proto-Sinaitic,Normal,0
-D4,Egyptian hieroglyphs,Normal,Ayn,Proto-Sinaitic,Normal,0
-V28,Egyptian hieroglyphs,Normal,Gabi,Proto-Sinaitic,Normal,0
-D21,Egyptian hieroglyphs,Normal,Pit,Proto-Sinaitic,Normal,0
-M22,Egyptian hieroglyphs,Normal,Saday,Proto-Sinaitic,Normal,0
-O34,Egyptian hieroglyphs,Normal,Qoba,Proto-Sinaitic,Normal,0
-D1,Egyptian hieroglyphs,Normal,Rash,Proto-Sinaitic,Normal,0
-D19,Egyptian hieroglyphs,Normal,Rash,Proto-Sinaitic,Normal,0
-N6,Egyptian hieroglyphs,Normal,Shimsh,Proto-Sinaitic,Normal,0
-M39,Egyptian hieroglyphs,Normal,Shadeh,Proto-Sinaitic,Normal,0
-M40,Egyptian hieroglyphs,Normal,Shadeh,Proto-Sinaitic,Normal,0
-M41,Egyptian hieroglyphs,Normal,Shadeh,Proto-Sinaitic,Normal,0
-M39,Egyptian hieroglyphs,Normal,Tann,Proto-Sinaitic,Normal,0
-M40,Egyptian hieroglyphs,Normal,Tann,Proto-Sinaitic,Normal,0
-M41,Egyptian hieroglyphs,Normal,Tann,Proto-Sinaitic,Normal,0
-Z9,Egyptian hieroglyphs,Normal,Taw,Proto-Sinaitic,Normal,0
-Alp,Proto-Sinaitic,Normal,Aleph,Phoenician,Normal,1
-Aleph,Phoenician,Normal,Aleph,Imperial Aramaic,Normal,1
-Aleph,Phoenician,Normal,Aleph,Samaritan,Normal,1
-Aleph,Imperial Aramaic,Normal,Aleph,Aramaic square script,Normal,1
-Aleph,Imperial Aramaic,Normal,Aleph,Nabataean,Normal,1
-Aleph,Imperial Aramaic,Normal,Aleph,Elymaic,Normal,1
-Aleph,Imperial Aramaic,Normal,Aleph,Syriac,Normal,1
-Aleph,Phoenician,Normal,Alpha,Greek,Majuscule,1
-Alpha,Greek,Majuscule,Alpha,Greek,Minuscule,1
-Alpha,Greek,Majuscule,Alpha,Coptic,Majuscule,1
-Alpha,Greek,Majuscule,A,Old Italic,Normal,1
-A,Old Italic,Normal,A,Latin,Majuscule,1
-A,Latin,Majuscule,A,Latin,Minuscule,1
+D4,Egyptian hieroglyphs,Normal,D5,Egyptian hieroglyphs,Normal,1
+D4,Egyptian hieroglyphs,Normal,D6,Egyptian hieroglyphs,Normal,1
+D4,Egyptian hieroglyphs,Normal,D7,Egyptian hieroglyphs,Normal,1
+D4,Egyptian hieroglyphs,Normal,D8,Egyptian hieroglyphs,Normal,1
+D4,Egyptian hieroglyphs,Normal,D9,Egyptian hieroglyphs,Normal,1
+D4,Egyptian hieroglyphs,Normal,D10,Egyptian hieroglyphs,Normal,1
+D21,Egyptian hieroglyphs,Normal,D22,Egyptian hieroglyphs,Normal,1
+D21,Egyptian hieroglyphs,Normal,D23,Egyptian hieroglyphs,Normal,1
+D21,Egyptian hieroglyphs,Normal,G20,Egyptian hieroglyphs,Variant A,1
+D21,Egyptian hieroglyphs,Normal,M6,Egyptian hieroglyphs,Normal,1
+D21,Egyptian hieroglyphs,Normal,M24,Egyptian hieroglyphs,Normal,1
+D36,Egyptian hieroglyphs,Normal,D37,Egyptian hieroglyphs,Normal,1
+D36,Egyptian hieroglyphs,Normal,D38,Egyptian hieroglyphs,Normal,1
+D36,Egyptian hieroglyphs,Normal,D39,Egyptian hieroglyphs,Normal,1
+D36,Egyptian hieroglyphs,Normal,D40,Egyptian hieroglyphs,Normal,1
+D36,Egyptian hieroglyphs,Normal,D59,Egyptian hieroglyphs,Normal,1
+D36,Egyptian hieroglyphs,Normal,G20,Egyptian hieroglyphs,Normal,1
+D36,Egyptian hieroglyphs,Normal,G45,Egyptian hieroglyphs,Normal,1
+D36,Egyptian hieroglyphs,Normal,M27,Egyptian hieroglyphs,Normal,1
+D36,Egyptian hieroglyphs,Normal,O12,Egyptian hieroglyphs,Normal,1
+D36,Egyptian hieroglyphs,Normal,P7,Egyptian hieroglyphs,Normal,1
+D37,Egyptian hieroglyphs,Normal,G19,Egyptian hieroglyphs,Normal,1
+D37,Egyptian hieroglyphs,Normal,G45,Egyptian hieroglyphs,Variant A,1
+G43,Egyptian hieroglyphs,Normal,G44,Egyptian hieroglyphs,Normal,1
+G43,Egyptian hieroglyphs,Normal,G45,Egyptian hieroglyphs,Normal,1
+G43,Egyptian hieroglyphs,Normal,G46,Egyptian hieroglyphs,Normal,1
+G43,Egyptian hieroglyphs,Normal,Z7,Egyptian hieroglyphs,Normal,1
+I10,Egyptian hieroglyphs,Normal,I10,Egyptian hieroglyphs,Variant A,1
+I10,Egyptian hieroglyphs,Normal,I11,Egyptian hieroglyphs,Normal,1
+I10,Egyptian hieroglyphs,Normal,I11,Egyptian hieroglyphs,Variant A,1
+I10,Egyptian hieroglyphs,Normal,M14,Egyptian hieroglyphs,Normal,1
+I10,Egyptian hieroglyphs,Normal,T5,Egyptian hieroglyphs,Normal,1
+I11,Egyptian hieroglyphs,Normal,T6,Egyptian hieroglyphs,Normal,1
+I10,Egyptian hieroglyphs,Normal,V21,Egyptian hieroglyphs,Normal,1
+I12,Egyptian hieroglyphs,Normal,N6,Egyptian hieroglyphs,Normal,1
+M24,Egyptian hieroglyphs,Normal,M25,Egyptian hieroglyphs,Normal,1
+M26,Egyptian hieroglyphs,Normal,M25,Egyptian hieroglyphs,Normal,1
+M26,Egyptian hieroglyphs,Normal,M27,Egyptian hieroglyphs,Normal,1
+N5,Egyptian hieroglyphs,Normal,N6,Egyptian hieroglyphs,Normal,1
+N6,Egyptian hieroglyphs,Normal,C1,Egyptian hieroglyphs,Normal,1
+N6,Egyptian hieroglyphs,Normal,C23,Egyptian hieroglyphs,Normal,1
+N5,Egyptian hieroglyphs,Normal,N7,Egyptian hieroglyphs,Normal,1
+N5,Egyptian hieroglyphs,Normal,N8,Egyptian hieroglyphs,Normal,1
+N5,Egyptian hieroglyphs,Normal,N27,Egyptian hieroglyphs,Normal,1
+N5,Egyptian hieroglyphs,Normal,G9,Egyptian hieroglyphs,Normal,1
+N24,Egyptian hieroglyphs,Normal,R18,Egyptian hieroglyphs,Normal,1
+N34,Egyptian hieroglyphs,Normal,N34,Egyptian hieroglyphs,Variant A,1
+N35,Egyptian hieroglyphs,Normal,N18,Egyptian hieroglyphs,Variant A,1
+O6,Egyptian hieroglyphs,Normal,O7,Egyptian hieroglyphs,Normal,1
+O6,Egyptian hieroglyphs,Normal,O10,Egyptian hieroglyphs,Normal,1
+O6,Egyptian hieroglyphs,Normal,O10,Egyptian hieroglyphs,Variant A,1
+O6,Egyptian hieroglyphs,Normal,O10,Egyptian hieroglyphs,Variant B,1
+O7,Egyptian hieroglyphs,Normal,O8,Egyptian hieroglyphs,Normal,1
+O7,Egyptian hieroglyphs,Normal,O9,Egyptian hieroglyphs,Normal,1
+O34,Egyptian hieroglyphs,Normal,O35,Egyptian hieroglyphs,Normal,1
+T14,Egyptian hieroglyphs,Normal,T14,Egyptian hieroglyphs,Variant A,1
+U1,Egyptian hieroglyphs,Normal,G46,Egyptian hieroglyphs,Normal,1
+V28,Egyptian hieroglyphs,Normal,V28,Egyptian hieroglyphs,Variant A,1
+V28,Egyptian hieroglyphs,Normal,V29,Egyptian hieroglyphs,Normal,1
+V29,Egyptian hieroglyphs,Normal,V29,Egyptian hieroglyphs,Variant A,1
+F1,Egyptian hieroglyphs,Normal,alp,Proto-Sinaitic,Normal,0
+O1,Egyptian hieroglyphs,Normal,bayt,Proto-Sinaitic,Normal,0
+T14,Egyptian hieroglyphs,Normal,gaml,Proto-Sinaitic,Normal,0
+O31,Egyptian hieroglyphs,Normal,dag,Proto-Sinaitic,Normal,0
+K1,Egyptian hieroglyphs,Normal,dag,Proto-Sinaitic,Normal,0
+K2,Egyptian hieroglyphs,Normal,dag,Proto-Sinaitic,Normal,0
+A28,Egyptian hieroglyphs,Normal,haw,Proto-Sinaitic,Normal,0
+G43,Egyptian hieroglyphs,Normal,waw,Proto-Sinaitic,Normal,0
+Z7,Egyptian hieroglyphs,Normal,waw,Proto-Sinaitic,Normal,0
+Z4,Egyptian hieroglyphs,Normal,zayn,Proto-Sinaitic,Normal,0
+N34,Egyptian hieroglyphs,Normal,zayn,Proto-Sinaitic,Normal,0
+O6,Egyptian hieroglyphs,Normal,hasr,Proto-Sinaitic,Normal,0
+N24,Egyptian hieroglyphs,Normal,hasr,Proto-Sinaitic,Normal,0
+V28,Egyptian hieroglyphs,Normal,hasr,Proto-Sinaitic,Normal,0
+V28,Egyptian hieroglyphs,Normal,hayt,Proto-Sinaitic,Normal,0
+F35,Egyptian hieroglyphs,Normal,tab,Proto-Sinaitic,Normal,0
+D36,Egyptian hieroglyphs,Normal,yad,Proto-Sinaitic,Normal,0
+D46,Egyptian hieroglyphs,Normal,kap,Proto-Sinaitic,Normal,0
+U20,Egyptian hieroglyphs,Normal,lamd,Proto-Sinaitic,Normal,0
+N35,Egyptian hieroglyphs,Normal,maym,Proto-Sinaitic,Normal,0
+I10,Egyptian hieroglyphs,Normal,nahash,Proto-Sinaitic,Normal,0
+R11,Egyptian hieroglyphs,Normal,samk,Proto-Sinaitic,Normal,0
+D4,Egyptian hieroglyphs,Normal,ayn,Proto-Sinaitic,Normal,0
+V28,Egyptian hieroglyphs,Normal,gabi,Proto-Sinaitic,Normal,0
+D21,Egyptian hieroglyphs,Normal,pit,Proto-Sinaitic,Normal,0
+M22,Egyptian hieroglyphs,Normal,saday,Proto-Sinaitic,Normal,0
+O34,Egyptian hieroglyphs,Normal,qoba,Proto-Sinaitic,Normal,0
+D1,Egyptian hieroglyphs,Normal,rash,Proto-Sinaitic,Normal,0
+D19,Egyptian hieroglyphs,Normal,rash,Proto-Sinaitic,Normal,0
+N6,Egyptian hieroglyphs,Normal,shimsh,Proto-Sinaitic,Normal,0
+M39,Egyptian hieroglyphs,Normal,shadeh,Proto-Sinaitic,Normal,0
+M40,Egyptian hieroglyphs,Normal,shadeh,Proto-Sinaitic,Normal,0
+M41,Egyptian hieroglyphs,Normal,shadeh,Proto-Sinaitic,Normal,0
+M39,Egyptian hieroglyphs,Normal,tann,Proto-Sinaitic,Normal,0
+M40,Egyptian hieroglyphs,Normal,tann,Proto-Sinaitic,Normal,0
+M41,Egyptian hieroglyphs,Normal,tann,Proto-Sinaitic,Normal,0
+Z9,Egyptian hieroglyphs,Normal,taw,Proto-Sinaitic,Normal,0
+alp,Proto-Sinaitic,Normal,alp,Ugaritic,Normal,1
+bayt,Proto-Sinaitic,Normal,bayt,Ugaritic,Normal,1
+gaml,Proto-Sinaitic,Normal,gaml,Ugaritic,Normal,1
+dag,Proto-Sinaitic,Normal,dag,Ugaritic,Normal,1
+haw,Proto-Sinaitic,Normal,haw,Ugaritic,Normal,1
+waw,Proto-Sinaitic,Normal,waw,Ugaritic,Normal,1
+zayn,Proto-Sinaitic,Normal,zayn,Ugaritic,Normal,1
+hasr,Proto-Sinaitic,Normal,hasr,Ugaritic,Normal,1
+hayt,Proto-Sinaitic,Normal,hayt,Ugaritic,Normal,1
+tab,Proto-Sinaitic,Normal,tab,Ugaritic,Normal,1
+yad,Proto-Sinaitic,Normal,yad,Ugaritic,Normal,1
+kap,Proto-Sinaitic,Normal,kap,Ugaritic,Normal,1
+lamd,Proto-Sinaitic,Normal,lamd,Ugaritic,Normal,1
+maym,Proto-Sinaitic,Normal,maym,Ugaritic,Normal,1
+nahash,Proto-Sinaitic,Normal,nahash,Ugaritic,Normal,1
+samk,Proto-Sinaitic,Normal,samk,Ugaritic,Normal,1
+ayn,Proto-Sinaitic,Normal,ayn,Ugaritic,Normal,1
+gabi,Proto-Sinaitic,Normal,gabi,Ugaritic,Normal,1
+pit,Proto-Sinaitic,Normal,pit,Ugaritic,Normal,1
+saday,Proto-Sinaitic,Normal,saday,Ugaritic,Normal,1
+qoba,Proto-Sinaitic,Normal,qoba,Ugaritic,Normal,1
+rash,Proto-Sinaitic,Normal,rash,Ugaritic,Normal,1
+shimsh,Proto-Sinaitic,Normal,shimsh,Ugaritic,Normal,1
+shadeh,Proto-Sinaitic,Normal,shadeh,Ugaritic,Normal,1
+tann,Proto-Sinaitic,Normal,tann,Ugaritic,Normal,1
+taw,Proto-Sinaitic,Normal,taw,Ugaritic,Normal,1
+alp,Proto-Sinaitic,Normal,aleph,Phoenician,Normal,1
+bayt,Proto-Sinaitic,Normal,bet,Phoenician,Normal,1
+gaml,Proto-Sinaitic,Normal,gimel,Phoenician,Normal,1
+dag,Proto-Sinaitic,Normal,dalet,Phoenician,Normal,1
+haw,Proto-Sinaitic,Normal,he,Phoenician,Normal,1
+waw,Proto-Sinaitic,Normal,waw,Phoenician,Normal,1
+zayn,Proto-Sinaitic,Normal,zayin,Phoenician,Normal,1
+hasr,Proto-Sinaitic,Normal,heth,Phoenician,Normal,1
+hayt,Proto-Sinaitic,Normal,heth,Phoenician,Normal,1
+tab,Proto-Sinaitic,Normal,teth,Phoenician,Normal,1
+yad,Proto-Sinaitic,Normal,yodh,Phoenician,Normal,1
+kap,Proto-Sinaitic,Normal,kaph,Phoenician,Normal,1
+lamd,Proto-Sinaitic,Normal,lamedh,Phoenician,Normal,1
+maym,Proto-Sinaitic,Normal,mem,Phoenician,Normal,1
+nahash,Proto-Sinaitic,Normal,nun,Phoenician,Normal,1
+samk,Proto-Sinaitic,Normal,samekh,Phoenician,Normal,1
+ayn,Proto-Sinaitic,Normal,ayin,Phoenician,Normal,1
+gabi,Proto-Sinaitic,Normal,ayin,Phoenician,Normal,1
+pit,Proto-Sinaitic,Normal,pe,Phoenician,Normal,1
+saday,Proto-Sinaitic,Normal,tsade,Phoenician,Normal,1
+qoba,Proto-Sinaitic,Normal,qoph,Phoenician,Normal,1
+rash,Proto-Sinaitic,Normal,resh,Phoenician,Normal,1
+shimsh,Proto-Sinaitic,Normal,shin,Phoenician,Normal,1
+shadeh,Proto-Sinaitic,Normal,shin,Phoenician,Normal,1
+tann,Proto-Sinaitic,Normal,shin,Phoenician,Normal,1
+taw,Proto-Sinaitic,Normal,taw,Phoenician,Normal,1
+lamd,Proto-Sinaitic,Normal,lamedh,Phoenician,Normal,1
+aleph,Phoenician,Normal,aleph,Imperial Aramaic,Normal,1
+bet,Phoenician,Normal,bet,Imperial Aramaic,Normal,1
+gimel,Phoenician,Normal,gimel,Imperial Aramaic,Normal,1
+dalet,Phoenician,Normal,dalet,Imperial Aramaic,Normal,1
+he,Phoenician,Normal,he,Imperial Aramaic,Normal,1
+waw,Phoenician,Normal,waw,Imperial Aramaic,Normal,1
+zayin,Phoenician,Normal,zayin,Imperial Aramaic,Normal,1
+heth,Phoenician,Normal,heth,Imperial Aramaic,Normal,1
+teth,Phoenician,Normal,teth,Imperial Aramaic,Normal,1
+yodh,Phoenician,Normal,yodh,Imperial Aramaic,Normal,1
+kaph,Phoenician,Normal,kaph,Imperial Aramaic,Normal,1
+lamedh,Phoenician,Normal,lamedh,Imperial Aramaic,Normal,1
+mem,Phoenician,Normal,mem,Imperial Aramaic,Normal,1
+nun,Phoenician,Normal,nun,Imperial Aramaic,Normal,1
+samekh,Phoenician,Normal,samekh,Imperial Aramaic,Normal,1
+ayin,Phoenician,Normal,ayin,Imperial Aramaic,Normal,1
+pe,Phoenician,Normal,pe,Imperial Aramaic,Normal,1
+tsade,Phoenician,Normal,tsade,Imperial Aramaic,Normal,1
+qoph,Phoenician,Normal,qoph,Imperial Aramaic,Normal,1
+resh,Phoenician,Normal,resh,Imperial Aramaic,Normal,1
+shin,Phoenician,Normal,shin,Imperial Aramaic,Normal,1
+taw,Phoenician,Normal,taw,Imperial Aramaic,Normal,1
+lamedh,Phoenician,Normal,lamedh,Imperial Aramaic,Normal,1
+aleph,Phoenician,Normal,aleph,Samaritan,Normal,1
+bet,Phoenician,Normal,bet,Samaritan,Normal,1
+gimel,Phoenician,Normal,gimel,Samaritan,Normal,1
+dalet,Phoenician,Normal,dalet,Samaritan,Normal,1
+he,Phoenician,Normal,he,Samaritan,Normal,1
+waw,Phoenician,Normal,waw,Samaritan,Normal,1
+zayin,Phoenician,Normal,zayin,Samaritan,Normal,1
+heth,Phoenician,Normal,heth,Samaritan,Normal,1
+teth,Phoenician,Normal,teth,Samaritan,Normal,1
+yodh,Phoenician,Normal,yodh,Samaritan,Normal,1
+kaph,Phoenician,Normal,kaph,Samaritan,Normal,1
+lamedh,Phoenician,Normal,lamedh,Samaritan,Normal,1
+mem,Phoenician,Normal,mem,Samaritan,Normal,1
+nun,Phoenician,Normal,nun,Samaritan,Normal,1
+samekh,Phoenician,Normal,samekh,Samaritan,Normal,1
+ayin,Phoenician,Normal,ayin,Samaritan,Normal,1
+pe,Phoenician,Normal,pe,Samaritan,Normal,1
+tsade,Phoenician,Normal,tsade,Samaritan,Normal,1
+qoph,Phoenician,Normal,qoph,Samaritan,Normal,1
+resh,Phoenician,Normal,resh,Samaritan,Normal,1
+shin,Phoenician,Normal,shin,Samaritan,Normal,1
+taw,Phoenician,Normal,taw,Samaritan,Normal,1
+aleph,Imperial Aramaic,Normal,aleph,Aramaic square script,Normal,1
+bet,Imperial Aramaic,Normal,bet,Aramaic square script,Normal,1
+gimel,Imperial Aramaic,Normal,gimel,Aramaic square script,Normal,1
+dalet,Imperial Aramaic,Normal,dalet,Aramaic square script,Normal,1
+he,Imperial Aramaic,Normal,he,Aramaic square script,Normal,1
+waw,Imperial Aramaic,Normal,waw,Aramaic square script,Normal,1
+zayin,Imperial Aramaic,Normal,zayin,Aramaic square script,Normal,1
+heth,Imperial Aramaic,Normal,heth,Aramaic square script,Normal,1
+teth,Imperial Aramaic,Normal,teth,Aramaic square script,Normal,1
+yodh,Imperial Aramaic,Normal,yodh,Aramaic square script,Normal,1
+kaph,Imperial Aramaic,Normal,kaph,Aramaic square script,Normal,1
+lamedh,Imperial Aramaic,Normal,lamedh,Aramaic square script,Normal,1
+mem,Imperial Aramaic,Normal,mem,Aramaic square script,Normal,1
+nun,Imperial Aramaic,Normal,nun,Aramaic square script,Normal,1
+samekh,Imperial Aramaic,Normal,samekh,Aramaic square script,Normal,1
+ayin,Imperial Aramaic,Normal,ayin,Aramaic square script,Normal,1
+pe,Imperial Aramaic,Normal,pe,Aramaic square script,Normal,1
+tsade,Imperial Aramaic,Normal,tsade,Aramaic square script,Normal,1
+qoph,Imperial Aramaic,Normal,qoph,Aramaic square script,Normal,1
+resh,Imperial Aramaic,Normal,resh,Aramaic square script,Normal,1
+shin,Imperial Aramaic,Normal,shin,Aramaic square script,Normal,1
+taw,Imperial Aramaic,Normal,taw,Aramaic square script,Normal,1
+aleph,Imperial Aramaic,Normal,aleph,Elymaic,Normal,1
+bet,Imperial Aramaic,Normal,bet,Elymaic,Normal,1
+gimel,Imperial Aramaic,Normal,gimel,Elymaic,Normal,1
+dalet,Imperial Aramaic,Normal,dalet,Elymaic,Normal,1
+he,Imperial Aramaic,Normal,he,Elymaic,Normal,1
+waw,Imperial Aramaic,Normal,waw,Elymaic,Normal,1
+zayin,Imperial Aramaic,Normal,zayin,Elymaic,Normal,1
+heth,Imperial Aramaic,Normal,heth,Elymaic,Normal,1
+teth,Imperial Aramaic,Normal,teth,Elymaic,Normal,1
+yodh,Imperial Aramaic,Normal,yodh,Elymaic,Normal,1
+kaph,Imperial Aramaic,Normal,kaph,Elymaic,Normal,1
+lamedh,Imperial Aramaic,Normal,lamedh,Elymaic,Normal,1
+mem,Imperial Aramaic,Normal,mem,Elymaic,Normal,1
+nun,Imperial Aramaic,Normal,nun,Elymaic,Normal,1
+samekh,Imperial Aramaic,Normal,samekh,Elymaic,Normal,1
+ayin,Imperial Aramaic,Normal,ayin,Elymaic,Normal,1
+pe,Imperial Aramaic,Normal,pe,Elymaic,Normal,1
+tsade,Imperial Aramaic,Normal,tsade,Elymaic,Normal,1
+qoph,Imperial Aramaic,Normal,qoph,Elymaic,Normal,1
+resh,Imperial Aramaic,Normal,resh,Elymaic,Normal,1
+shin,Imperial Aramaic,Normal,shin,Elymaic,Normal,1
+taw,Imperial Aramaic,Normal,taw,Elymaic,Normal,1
+aleph,Imperial Aramaic,Normal,aleph,Nabataean,Final,1
+aleph,Imperial Aramaic,Normal,aleph,Nabataean,Normal,1
+bet,Imperial Aramaic,Normal,bet,Nabataean,Normal,1
+bet,Imperial Aramaic,Normal,bet,Nabataean,Final,1
+gimel,Imperial Aramaic,Normal,gimel,Nabataean,Normal,1
+dalet,Imperial Aramaic,Normal,dalet,Nabataean,Normal,1
+he,Imperial Aramaic,Normal,he,Nabataean,Normal,1
+he,Imperial Aramaic,Normal,he,Nabataean,Final,1
+waw,Imperial Aramaic,Normal,waw,Nabataean,Normal,1
+zayin,Imperial Aramaic,Normal,zayin,Nabataean,Normal,1
+heth,Imperial Aramaic,Normal,heth,Nabataean,Normal,1
+teth,Imperial Aramaic,Normal,teth,Nabataean,Normal,1
+yodh,Imperial Aramaic,Normal,yodh,Nabataean,Normal,1
+yodh,Imperial Aramaic,Normal,yodh,Nabataean,Final,1
+kaph,Imperial Aramaic,Normal,kaph,Nabataean,Normal,1
+kaph,Imperial Aramaic,Normal,kaph,Nabataean,Final,1
+lamedh,Imperial Aramaic,Normal,lamedh,Nabataean,Normal,1
+lamedh,Imperial Aramaic,Normal,lamedh,Nabataean,Final,1
+mem,Imperial Aramaic,Normal,mem,Nabataean,Normal,1
+mem,Imperial Aramaic,Normal,mem,Nabataean,Final,1
+nun,Imperial Aramaic,Normal,nun,Nabataean,Normal,1
+nun,Imperial Aramaic,Normal,nun,Nabataean,Final,1
+samekh,Imperial Aramaic,Normal,samekh,Nabataean,Normal,1
+ayin,Imperial Aramaic,Normal,ayin,Nabataean,Normal,1
+pe,Imperial Aramaic,Normal,pe,Nabataean,Normal,1
+tsade,Imperial Aramaic,Normal,tsade,Nabataean,Normal,1
+qoph,Imperial Aramaic,Normal,qoph,Nabataean,Normal,1
+resh,Imperial Aramaic,Normal,resh,Nabataean,Normal,1
+shin,Imperial Aramaic,Normal,shin,Nabataean,Normal,1
+shin,Imperial Aramaic,Normal,shin,Nabataean,Final,1
+taw,Imperial Aramaic,Normal,taw,Nabataean,Normal,1
+aleph,Nabataean,Final,aleph,Nabataean,Normal,0
+aleph,Nabataean,Normal,alif,Arabic,Normal,1
+aleph,Nabataean,Normal,hamza,Arabic,Normal,1
+bet,Nabataean,Normal,ba,Arabic,Normal,1
+gimel,Nabataean,Normal,gim,Arabic,Normal,1
+dalet,Nabataean,Normal,dal,Arabic,Normal,1
+he,Nabataean,Normal,ha,Arabic,Normal,1
+waw,Nabataean,Normal,waw,Arabic,Normal,1
+zayin,Nabataean,Normal,zay,Arabic,Normal,1
+heth,Nabataean,Normal,ḥa,Arabic,Normal,1
+teth,Nabataean,Normal,ṭa,Arabic,Normal,1
+yodh,Nabataean,Normal,ya,Arabic,Normal,1
+kaph,Nabataean,Normal,kaf,Arabic,Normal,1
+lamedh,Nabataean,Normal,lam,Arabic,Normal,1
+mem,Nabataean,Normal,mim,Arabic,Normal,1
+nun,Nabataean,Normal,nun,Arabic,Normal,1
+samekh,Nabataean,Normal,sin,Arabic,Normal,1
+ayin,Nabataean,Normal,ayn,Arabic,Normal,1
+pe,Nabataean,Normal,fa,Arabic,Normal,1
+tsade,Nabataean,Normal,ṣad,Arabic,Normal,1
+qoph,Nabataean,Normal,qaf,Arabic,Normal,1
+resh,Nabataean,Normal,ra,Arabic,Normal,1
+shin,Nabataean,Normal,sin,Arabic,Normal,1
+shin,Nabataean,Normal,shin,Arabic,Normal,1
+taw,Nabataean,Normal,ta,Arabic,Normal,1
+ta,Arabic,Normal,tha,Arabic,Normal,1
+ḥa,Arabic,Normal,kha,Arabic,Normal,1
+dal,Arabic,Normal,dhal,Arabic,Normal,1
+ṭa,Arabic,Normal,ẓa,Arabic,Normal,1
+ayn,Arabic,Normal,ghayn,Arabic,Normal,1
+sin,Arabic,Normal,shin,Arabic,Normal,1
+aleph,Imperial Aramaic,Normal,aleph,Old Sogdian,Normal,1
+bet,Imperial Aramaic,Normal,bet,Old Sogdian,Normal,1
+lamedh,Imperial Aramaic,Normal,lamedh,Old Sogdian,Normal,1
+aleph,Old Sogdian,Normal,aleph,Sogdian,Normal,1
+bet,Old Sogdian,Normal,bet,Sogdian,Normal,1
+lamedh,Old Sogdian,Normal,lamedh,Sogdian,Normal,1
+aleph,Old Sogdian,Normal,aleph,Manichaean,Normal,1
+bet,Old Sogdian,Normal,bet,Manichaean,Normal,1
+lamedh,Old Sogdian,Normal,lamedh,Manichaean,Normal,1
+aleph,Imperial Aramaic,Normal,aleph,Syriac,Normal,1
+bet,Imperial Aramaic,Normal,bet,Syriac,Normal,1
+lamedh,Imperial Aramaic,Normal,lamedh,Syriac,Normal,1
+aleph,Imperial Aramaic,Normal,aleph,Inscriptional Parthian,Normal,1
+bet,Imperial Aramaic,Normal,bet,Inscriptional Parthian,Normal,1
+lamedh,Imperial Aramaic,Normal,lamedh,Inscriptional Parthian,Normal,1
+aleph,Inscriptional Parthian,Normal,aleph,Inscriptional Pahlavi,Normal,1
+bet,Inscriptional Parthian,Normal,bet,Inscriptional Pahlavi,Normal,1
+lamedh,Inscriptional Parthian,Normal,lamedh,Inscriptional Pahlavi,Normal,1
+aleph,Inscriptional Pahlavi,Normal,aleph,Psalter Pahlavi,Normal,1
+bet,Inscriptional Pahlavi,Normal,bet,Psalter Pahlavi,Normal,1
+lamedh,Inscriptional Pahlavi,Normal,lamedh,Psalter Pahlavi,Normal,1
+aleph,Psalter Pahlavi,Normal,a,Avestan,Normal,1
+a,Avestan,Normal,ā,Avestan,Normal,1
+a,Avestan,Normal,å,Avestan,Normal,1
+å,Avestan,Normal,å̄,Avestan,Normal,1
+ā,Avestan,Normal,å̄,Avestan,Normal,1
+a,Avestan,Normal,ą,Avestan,Normal,1
+a,Avestan,Normal,ą̇,Avestan,Normal,1
+bet,Psalter Pahlavi,Normal,be,Avestan,Normal,1
+aleph,Phoenician,Normal,alpha,Greek,Majuscule,1
+bet,Phoenician,Normal,beta,Greek,Majuscule,1
+gimel,Phoenician,Normal,gamma,Greek,Majuscule,1
+dalet,Phoenician,Normal,delta,Greek,Majuscule,1
+he,Phoenician,Normal,epsilon,Greek,Majuscule,1
+waw,Phoenician,Normal,digamma,Greek,Majuscule,1
+waw,Phoenician,Normal,upsilon,Greek,Majuscule,1
+zayin,Phoenician,Normal,zeta,Greek,Majuscule,1
+heth,Phoenician,Normal,heta,Greek,Majuscule,1
+teth,Phoenician,Normal,theta,Greek,Majuscule,1
+yodh,Phoenician,Normal,iota,Greek,Majuscule,1
+kaph,Phoenician,Normal,kappa,Greek,Majuscule,1
+lamedh,Phoenician,Normal,lambda,Greek,Majuscule,1
+mem,Phoenician,Normal,mu,Greek,Majuscule,1
+nun,Phoenician,Normal,nu,Greek,Majuscule,1
+samekh,Phoenician,Normal,xi,Greek,Majuscule,1
+ayin,Phoenician,Normal,omicron,Greek,Majuscule,1
+pe,Phoenician,Normal,pi,Greek,Majuscule,1
+tsade,Phoenician,Normal,san,Greek,Majuscule,1
+qoph,Phoenician,Normal,koppa,Greek,Majuscule,1
+qoph,Phoenician,Normal,phi,Greek,Majuscule,0
+qoph,Phoenician,Normal,ksi,Greek,Majuscule,0
+resh,Phoenician,Normal,rho,Greek,Majuscule,1
+shin,Phoenician,Normal,sigma,Greek,Majuscule,1
+taw,Phoenician,Normal,tau,Greek,Majuscule,1
+omicron,Greek,Majuscule,omega,Greek,Majuscule,1
+san,Greek,Majuscule,sampi,Greek,Majuscule,0
+alpha,Greek,Majuscule,alpha,Greek,Minuscule,1
+beta,Greek,Majuscule,beta,Greek,Minuscule,1
+epsilon,Greek,Majuscule,epsilon,Greek,Minuscule,1
+lambda,Greek,Majuscule,lambda,Greek,Minuscule,1
+alpha,Greek,Majuscule,alpha,Coptic,Majuscule,1
+beta,Greek,Majuscule,beta,Coptic,Majuscule,1
+lambda,Greek,Majuscule,lambda,Coptic,Majuscule,1
+alpha,Greek,Majuscule,a,Old Italic,Normal,1
+beta,Greek,Majuscule,be,Old Italic,Normal,1
+gamma,Greek,Majuscule,ce,Old Italic,Normal,1
+delta,Greek,Majuscule,de,Old Italic,Normal,1
+epsilon,Greek,Majuscule,e,Old Italic,Normal,1
+digamma,Greek,Majuscule,fe,Old Italic,Normal,1
+zeta,Greek,Majuscule,ze,Old Italic,Normal,1
+heta,Greek,Majuscule,he,Old Italic,Normal,1
+theta,Greek,Majuscule,the,Old Italic,Normal,1
+iota,Greek,Majuscule,i,Old Italic,Normal,1
+heta,Greek,Majuscule,ii,Old Italic,Normal,1
+kappa,Greek,Majuscule,ka,Old Italic,Normal,1
+lambda,Greek,Majuscule,el,Old Italic,Normal,1
+mu,Greek,Majuscule,em,Old Italic,Normal,1
+nu,Greek,Majuscule,en,Old Italic,Normal,1
+xi,Greek,Majuscule,esh,Old Italic,Normal,1
+omicron,Greek,Majuscule,o,Old Italic,Normal,1
+pi,Greek,Majuscule,pe,Old Italic,Normal,1
+san,Greek,Majuscule,she,Old Italic,Normal,1
+koppa,Greek,Majuscule,ku,Old Italic,Normal,1
+rho,Greek,Majuscule,er,Old Italic,Normal,1
+sigma,Greek,Majuscule,es,Old Italic,Normal,1
+tau,Greek,Majuscule,te,Old Italic,Normal,1
+upsilon,Greek,Majuscule,u,Old Italic,Normal,1
+chi,Greek,Majuscule,ex,Old Italic,Normal,1
+ksi,Greek,Majuscule,ex,Old Italic,Normal,0
+phi,Greek,Majuscule,phe,Old Italic,Normal,1
+phi,Greek,Majuscule,ef,Old Italic,Normal,1
+a,Old Italic,Normal,a,Latin,Majuscule,1
+be,Old Italic,Normal,be,Latin,Majuscule,1
+ce,Old Italic,Normal,ce,Latin,Majuscule,1
+de,Old Italic,Normal,de,Latin,Majuscule,1
+e,Old Italic,Normal,e,Latin,Majuscule,1
+fe,Old Italic,Normal,fe,Latin,Majuscule,1
+he,Old Italic,Normal,he,Latin,Majuscule,1
+i,Old Italic,Normal,i,Latin,Majuscule,1
+ka,Old Italic,Normal,ka,Latin,Majuscule,1
+el,Old Italic,Normal,el,Latin,Majuscule,1
+em,Old Italic,Normal,em,Latin,Majuscule,1
+en,Old Italic,Normal,en,Latin,Majuscule,1
+o,Old Italic,Normal,o,Latin,Majuscule,1
+pe,Old Italic,Normal,pe,Latin,Majuscule,1
+ku,Old Italic,Normal,ku,Latin,Majuscule,1
+er,Old Italic,Normal,er,Latin,Majuscule,1
+es,Old Italic,Normal,es,Latin,Majuscule,1
+te,Old Italic,Normal,te,Latin,Majuscule,1
+u,Old Italic,Normal,u,Latin,Majuscule,1
+u,Old Italic,Normal,ve,Latin,Majuscule,1
+u,Old Italic,Normal,we,Latin,Majuscule,1
+ex,Old Italic,Normal,ex,Latin,Majuscule,1
+ze,Old Italic,Normal,ze,Latin,Majuscule,1
+i,Latin,Majuscule,je,Latin,Majuscule,1
+ce,Latin,Majuscule,ge,Latin,Majuscule,1
+a,Latin,Majuscule,a,Latin,Minuscule,1
+be,Latin,Majuscule,be,Latin,Minuscule,1
+el,Latin,Majuscule,el,Latin,Minuscule,1
+upsilon,Greek,Majuscule,Greek y,Latin,Majuscule,1
+alpha,Greek,Majuscule,alpha,Gothic,Normal,1
+beta,Greek,Majuscule,beta,Gothic,Normal,1
+lambda,Greek,Majuscule,lambda,Gothic,Normal,1
+alpha,Greek,Majuscule,alpha,Lycian,Normal,1
+beta,Greek,Majuscule,beta,Lycian,Normal,1
+lambda,Greek,Majuscule,lambda,Lycian,Normal,1
+alpha,Greek,Majuscule,alpha,Lydian,Normal,1
+beta,Greek,Majuscule,beta,Lydian,Normal,1
+lambda,Greek,Majuscule,lambda,Lydian,Normal,1
+epsilon,Greek,Minuscule,ə,Avestan,Normal,1
+aleph,Imperial Aramaic,Normal,a,Brahmi,Normal,0
+ayin,Imperial Aramaic,Normal,e,Brahmi,Normal,0
+kaph,Imperial Aramaic,Normal,ka,Brahmi,Normal,0
+qoph,Imperial Aramaic,Normal,kha,Brahmi,Normal,0
+gimel,Imperial Aramaic,Normal,ga,Brahmi,Normal,0
+heth,Imperial Aramaic,Normal,gha,Brahmi,Normal,0
+tsade,Imperial Aramaic,Normal,ca,Brahmi,Normal,0
+zayin,Imperial Aramaic,Normal,ja,Brahmi,Normal,0
+taw,Imperial Aramaic,Normal,ta,Brahmi,Normal,0
+teth,Imperial Aramaic,Normal,tha,Brahmi,Normal,0
+dalet,Imperial Aramaic,Normal,dha,Brahmi,Normal,0
+nun,Imperial Aramaic,Normal,na,Brahmi,Normal,0
+pe,Imperial Aramaic,Normal,pa,Brahmi,Normal,0
+bet,Imperial Aramaic,Normal,ba,Brahmi,Normal,0
+mem,Imperial Aramaic,Normal,ma,Brahmi,Normal,0
+yodh,Imperial Aramaic,Normal,ya,Brahmi,Normal,0
+resh,Imperial Aramaic,Normal,ra,Brahmi,Normal,0
+lamedh,Imperial Aramaic,Normal,la,Brahmi,Normal,0
+waw,Imperial Aramaic,Normal,va,Brahmi,Normal,0
+shin,Imperial Aramaic,Normal,śa,Brahmi,Normal,0
+samekh,Imperial Aramaic,Normal,ṣa,Brahmi,Normal,0
+tsade,Imperial Aramaic,Normal,sa,Brahmi,Normal,0
+he,Imperial Aramaic,Normal,ha,Brahmi,Normal,0
+a,Brahmi,Normal,ā,Brahmi,Normal,1
+a,Brahmi,Normal,r̥,Brahmi,Normal,0
+i,Brahmi,Normal,ī,Brahmi,Normal,1
+u,Brahmi,Normal,ū,Brahmi,Normal,1
+u,Brahmi,Normal,o,Brahmi,Normal,1
+ū,Brahmi,Normal,au,Brahmi,Normal,1
+o,Brahmi,Normal,au,Brahmi,Normal,1
+r̥,Brahmi,Normal,r̥̄,Brahmi,Normal,1
+l̥,Brahmi,Normal,l̥̄,Brahmi,Normal,1
+e,Brahmi,Normal,i,Brahmi,Normal,0
+e,Brahmi,Normal,ai,Brahmi,Normal,1
+ca,Brahmi,Normal,cha,Brahmi,Normal,1
+ja,Brahmi,Normal,jha,Brahmi,Normal,0
+ṭha,Brahmi,Normal,ṭa,Brahmi,Normal,0
+ḍa,Brahmi,Normal,ḍha,Brahmi,Normal,0
+tha,Brahmi,Normal,ṭha,Brahmi,Normal,0
+dha,Brahmi,Normal,da,Brahmi,Normal,0
+na,Brahmi,Normal,ṅa,Brahmi,Normal,1
+na,Brahmi,Normal,ña,Brahmi,Normal,0
+na,Brahmi,Normal,ṇa,Brahmi,Normal,1
+pa,Brahmi,Normal,pha,Brahmi,Normal,1
+ba,Brahmi,Normal,bha,Brahmi,Normal,1
+la,Brahmi,Normal,ḷa,Brahmi,Normal,0
+la,Brahmi,Normal,l̥,Brahmi,Normal,1
+a,Brahmi,Normal,a,Gupta,Normal,1
+ā,Brahmi,Normal,ā,Gupta,Normal,1
+a,Gupta,Normal,a,Sharada,Normal,1
+ā,Gupta,Normal,ā,Sharada,Normal,1
+a,Sharada,Normal,a,Landa,Normal,1
+ā,Sharada,Normal,ā,Landa,Normal,1
+a,Landa,Normal,a,Gurmukhi,Normal,1
+ā,Landa,Normal,ā,Gurmukhi,Normal,1
+a,Landa,Normal,a,Khojki,Normal,1
+ā,Landa,Normal,ā,Khojki,Normal,1

@@ -1,0 +1,605 @@
+{
+    "alif": {
+        "transliteration": {
+            "ALA-LC": "ā",
+            "DIN 31635": "ā"
+        },
+        "ordering": {
+            "Hijāʾī order": 1,
+            "Maghrebi alfabaʾī order": 1,
+            "Common abjadi order": 1,
+            "Maghrebi abjadi order": 1
+        },
+        "numeral_value": 1,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ا"},
+                    {"form_type":"Isolated", "unicode": "ﺍ"},
+                    {"form_type":"Final", "unicode": "ﺎ"}
+                ]
+            }
+        ]
+    },
+    "hamza": {
+        "transliteration": {
+            "ALA-LC": "ʼ",
+            "DIN 31635": "ʾ"
+        },
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ء"}
+                ]
+            }
+        ]
+    },
+    "ba": {
+        "transliteration": {
+            "ALA-LC": "b",
+            "DIN 31635": "b"
+        },
+        "ordering": {
+            "Hijāʾī order": 2,
+            "Maghrebi alfabaʾī order": 2,
+            "Common abjadi order": 2,
+            "Maghrebi abjadi order": 2
+        },
+        "numeral_value": 2,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ب"},
+                    {"form_type":"Isolated", "unicode": "ﺏ"},
+                    {"form_type":"Initial", "unicode": "ﺑ"},
+                    {"form_type":"Medial", "unicode": "ﺒ"},
+                    {"form_type":"Final", "unicode": "ﺐ"}
+                ]
+            }
+        ]
+    },
+    "ta": {
+        "transliteration": {
+            "ALA-LC": "t",
+            "DIN 31635": "t"
+        },
+        "ordering": {
+            "Hijāʾī order": 3,
+            "Maghrebi alfabaʾī order": 3,
+            "Common abjadi order": 22,
+            "Maghrebi abjadi order": 22
+        },
+        "numeral_value": 400,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ت"},
+                    {"form_type":"Isolated", "unicode": "ﺕ"},
+                    {"form_type":"Initial", "unicode": "ﺗ"},
+                    {"form_type":"Medial", "unicode": "ﺘ"},
+                    {"form_type":"Final", "unicode": "ﺖ"}
+                ]
+            }
+        ]
+    },
+    "tha": {
+        "transliteration": {
+            "ALA-LC": "th",
+            "DIN 31635": "ṯ"
+        },
+        "ordering": {
+            "Hijāʾī order": 4,
+            "Maghrebi alfabaʾī order": 4,
+            "Common abjadi order": 23,
+            "Maghrebi abjadi order": 23
+        },
+        "numeral_value": 500,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ث"},
+                    {"form_type":"Isolated", "unicode": "ﺙ"},
+                    {"form_type":"Initial", "unicode": "ﺛ"},
+                    {"form_type":"Medial", "unicode": "ﺜ"},
+                    {"form_type":"Final", "unicode": "ﺚ"}
+                ]
+            }
+        ]
+    },
+    "gim": {
+        "transliteration": {
+            "ALA-LC": "th",
+            "DIN 31635": "ṯ"
+        },
+        "ordering": {
+            "Hijāʾī order": 5,
+            "Maghrebi alfabaʾī order": 5,
+            "Common abjadi order": 3,
+            "Maghrebi abjadi order": 3
+        },
+        "numeral_value": 3,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ج"},
+                    {"form_type":"Isolated", "unicode": "ﺝ"},
+                    {"form_type":"Initial", "unicode": "ﺟ"},
+                    {"form_type":"Medial", "unicode": "ﺠ"},
+                    {"form_type":"Final", "unicode": "ﺞ"}
+                ]
+            }
+        ]
+    },
+    "ḥa": {
+        "transliteration": {
+            "ALA-LC": "ḥ",
+            "DIN 31635": "ḥ"
+        },
+        "ordering": {
+            "Hijāʾī order": 6,
+            "Maghrebi alfabaʾī order": 6,
+            "Common abjadi order": 8,
+            "Maghrebi abjadi order": 8
+        },
+        "numeral_value": 8,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ح"},
+                    {"form_type":"Isolated", "unicode": "ﺡ"},
+                    {"form_type":"Initial", "unicode": "ﺣ"},
+                    {"form_type":"Medial", "unicode": "ﺤ"},
+                    {"form_type":"Final", "unicode": "ﺢ"}
+                ]
+            }
+        ]
+    },
+    "kha": {
+        "transliteration": {
+            "ALA-LC": "kh",
+            "DIN 31635": "ḫ"
+        },
+        "ordering": {
+            "Hijāʾī order": 7,
+            "Maghrebi alfabaʾī order": 7,
+            "Common abjadi order": 24,
+            "Maghrebi abjadi order": 24
+        },
+        "numeral_value": 600,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "خ"}
+                ]
+            }
+        ]
+    },
+    "dal": {
+        "transliteration": {
+            "ALA-LC": "d",
+            "DIN 31635": "d"
+        },
+        "ordering": {
+            "Hijāʾī order": 8,
+            "Maghrebi alfabaʾī order": 8,
+            "Common abjadi order": 4,
+            "Maghrebi abjadi order": 4
+        },
+        "numeral_value": 4,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "د"}
+                ]
+            }
+        ]
+    },
+    "dhal": {
+        "transliteration": {
+            "ALA-LC": "dh",
+            "DIN 31635": "ḏ"
+        },
+        "ordering": {
+            "Hijāʾī order": 9,
+            "Maghrebi alfabaʾī order": 9,
+            "Common abjadi order": 25,
+            "Maghrebi abjadi order": 25
+        },
+        "numeral_value": 700,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ذ"}
+                ]
+            }
+        ]
+    },
+    "ra": {
+        "transliteration": {
+            "ALA-LC": "r",
+            "DIN 31635": "r"
+        },
+        "ordering": {
+            "Hijāʾī order": 10,
+            "Maghrebi alfabaʾī order": 10,
+            "Common abjadi order": 20,
+            "Maghrebi abjadi order": 20
+        },
+        "numeral_value": 200,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ر"}
+                ]
+            }
+        ]
+    },
+    "zay": {
+        "transliteration": {
+            "ALA-LC": "z",
+            "DIN 31635": "z"
+        },
+        "ordering": {
+            "Hijāʾī order": 11,
+            "Maghrebi alfabaʾī order": 11,
+            "Common abjadi order": 7,
+            "Maghrebi abjadi order": 7
+        },
+        "numeral_value": 7,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ز"}
+                ]
+            }
+        ]
+    },
+    "sin": {
+        "transliteration": {
+            "ALA-LC": "s",
+            "DIN 31635": "s"
+        },
+        "ordering": {
+            "Hijāʾī order": 12,
+            "Maghrebi alfabaʾī order": 24,
+            "Common abjadi order": 15,
+            "Maghrebi abjadi order": 21
+        },
+        "numeral_value": 60,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "س"}
+                ]
+            }
+        ]
+    },
+    "shin": {
+        "transliteration": {
+            "ALA-LC": "sh",
+            "DIN 31635": "š"
+        },
+        "ordering": {
+            "Hijāʾī order": 13,
+            "Maghrebi alfabaʾī order": 25,
+            "Common abjadi order": 21,
+            "Maghrebi abjadi order": 28
+        },
+        "numeral_value": 300,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ش"}
+                ]
+            }
+        ]
+    },
+    "ṣad": {
+        "transliteration": {
+            "ALA-LC": "ṣ",
+            "DIN 31635": "ṣ"
+        },
+        "ordering": {
+            "Hijāʾī order": 14,
+            "Maghrebi alfabaʾī order": 18,
+            "Common abjadi order": 18,
+            "Maghrebi abjadi order": 15
+        },
+        "numeral_value": 90,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ص"}
+                ]
+            }
+        ]
+    },
+    "ṭa": {
+        "transliteration": {
+            "ALA-LC": "ṭ",
+            "DIN 31635": "ṭ"
+        },
+        "ordering": {
+            "Hijāʾī order": 16,
+            "Maghrebi alfabaʾī order": 12,
+            "Common abjadi order": 9,
+            "Maghrebi abjadi order": 9
+        },
+        "numeral_value": 9,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ط"}
+                ]
+            }
+        ]
+    },
+    "ẓa": {
+        "transliteration": {
+            "ALA-LC": "ẓ",
+            "DIN 31635": "ẓ"
+        },
+        "ordering": {
+            "Hijāʾī order": 17,
+            "Maghrebi alfabaʾī order": 13,
+            "Common abjadi order": 27,
+            "Maghrebi abjadi order": 26
+        },
+        "numeral_value": 900,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ظ"}
+                ]
+            }
+        ]
+    },
+    "ayn": {
+        "transliteration": {
+            "ALA-LC": "ʻ",
+            "DIN 31635": "ʿ"
+        },
+        "ordering": {
+            "Hijāʾī order": 18,
+            "Maghrebi alfabaʾī order": 20,
+            "Common abjadi order": 16,
+            "Maghrebi abjadi order": 16
+        },
+        "numeral_value": 70,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ع"}
+                ]
+            }
+        ]
+    },
+    "ghayn": {
+        "transliteration": {
+            "ALA-LC": "gh",
+            "DIN 31635": "ġ"
+        },
+        "ordering": {
+            "Hijāʾī order": 19,
+            "Maghrebi alfabaʾī order": 21,
+            "Common abjadi order": 28,
+            "Maghrebi abjadi order": 27
+        },
+        "numeral_value": 1000,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "غ"}
+                ]
+            }
+        ]
+    },
+    "fa": {
+        "transliteration": {
+            "ALA-LC": "f",
+            "DIN 31635": "f"
+        },
+        "ordering": {
+            "Hijāʾī order": 20,
+            "Maghrebi alfabaʾī order": 22,
+            "Common abjadi order": 17,
+            "Maghrebi abjadi order": 17
+        },
+        "numeral_value": 80,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ف"}
+                ]
+            }
+        ]
+    },
+    "qaf": {
+        "transliteration": {
+            "ALA-LC": "q",
+            "DIN 31635": "q"
+        },
+        "ordering": {
+            "Hijāʾī order": 21,
+            "Maghrebi alfabaʾī order": 23,
+            "Common abjadi order": 19,
+            "Maghrebi abjadi order": 19
+        },
+        "numeral_value": 100,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ق"}
+                ]
+            }
+        ]
+    },
+    "kaf": {
+        "transliteration": {
+            "ALA-LC": "k",
+            "DIN 31635": "k"
+        },
+        "ordering": {
+            "Hijāʾī order": 22,
+            "Maghrebi alfabaʾī order": 14,
+            "Common abjadi order": 11,
+            "Maghrebi abjadi order": 11
+        },
+        "numeral_value": 20,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ك"}
+                ]
+            }
+        ]
+    },
+    "lam": {
+        "transliteration": {
+            "ALA-LC": "l",
+            "DIN 31635": "l"
+        },
+        "ordering": {
+            "Hijāʾī order": 23,
+            "Maghrebi alfabaʾī order": 15,
+            "Common abjadi order": 12,
+            "Maghrebi abjadi order": 12
+        },
+        "numeral_value": 30,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ل"}
+                ]
+            }
+        ]
+    },
+    "mim": {
+        "transliteration": {
+            "ALA-LC": "m",
+            "DIN 31635": "m"
+        },
+        "ordering": {
+            "Hijāʾī order": 24,
+            "Maghrebi alfabaʾī order": 16,
+            "Common abjadi order": 13,
+            "Maghrebi abjadi order": 13
+        },
+        "numeral_value": 40,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "م"}
+                ]
+            }
+        ]
+    },
+    "nun": {
+        "transliteration": {
+            "ALA-LC": "n",
+            "DIN 31635": "n"
+        },
+        "ordering": {
+            "Hijāʾī order": 25,
+            "Maghrebi alfabaʾī order": 17,
+            "Common abjadi order": 14,
+            "Maghrebi abjadi order": 14
+        },
+        "numeral_value": 50,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ن"}
+                ]
+            }
+        ]
+    },
+    "ha": {
+        "transliteration": {
+            "ALA-LC": "h",
+            "DIN 31635": "h"
+        },
+        "ordering": {
+            "Hijāʾī order": 26,
+            "Maghrebi alfabaʾī order": 26,
+            "Common abjadi order": 5,
+            "Maghrebi abjadi order": 5
+        },
+        "numeral_value": 5,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ه"}
+                ]
+            }
+        ]
+    },
+    "waw": {
+        "transliteration": {
+            "ALA-LC": "w",
+            "DIN 31635": "w"
+        },
+        "ordering": {
+            "Hijāʾī order": 27,
+            "Maghrebi alfabaʾī order": 27,
+            "Common abjadi order": 6,
+            "Maghrebi abjadi order": 6
+        },
+        "numeral_value": 6,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "و"}
+                ]
+            }
+        ]
+    },
+    "ya": {
+        "transliteration": {
+            "ALA-LC": "y",
+            "DIN 31635": "y"
+        },
+        "ordering": {
+            "Hijāʾī order": 28,
+            "Maghrebi alfabaʾī order": 28,
+            "Common abjadi order": 10,
+            "Maghrebi abjadi order": 10
+        },
+        "numeral_value": 10,
+        "characters": [
+            {
+                "script": "Arabic",
+                "forms": [
+                    {"form_type":"Normal", "unicode": "ي"}
+                ]
+            }
+        ]
+    }
+}
