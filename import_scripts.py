@@ -18,6 +18,15 @@ script_type_filepath = os.path.join(dirpath,"script_types.csv")
 character_form_type_filepath = os.path.join(dirpath,"character_form_types.csv")
 characters_dir = os.path.join(dirpath, "characters")
 descent_filepath = os.path.join(dirpath,"character_descent.csv")
+descent_headers = [
+    "Parent Grapheme",
+    "Parent Script",
+    "Parent character type",
+    "Child Grapheme",
+    "Child Script",
+    "Child character type",
+    "Confidence",
+]
 
 def load_scripts_from_json(session, filepath):
     with open(filepath, "r") as json_file:
@@ -62,19 +71,30 @@ def load_scripts_from_json(session, filepath):
                     session.add(mapping_obj)
     session.commit()
 
-def load_characters_from_json(session, dir_path, script_family):
+def load_transliteration_schemes_from_json(session, dir_path):
+    pass
+
+def load_characters_from_json(session, dir_path, script_family, descent_filepath):
     filename = f"{script_family.name.lower().replace(' ', '_')}.json"
     filepath = os.path.join(dir_path, filename)
     if os.path.isfile(filepath):
         logging.info(f"Loading graphemes from {filepath}.")
-        with open(filepath, "r") as json_file:
-            graphemes = json.load(json_file)
-            for grapheme_name, grapheme_data in graphemes.items():
-                load_grapheme(session, script_family, grapheme_name, grapheme_data)
+        with open(descent_filepath, "a") as descent_file:
+            descent_writer = csv.writer(descent_file)
+            with open(filepath, "r") as json_file:
+                graphemes = json.load(json_file)
+                for grapheme_name, grapheme_data in graphemes.items():
+                    load_grapheme(
+                        session,
+                        script_family,
+                        grapheme_name,
+                        grapheme_data,
+                        descent_writer
+                    )
     else:
         logging.debug(f"No grapheme file was found at {filepath}.")
 
-def load_grapheme(session, script_family, grapheme_name, grapheme_data):
+def load_grapheme(session, script_family, grapheme_name, grapheme_data, descent_writer):
     grapheme_obj = db_writing.Grapheme(
         script_family_id = script_family.id,
         name = grapheme_name,
@@ -83,9 +103,9 @@ def load_grapheme(session, script_family, grapheme_name, grapheme_data):
     grapheme_obj = db_writing.Grapheme.prompt_merge(grapheme_obj, session)
     session.commit()
     for character_data in grapheme_data.get("characters", []):
-        load_character(session, grapheme_obj, character_data)
+        load_character(session, grapheme_obj, character_data, descent_writer)
     
-def load_character(session, grapheme_obj, character_data):
+def load_character(session, grapheme_obj, character_data, descent_writer):
     script_name = character_data["script"]
     script_query = session.query(
             db_writing.Script,
@@ -107,9 +127,9 @@ def load_character(session, grapheme_obj, character_data):
     session.commit()
     
     for form_data in character_data.get("forms", []):
-        load_character_form(session, character_obj, form_data)
+        load_character_form(session, character_obj, form_data, descent_writer)
         
-def load_character_form(session, character_obj, form_data):
+def load_character_form(session, character_obj, form_data, descent_writer):
     if form_data.get("unicode", None):
         if len(form_data["unicode"]) == 1:
             code_point_index = ord(form_data["unicode"])
@@ -123,11 +143,12 @@ def load_character_form(session, character_obj, form_data):
             
     else:
         code_point_index = None
+    form_type_name = form_data.get("form_type", "Normal")
     try:
         form_type_obj = session.query(
                 db_writing.CharacterFormType
             ).filter(
-                db_writing.CharacterFormType.name == form_data["form_type"],
+                db_writing.CharacterFormType.name == form_type_name,
             ).one()
     except NoResultFound:
         logging.error(f"{form_data['form_type']}")
@@ -138,6 +159,19 @@ def load_character_form(session, character_obj, form_data):
     )
     form_obj = db_writing.CharacterForm.prompt_merge(form_obj, session)
     session.commit()
+    parents = form_data.get("parents")
+    if parents:
+        #import pdb; pdb.set_trace()
+        for parent in parents:
+            descent_writer.writerow([
+            parent['grapheme'],
+            parent['script'],
+            parent.get('form_type', "Normal"),
+            character_obj.grapheme.name,
+            character_obj.script.name,
+            form_type_name,
+            int(parent['confidence']),
+            ])
 
 if __name__ == "__main__":
     import argparse
@@ -182,9 +216,18 @@ if __name__ == "__main__":
             prompt_merge=True,
         )
         
+        with open(descent_filepath, "w") as descent_file:
+            header_writer = csv.writer(descent_file)
+            header_writer.writerow(descent_headers)
+        
         script_families = session.query(db_writing.ScriptFamily).all()
         for script_family in script_families:
-            load_characters_from_json(session, characters_dir, script_family)
+            load_characters_from_json(
+                session,
+                characters_dir,
+                script_family,
+                descent_filepath,
+            )
         
         db_writing.CharacterDescentMapping.load_from_csv(
             session,

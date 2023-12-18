@@ -1,0 +1,548 @@
+{
+    "a": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠠ",
+                        "parents": [
+                            {
+                                "script": "Old Uyghur",
+                                "grapheme": "aleph",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "e": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠡ",
+                        "parents": [
+                            {
+                                "script": "Old Uyghur",
+                                "grapheme": "aleph",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "i": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠢ"
+                    }
+                ]
+            }
+        ]
+    },
+    "o": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠣ",
+                        "parents": [
+                            {
+                                "script": "Old Uyghur",
+                                "grapheme": "waw",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ö": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠥ",
+                        "parents": [
+                            {
+                                "script": "Old Uyghur",
+                                "grapheme": "waw",
+                                "confidence": true
+                            },
+                            {
+                                "script": "Old Uyghur",
+                                "grapheme": "yodh",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "na": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠨ",
+                        "parents": [
+                            {
+                                "script": "Old Uyghur",
+                                "grapheme": "nun",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ang": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠩ",
+                        "parents": [
+                            {
+                                "script": "Mongolian",
+                                "grapheme": "na",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ba": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠪ",
+                        "parents": [
+                            {
+                                "script": "Old Uyghur",
+                                "grapheme": "pe",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "pa": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠫ",
+                        "parents": [
+                            {
+                                "script": "Mongolian",
+                                "grapheme": "ba",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ǩa": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠬ",
+                        "parents": [
+                            {
+                                "script": "Old Uyghur",
+                                "grapheme": "gimel",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ǧa": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠭ",
+                        "parents": [
+                            {
+                                "script": "Mongolian",
+                                "grapheme": "ǩa",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ma": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠮ",
+                        "parents": [
+                            {
+                                "script": "Old Uyghur",
+                                "grapheme": "mem",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "la": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠯ",
+                        "parents": [
+                            {
+                                "script": "Old Uyghur",
+                                "grapheme": "lesh",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "sa": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠰ",
+                        "parents": [
+                            {
+                                "script": "Old Uyghur",
+                                "grapheme": "shin",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ša": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠱ",
+                        "parents": [
+                            {
+                                "script": "Mongolian",
+                                "grapheme": "sa",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ta": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠲ",
+                        "parents": [
+                            {
+                                "script": "Old Uyghur",
+                                "grapheme": "taw",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "da": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠳ",
+                        "parents": [
+                            {
+                                "script": "Old Uyghur",
+                                "grapheme": "lamedh",
+                                "confidence": true
+                            },
+                            {
+                                "script": "Old Uyghur",
+                                "grapheme": "taw",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ča": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠴ",
+                        "parents": [
+                            {
+                                "script": "Old Uyghur",
+                                "grapheme": "tsade",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ǰa": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠵ",
+                        "parents": [
+                            {
+                                "script": "Old Uyghur",
+                                "grapheme": "yodh",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ya": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠶ",
+                        "parents": [
+                            {
+                                "script": "Mongolian",
+                                "grapheme": "ǰa",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ra": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠷ",
+                        "parents": [
+                            {
+                                "script": "Old Uyghur",
+                                "grapheme": "resh",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ē": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠧ"
+                    }
+                ]
+            }
+        ]
+    },
+    "wa": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠸ"
+                    }
+                ]
+            }
+        ]
+    },
+    "fa": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠹ"
+                    }
+                ]
+            }
+        ]
+    },
+    "ka": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠺ"
+                    }
+                ]
+            }
+        ]
+    },
+    "kha": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠻ"
+                    }
+                ]
+            }
+        ]
+    },
+    "ca": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠼ"
+                    }
+                ]
+            }
+        ]
+    },
+    "za": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠽ"
+                    }
+                ]
+            }
+        ]
+    },
+    "ha": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠾ"
+                    }
+                ]
+            }
+        ]
+    },
+    "ža": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᠿ"
+                    }
+                ]
+            }
+        ]
+    },
+    "lha": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᡀ"
+                    }
+                ]
+            }
+        ]
+    },
+    "zha": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᡁ"
+                    }
+                ]
+            }
+        ]
+    },
+    "cha": {
+        "characters": [
+            {
+                "script": "Mongolian",
+                "forms": [
+                    {
+                        "unicode": "ᡂ"
+                    }
+                ]
+            }
+        ]
+    }
+}

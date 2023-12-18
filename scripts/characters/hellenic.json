@@ -5,33 +5,98 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Α"},
-                    {"form_type":"Minuscule", "unicode": "α"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Α",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "aleph",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "α",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "alpha",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲁ"},
-                    {"form_type":"Minuscule", "unicode": "ⲁ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲁ",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "alpha",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲁ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌰"}
+                    {
+                        "unicode": "𐌰",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "alpha",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Lycian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐊀"}
+                    {
+                        "unicode": "𐊀",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "alpha",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Lydian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤠"}
+                    {
+                        "unicode": "𐤠",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "alpha",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -42,27 +107,98 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Β"},
-                    {"form_type":"Minuscule", "unicode": "β"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Β",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "bet",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "β",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "beta",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲃ"},
-                    {"form_type":"Minuscule", "unicode": "ⲃ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲃ",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "beta",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲃ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌱"}
+                    {
+                        "unicode": "𐌱",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "beta",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Lycian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐊂"}
+                    {
+                        "unicode": "𐊂",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "beta",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Lydian",
+                "forms": [
+                    {
+                        "unicode": "𐤡",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "beta",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -73,27 +209,58 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Γ"},
-                    {"form_type":"Minuscule", "unicode": "γ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Γ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "gimel",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "γ"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲅ"},
-                    {"form_type":"Minuscule", "unicode": "ⲅ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲅ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲅ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌲"}
+                    {
+                        "unicode": "𐌲"
+                    }
                 ]
             },
             {
                 "script": "Lycian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐊄"}
+                    {
+                        "unicode": "𐊄"
+                    }
+                ]
+            },
+            {
+                "script": "Lydian",
+                "forms": [
+                    {
+                        "unicode": "𐤢"
+                    }
                 ]
             }
         ]
@@ -104,27 +271,58 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Δ"},
-                    {"form_type":"Minuscule", "unicode": "δ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Δ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "dalet",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "δ"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲇ"},
-                    {"form_type":"Minuscule", "unicode": "ⲇ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲇ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲇ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌳"}
+                    {
+                        "unicode": "𐌳"
+                    }
                 ]
             },
             {
                 "script": "Lycian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐊅"}
+                    {
+                        "unicode": "𐊅"
+                    }
+                ]
+            },
+            {
+                "script": "Lydian",
+                "forms": [
+                    {
+                        "unicode": "𐤣"
+                    }
                 ]
             }
         ]
@@ -135,27 +333,66 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ε"},
-                    {"form_type":"Minuscule", "unicode": "ε"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ε",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "he",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ε",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "epsilon",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲉ"},
-                    {"form_type":"Minuscule", "unicode": "ⲉ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲉ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲉ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌴"}
+                    {
+                        "unicode": "𐌴"
+                    }
                 ]
             },
             {
                 "script": "Lycian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐊆"}
+                    {
+                        "unicode": "𐊆"
+                    }
+                ]
+            },
+            {
+                "script": "Lydian",
+                "forms": [
+                    {
+                        "unicode": "𐤤"
+                    }
                 ]
             }
         ]
@@ -166,28 +403,62 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ϝ"},
-                    {"form_type":"Minuscule", "unicode": "ϝ"},
-                    {"form_type":"Numeral", "unicode": "ϛ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ϝ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "waw",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ϝ"
+                    },
+                    {
+                        "form_type":"Numeral",
+                        "unicode": "ϛ"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲋ"},
-                    {"form_type":"Minuscule", "unicode": "ⲋ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲋ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲋ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌵"}
+                    {
+                        "unicode": "𐌵"
+                    }
                 ]
             },
             {
                 "script": "Lycian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐊇"}
+                    {
+                        "unicode": "𐊇"
+                    }
+                ]
+            },
+            {
+                "script": "Lydian",
+                "forms": [
+                    {
+                        "unicode": "𐤥"
+                    }
                 ]
             }
         ]
@@ -198,27 +469,50 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ζ"},
-                    {"form_type":"Minuscule", "unicode": "ζ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ζ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "zayin",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ζ"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲍ"},
-                    {"form_type":"Minuscule", "unicode": "ⲍ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲍ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲍ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌶"}
+                    {
+                        "unicode": "𐌶"
+                    }
                 ]
             },
             {
                 "script": "Lycian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐊈"}
+                    {
+                        "unicode": "𐊈"
+                    }
                 ]
             }
         ]
@@ -229,28 +523,62 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Η"},
-                    {"form_type":"Minuscule", "unicode": "η"},
-                    {"form_type":"Alternate", "unicode": "Ͱ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Η",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "heth",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "η"
+                    },
+                    {
+                        "form_type":"Alternate",
+                        "unicode": "Ͱ"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲏ"},
-                    {"form_type":"Minuscule", "unicode": "ⲏ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲏ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲏ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌷"}
+                    {
+                        "unicode": "𐌷"
+                    }
                 ]
             },
             {
                 "script": "Lycian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐊛"}
+                    {
+                        "unicode": "𐊛"
+                    }
+                ]
+            },
+            {
+                "script": "Lydian",
+                "forms": [
+                    {
+                        "unicode": "𐤧"
+                    }
                 ]
             }
         ]
@@ -261,27 +589,50 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Θ"},
-                    {"form_type":"Minuscule", "unicode": "θ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Θ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "teth",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "θ"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲑ"},
-                    {"form_type":"Minuscule", "unicode": "ⲑ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲑ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲑ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌸"}
+                    {
+                        "unicode": "𐌸"
+                    }
                 ]
             },
             {
                 "script": "Lycian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐊉"}
+                    {
+                        "unicode": "𐊉"
+                    }
                 ]
             }
         ]
@@ -292,27 +643,58 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ι"},
-                    {"form_type":"Minuscule", "unicode": "ι"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ι",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "yodh",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ι"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲓ"},
-                    {"form_type":"Minuscule", "unicode": "ⲓ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲓ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲓ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌹"}
+                    {
+                        "unicode": "𐌹"
+                    }
                 ]
             },
             {
                 "script": "Lycian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐊊"}
+                    {
+                        "unicode": "𐊊"
+                    }
+                ]
+            },
+            {
+                "script": "Lydian",
+                "forms": [
+                    {
+                        "unicode": "𐤦"
+                    }
                 ]
             }
         ]
@@ -323,27 +705,58 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Κ"},
-                    {"form_type":"Minuscule", "unicode": "κ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Κ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "kaph",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "κ"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲕ"},
-                    {"form_type":"Minuscule", "unicode": "ⲕ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲕ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲕ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌺"}
+                    {
+                        "unicode": "𐌺"
+                    }
                 ]
             },
             {
                 "script": "Lycian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐊋"}
+                    {
+                        "unicode": "𐊋"
+                    }
+                ]
+            },
+            {
+                "script": "Lydian",
+                "forms": [
+                    {
+                        "unicode": "𐤨"
+                    }
                 ]
             }
         ]
@@ -354,33 +767,98 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Λ"},
-                    {"form_type":"Minuscule", "unicode": "λ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Λ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "lamedh",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "λ",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "lambda",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲗ"},
-                    {"form_type":"Minuscule", "unicode": "ⲗ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲗ",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "lambda",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲗ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌻"}
+                    {
+                        "unicode": "𐌻",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "lambda",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Lycian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐊍"}
+                    {
+                        "unicode": "𐊍",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "lambda",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Lydian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤩"}
+                    {
+                        "unicode": "𐤩",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "lambda",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -391,27 +869,58 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Μ"},
-                    {"form_type":"Minuscule", "unicode": "μ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Μ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "mem",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "μ"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲙ"},
-                    {"form_type":"Minuscule", "unicode": "ⲙ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲙ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲙ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌼"}
+                    {
+                        "unicode": "𐌼"
+                    }
                 ]
             },
             {
                 "script": "Lycian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐊎"}
+                    {
+                        "unicode": "𐊎"
+                    }
+                ]
+            },
+            {
+                "script": "Lydian",
+                "forms": [
+                    {
+                        "unicode": "𐤪"
+                    }
                 ]
             }
         ]
@@ -422,27 +931,58 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ν"},
-                    {"form_type":"Minuscule", "unicode": "ν"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ν",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "nun",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ν"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲛ"},
-                    {"form_type":"Minuscule", "unicode": "ⲛ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲛ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲛ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌽"}
+                    {
+                        "unicode": "𐌽"
+                    }
                 ]
             },
             {
                 "script": "Lycian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐊏"}
+                    {
+                        "unicode": "𐊏"
+                    }
+                ]
+            },
+            {
+                "script": "Lydian",
+                "forms": [
+                    {
+                        "unicode": "𐤫"
+                    }
                 ]
             }
         ]
@@ -453,21 +993,42 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ξ"},
-                    {"form_type":"Minuscule", "unicode": "ξ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ξ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "samekh",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ξ"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲝ"},
-                    {"form_type":"Minuscule", "unicode": "ⲝ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲝ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲝ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌾"}
+                    {
+                        "unicode": "𐌾"
+                    }
                 ]
             }
         ]
@@ -478,27 +1039,71 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ο"},
-                    {"form_type":"Minuscule", "unicode": "ο"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ο",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "ayin",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ο"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲟ"},
-                    {"form_type":"Minuscule", "unicode": "ⲟ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲟ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲟ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌿"}
+                    {
+                        "unicode": "𐌿",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "omicron",
+                                "confidence": false
+                            },
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "ur",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Lycian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐊒"}
+                    {
+                        "unicode": "𐊒"
+                    }
+                ]
+            },
+            {
+                "script": "Lydian",
+                "forms": [
+                    {
+                        "unicode": "𐤬"
+                    }
                 ]
             }
         ]
@@ -509,27 +1114,50 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Π"},
-                    {"form_type":"Minuscule", "unicode": "π"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Π",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "pe",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "π"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲡ"},
-                    {"form_type":"Minuscule", "unicode": "ⲡ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲡ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲡ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐍀"}
+                    {
+                        "unicode": "𐍀"
+                    }
                 ]
             },
             {
                 "script": "Lycian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐊓"}
+                    {
+                        "unicode": "𐊓"
+                    }
                 ]
             }
         ]
@@ -539,8 +1167,21 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ϻ"},
-                    {"form_type":"Minuscule", "unicode": "ϻ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ϻ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "tsade",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ϻ"
+                    }
                 ]
             }
         ]
@@ -551,28 +1192,54 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ϙ"},
-                    {"form_type":"Minuscule", "unicode": "ϙ"},
-                    {"form_type":"Numeral", "unicode": "ϟ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ϙ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "qoph",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ϙ"
+                    },
+                    {
+                        "form_type":"Numeral",
+                        "unicode": "ϟ"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ϥ"},
-                    {"form_type":"Minuscule", "unicode": "ϥ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ϥ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ϥ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐍁"}
+                    {
+                        "unicode": "𐍁"
+                    }
                 ]
             },
             {
                 "script": "Lycian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐊔"}
+                    {
+                        "unicode": "𐊔"
+                    }
                 ]
             }
         ]
@@ -583,27 +1250,58 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ρ"},
-                    {"form_type":"Minuscule", "unicode": "ρ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ρ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "resh",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ρ"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲣ"},
-                    {"form_type":"Minuscule", "unicode": "ⲣ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲣ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲣ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐍂"}
+                    {
+                        "unicode": "𐍂"
+                    }
                 ]
             },
             {
                 "script": "Lycian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐊕"}
+                    {
+                        "unicode": "𐊕"
+                    }
+                ]
+            },
+            {
+                "script": "Lydian",
+                "forms": [
+                    {
+                        "unicode": "𐤭"
+                    }
                 ]
             }
         ]
@@ -614,30 +1312,70 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Σ"},
-                    {"form_type":"Minuscule", "unicode": "σ"},
-                    {"form_type":"Minuscule Final", "unicode": "ς"},
-                    {"form_type":"Alternate Majuscule", "unicode": "Ϲ"},
-                    {"form_type":"Alternate Minuscule", "unicode": "ϲ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Σ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "shin",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "σ"
+                    },
+                    {
+                        "form_type":"Minuscule Final",
+                        "unicode": "ς"
+                    },
+                    {
+                        "form_type":"Alternate Majuscule",
+                        "unicode": "Ϲ"
+                    },
+                    {
+                        "form_type":"Alternate Minuscule",
+                        "unicode": "ϲ"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲥ"},
-                    {"form_type":"Minuscule", "unicode": "ⲥ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲥ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲥ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐍃"}
+                    {
+                        "unicode": "𐍃"
+                    }
                 ]
             },
             {
                 "script": "Lycian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐊖"}
+                    {
+                        "unicode": "𐊖"
+                    }
+                ]
+            },
+            {
+                "script": "Lydian",
+                "forms": [
+                    {
+                        "unicode": "𐤮"
+                    }
                 ]
             }
         ]
@@ -648,21 +1386,58 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Τ"},
-                    {"form_type":"Minuscule", "unicode": "τ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Τ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "taw",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "τ"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲧ"},
-                    {"form_type":"Minuscule", "unicode": "ⲧ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲧ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲧ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐍄"}
+                    {
+                        "unicode": "𐍄"
+                    }
+                ]
+            },
+            {
+                "script": "Lycian",
+                "forms": [
+                    {
+                        "unicode": "𐊗"
+                    }
+                ]
+            },
+            {
+                "script": "Lydian",
+                "forms": [
+                    {
+                        "unicode": "𐤯"
+                    }
                 ]
             }
         ]
@@ -673,21 +1448,58 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Υ"},
-                    {"form_type":"Minuscule", "unicode": "υ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Υ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "waw",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "υ"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲩ"},
-                    {"form_type":"Minuscule", "unicode": "ⲩ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲩ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲩ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐍅"}
+                    {
+                        "unicode": "𐍅",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "upsilon",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Lydian",
+                "forms": [
+                    {
+                        "unicode": "𐤰"
+                    }
                 ]
             }
         ]
@@ -698,21 +1510,50 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Φ"},
-                    {"form_type":"Minuscule", "unicode": "φ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Φ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "qoph",
+                                "confidence": false
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "φ"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲫ"},
-                    {"form_type":"Minuscule", "unicode": "ⲫ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲫ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲫ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐍆"}
+                    {
+                        "unicode": "𐍆"
+                    }
+                ]
+            },
+            {
+                "script": "Lydian",
+                "forms": [
+                    {
+                        "unicode": "𐤱"
+                    }
                 ]
             }
         ]
@@ -722,7 +1563,17 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Χ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Χ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "qoph",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -733,21 +1584,35 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Χ"},
-                    {"form_type":"Minuscule", "unicode": "χ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Χ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "χ"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲭ"},
-                    {"form_type":"Minuscule", "unicode": "ⲭ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲭ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲭ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐍇"}
+                    {
+                        "unicode": "𐍇"
+                    }
                 ]
             }
         ]
@@ -758,21 +1623,35 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ψ"},
-                    {"form_type":"Minuscule", "unicode": "ψ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ψ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ψ"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲯ"},
-                    {"form_type":"Minuscule", "unicode": "ⲯ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲯ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲯ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐍈"}
+                    {
+                        "unicode": "𐍈"
+                    }
                 ]
             }
         ]
@@ -783,21 +1662,43 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ω"},
-                    {"form_type":"Minuscule", "unicode": "ω"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ω",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "omicron",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ω"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⲱ"},
-                    {"form_type":"Minuscule", "unicode": "ⲱ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⲱ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⲱ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐍉"}
+                    {
+                        "unicode": "𐍉"
+                    }
                 ]
             }
         ]
@@ -808,22 +1709,55 @@
             {
                 "script": "Greek",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ͳ"},
-                    {"form_type":"Minuscule", "unicode": "ͳ"},
-                    {"form_type":"Numeral", "unicode": "ϡ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ͳ",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "san",
+                                "confidence": false
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ͳ"
+                    },
+                    {
+                        "form_type":"Numeral",
+                        "unicode": "ϡ"
+                    }
                 ]
             },
             {
                 "script": "Coptic",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Ⳁ"},
-                    {"form_type":"Minuscule", "unicode": "ⳁ"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Ⳁ"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "ⳁ"
+                    }
                 ]
             },
             {
                 "script": "Gothic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐍊"}
+                    {
+                        "unicode": "𐍊"
+                    }
+                ]
+            },
+            {
+                "script": "Lydian",
+                "forms": [
+                    {
+                        "unicode": "𐤹"
+                    }
                 ]
             }
         ]

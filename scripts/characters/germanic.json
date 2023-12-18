@@ -1,0 +1,1300 @@
+{
+    "fee": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "name": "*fehu",
+                "name_meaning": "wealth, cattle",
+                "forms": [
+                    {
+                        "unicode": "ᚠ",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "fe",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Younger futhark",
+                "name": "fé",
+                "name_meaning": "wealth",
+                "forms": [
+                    {
+                        "unicode": "ᚠ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "fee",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "name": "feh",
+                "name_meaning": "wealth",
+                "forms": [
+                    {
+                        "unicode": "ᚠ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "fee",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ur": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "name": "*ūruz?",
+                "forms": [
+                    {
+                        "unicode": "ᚢ",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "u",
+                                "confidence": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Younger futhark",
+                "name": "úr",
+                "name_meaning": "",
+                "forms": [
+                    {
+                        "unicode": "ᚢ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "ur",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "name": "ur",
+                "forms": [
+                    {
+                        "unicode": "ᚢ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "ur",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "thorn": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "name": "*þurnuz?",
+                "forms": [
+                    {
+                        "unicode": "ᚦ",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "de",
+                                "confidence": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Younger futhark",
+                "name": "þurs",
+                "forms": [
+                    {
+                        "unicode": "ᚦ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "thorn",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "name": "þorn",
+                "forms": [
+                    {
+                        "unicode": "ᚦ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "thorn",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "os": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "name": "*ōsaz?",
+                "forms": [
+                    {
+                        "unicode": "ᚨ",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "a",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Younger futhark",
+                "name": "óss",
+                "forms": [
+                    {
+                        "unicode": "ᚬ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "os",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Alternate",
+                        "unicode": "ᚭ",
+                        "parents": [
+                            {
+                                "script": "Younger futhark",
+                                "grapheme": "os",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "name": "os",
+                "forms": [
+                    {
+                        "unicode": "ᚩ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "os",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ride": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "name": "*raidō",
+                "forms": [
+                    {
+                        "unicode": "ᚱ",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "er",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Younger futhark",
+                "name": "reið",
+                "forms": [
+                    {
+                        "unicode": "ᚱ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "ride",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "name": "rad",
+                "forms": [
+                    {
+                        "unicode": "ᚱ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "ride",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ken": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "name": "*kizna",
+                "forms": [
+                    {
+                        "unicode": "ᚲ",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "ce",
+                                "confidence": true
+                            },
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "ka",
+                                "confidence": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Younger futhark",
+                "name": "kaun",
+                "forms": [
+                    {
+                        "unicode": "ᚴ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "ken",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "name": "cen",
+                "forms": [
+                    {
+                        "unicode": "ᚳ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "ken",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "gift": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "forms": [
+                    {
+                        "unicode": "ᚷ",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "ex",
+                                "confidence": false
+                            },
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "ken",
+                                "confidence": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "forms": [
+                    {
+                        "unicode": "ᚷ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "gift",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "win": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "forms": [
+                    {
+                        "unicode": "ᚹ",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "pe",
+                                "confidence": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "forms": [
+                    {
+                        "unicode": "ᚹ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "win",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "hail": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "forms": [
+                    {
+                        "unicode": "ᚺ",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "he",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Younger futhark",
+                "forms": [
+                    {
+                        "unicode": "ᚼ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "hail",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Alternate",
+                        "unicode": "ᚽ",
+                        "parents": [
+                            {
+                                "script": "Younger futhark",
+                                "grapheme": "hail",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "forms": [
+                    {
+                        "unicode": "ᚻ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "hail",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "need": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "forms": [
+                    {
+                        "unicode": "ᚾ",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "en",
+                                "confidence": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Younger futhark",
+                "forms": [
+                    {
+                        "unicode": "ᚾ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "need",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Alternate",
+                        "unicode": "ᚿ",
+                        "parents": [
+                            {
+                                "script": "Younger futhark",
+                                "grapheme": "need",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "forms": [
+                    {
+                        "unicode": "ᚾ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "need",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ice": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "forms": [
+                    {
+                        "unicode": "ᛁ",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "i",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Younger futhark",
+                "forms": [
+                    {
+                        "unicode": "ᛁ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "ice",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "forms": [
+                    {
+                        "unicode": "ᛁ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "ice",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "year": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "forms": [
+                    {
+                        "unicode": "ᛃ",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "ze",
+                                "confidence": false
+                            },
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "ken",
+                                "confidence": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Younger futhark",
+                "forms": [
+                    {
+                        "unicode": "ᛅ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "year",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Alternate",
+                        "unicode": "ᛆ",
+                        "parents": [
+                            {
+                                "script": "Younger futhark",
+                                "grapheme": "year",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "forms": [
+                    {
+                        "unicode": "ᛡ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "year",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Alternate",
+                        "unicode": "ᛄ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "year",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "yew": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "forms": [
+                    {
+                        "unicode": "ᛇ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "ice",
+                                "confidence": false
+                            },
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "year",
+                                "confidence": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "forms": [
+                    {
+                        "unicode": "ᛇ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "yew",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "perth": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "name": "*perþō?",
+                "name_meaning": "pear-tree??",
+                "forms": [
+                    {
+                        "unicode": "ᛈ",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "pe",
+                                "confidence": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "forms": [
+                    {
+                        "unicode": "ᛈ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "perth",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "elk": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "forms": [
+                    {
+                        "unicode": "ᛉ",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "khe",
+                                "confidence": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Younger futhark",
+                "forms": [
+                    {
+                        "unicode": "ᛦ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "elk",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "forms": [
+                    {
+                        "unicode": "ᛉ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "elk",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "sun": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "forms": [
+                    {
+                        "unicode": "ᛊ",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "es",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Alternate",
+                        "unicode": "ᛋ"
+                    }
+                ]
+            },
+            {
+                "script": "Younger futhark",
+                "forms": [
+                    {
+                        "unicode": "ᛋ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "sun",
+                                "form_type": "Alternate",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Alternate",
+                        "unicode": "ᛌ",
+                        "parents": [
+                            {
+                                "script": "Younger futhark",
+                                "grapheme": "sun",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "forms": [
+                    {
+                        "unicode": "ᛋ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "sun",
+                                "form_type": "Alternate",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Alternate",
+                        "unicode": "ᚴ",
+                        "parents": [
+                            {
+                                "script": "Futhorc",
+                                "grapheme": "sun",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "tyr": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "forms": [
+                    {
+                        "unicode": "ᛏ",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "te",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Younger futhark",
+                "forms": [
+                    {
+                        "unicode": "ᛏ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "tyr",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Alternate",
+                        "unicode": "ᛐ",
+                        "parents": [
+                            {
+                                "script": "Younger futhark",
+                                "grapheme": "tyr",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "forms": [
+                    {
+                        "unicode": "ᛏ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "tyr",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "birch": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "forms": [
+                    {
+                        "unicode": "ᛒ",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "be",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Younger futhark",
+                "forms": [
+                    {
+                        "unicode": "ᛒ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "birch",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "forms": [
+                    {
+                        "unicode": "ᛒ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "birch",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "eoh": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "forms": [
+                    {
+                        "unicode": "ᛖ",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "e",
+                                "confidence": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "forms": [
+                    {
+                        "unicode": "ᛖ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "eoh",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "man": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "forms": [
+                    {
+                        "unicode": "ᛗ",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "em",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Younger futhark",
+                "forms": [
+                    {
+                        "unicode": "ᛘ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "man",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Alternate",
+                        "unicode": "ᛙ",
+                        "parents": [
+                            {
+                                "script": "Younger futhark",
+                                "grapheme": "man",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "forms": [
+                    {
+                        "unicode": "ᛡ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "man",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Alternate",
+                        "unicode": "ᛄ",
+                        "parents": [
+                            {
+                                "script": "Futhorc",
+                                "grapheme": "man",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "lake": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "forms": [
+                    {
+                        "unicode": "ᛚ",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "el",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Younger futhark",
+                "forms": [
+                    {
+                        "unicode": "ᛚ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "lake",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "forms": [
+                    {
+                        "unicode": "ᛚ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "lake",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ing": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "forms": [
+                    {
+                        "unicode": "ᛜ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "ken",
+                                "confidence": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "forms": [
+                    {
+                        "unicode": "ᛝ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "ing",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "day": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "forms": [
+                    {
+                        "unicode": "ᛞ",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "de",
+                                "confidence": false
+                            },
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "thorn",
+                                "confidence": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "forms": [
+                    {
+                        "unicode": "ᛞ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "day",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ethel": {
+        "characters": [
+            {
+                "script": "Elder futhark",
+                "forms": [
+                    {
+                        "unicode": "ᛟ",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "grapheme": "omega",
+                                "form_type": "Majuscule",
+                                "confidence": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Futhorc",
+                "forms": [
+                    {
+                        "unicode": "ᛟ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "ethel",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "oak": {
+        "characters": [
+            {
+                "script": "Futhorc",
+                "forms": [
+                    {
+                        "unicode": "ᚪ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "os",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ash": {
+        "characters": [
+            {
+                "script": "Futhorc",
+                "forms": [
+                    {
+                        "unicode": "ᚫ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "os",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "earth": {
+        "characters": [
+            {
+                "script": "Futhorc",
+                "forms": [
+                    {
+                        "unicode": "ᛠ",
+                        "parents": [
+                            {
+                                "script": "Elder futhark",
+                                "grapheme": "os",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "yr": {
+        "characters": [
+            {
+                "script": "Futhorc",
+                "forms": [
+                    {
+                        "unicode": "ᚣ",
+                        "parents": [
+                            {
+                                "script": "Futhorc",
+                                "grapheme": "ur",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

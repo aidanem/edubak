@@ -360,6 +360,10 @@ class CharacterDescentMapping(MergeBase):
             headers = next(reader)
             for row in reader:
                 parent_grapheme, parent_script, parent_character_type, child_grapheme, child_script, child_character_type, confidence = row
+                if not parent_character_type:
+                    parent_character_type = "Normal"
+                if not child_character_type:
+                    child_character_type = "Normal"
                 try:
                     parent = session.query(
                             CharacterForm,

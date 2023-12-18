@@ -5,254 +5,341 @@
             {
                 "script": "Ahom",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑜰"}
+                    {
+                        "unicode": "𑜰"
+                    }
                 ]
             },
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "٠"}
+                    {
+                        "unicode": "٠"
+                    }
                 ]
             },
             {
                 "script": "Brahmi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑁦"}
+                    {
+                        "unicode": "𑁦"
+                    }
                 ]
             },
             {
                 "script": "Balinese",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᭐"}
+                    {
+                        "unicode": "᭐"
+                    }
                 ]
             },
             {
                 "script": "Eastern Nagari",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "০"}
+                    {
+                        "unicode": "০"
+                    }
                 ]
             },
             {
                 "script": "Bhaiksuki",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑱐"}
+                    {
+                        "unicode": "𑱐"
+                    }
                 ]
             },
             {
                 "script": "Burmese",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "၀"}
+                    {
+                        "unicode": "၀"
+                    }
                 ]
             },
             {
                 "script": "Chakma",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑄶"}
+                    {
+                        "unicode": "𑄶"
+                    }
                 ]
             },
             {
                 "script": "Cham",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "꩐"}
+                    {
+                        "unicode": "꩐"
+                    }
                 ]
             },
             {
                 "script": "Devanagari",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "०"}
+                    {
+                        "unicode": "०"
+                    }
                 ]
             },
             {
                 "script": "Gujarati",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "૦"}
+                    {
+                        "unicode": "૦"
+                    }
                 ]
             },
             {
                 "script": "Gurmukhi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "੦"}
+                    {
+                        "unicode": "੦"
+                    }
                 ]
             },
             {
                 "script": "Javanese",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "꧐"}
+                    {
+                        "unicode": "꧐"
+                    }
                 ]
             },
             {
                 "script": "Kannada",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "೦"}
+                    {
+                        "unicode": "೦"
+                    }
                 ]
             },
             {
                 "script": "Kayah Li",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "꤀"}
+                    {
+                        "unicode": "꤀"
+                    }
                 ]
             },
             {
                 "script": "Khmer",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "០"}
+                    {
+                        "unicode": "០"
+                    }
                 ]
             },
             {
                 "script": "Khudabadi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑋰"}
+                    {
+                        "unicode": "𑋰"
+                    }
                 ]
             },
             {
                 "script": "Lao",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "໐"}
+                    {
+                        "unicode": "໐"
+                    }
                 ]
             },
             {
                 "script": "Lepcha",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᱀"}
+                    {
+                        "unicode": "᱀"
+                    }
                 ]
             },
             {
                 "script": "Limbu",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᥆"}
+                    {
+                        "unicode": "᥆"
+                    }
                 ]
             },
             {
                 "script": "Malayalam",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "൦"}
+                    {
+                        "unicode": "൦"
+                    }
                 ]
             },
             {
                 "script": "Meitei",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "꯰"}
+                    {
+                        "unicode": "꯰"
+                    }
                 ]
             },
             {
                 "script": "Modi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑙐"}
+                    {
+                        "unicode": "𑙐"
+                    }
                 ]
             },
             {
                 "script": "Mongolian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᠐"}
+                    {
+                        "unicode": "᠐"
+                    }
                 ]
             },
             {
                 "script": "N'Ko",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "߀"}
+                    {
+                        "unicode": "߀"
+                    }
                 ]
             },
             {
                 "script": "Odia",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "୦"}
+                    {
+                        "unicode": "୦"
+                    }
                 ]
             },
             {
                 "script": "Ol Chiki",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᱐"}
+                    {
+                        "unicode": "᱐"
+                    }
                 ]
             },
             {
                 "script": "Osmanya",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐒠"}
+                    {
+                        "unicode": "𐒠"
+                    }
                 ]
             },
             {
                 "script": "Perso-Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "۰"}
+                    {
+                        "unicode": "۰"
+                    }
                 ]
             },
             {
                 "script": "Pracalit",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑑐"}
+                    {
+                        "unicode": "𑑐"
+                    }
                 ]
             },
             {
                 "script": "Saurashtra",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "꣐"}
+                    {
+                        "unicode": "꣐"
+                    }
                 ]
             },
             {
                 "script": "Sharada",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑇐"}
+                    {
+                        "unicode": "𑇐"
+                    }
                 ]
             },
             {
                 "script": "Sundanese",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᮰"}
+                    {
+                        "unicode": "᮰"
+                    }
                 ]
             },
             {
                 "script": "Tai Lue",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᧐"}
+                    {
+                        "unicode": "᧐"
+                    }
                 ]
             },
             {
                 "script": "Tai Tham",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᪀"},
-                    {"form_type":"Formal", "unicode": "᪐"}
+                    {
+                        "unicode": "᪀"
+                    },
+                    {
+                        "form_type":"Formal",
+                        "unicode": "᪐"
+                    }
                 ]
             },
             {
                 "script": "Takri",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑛀"}
+                    {
+                        "unicode": "𑛀"
+                    }
                 ]
             },
             {
                 "script": "Tamil",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "௦"}
+                    {
+                        "unicode": "௦"
+                    }
                 ]
             },
             {
                 "script": "Telugu",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "౦"}
+                    {
+                        "unicode": "౦"
+                    }
                 ]
             },
             {
                 "script": "Thai",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "๐"}
+                    {
+                        "unicode": "๐"
+                    }
                 ]
             },
             {
                 "script": "Tibetan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "༠"}
+                    {
+                        "unicode": "༠"
+                    }
                 ]
             },
             {
                 "script": "Tirhuta",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑓐"}
+                    {
+                        "unicode": "𑓐"
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "0"}
+                    {
+                        "unicode": "0"
+                    }
                 ]
             }
         ]
@@ -263,255 +350,345 @@
             {
                 "script": "Ahom",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑜱"}
+                    {
+                        "unicode": "𑜱"
+                    }
                 ]
             },
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "١"}
+                    {
+                        "unicode": "١"
+                    }
                 ]
             },
             {
                 "script": "Brahmi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑁧"}
+                    {
+                        "unicode": "𑁧"
+                    }
                 ]
             },
             {
                 "script": "Balinese",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᭑"}
+                    {
+                        "unicode": "᭑"
+                    }
                 ]
             },
             {
                 "script": "Eastern Nagari",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "১"}
+                    {
+                        "unicode": "১"
+                    }
                 ]
             },
             {
                 "script": "Bhaiksuki",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑱑"}
+                    {
+                        "unicode": "𑱑"
+                    }
                 ]
             },
             {
                 "script": "Burmese",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "၁"}
+                    {
+                        "unicode": "၁"
+                    }
                 ]
             },
             {
                 "script": "Chakma",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑄷"}
+                    {
+                        "unicode": "𑄷"
+                    }
                 ]
             },
             {
                 "script": "Cham",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "꩑"}
+                    {
+                        "unicode": "꩑"
+                    }
                 ]
             },
             {
                 "script": "Devanagari",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "१"}
+                    {
+                        "unicode": "१"
+                    }
                 ]
             },
             {
                 "script": "Gujarati",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "૧"}
+                    {
+                        "unicode": "૧"
+                    }
                 ]
             },
             {
                 "script": "Gurmukhi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "੧"}
+                    {
+                        "unicode": "੧"
+                    }
                 ]
             },
             {
                 "script": "Javanese",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "꧑"}
+                    {
+                        "unicode": "꧑"
+                    }
                 ]
             },
             {
                 "script": "Kannada",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "೧"}
+                    {
+                        "unicode": "೧"
+                    }
                 ]
             },
             {
                 "script": "Kayah Li",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "꤁"}
+                    {
+                        "unicode": "꤁"
+                    }
                 ]
             },
             {
                 "script": "Khmer",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "១"}
+                    {
+                        "unicode": "១"
+                    }
                 ]
             },
             {
                 "script": "Khudabadi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑋱"}
+                    {
+                        "unicode": "𑋱"
+                    }
                 ]
             },
             {
                 "script": "Lao",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "໑"}
+                    {
+                        "unicode": "໑"
+                    }
                 ]
             },
             {
                 "script": "Lepcha",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᱁"}
+                    {
+                        "unicode": "᱁"
+                    }
                 ]
             },
             {
                 "script": "Limbu",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᥇"}
+                    {
+                        "unicode": "᥇"
+                    }
                 ]
             },
             {
                 "script": "Malayalam",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "൧"}
+                    {
+                        "unicode": "൧"
+                    }
                 ]
             },
             {
                 "script": "Meitei",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "꯱"}
+                    {
+                        "unicode": "꯱"
+                    }
                 ]
             },
             {
                 "script": "Modi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑙑"}
+                    {
+                        "unicode": "𑙑"
+                    }
                 ]
             },
             {
                 "script": "Mongolian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᠑"}
+                    {
+                        "unicode": "᠑"
+                    }
                 ]
             },
             {
                 "script": "N'Ko",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "߁"}
+                    {
+                        "unicode": "߁"
+                    }
                 ]
             },
             {
                 "script": "Odia",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "୧"}
+                    {
+                        "unicode": "୧"
+                    }
                 ]
             },
             {
                 "script": "Ol Chiki",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᱑"}
+                    {
+                        "unicode": "᱑"
+                    }
                 ]
             },
             {
                 "script": "Osmanya",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐒡"}
+                    {
+                        "unicode": "𐒡"
+                    }
                 ]
             },
             {
                 "script": "Perso-Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "۱"}
+                    {
+                        "unicode": "۱"
+                    }
                 ]
             },
             {
                 "script": "Pracalit",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑑑"}
+                    {
+                        "unicode": "𑑑"
+                    }
                 ]
             },
             {
                 "script": "Saurashtra",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "꣑"}
+                    {
+                        "unicode": "꣑"
+                    }
                 ]
             },
             {
                 "script": "Sharada",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑇑"}
+                    {
+                        "unicode": "𑇑"
+                    }
                 ]
             },
             {
                 "script": "Sundanese",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᮱"}
+                    {
+                        "unicode": "᮱"
+                    }
                 ]
             },
             {
                 "script": "Tai Lue",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᧑"},
-                    {"form_type":"Alternate", "unicode": "᧚"}
+                    {
+                        "unicode": "᧑"
+                    },
+                    {
+                        "form_type":"Alternate",
+                        "unicode": "᧚"
+                    }
                 ]
             },
             {
                 "script": "Tai Tham",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᪁"},
-                    {"form_type":"Formal", "unicode": "᪑"}
+                    {
+                        "unicode": "᪁"
+                    },
+                    {
+                        "form_type":"Formal",
+                        "unicode": "᪑"
+                    }
                 ]
             },
             {
                 "script": "Takri",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑛁"}
+                    {
+                        "unicode": "𑛁"
+                    }
                 ]
             },
             {
                 "script": "Tamil",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "௧"}
+                    {
+                        "unicode": "௧"
+                    }
                 ]
             },
             {
                 "script": "Telugu",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "౧"}
+                    {
+                        "unicode": "౧"
+                    }
                 ]
             },
             {
                 "script": "Thai",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "๑"}
+                    {
+                        "unicode": "๑"
+                    }
                 ]
             },
             {
                 "script": "Tibetan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "༡"}
+                    {
+                        "unicode": "༡"
+                    }
                 ]
             },
             {
                 "script": "Tirhuta",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑓑"}
+                    {
+                        "unicode": "𑓑"
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "1"}
+                    {
+                        "unicode": "1"
+                    }
                 ]
             }
         ]
@@ -522,254 +699,341 @@
             {
                 "script": "Ahom",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑜲"}
+                    {
+                        "unicode": "𑜲"
+                    }
                 ]
             },
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "٢"}
+                    {
+                        "unicode": "٢"
+                    }
                 ]
             },
             {
                 "script": "Brahmi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑁨"}
+                    {
+                        "unicode": "𑁨"
+                    }
                 ]
             },
             {
                 "script": "Balinese",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᭒"}
+                    {
+                        "unicode": "᭒"
+                    }
                 ]
             },
             {
                 "script": "Eastern Nagari",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "২"}
+                    {
+                        "unicode": "২"
+                    }
                 ]
             },
             {
                 "script": "Bhaiksuki",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑱒"}
+                    {
+                        "unicode": "𑱒"
+                    }
                 ]
             },
             {
                 "script": "Burmese",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "၂"}
+                    {
+                        "unicode": "၂"
+                    }
                 ]
             },
             {
                 "script": "Chakma",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑄸"}
+                    {
+                        "unicode": "𑄸"
+                    }
                 ]
             },
             {
                 "script": "Cham",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "꩒"}
+                    {
+                        "unicode": "꩒"
+                    }
                 ]
             },
             {
                 "script": "Devanagari",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "२"}
+                    {
+                        "unicode": "२"
+                    }
                 ]
             },
             {
                 "script": "Gujarati",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "૨"}
+                    {
+                        "unicode": "૨"
+                    }
                 ]
             },
             {
                 "script": "Gurmukhi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "੨"}
+                    {
+                        "unicode": "੨"
+                    }
                 ]
             },
             {
                 "script": "Javanese",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "꧒"}
+                    {
+                        "unicode": "꧒"
+                    }
                 ]
             },
             {
                 "script": "Kannada",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "೨"}
+                    {
+                        "unicode": "೨"
+                    }
                 ]
             },
             {
                 "script": "Kayah Li",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "꤂"}
+                    {
+                        "unicode": "꤂"
+                    }
                 ]
             },
             {
                 "script": "Khmer",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "២"}
+                    {
+                        "unicode": "២"
+                    }
                 ]
             },
             {
                 "script": "Khudabadi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑋲"}
+                    {
+                        "unicode": "𑋲"
+                    }
                 ]
             },
             {
                 "script": "Lao",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "໒"}
+                    {
+                        "unicode": "໒"
+                    }
                 ]
             },
             {
                 "script": "Lepcha",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᱂"}
+                    {
+                        "unicode": "᱂"
+                    }
                 ]
             },
             {
                 "script": "Limbu",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᥈"}
+                    {
+                        "unicode": "᥈"
+                    }
                 ]
             },
             {
                 "script": "Malayalam",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "൨"}
+                    {
+                        "unicode": "൨"
+                    }
                 ]
             },
             {
                 "script": "Meitei",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "꯲"}
+                    {
+                        "unicode": "꯲"
+                    }
                 ]
             },
             {
                 "script": "Modi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑙑"}
+                    {
+                        "unicode": "𑙑"
+                    }
                 ]
             },
             {
                 "script": "Mongolian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᠒"}
+                    {
+                        "unicode": "᠒"
+                    }
                 ]
             },
             {
                 "script": "N'Ko",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "߂"}
+                    {
+                        "unicode": "߂"
+                    }
                 ]
             },
             {
                 "script": "Odia",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "୨"}
+                    {
+                        "unicode": "୨"
+                    }
                 ]
             },
             {
                 "script": "Ol Chiki",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᱒"}
+                    {
+                        "unicode": "᱒"
+                    }
                 ]
             },
             {
                 "script": "Osmanya",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐒢"}
+                    {
+                        "unicode": "𐒢"
+                    }
                 ]
             },
             {
                 "script": "Perso-Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "۲"}
+                    {
+                        "unicode": "۲"
+                    }
                 ]
             },
             {
                 "script": "Pracalit",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑑒"}
+                    {
+                        "unicode": "𑑒"
+                    }
                 ]
             },
             {
                 "script": "Saurashtra",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "꣒"}
+                    {
+                        "unicode": "꣒"
+                    }
                 ]
             },
             {
                 "script": "Sharada",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑇒"}
+                    {
+                        "unicode": "𑇒"
+                    }
                 ]
             },
             {
                 "script": "Sundanese",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᮲"}
+                    {
+                        "unicode": "᮲"
+                    }
                 ]
             },
             {
                 "script": "Tai Lue",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᧒"}
+                    {
+                        "unicode": "᧒"
+                    }
                 ]
             },
             {
                 "script": "Tai Tham",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "᪂"},
-                    {"form_type":"Formal", "unicode": "᪒"}
+                    {
+                        "unicode": "᪂"
+                    },
+                    {
+                        "form_type":"Formal",
+                        "unicode": "᪒"
+                    }
                 ]
             },
             {
                 "script": "Takri",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑛂"}
+                    {
+                        "unicode": "𑛂"
+                    }
                 ]
             },
             {
                 "script": "Tamil",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "௨"}
+                    {
+                        "unicode": "௨"
+                    }
                 ]
             },
             {
                 "script": "Telugu",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "౨"}
+                    {
+                        "unicode": "౨"
+                    }
                 ]
             },
             {
                 "script": "Thai",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "๒"}
+                    {
+                        "unicode": "๒"
+                    }
                 ]
             },
             {
                 "script": "Tibetan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "༢"}
+                    {
+                        "unicode": "༢"
+                    }
                 ]
             },
             {
                 "script": "Tirhuta",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𑓒"}
+                    {
+                        "unicode": "𑓒"
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "2"}
+                    {
+                        "unicode": "2"
+                    }
                 ]
             }
         ]

@@ -4,13 +4,30 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "F1",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎀"}
+                    {
+                        "unicode": "𐎀",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "alp",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -20,13 +37,30 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "O1",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎁"}
+                    {
+                        "unicode": "𐎁",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "bayt",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -36,13 +70,30 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "T14",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎂"}
+                    {
+                        "unicode": "𐎂",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "gaml",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -52,13 +103,40 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "O31",
+                                "confidence": false
+                            },
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "K1",
+                                "confidence": false
+                            },
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "K2",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎄"}
+                    {
+                        "unicode": "𐎄",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "dag",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -68,13 +146,30 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "A28",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎅"}
+                    {
+                        "unicode": "𐎅",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "haw",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -84,13 +179,35 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "G43",
+                                "confidence": false
+                            },
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "Z7",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎆"}
+                    {
+                        "unicode": "𐎆",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "waw",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -100,13 +217,35 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "Z4",
+                                "confidence": false
+                            },
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "N34",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎇"}
+                    {
+                        "unicode": "𐎇",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "zayn",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -116,13 +255,40 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "O6",
+                                "confidence": false
+                            },
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "N24",
+                                "confidence": false
+                            },
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "V28",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎃"}
+                    {
+                        "unicode": "𐎃",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "hasr",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -132,13 +298,30 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "V28",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎈"}
+                    {
+                        "unicode": "𐎈",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "hayt",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -148,13 +331,30 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "F35",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎉"}
+                    {
+                        "unicode": "𐎉",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "tab",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -164,13 +364,30 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "D36",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎊"}
+                    {
+                        "unicode": "𐎊",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "yad",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -180,13 +397,30 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "D46",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎋"}
+                    {
+                        "unicode": "𐎋",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "kap",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -196,13 +430,30 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "U20",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎍"}
+                    {
+                        "unicode": "𐎍",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "lamd",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -212,13 +463,30 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "N35",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎎"}
+                    {
+                        "unicode": "𐎎",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "maym",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -228,7 +496,9 @@
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎏"}
+                    {
+                        "unicode": "𐎏"
+                    }
                 ]
             }
         ]
@@ -238,13 +508,30 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "I10",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎐"}
+                    {
+                        "unicode": "𐎐",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "nahash",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -254,7 +541,9 @@
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎑"}
+                    {
+                        "unicode": "𐎑"
+                    }
                 ]
             }
         ]
@@ -264,13 +553,30 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "R11",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎒"}
+                    {
+                        "unicode": "𐎒",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "samk",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -280,13 +586,30 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "D4",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎓"}
+                    {
+                        "unicode": "𐎓",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "ayn",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -296,13 +619,30 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "V28",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎙"}
+                    {
+                        "unicode": "𐎙",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "gabi",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -312,13 +652,30 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "D21",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎔"}
+                    {
+                        "unicode": "𐎔",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "pit",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -328,13 +685,30 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "M22",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎕"}
+                    {
+                        "unicode": "𐎕",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "saday",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -344,13 +718,30 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "O34",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎖"}
+                    {
+                        "unicode": "𐎖",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "qoba",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -360,13 +751,35 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "D1",
+                                "confidence": false
+                            },
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "D19",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎗"}
+                    {
+                        "unicode": "𐎗",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "rash",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -376,13 +789,30 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "N6",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎌"}
+                    {
+                        "unicode": "𐎌",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "shimsh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -392,13 +822,40 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "M39",
+                                "confidence": false
+                            },
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "M40",
+                                "confidence": false
+                            },
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "M41",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎝"}
+                    {
+                        "unicode": "𐎝",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "shadeh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -408,13 +865,40 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "M39",
+                                "confidence": false
+                            },
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "M40",
+                                "confidence": false
+                            },
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "M41",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎘"}
+                    {
+                        "unicode": "𐎘",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "tann",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -424,13 +908,30 @@
             {
                 "script": "Proto-Sinaitic",
                 "forms": [
-                    {"form_type":"Normal"}
+                    {
+                        "parents": [
+                            {
+                                "script": "Egyptian hieroglyphs",
+                                "grapheme": "Z9",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎚"}
+                    {
+                        "unicode": "𐎚",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "taw",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -440,7 +941,9 @@
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎛"}
+                    {
+                        "unicode": "𐎛"
+                    }
                 ]
             }
         ]
@@ -450,7 +953,9 @@
             {
                 "script": "Ugaritic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐎜"}
+                    {
+                        "unicode": "𐎜"
+                    }
                 ]
             }
         ]

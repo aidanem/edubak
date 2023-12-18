@@ -267,7 +267,7 @@ class MergeMixin(object):
                     if not choice or choice.lower() == "e":
                         return existing
                     elif choice.lower() == "n":
-                        instance.id = existing.id
+                        instance.id = existing.id #fix to use cls._unique_keys
                         instance = session.merge(instance)
                         return instance
             

@@ -496,6 +496,26 @@
             "noto_fontname": "Noto Sans Tibetan",
             "types": ["Abugida"],
             "direction": "LtR"
+        },
+        {
+            "name": "Phagspa",
+            "iso_15924": "Phag",
+            "noto_fontname": "Noto Sans Phags Pa",
+            "types": ["Abugida","Alphabet"],
+            "direction": "TtB"
+        },
+        {
+            "name": "Zanabazar",
+            "iso_15924": "Zanb",
+            "noto_fontname": "Noto Sans Zanabazar Square",
+            "types": ["Abugida"],
+            "direction": "LtR"
+        },
+        {
+            "name": "Tocharian"
+        },
+        {
+            "name": "Damili"
         }
     ],
     "Maritime Brahmic": [
@@ -682,15 +702,96 @@
             "time_end": 75
         }
     ],
+    "Ancient Egyptian": [
+        {
+            "name": "Egyptian hieroglyphs",
+            "adjective": "Egyptian",
+            "iso_15924": "Egyp",
+            "noto_fontname": "Noto Sans Egyptian Hieroglyphs",
+            "types": ["Logography","Abjad"],
+            "direction": "LtR",
+            "alternate_names": ["Egyptian hieroglyphics"],
+            "time_start": -3000,
+            "time_end": 400
+        },
+        {
+            "name": "Hieratic",
+            "iso_15924": "Egyh",
+            "types": ["Logography"],
+            "direction": "RtL",
+            "time_start": -2500,
+            "time_end": -500
+        },
+        {
+            "name": "Demotic",
+            "iso_15924": "Egyd",
+            "types": ["Logography"],
+            "direction": "RtL",
+            "time_start": -650,
+            "time_end": 500
+        }
+    ],
+    "Georgian": [
+        {
+            "name": "Asomtavruli",
+            "noto_fontname": "Noto Sans Georgian",
+            "types": ["Alphabet"],
+            "direction": "LtR",
+            "comment": "Georgian",
+            "time_start": 430,
+            "time_end": null
+        },
+        {
+            "name": "Nuskhuri",
+            "iso_15924": "Geok",
+            "noto_fontname": "Noto Sans Georgian",
+            "types": ["Alphabet"],
+            "direction": "LtR",
+            "comment": "Georgian",
+            "time_start": 835,
+            "time_end": null
+        },
+        {
+            "name": "Mkhedruli",
+            "iso_15924": "Geor",
+            "noto_fontname": "Noto Sans Georgian",
+            "types": ["Alphabet"],
+            "direction": "LtR",
+            "comment": "Georgian",
+            "time_start": 980,
+            "time_end": null
+        }
+    ],
     "Germanic": [
         {
-            "name": "Germanic runes",
-            "adjective": "Runic",
+            "name": "Elder futhark",
+            "noto_fontname": "Alphabetum Unicode",
+            "types": ["Alphabet"],
+            "alternate_names": ["Germanic runes","Germanic futhark"]
+        },
+        {
+            "name": "Younger futhark",
             "iso_15924": "Runr",
             "noto_fontname": "Alphabetum Unicode",
             "types": ["Alphabet"],
-            "comment": "Runic",
-            "alternate_names": ["Runes", "Runic", "Futhark", "Futhorc"]
+            "alternate_names": ["Scandinavian runes"]
+        },
+        {
+            "name": "Futhorc",
+            "noto_fontname": "Alphabetum Unicode",
+            "types": ["Alphabet"],
+            "alternate_names": ["Anglo-saxon futhorc","Anglo-frisian futhorc", "Anglo-saxon runes"]
+        }
+    ],
+    "Hangul": [
+        {
+            "name": "Hangul",
+            "iso_15924": "Hang",
+            "noto_fontname": "Noto Sans KR",
+            "types": ["Alphabet"],
+            "direction": "LtR",
+            "time_start": 1443,
+            "time_end": null
         }
     ],
     "Hanzi": [
@@ -771,77 +872,6 @@
             "noto_fontname": "Noto Sans Warang Citi",
             "direction": "LtR",
             "time_start": 1950,
-            "time_end": null
-        }
-    ],
-    "Ancient Egyptian": [
-        {
-            "name": "Egyptian hieroglyphs",
-            "adjective": "Egyptian",
-            "iso_15924": "Egyp",
-            "noto_fontname": "Noto Sans Egyptian Hieroglyphs",
-            "types": ["Logography","Abjad"],
-            "direction": "LtR",
-            "alternate_names": ["Egyptian hieroglyphics"],
-            "time_start": -3000,
-            "time_end": 400
-        },
-        {
-            "name": "Hieratic",
-            "iso_15924": "Egyh",
-            "types": ["Logography"],
-            "direction": "RtL",
-            "time_start": -2500,
-            "time_end": -500
-        },
-        {
-            "name": "Demotic",
-            "iso_15924": "Egyd",
-            "types": ["Logography"],
-            "direction": "RtL",
-            "time_start": -650,
-            "time_end": 500
-        }
-    ],
-    "Georgian": [
-        {
-            "name": "Asomtavruli",
-            "noto_fontname": "Noto Sans Georgian",
-            "types": ["Alphabet"],
-            "direction": "LtR",
-            "comment": "Georgian",
-            "time_start": 430,
-            "time_end": null
-        },
-        {
-            "name": "Nuskhuri",
-            "iso_15924": "Geok",
-            "noto_fontname": "Noto Sans Georgian",
-            "types": ["Alphabet"],
-            "direction": "LtR",
-            "comment": "Georgian",
-            "time_start": 835,
-            "time_end": null
-        },
-        {
-            "name": "Mkhedruli",
-            "iso_15924": "Geor",
-            "noto_fontname": "Noto Sans Georgian",
-            "types": ["Alphabet"],
-            "direction": "LtR",
-            "comment": "Georgian",
-            "time_start": 980,
-            "time_end": null
-        }
-    ],
-    "Hangul": [
-        {
-            "name": "Hangul",
-            "iso_15924": "Hang",
-            "noto_fontname": "Noto Sans KR",
-            "types": ["Alphabet"],
-            "direction": "LtR",
-            "time_start": 1443,
             "time_end": null
         }
     ],
@@ -1100,17 +1130,18 @@
             "direction": "RtL"
         },
         {
-            "name": "Old Sogdian",
-            "iso_15924": "Sogo",
-            "noto_fontname": "Noto Sans Old Sogdian",
-            "direction": "RtL"
-        },
-        {
             "name": "Syriac",
             "iso_15924": "Syrc",
             "noto_fontname": "Noto Sans Syriac Eastern, Noto Sans Syriac Western",
             "types": ["Abjad"],
             "direction": "RtL"
+        },
+        {
+            "name": "Old Uyghur",
+            "iso_15924": "Ougr",
+            "noto_fontname": "Noto Serif Old Uyghur",
+            "types": ["Alphabet"],
+            "direction": "TtB"
         }
     ],
     "South Semitic": [
@@ -1177,13 +1208,6 @@
             "noto_fontname": "Noto Sans Old Turkic",
             "types": ["Alphabet"],
             "direction": "RtL"
-        },
-        {
-            "name": "Old Uyghur",
-            "iso_15924": "Ougr",
-            "noto_fontname": "Noto Serif Old Uyghur",
-            "types": ["Alphabet"],
-            "direction": "TtB"
         }
     ],
     "Yi": [

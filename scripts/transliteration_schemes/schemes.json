@@ -1,0 +1,116 @@
+[
+    {
+        "name": "Phoenician to Latin",
+        "source": "Phnx",
+        "target": "Latn",
+        "priority": 1
+    },
+    {
+        "name": "Aramaic to Latin",
+        "source": "Armi",
+        "target": "Latn",
+        "priority": 1
+    },
+    {
+        "name": "Modern Hebrew to Latin",
+        "source": "Hebr",
+        "target": "Latn",
+        "priority": 1
+    },
+    {
+        "name": "Biblical Hebrew to Latin",
+        "source": "Hebr",
+        "target": "Latn",
+        "priority": 2
+    },
+    {
+        "name": "Tiberian Hebrew to Latin",
+        "source": "Hebr",
+        "target": "Latn",
+        "priority": 3
+    },
+    {
+        "name": "Nabataean to Latin",
+        "source": "Nbat",
+        "target": "Latn",
+        "priority": 1
+    },
+    {
+        "name": "Arabic to Latin (ALA-LC)",
+        "source": "Arab",
+        "target": "Latn",
+        "priority": 1
+    },
+    {
+        "name": "Arabic to Latin (DIN)",
+        "source": "Arab",
+        "target": "Latn",
+        "priority": 2
+    },
+    {
+        "name": "Classical Greek to Latin",
+        "source": "Grek",
+        "target": "Latn",
+        "priority": 1
+    },
+    {
+        "name": "Modern Greek to Latin",
+        "source": "Grek",
+        "target": "Latn",
+        "priority": 2
+    },
+    {
+        "name": "Western Archaic Greek to Latin",
+        "source": "Grek",
+        "target": "Latn",
+        "priority": 3
+    },
+    {
+        "name": "Old Italic to Modern Latin",
+        "source": "Ital",
+        "target": "Latn",
+        "priority": 1
+    },
+    {
+        "name": "Elder Futhark to Latin",
+        "source": "Runr",
+        "target": "Latn",
+        "priority": 1
+    },
+    {
+        "name": "Coptic to Latin",
+        "source": "Copt",
+        "target": "Latn",
+        "priority": 1
+    },
+    {
+        "name": "Gothic to Latin",
+        "source": "Goth",
+        "target": "Latn",
+        "priority": 1
+    },
+    {
+        "name": "Pahlavi to Latin",
+        "source": "Goth",
+        "target": "Latn",
+        "priority": 1
+    },
+    {
+        "name": "Old Turkic to Latin",
+        "source": "Orkh",
+        "target": "Latn",
+        "priority": 1
+    },
+    {
+        "name": "Samaritan to Latin",
+        "source": "Samr",
+        "target": "Latn",
+        "priority": 1
+    },
+    {
+        "name": "Brahmi to Latin (IAST)",
+        "source": "Brah",
+        "target": "Latn",
+        "priority": 1
+    }
+]

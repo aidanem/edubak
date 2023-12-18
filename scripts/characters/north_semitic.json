@@ -1,1817 +1,3766 @@
 {
     "aleph": {
-        "transliteration": {"Phonecian Transliteration": "ʾ"},
+        "transliteration": {"Phoenician to Latin": "ʾ"},
         "ordering": {"North Semitic order": 1},
         "numeral_value": 1,
         "characters": [
             {
                 "script": "Phoenician",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤀"}
+                    {
+                        "unicode": "𐤀",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "alp",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Imperial Aramaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐡀"}
+                    {
+                        "unicode": "𐡀",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "aleph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Aramaic square script",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "א"}
+                    {
+                        "unicode": "א",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "aleph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Elymaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐿠"}
+                    {
+                        "unicode": "𐿠",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "aleph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Manichaean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐫀"}
+                    {
+                        "unicode": "𐫀"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭠"}
+                    {
+                        "unicode": "𐭠",
+                        "parents": [
+                            {
+                                "script": "Inscriptional Parthian",
+                                "grapheme": "aleph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Parthian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭀"}
+                    {
+                        "unicode": "𐭀",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "aleph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Psalter Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐮀"}
+                    {
+                        "unicode": "𐮀",
+                        "parents": [
+                            {
+                                "script": "Inscriptional Pahlavi",
+                                "grapheme": "aleph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Nabataean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐢁"},
-                    {"form_type":"Final", "unicode": "𐢀"}
+                    {
+                        "unicode": "𐢁",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "aleph",
+                                "confidence": true
+                            },
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "aleph",
+                                "form_type": "Final",
+                                "confidence": false
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Final",
+                        "unicode": "𐢀",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "aleph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Samaritan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ࠀ"}
-                ]
-            },
-            {
-                "script": "Old Sogdian",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐼀"},
-                    {"form_type":"Final", "unicode": "𐼁"}
+                    {
+                        "unicode": "ࠀ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "aleph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Sogdian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐼰"}
+                    {
+                        "unicode": "𐼰",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "aleph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Syriac",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ܐ"}
+                    {
+                        "unicode": "ܐ",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "aleph",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Old Uyghur",
+                "forms": [
+                    {
+                        "unicode": "𐽰",
+                        "parents": [
+                            {
+                                "script": "Sogdian",
+                                "grapheme": "aleph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
     },
     "bet": {
-        "transliteration": {"Phonecian Transliteration": "b"},
+        "transliteration": {"Phoenician to Latin": "b"},
         "ordering": {"North Semitic order": 2},
         "numeral_value": 2,
         "characters": [
             {
                 "script": "Phoenician",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤁"}
+                    {
+                        "unicode": "𐤁",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "bayt",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Imperial Aramaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐡁"}
+                    {
+                        "unicode": "𐡁",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "bet",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Aramaic square script",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ב"}
+                    {
+                        "unicode": "ב",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "bet",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Elymaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐿡"}
+                    {
+                        "unicode": "𐿡",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "bet",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Manichaean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐫁"}
+                    {
+                        "unicode": "𐫁"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭡"}
+                    {
+                        "unicode": "𐭡",
+                        "parents": [
+                            {
+                                "script": "Inscriptional Parthian",
+                                "grapheme": "bet",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Parthian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭁"}
+                    {
+                        "unicode": "𐭁",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "bet",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Psalter Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐮁"}
+                    {
+                        "unicode": "𐮁",
+                        "parents": [
+                            {
+                                "script": "Inscriptional Pahlavi",
+                                "grapheme": "bet",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Nabataean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐢃"},
-                    {"form_type":"Final", "unicode": "𐢂"}
+                    {
+                        "unicode": "𐢃",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "bet",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Final",
+                        "unicode": "𐢂",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "bet",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Samaritan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ࠁ"}
-                ]
-            },
-            {
-                "script": "Old Sogdian",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐼂"},
-                    {"form_type":"Final", "unicode": "𐼃"}
+                    {
+                        "unicode": "ࠁ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "bet",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Sogdian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐼱"}
+                    {
+                        "unicode": "𐼱",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "bet",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Syriac",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ܒ"}
+                    {
+                        "unicode": "ܒ",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "bet",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Old Uyghur",
+                "forms": [
+                    {
+                        "unicode": "𐽱",
+                        "parents": [
+                            {
+                                "script": "Sogdian",
+                                "grapheme": "bet",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
     },
     "gimel": {
-        "transliteration": {"Phonecian Transliteration": "g"},
+        "transliteration": {"Phoenician to Latin": "g"},
         "ordering": {"North Semitic order": 3},
         "numeral_value": 3,
         "characters": [
             {
                 "script": "Phoenician",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤂"}
+                    {
+                        "unicode": "𐤂",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "gaml",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Imperial Aramaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐡂"}
+                    {
+                        "unicode": "𐡂",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "gimel",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Aramaic square script",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ג"}
+                    {
+                        "unicode": "ג",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "gimel",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Elymaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐿢"}
+                    {
+                        "unicode": "𐿢",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "gimel",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Manichaean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐫃"}
+                    {
+                        "unicode": "𐫃"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭢"}
+                    {
+                        "unicode": "𐭢"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Parthian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭂"}
+                    {
+                        "unicode": "𐭂"
+                    }
                 ]
             },
             {
                 "script": "Psalter Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐮂"}
+                    {
+                        "unicode": "𐮂"
+                    }
                 ]
             },
             {
                 "script": "Nabataean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐢄"}
+                    {
+                        "unicode": "𐢄",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "gimel",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Samaritan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ࠂ"}
-                ]
-            },
-            {
-                "script": "Old Sogdian",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐼄"}
+                    {
+                        "unicode": "ࠂ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "gimel",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Sogdian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐼲"}
+                    {
+                        "unicode": "𐼲",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "gimel",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Syriac",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ܓ"}
+                    {
+                        "unicode": "ܓ"
+                    }
+                ]
+            },
+            {
+                "script": "Old Uyghur",
+                "forms": [
+                    {
+                        "unicode": "𐽲",
+                        "parents": [
+                            {
+                                "script": "Sogdian",
+                                "grapheme": "gimel",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
     },
     "dalet": {
-        "transliteration": {"Phonecian Transliteration": "d"},
+        "transliteration": {"Phoenician to Latin": "d"},
         "ordering": {"North Semitic order": 4},
         "numeral_value": 4,
         "characters": [
             {
                 "script": "Phoenician",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤃"}
+                    {
+                        "unicode": "𐤃",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "dag",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Imperial Aramaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐡃"}
+                    {
+                        "unicode": "𐡃",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "dalet",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Aramaic square script",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ד"}
+                    {
+                        "unicode": "ד",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "dalet",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Elymaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐿣"}
+                    {
+                        "unicode": "𐿣",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "dalet",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Manichaean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐫅"}
+                    {
+                        "unicode": "𐫅"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭣"}
+                    {
+                        "unicode": "𐭣"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Parthian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭃"}
+                    {
+                        "unicode": "𐭃"
+                    }
                 ]
             },
             {
                 "script": "Psalter Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐮃"}
+                    {
+                        "unicode": "𐮃"
+                    }
                 ]
             },
             {
                 "script": "Nabataean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐢅"}
+                    {
+                        "unicode": "𐢅",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "dalet",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Samaritan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ࠃ"}
+                    {
+                        "unicode": "ࠃ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "dalet",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Syriac",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ܕ"}
+                    {
+                        "unicode": "ܕ"
+                    }
                 ]
             }
         ]
     },
     "he": {
-        "transliteration": {"Phonecian Transliteration": "h"},
+        "transliteration": {"Phoenician to Latin": "h"},
         "ordering": {"North Semitic order": 5},
         "numeral_value": 5,
         "characters": [
             {
                 "script": "Phoenician",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤄"}
+                    {
+                        "unicode": "𐤄",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "haw",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Imperial Aramaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐡄"}
+                    {
+                        "unicode": "𐡄",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "he",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Aramaic square script",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ה"}
+                    {
+                        "unicode": "ה",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "he",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Elymaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐿤"}
+                    {
+                        "unicode": "𐿤",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "he",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Manichaean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐫆"}
+                    {
+                        "unicode": "𐫆"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭄"}
+                    {
+                        "unicode": "𐭄"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Parthian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭤"}
+                    {
+                        "unicode": "𐭤"
+                    }
                 ]
             },
             {
                 "script": "Psalter Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐮄"}
+                    {
+                        "unicode": "𐮄"
+                    }
                 ]
             },
             {
                 "script": "Nabataean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐢇"},
-                    {"form_type":"Final", "unicode": "𐢆"}
+                    {
+                        "unicode": "𐢇",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "he",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Final",
+                        "unicode": "𐢆",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "he",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Samaritan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ࠄ"}
-                ]
-            },
-            {
-                "script": "Old Sogdian",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐼅"},
-                    {"form_type":"Final", "unicode": "𐢆"}
+                    {
+                        "unicode": "ࠄ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "he",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Sogdian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐼳"}
+                    {
+                        "unicode": "𐼳",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "he",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Syriac",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ܗ"}
+                    {
+                        "unicode": "ܗ"
+                    }
                 ]
             }
         ]
     },
     "waw": {
-        "transliteration": {"Phonecian Transliteration": "w"},
+        "transliteration": {"Phoenician to Latin": "w"},
         "ordering": {"North Semitic order": 6},
         "numeral_value": 6,
         "characters": [
             {
                 "script": "Phoenician",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤅"}
+                    {
+                        "unicode": "𐤅",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "waw",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Imperial Aramaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐡅"}
+                    {
+                        "unicode": "𐡅",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "waw",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Aramaic square script",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ו"}
+                    {
+                        "unicode": "ו",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "waw",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Elymaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐿥"}
+                    {
+                        "unicode": "𐿥",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "waw",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Manichaean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐫇"}
+                    {
+                        "unicode": "𐫇"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭥"}
+                    {
+                        "unicode": "𐭥"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Parthian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭅"}
+                    {
+                        "unicode": "𐭅"
+                    }
                 ]
             },
             {
                 "script": "Psalter Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐮅"}
+                    {
+                        "unicode": "𐮅"
+                    }
                 ]
             },
             {
                 "script": "Nabataean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐢈"}
+                    {
+                        "unicode": "𐢈",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "waw",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Samaritan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ࠅ"}
-                ]
-            },
-            {
-                "script": "Old Sogdian",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐼇"}
+                    {
+                        "unicode": "ࠅ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "waw",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Sogdian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐼴"}
+                    {
+                        "unicode": "𐼴",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "waw",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Syriac",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ܘ"}
+                    {
+                        "unicode": "ܘ"
+                    }
+                ]
+            },
+            {
+                "script": "Old Uyghur",
+                "forms": [
+                    {
+                        "unicode": "𐽳",
+                        "parents": [
+                            {
+                                "script": "Sogdian",
+                                "grapheme": "waw",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
     },
     "zayin": {
-        "transliteration": {"Phonecian Transliteration": "z"},
+        "transliteration": {"Phoenician to Latin": "z"},
         "ordering": {"North Semitic order": 7},
         "numeral_value": 7,
         "characters": [
             {
                 "script": "Phoenician",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤆"}
+                    {
+                        "unicode": "𐤆",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "zayn",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Imperial Aramaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐡆"}
+                    {
+                        "unicode": "𐡆",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "zayin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Aramaic square script",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ז"}
+                    {
+                        "unicode": "ז",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "zayin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Elymaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐿦"}
+                    {
+                        "unicode": "𐿦",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "zayin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Manichaean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐫉"}
+                    {
+                        "unicode": "𐫉"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭦"}
+                    {
+                        "unicode": "𐭦"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Parthian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭆"}
+                    {
+                        "unicode": "𐭆"
+                    }
                 ]
             },
             {
                 "script": "Psalter Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐮆"}
+                    {
+                        "unicode": "𐮆"
+                    }
                 ]
             },
             {
                 "script": "Nabataean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐢉"}
+                    {
+                        "unicode": "𐢉",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "zayin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Samaritan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ࠆ"}
-                ]
-            },
-            {
-                "script": "Old Sogdian",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐼈"}
+                    {
+                        "unicode": "ࠆ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "zayin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Sogdian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐼵"}
+                    {
+                        "unicode": "𐼵",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "zayin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Syriac",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ܙ"}
+                    {
+                        "unicode": "ܙ"
+                    }
+                ]
+            },
+            {
+                "script": "Old Uyghur",
+                "forms": [
+                    {
+                        "unicode": "𐽴",
+                        "parents": [
+                            {
+                                "script": "Sogdian",
+                                "grapheme": "zayin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
     },
     "heth": {
-        "transliteration": {"Phonecian Transliteration": "ḥ"},
+        "transliteration": {"Phoenician to Latin": "ḥ"},
         "ordering": {"North Semitic order": 8},
         "numeral_value": 8,
         "characters": [
             {
                 "script": "Phoenician",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤇"}
+                    {
+                        "unicode": "𐤇",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "hayt",
+                                "confidence": true
+                            },
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "hasr",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Imperial Aramaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐡇"}
+                    {
+                        "unicode": "𐡇",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "heth",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Aramaic square script",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ח"}
+                    {
+                        "unicode": "ח",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "heth",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Elymaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐿧"}
+                    {
+                        "unicode": "𐿧",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "heth",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Manichaean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐫍"}
+                    {
+                        "unicode": "𐫍"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭧"}
+                    {
+                        "unicode": "𐭧"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Parthian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭇"}
+                    {
+                        "unicode": "𐭇"
+                    }
                 ]
             },
             {
                 "script": "Nabataean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐢊"}
+                    {
+                        "unicode": "𐢊",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "heth",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Samaritan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ࠇ"}
-                ]
-            },
-            {
-                "script": "Old Sogdian",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐼉"}
+                    {
+                        "unicode": "ࠇ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "heth",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Sogdian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐼶"}
+                    {
+                        "unicode": "𐼶",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "heth",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Syriac",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ܚ"}
+                    {
+                        "unicode": "ܚ"
+                    }
+                ]
+            },
+            {
+                "script": "Old Uyghur",
+                "forms": [
+                    {
+                        "unicode": "𐽲",
+                        "parents": [
+                            {
+                                "script": "Sogdian",
+                                "grapheme": "heth",
+                                "confidence": true
+                            },
+                            {
+                                "script": "Sogdian",
+                                "grapheme": "gimel",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Final",
+                        "unicode": "𐽵",
+                        "parents": [
+                            {
+                                "script": "Sogdian",
+                                "grapheme": "heth",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
     },
     "teth": {
-        "transliteration": {"Phonecian Transliteration": "ṭ"},
+        "transliteration": {"Phoenician to Latin": "ṭ"},
         "ordering": {"North Semitic order": 9},
         "numeral_value": 9,
         "characters": [
             {
                 "script": "Phoenician",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤈"}
+                    {
+                        "unicode": "𐤈",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "tab",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Imperial Aramaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐡈"}
+                    {
+                        "unicode": "𐡈",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "teth",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Aramaic square script",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ט"}
+                    {
+                        "unicode": "ט",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "teth",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Elymaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐿨"}
+                    {
+                        "unicode": "𐿨",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "teth",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Manichaean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐫎"}
+                    {
+                        "unicode": "𐫎"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭨"}
+                    {
+                        "unicode": "𐭨"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Parthian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭈"}
+                    {
+                        "unicode": "𐭈"
+                    }
                 ]
             },
             {
                 "script": "Psalter Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐮇"}
+                    {
+                        "unicode": "𐮇"
+                    }
                 ]
             },
             {
                 "script": "Nabataean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐢋"}
+                    {
+                        "unicode": "𐢋",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "teth",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Samaritan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ࠈ"}
+                    {
+                        "unicode": "ࠈ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "teth",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Syriac",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ܛ"}
+                    {
+                        "unicode": "ܛ"
+                    }
                 ]
             }
         ]
     },
     "yodh": {
-        "transliteration": {"Phonecian Transliteration": "j"},
+        "transliteration": {"Phoenician to Latin": "j"},
         "ordering": {"North Semitic order": 10},
         "numeral_value": 10,
         "characters": [
             {
                 "script": "Phoenician",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤉"}
+                    {
+                        "unicode": "𐤉",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "yad",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Imperial Aramaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐡉"}
+                    {
+                        "unicode": "𐡉",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "yodh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Aramaic square script",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "י"}
+                    {
+                        "unicode": "י",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "yodh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Elymaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐿩"}
+                    {
+                        "unicode": "𐿩",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "yodh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Manichaean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐫏"}
+                    {
+                        "unicode": "𐫏"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭩"}
+                    {
+                        "unicode": "𐭩"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Parthian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭉"}
+                    {
+                        "unicode": "𐭉"
+                    }
                 ]
             },
             {
                 "script": "Psalter Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐮈"}
+                    {
+                        "unicode": "𐮈"
+                    }
                 ]
             },
             {
                 "script": "Nabataean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐢍"},
-                    {"form_type":"Final", "unicode": "𐢌"}
+                    {
+                        "unicode": "𐢍",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "yodh",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Final",
+                        "unicode": "𐢌",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "yodh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Samaritan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ࠉ"}
-                ]
-            },
-            {
-                "script": "Old Sogdian",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐼊"}
+                    {
+                        "unicode": "ࠉ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "yodh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Sogdian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐼷"}
+                    {
+                        "unicode": "𐼷",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "yodh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Syriac",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ܝ"}
+                    {
+                        "unicode": "ܝ"
+                    }
+                ]
+            },
+            {
+                "script": "Old Uyghur",
+                "forms": [
+                    {
+                        "unicode": "𐽶",
+                        "parents": [
+                            {
+                                "script": "Sogdian",
+                                "grapheme": "yodh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
     },
     "kaph": {
-        "transliteration": {"Phonecian Transliteration": "k"},
+        "transliteration": {"Phoenician to Latin": "k"},
         "ordering": {"North Semitic order": 11},
         "numeral_value": 20,
         "characters": [
             {
                 "script": "Phoenician",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤊"}
+                    {
+                        "unicode": "𐤊",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "kap",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Imperial Aramaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐡊"}
+                    {
+                        "unicode": "𐡊",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "kaph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Aramaic square script",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "כ"},
-                    {"form_type":"Final", "unicode": "ך"}
+                    {
+                        "unicode": "כ",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "kaph",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Final",
+                        "unicode": "ך"
+                    }
                 ]
             },
             {
                 "script": "Elymaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐿪"}
+                    {
+                        "unicode": "𐿪",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "kaph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Manichaean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐫐"}
+                    {
+                        "unicode": "𐫐"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭪"}
+                    {
+                        "unicode": "𐭪"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Parthian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭊"}
+                    {
+                        "unicode": "𐭊"
+                    }
                 ]
             },
             {
                 "script": "Psalter Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐮉"}
+                    {
+                        "unicode": "𐮉"
+                    }
                 ]
             },
             {
                 "script": "Nabataean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐢏"},
-                    {"form_type":"Final", "unicode": "𐢎"}
+                    {
+                        "unicode": "𐢏",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "kaph",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Final",
+                        "unicode": "𐢎",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "kaph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Samaritan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ࠊ"}
-                ]
-            },
-            {
-                "script": "Old Sogdian",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐼋"}
+                    {
+                        "unicode": "ࠊ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "kaph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Sogdian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐼸"}
+                    {
+                        "unicode": "𐼸",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "kaph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Syriac",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ܟ"}
+                    {
+                        "unicode": "ܟ"
+                    }
+                ]
+            },
+            {
+                "script": "Old Uyghur",
+                "forms": [
+                    {
+                        "unicode": "𐽷",
+                        "parents": [
+                            {
+                                "script": "Sogdian",
+                                "grapheme": "kaph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
     },
     "lamedh": {
-        "transliteration": {"Phonecian Transliteration": "l"},
+        "transliteration": {"Phoenician to Latin": "l"},
         "ordering": {"North Semitic order": 12},
         "numeral_value": 30,
         "characters": [
             {
                 "script": "Phoenician",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤋"}
+                    {
+                        "unicode": "𐤋",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "lamd",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Imperial Aramaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐡋"}
+                    {
+                        "unicode": "𐡋",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "lamedh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Aramaic square script",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ל"}
+                    {
+                        "unicode": "ל",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "lamedh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Elymaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐿫"}
+                    {
+                        "unicode": "𐿫",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "lamedh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Manichaean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐫓"}
+                    {
+                        "unicode": "𐫓"
+                    }
                 ]
             },
             {
                 "script": "Nabataean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐢑"},
-                    {"form_type":"Final", "unicode": "𐢐"}
+                    {
+                        "unicode": "𐢑",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "lamedh",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Final",
+                        "unicode": "𐢐",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "lamedh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭫"}
+                    {
+                        "unicode": "𐭫",
+                        "parents": [
+                            {
+                                "script": "Inscriptional Parthian",
+                                "grapheme": "lamedh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Parthian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭋"}
+                    {
+                        "unicode": "𐭋",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "lamedh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Psalter Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐮊"}
+                    {
+                        "unicode": "𐮊",
+                        "parents": [
+                            {
+                                "script": "Inscriptional Pahlavi",
+                                "grapheme": "lamedh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Samaritan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ࠊ"}
-                ]
-            },
-            {
-                "script": "Old Sogdian",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐼌"}
+                    {
+                        "unicode": "ࠊ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "lamedh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Sogdian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐼹"}
+                    {
+                        "unicode": "𐼹",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "lamedh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Syriac",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ܠ"}
+                    {
+                        "unicode": "ܠ",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "lamedh",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "script": "Old Uyghur",
+                "forms": [
+                    {
+                        "unicode": "𐽸",
+                        "parents": [
+                            {
+                                "script": "Sogdian",
+                                "grapheme": "lamedh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
     },
     "mem": {
-        "transliteration": {"Phonecian Transliteration": "m"},
+        "transliteration": {"Phoenician to Latin": "m"},
         "ordering": {"North Semitic order": 13},
         "numeral_value": 40,
         "characters": [
             {
                 "script": "Phoenician",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤌"}
+                    {
+                        "unicode": "𐤌",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "maym",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Imperial Aramaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐡌"}
+                    {
+                        "unicode": "𐡌",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "mem",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Aramaic square script",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "מ"},
-                    {"form_type":"Final", "unicode": "ם"}
+                    {
+                        "unicode": "מ",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "mem",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Final",
+                        "unicode": "ם"
+                    }
                 ]
             },
             {
                 "script": "Elymaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐿬"}
+                    {
+                        "unicode": "𐿬",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "mem",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Manichaean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐫖"}
+                    {
+                        "unicode": "𐫖"
+                    }
                 ]
             },
             {
                 "script": "Nabataean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐢓"},
-                    {"form_type":"Final", "unicode": "𐢒"}
+                    {
+                        "unicode": "𐢓",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "mem",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Final",
+                        "unicode": "𐢒",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "mem",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭬"}
+                    {
+                        "unicode": "𐭬"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Parthian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭌"}
+                    {
+                        "unicode": "𐭌"
+                    }
                 ]
             },
             {
                 "script": "Psalter Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐮋"}
+                    {
+                        "unicode": "𐮋"
+                    }
                 ]
             },
             {
                 "script": "Samaritan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ࠌ"}
-                ]
-            },
-            {
-                "script": "Old Sogdian",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐼍"}
+                    {
+                        "unicode": "ࠌ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "mem",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Sogdian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐼺"}
+                    {
+                        "unicode": "𐼺",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "mem",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Syriac",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ܡ"}
+                    {
+                        "unicode": "ܡ"
+                    }
+                ]
+            },
+            {
+                "script": "Old Uyghur",
+                "forms": [
+                    {
+                        "unicode": "𐽹",
+                        "parents": [
+                            {
+                                "script": "Sogdian",
+                                "grapheme": "mem",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
     },
     "nun": {
-        "transliteration": {"Phonecian Transliteration": "n"},
+        "transliteration": {"Phoenician to Latin": "n"},
         "ordering": {"North Semitic order": 14},
         "numeral_value": 50,
         "characters": [
             {
                 "script": "Phoenician",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤍"}
+                    {
+                        "unicode": "𐤍",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "nahash",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Imperial Aramaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐡍"}
+                    {
+                        "unicode": "𐡍",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "nun",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Aramaic square script",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "נ"},
-                    {"form_type":"Final", "unicode": "ן"}
+                    {
+                        "unicode": "נ",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "nun",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Final",
+                        "unicode": "ן"
+                    }
                 ]
             },
             {
                 "script": "Elymaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐿭"}
+                    {
+                        "unicode": "𐿭",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "nun",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Manichaean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐫗"}
+                    {
+                        "unicode": "𐫗"
+                    }
                 ]
             },
             {
                 "script": "Nabataean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐢕"},
-                    {"form_type":"Final", "unicode": "𐢔"}
+                    {
+                        "unicode": "𐢕",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "nun",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Final",
+                        "unicode": "𐢔",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "nun",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭭"}
+                    {
+                        "unicode": "𐭭"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Parthian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭍"}
+                    {
+                        "unicode": "𐭍"
+                    }
                 ]
             },
             {
                 "script": "Psalter Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐮌"}
+                    {
+                        "unicode": "𐮌"
+                    }
                 ]
             },
             {
                 "script": "Samaritan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ࠍ"}
-                ]
-            },
-            {
-                "script": "Old Sogdian",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐼎"},
-                    {"form_type":"Final", "unicode": "𐼏"},
-                    {"form_type":"Alternate Final", "unicode": "𐼐"}
+                    {
+                        "unicode": "ࠍ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "nun",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Sogdian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐼻"}
+                    {
+                        "unicode": "𐼻",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "nun",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Syriac",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ܢ"}
+                    {
+                        "unicode": "ܢ"
+                    }
+                ]
+            },
+            {
+                "script": "Old Uyghur",
+                "forms": [
+                    {
+                        "unicode": "𐽺",
+                        "parents": [
+                            {
+                                "script": "Sogdian",
+                                "grapheme": "nun",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
     },
     "samekh": {
-        "transliteration": {"Phonecian Transliteration": "s"},
+        "transliteration": {"Phoenician to Latin": "s"},
         "ordering": {"North Semitic order": 15},
         "numeral_value": 60,
         "characters": [
             {
                 "script": "Phoenician",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤎"}
+                    {
+                        "unicode": "𐤎",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "samk",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Imperial Aramaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐡎"}
+                    {
+                        "unicode": "𐡎",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "samekh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Aramaic square script",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ס"}
+                    {
+                        "unicode": "ס",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "samekh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Elymaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐿮"}
+                    {
+                        "unicode": "𐿮",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "samekh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Manichaean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐫘"}
+                    {
+                        "unicode": "𐫘"
+                    }
                 ]
             },
             {
                 "script": "Nabataean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐢖"}
+                    {
+                        "unicode": "𐢖",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "samekh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭮"}
+                    {
+                        "unicode": "𐭮"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Parthian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭎"}
+                    {
+                        "unicode": "𐭎"
+                    }
                 ]
             },
             {
                 "script": "Psalter Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐮍"}
+                    {
+                        "unicode": "𐮍"
+                    }
                 ]
             },
             {
                 "script": "Samaritan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ࠎ"}
-                ]
-            },
-            {
-                "script": "Old Sogdian",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐼑"}
+                    {
+                        "unicode": "ࠎ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "samekh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Sogdian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐼼"}
+                    {
+                        "unicode": "𐼼",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "samekh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Syriac",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ܣ"},
-                    {"form_type":"Final", "unicode": "ܤ"}
+                    {
+                        "unicode": "ܣ"
+                    },
+                    {
+                        "form_type":"Final",
+                        "unicode": "ܤ"
+                    }
+                ]
+            },
+            {
+                "script": "Old Uyghur",
+                "forms": [
+                    {
+                        "unicode": "𐽻",
+                        "parents": [
+                            {
+                                "script": "Sogdian",
+                                "grapheme": "samekh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
     },
     "ayin": {
-        "transliteration": {"Phonecian Transliteration": "ʿ"},
+        "transliteration": {"Phoenician to Latin": "ʿ"},
         "ordering": {"North Semitic order": 16},
         "numeral_value": 70,
         "characters": [
             {
                 "script": "Phoenician",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤏"}
+                    {
+                        "unicode": "𐤏",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "ayn",
+                                "confidence": true
+                            },
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "gabi",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Imperial Aramaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐡏"}
+                    {
+                        "unicode": "𐡏",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "ayin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Aramaic square script",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ע"}
+                    {
+                        "unicode": "ע",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "ayin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Elymaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐿯"}
+                    {
+                        "unicode": "𐿯",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "ayin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Manichaean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐫙"}
+                    {
+                        "unicode": "𐫙"
+                    }
                 ]
             },
             {
                 "script": "Nabataean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐢗"}
+                    {
+                        "unicode": "𐢗",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "ayin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Parthian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭏"}
+                    {
+                        "unicode": "𐭏"
+                    }
                 ]
             },
             {
                 "script": "Samaritan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ࠏ"}
-                ]
-            },
-            {
-                "script": "Old Sogdian",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐼒"},
-                    {"form_type":"Alternate", "unicode": "𐼓"}
+                    {
+                        "unicode": "ࠏ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "ayin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Sogdian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐼽"}
+                    {
+                        "unicode": "𐼽",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "ayin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Syriac",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ܥ"}
+                    {
+                        "unicode": "ܥ"
+                    }
                 ]
             }
         ]
     },
     "pe": {
-        "transliteration": {"Phonecian Transliteration": "p"},
+        "transliteration": {"Phoenician to Latin": "p"},
         "ordering": {"North Semitic order": 17},
         "numeral_value": 80,
         "characters": [
             {
                 "script": "Phoenician",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤐"}
+                    {
+                        "unicode": "𐤐",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "pit",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Imperial Aramaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐡐"}
+                    {
+                        "unicode": "𐡐",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "pe",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Aramaic square script",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "פ"},
-                    {"form_type":"Final", "unicode": "ף"}
+                    {
+                        "unicode": "פ",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "pe",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Final",
+                        "unicode": "ף"
+                    }
                 ]
             },
             {
                 "script": "Elymaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐿰"}
+                    {
+                        "unicode": "𐿰",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "pe",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Manichaean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐫛"}
+                    {
+                        "unicode": "𐫛"
+                    }
                 ]
             },
             {
                 "script": "Nabataean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐢘"}
+                    {
+                        "unicode": "𐢘",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "pe",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭯"}
+                    {
+                        "unicode": "𐭯"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Parthian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭐"}
+                    {
+                        "unicode": "𐭐"
+                    }
                 ]
             },
             {
                 "script": "Psalter Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐮎"}
+                    {
+                        "unicode": "𐮎"
+                    }
                 ]
             },
             {
                 "script": "Samaritan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ࠐ"}
-                ]
-            },
-            {
-                "script": "Old Sogdian",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐼔"}
+                    {
+                        "unicode": "ࠐ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "pe",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Sogdian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐼾"}
+                    {
+                        "unicode": "𐼾",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "pe",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Syriac",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ܦ"}
+                    {
+                        "unicode": "ܦ"
+                    }
+                ]
+            },
+            {
+                "script": "Old Uyghur",
+                "forms": [
+                    {
+                        "unicode": "𐽼",
+                        "parents": [
+                            {
+                                "script": "Sogdian",
+                                "grapheme": "pe",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
     },
     "tsade": {
-        "transliteration": {"Phonecian Transliteration": "ṣ"},
+        "transliteration": {"Phoenician to Latin": "ṣ"},
         "ordering": {"North Semitic order": 18},
         "numeral_value": 90,
         "characters": [
             {
                 "script": "Phoenician",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤑"}
+                    {
+                        "unicode": "𐤑",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "saday",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Imperial Aramaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐡑"}
+                    {
+                        "unicode": "𐡑",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "tsade",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Aramaic square script",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "צ"},
-                    {"form_type":"Final", "unicode": "ץ"}
+                    {
+                        "unicode": "צ",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "tsade",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Final",
+                        "unicode": "ץ"
+                    }
                 ]
             },
             {
                 "script": "Elymaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐿱"}
+                    {
+                        "unicode": "𐿱",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "tsade",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Manichaean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐫝"}
+                    {
+                        "unicode": "𐫝"
+                    }
                 ]
             },
             {
                 "script": "Nabataean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐢙"}
+                    {
+                        "unicode": "𐢙",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "tsade",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭰"}
+                    {
+                        "unicode": "𐭰"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Parthian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭑"}
+                    {
+                        "unicode": "𐭑"
+                    }
                 ]
             },
             {
                 "script": "Psalter Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐮏"}
+                    {
+                        "unicode": "𐮏"
+                    }
                 ]
             },
             {
                 "script": "Samaritan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ࠑ"}
-                ]
-            },
-            {
-                "script": "Old Sogdian",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐼕"},
-                    {"form_type":"Final", "unicode": "𐼖"},
-                    {"form_type":"Alternate Final", "unicode": "𐼗"}
+                    {
+                        "unicode": "ࠑ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "tsade",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Sogdian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐼿"}
+                    {
+                        "unicode": "𐼿",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "tsade",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Syriac",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ܨ"}
+                    {
+                        "unicode": "ܨ"
+                    }
+                ]
+            },
+            {
+                "script": "Old Uyghur",
+                "forms": [
+                    {
+                        "unicode": "𐽽",
+                        "parents": [
+                            {
+                                "script": "Sogdian",
+                                "grapheme": "tsade",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
     },
     "qoph": {
-        "transliteration": {"Phonecian Transliteration": "q"},
+        "transliteration": {"Phoenician to Latin": "q"},
         "ordering": {"North Semitic order": 19},
         "numeral_value": 100,
         "characters": [
             {
                 "script": "Phoenician",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤒"}
+                    {
+                        "unicode": "𐤒",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "qoba",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Imperial Aramaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐡒"}
+                    {
+                        "unicode": "𐡒",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "qoph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Aramaic square script",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ק"}
+                    {
+                        "unicode": "ק",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "qoph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Elymaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐿲"}
+                    {
+                        "unicode": "𐿲",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "qoph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Manichaean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐫞"}
+                    {
+                        "unicode": "𐫞"
+                    }
                 ]
             },
             {
                 "script": "Nabataean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐢚"}
+                    {
+                        "unicode": "𐢚",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "qoph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Parthian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭒"}
+                    {
+                        "unicode": "𐭒"
+                    }
                 ]
             },
             {
                 "script": "Samaritan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ࠒ"}
+                    {
+                        "unicode": "ࠒ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "qoph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Syriac",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ܩ"}
+                    {
+                        "unicode": "ܩ"
+                    }
                 ]
             }
         ]
     },
     "resh": {
-        "transliteration": {"Phonecian Transliteration": "r"},
+        "transliteration": {"Phoenician to Latin": "r"},
         "ordering": {"North Semitic order": 20},
         "numeral_value": 200,
         "characters": [
             {
                 "script": "Phoenician",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤓"}
+                    {
+                        "unicode": "𐤓",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "rash",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Imperial Aramaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐡓"}
+                    {
+                        "unicode": "𐡓",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "resh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Aramaic square script",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ר"}
+                    {
+                        "unicode": "ר",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "resh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Elymaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐿳"}
+                    {
+                        "unicode": "𐿳",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "resh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Manichaean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐫡"}
+                    {
+                        "unicode": "𐫡"
+                    }
                 ]
             },
             {
                 "script": "Nabataean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐢛"}
+                    {
+                        "unicode": "𐢛",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "resh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Parthian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭓"}
+                    {
+                        "unicode": "𐭓"
+                    }
                 ]
             },
             {
                 "script": "Samaritan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ࠓ"}
-                ]
-            },
-            {
-                "script": "Old Sogdian",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐼘"}
+                    {
+                        "unicode": "ࠓ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "resh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Sogdian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐽀"}
+                    {
+                        "unicode": "𐽀",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "resh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Syriac",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ܪ"}
+                    {
+                        "unicode": "ܪ"
+                    }
+                ]
+            },
+            {
+                "script": "Old Uyghur",
+                "forms": [
+                    {
+                        "unicode": "𐽾",
+                        "parents": [
+                            {
+                                "script": "Sogdian",
+                                "grapheme": "resh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
     },
     "shin": {
-        "transliteration": {"Phonecian Transliteration": "š"},
+        "transliteration": {"Phoenician to Latin": "š"},
         "ordering": {"North Semitic order": 21},
         "numeral_value": 300,
         "characters": [
             {
                 "script": "Phoenician",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤔"}
+                    {
+                        "unicode": "𐤔",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "shimsh",
+                                "confidence": true
+                            },
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "shadeh",
+                                "confidence": true
+                            },
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "tann",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Imperial Aramaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐡔"}
+                    {
+                        "unicode": "𐡔",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "shin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Aramaic square script",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ש"}
+                    {
+                        "unicode": "ש",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "shin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Elymaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐿴"}
+                    {
+                        "unicode": "𐿴",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "shin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Manichaean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐫢"}
+                    {
+                        "unicode": "𐫢"
+                    }
                 ]
             },
             {
                 "script": "Nabataean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐢝"},
-                    {"form_type":"Final", "unicode": "𐢜"}
+                    {
+                        "unicode": "𐢝",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "shin",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Final",
+                        "unicode": "𐢜",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "shin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭱"}
+                    {
+                        "unicode": "𐭱"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Parthian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭔"}
+                    {
+                        "unicode": "𐭔"
+                    }
                 ]
             },
             {
                 "script": "Psalter Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐮐"}
+                    {
+                        "unicode": "𐮐"
+                    }
                 ]
             },
             {
                 "script": "Samaritan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ࠔ"}
-                ]
-            },
-            {
-                "script": "Old Sogdian",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐼙"}
+                    {
+                        "unicode": "ࠔ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "shin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Sogdian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐽁"}
+                    {
+                        "unicode": "𐽁",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "shin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Syriac",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ܫ"}
+                    {
+                        "unicode": "ܫ"
+                    }
+                ]
+            },
+            {
+                "script": "Old Uyghur",
+                "forms": [
+                    {
+                        "unicode": "𐽿",
+                        "parents": [
+                            {
+                                "script": "Sogdian",
+                                "grapheme": "shin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
     },
     "taw": {
-        "transliteration": {"Phonecian Transliteration": "t"},
+        "transliteration": {"Phoenician to Latin": "t"},
         "ordering": {"North Semitic order": 22},
         "numeral_value": 400,
         "characters": [
             {
                 "script": "Phoenician",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐤕"}
+                    {
+                        "unicode": "𐤕",
+                        "parents": [
+                            {
+                                "script": "Proto-Sinaitic",
+                                "grapheme": "taw",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Imperial Aramaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐡕"}
+                    {
+                        "unicode": "𐡕",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "taw",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Aramaic square script",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ת"}
+                    {
+                        "unicode": "ת",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "taw",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Elymaic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐿵"}
+                    {
+                        "unicode": "𐿵",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "taw",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Manichaean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐫤"}
+                    {
+                        "unicode": "𐫤"
+                    }
                 ]
             },
             {
                 "script": "Nabataean",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐢞"}
+                    {
+                        "unicode": "𐢞",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "taw",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭲"}
+                    {
+                        "unicode": "𐭲"
+                    }
                 ]
             },
             {
                 "script": "Inscriptional Parthian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐭕"}
+                    {
+                        "unicode": "𐭕"
+                    }
                 ]
             },
             {
                 "script": "Psalter Pahlavi",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐮑"}
+                    {
+                        "unicode": "𐮑"
+                    }
                 ]
             },
             {
                 "script": "Samaritan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ࠕ"}
-                ]
-            },
-            {
-                "script": "Old Sogdian",
-                "forms": [
-                    {"form_type":"Normal", "unicode": "𐼚"},
-                    {"form_type":"Final", "unicode": "𐼛"},
-                    {"form_type":"Alternate Final", "unicode": "𐼜"}
+                    {
+                        "unicode": "ࠕ",
+                        "parents": [
+                            {
+                                "script": "Phoenician",
+                                "grapheme": "taw",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Sogdian",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐽂"}
+                    {
+                        "unicode": "𐽂",
+                        "parents": [
+                            {
+                                "script": "Imperial Aramaic",
+                                "grapheme": "taw",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Syriac",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ܬ"}
+                    {
+                        "unicode": "ܬ"
+                    }
+                ]
+            },
+            {
+                "script": "Old Uyghur",
+                "forms": [
+                    {
+                        "unicode": "𐾀",
+                        "parents": [
+                            {
+                                "script": "Sogdian",
+                                "grapheme": "taw",
+                                "confidence": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "lesh": {
+        "characters": [
+            {
+                "script": "Old Uyghur",
+                "forms": [
+                    {
+                        "unicode": "𐾁",
+                        "parents": [
+                            {
+                                "script": "Old Uyghur",
+                                "grapheme": "resh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]

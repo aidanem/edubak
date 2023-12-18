@@ -4,7 +4,16 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬀"}
+                    {
+                        "unicode": "𐬀",
+                        "parents": [
+                            {
+                                "script": "Psalter Pahlavi",
+                                "grapheme": "aleph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -14,7 +23,16 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬁"}
+                    {
+                        "unicode": "𐬁",
+                        "parents": [
+                            {
+                                "script": "Avestan",
+                                "grapheme": "a",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -24,7 +42,16 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬂"}
+                    {
+                        "unicode": "𐬂",
+                        "parents": [
+                            {
+                                "script": "Avestan",
+                                "grapheme": "a",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -34,7 +61,21 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬃"}
+                    {
+                        "unicode": "𐬃",
+                        "parents": [
+                            {
+                                "script": "Avestan",
+                                "grapheme": "ā",
+                                "confidence": true
+                            },
+                            {
+                                "script": "Avestan",
+                                "grapheme": "å",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -44,7 +85,16 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬄"}
+                    {
+                        "unicode": "𐬄",
+                        "parents": [
+                            {
+                                "script": "Avestan",
+                                "grapheme": "a",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -54,7 +104,16 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬅"}
+                    {
+                        "unicode": "𐬅",
+                        "parents": [
+                            {
+                                "script": "Avestan",
+                                "grapheme": "a",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -64,7 +123,17 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬆"}
+                    {
+                        "unicode": "𐬆",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "grapheme": "epsilon",
+                                "form_type": "Minuscule",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -74,7 +143,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬇"}
+                    {
+                        "unicode": "𐬇"
+                    }
                 ]
             }
         ]
@@ -84,7 +155,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬈"}
+                    {
+                        "unicode": "𐬈"
+                    }
                 ]
             }
         ]
@@ -94,7 +167,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬉"}
+                    {
+                        "unicode": "𐬉"
+                    }
                 ]
             }
         ]
@@ -104,7 +179,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬊"}
+                    {
+                        "unicode": "𐬊"
+                    }
                 ]
             }
         ]
@@ -114,7 +191,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬋"}
+                    {
+                        "unicode": "𐬋"
+                    }
                 ]
             }
         ]
@@ -124,7 +203,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬌"}
+                    {
+                        "unicode": "𐬌"
+                    }
                 ]
             }
         ]
@@ -134,7 +215,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬍"}
+                    {
+                        "unicode": "𐬍"
+                    }
                 ]
             }
         ]
@@ -144,7 +227,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬎"}
+                    {
+                        "unicode": "𐬎"
+                    }
                 ]
             }
         ]
@@ -154,7 +239,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬏"}
+                    {
+                        "unicode": "𐬏"
+                    }
                 ]
             }
         ]
@@ -164,7 +251,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬐"}
+                    {
+                        "unicode": "𐬐"
+                    }
                 ]
             }
         ]
@@ -174,7 +263,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬑"}
+                    {
+                        "unicode": "𐬑"
+                    }
                 ]
             }
         ]
@@ -184,7 +275,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬒"}
+                    {
+                        "unicode": "𐬒"
+                    }
                 ]
             }
         ]
@@ -194,7 +287,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬓"}
+                    {
+                        "unicode": "𐬓"
+                    }
                 ]
             }
         ]
@@ -204,7 +299,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬔"}
+                    {
+                        "unicode": "𐬔"
+                    }
                 ]
             }
         ]
@@ -214,7 +311,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬕"}
+                    {
+                        "unicode": "𐬕"
+                    }
                 ]
             }
         ]
@@ -224,7 +323,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬖"}
+                    {
+                        "unicode": "𐬖"
+                    }
                 ]
             }
         ]
@@ -234,7 +335,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬗"}
+                    {
+                        "unicode": "𐬗"
+                    }
                 ]
             }
         ]
@@ -244,7 +347,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬘"}
+                    {
+                        "unicode": "𐬘"
+                    }
                 ]
             }
         ]
@@ -254,7 +359,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬙"}
+                    {
+                        "unicode": "𐬙"
+                    }
                 ]
             }
         ]
@@ -264,7 +371,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬚"}
+                    {
+                        "unicode": "𐬚"
+                    }
                 ]
             }
         ]
@@ -274,7 +383,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬛"}
+                    {
+                        "unicode": "𐬛"
+                    }
                 ]
             }
         ]
@@ -284,7 +395,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬜"}
+                    {
+                        "unicode": "𐬜"
+                    }
                 ]
             }
         ]
@@ -294,7 +407,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬝"}
+                    {
+                        "unicode": "𐬝"
+                    }
                 ]
             }
         ]
@@ -304,7 +419,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬞"}
+                    {
+                        "unicode": "𐬞"
+                    }
                 ]
             }
         ]
@@ -314,7 +431,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬟"}
+                    {
+                        "unicode": "𐬟"
+                    }
                 ]
             }
         ]
@@ -324,7 +443,16 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬠"}
+                    {
+                        "unicode": "𐬠",
+                        "parents": [
+                            {
+                                "script": "Psalter Pahlavi",
+                                "grapheme": "bet",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -334,7 +462,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬡"}
+                    {
+                        "unicode": "𐬡"
+                    }
                 ]
             }
         ]
@@ -344,7 +474,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬢"}
+                    {
+                        "unicode": "𐬢"
+                    }
                 ]
             }
         ]
@@ -354,7 +486,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬣"}
+                    {
+                        "unicode": "𐬣"
+                    }
                 ]
             }
         ]
@@ -364,7 +498,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬤"}
+                    {
+                        "unicode": "𐬤"
+                    }
                 ]
             }
         ]
@@ -374,7 +510,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬥"}
+                    {
+                        "unicode": "𐬥"
+                    }
                 ]
             }
         ]
@@ -384,7 +522,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬦"}
+                    {
+                        "unicode": "𐬦"
+                    }
                 ]
             }
         ]
@@ -394,7 +534,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬧"}
+                    {
+                        "unicode": "𐬧"
+                    }
                 ]
             }
         ]
@@ -404,7 +546,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬨"}
+                    {
+                        "unicode": "𐬨"
+                    }
                 ]
             }
         ]
@@ -414,7 +558,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬩"}
+                    {
+                        "unicode": "𐬩"
+                    }
                 ]
             }
         ]
@@ -424,7 +570,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬫"}
+                    {
+                        "unicode": "𐬫"
+                    }
                 ]
             }
         ]
@@ -434,7 +582,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬪"}
+                    {
+                        "unicode": "𐬪"
+                    }
                 ]
             }
         ]
@@ -444,7 +594,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬬"}
+                    {
+                        "unicode": "𐬬"
+                    }
                 ]
             }
         ]
@@ -454,7 +606,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬭"}
+                    {
+                        "unicode": "𐬭"
+                    }
                 ]
             }
         ]
@@ -464,7 +618,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬯"}
+                    {
+                        "unicode": "𐬯"
+                    }
                 ]
             }
         ]
@@ -474,7 +630,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬰"}
+                    {
+                        "unicode": "𐬰"
+                    }
                 ]
             }
         ]
@@ -484,7 +642,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬱"}
+                    {
+                        "unicode": "𐬱"
+                    }
                 ]
             }
         ]
@@ -494,7 +654,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬲"}
+                    {
+                        "unicode": "𐬲"
+                    }
                 ]
             }
         ]
@@ -504,7 +666,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬳"}
+                    {
+                        "unicode": "𐬳"
+                    }
                 ]
             }
         ]
@@ -514,7 +678,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬴"}
+                    {
+                        "unicode": "𐬴"
+                    }
                 ]
             }
         ]
@@ -524,7 +690,9 @@
             {
                 "script": "Avestan",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐬵"}
+                    {
+                        "unicode": "𐬵"
+                    }
                 ]
             }
         ]

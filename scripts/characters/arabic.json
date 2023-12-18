@@ -15,9 +15,24 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ا"},
-                    {"form_type":"Isolated", "unicode": "ﺍ"},
-                    {"form_type":"Final", "unicode": "ﺎ"}
+                    {
+                        "unicode": "ا",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "aleph",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Isolated",
+                        "unicode": "ﺍ"
+                    },
+                    {
+                        "form_type":"Final",
+                        "unicode": "ﺎ"
+                    }
                 ]
             }
         ]
@@ -31,7 +46,16 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ء"}
+                    {
+                        "unicode": "ء",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "aleph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -52,11 +76,32 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ب"},
-                    {"form_type":"Isolated", "unicode": "ﺏ"},
-                    {"form_type":"Initial", "unicode": "ﺑ"},
-                    {"form_type":"Medial", "unicode": "ﺒ"},
-                    {"form_type":"Final", "unicode": "ﺐ"}
+                    {
+                        "unicode": "ب",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "bet",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Isolated",
+                        "unicode": "ﺏ"
+                    },
+                    {
+                        "form_type":"Initial",
+                        "unicode": "ﺑ"
+                    },
+                    {
+                        "form_type":"Medial",
+                        "unicode": "ﺒ"
+                    },
+                    {
+                        "form_type":"Final",
+                        "unicode": "ﺐ"
+                    }
                 ]
             }
         ]
@@ -77,11 +122,32 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ت"},
-                    {"form_type":"Isolated", "unicode": "ﺕ"},
-                    {"form_type":"Initial", "unicode": "ﺗ"},
-                    {"form_type":"Medial", "unicode": "ﺘ"},
-                    {"form_type":"Final", "unicode": "ﺖ"}
+                    {
+                        "unicode": "ت",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "taw",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Isolated",
+                        "unicode": "ﺕ"
+                    },
+                    {
+                        "form_type":"Initial",
+                        "unicode": "ﺗ"
+                    },
+                    {
+                        "form_type":"Medial",
+                        "unicode": "ﺘ"
+                    },
+                    {
+                        "form_type":"Final",
+                        "unicode": "ﺖ"
+                    }
                 ]
             }
         ]
@@ -102,19 +168,40 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ث"},
-                    {"form_type":"Isolated", "unicode": "ﺙ"},
-                    {"form_type":"Initial", "unicode": "ﺛ"},
-                    {"form_type":"Medial", "unicode": "ﺜ"},
-                    {"form_type":"Final", "unicode": "ﺚ"}
+                    {
+                        "unicode": "ث",
+                        "parents": [
+                            {
+                                "script": "Arabic",
+                                "grapheme": "ta",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Isolated",
+                        "unicode": "ﺙ"
+                    },
+                    {
+                        "form_type":"Initial",
+                        "unicode": "ﺛ"
+                    },
+                    {
+                        "form_type":"Medial",
+                        "unicode": "ﺜ"
+                    },
+                    {
+                        "form_type":"Final",
+                        "unicode": "ﺚ"
+                    }
                 ]
             }
         ]
     },
     "gim": {
         "transliteration": {
-            "ALA-LC": "th",
-            "DIN 31635": "ṯ"
+            "ALA-LC": "j",
+            "DIN 31635": "ǧ"
         },
         "ordering": {
             "Hijāʾī order": 5,
@@ -127,11 +214,32 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ج"},
-                    {"form_type":"Isolated", "unicode": "ﺝ"},
-                    {"form_type":"Initial", "unicode": "ﺟ"},
-                    {"form_type":"Medial", "unicode": "ﺠ"},
-                    {"form_type":"Final", "unicode": "ﺞ"}
+                    {
+                        "unicode": "ج",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "gimel",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Isolated",
+                        "unicode": "ﺝ"
+                    },
+                    {
+                        "form_type":"Initial",
+                        "unicode": "ﺟ"
+                    },
+                    {
+                        "form_type":"Medial",
+                        "unicode": "ﺠ"
+                    },
+                    {
+                        "form_type":"Final",
+                        "unicode": "ﺞ"
+                    }
                 ]
             }
         ]
@@ -152,11 +260,32 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ح"},
-                    {"form_type":"Isolated", "unicode": "ﺡ"},
-                    {"form_type":"Initial", "unicode": "ﺣ"},
-                    {"form_type":"Medial", "unicode": "ﺤ"},
-                    {"form_type":"Final", "unicode": "ﺢ"}
+                    {
+                        "unicode": "ح",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "heth",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Isolated",
+                        "unicode": "ﺡ"
+                    },
+                    {
+                        "form_type":"Initial",
+                        "unicode": "ﺣ"
+                    },
+                    {
+                        "form_type":"Medial",
+                        "unicode": "ﺤ"
+                    },
+                    {
+                        "form_type":"Final",
+                        "unicode": "ﺢ"
+                    }
                 ]
             }
         ]
@@ -177,7 +306,16 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "خ"}
+                    {
+                        "unicode": "خ",
+                        "parents": [
+                            {
+                                "script": "Arabic",
+                                "grapheme": "ḥa",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -198,7 +336,16 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "د"}
+                    {
+                        "unicode": "د",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "dalet",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -219,7 +366,16 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ذ"}
+                    {
+                        "unicode": "ذ",
+                        "parents": [
+                            {
+                                "script": "Arabic",
+                                "grapheme": "dal",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -240,7 +396,16 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ر"}
+                    {
+                        "unicode": "ر",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "resh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -261,7 +426,16 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ز"}
+                    {
+                        "unicode": "ز",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "zayin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -282,7 +456,21 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "س"}
+                    {
+                        "unicode": "س",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "samekh",
+                                "confidence": true
+                            },
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "shin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -303,7 +491,21 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ش"}
+                    {
+                        "unicode": "ش",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "shin",
+                                "confidence": true
+                            },
+                            {
+                                "script": "Arabic",
+                                "grapheme": "sin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -324,7 +526,16 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ص"}
+                    {
+                        "unicode": "ص",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "tsade",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -345,7 +556,16 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ط"}
+                    {
+                        "unicode": "ط",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "teth",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -366,7 +586,16 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ظ"}
+                    {
+                        "unicode": "ظ",
+                        "parents": [
+                            {
+                                "script": "Arabic",
+                                "grapheme": "ṭa",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -387,7 +616,16 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ع"}
+                    {
+                        "unicode": "ع",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "ayin",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -408,7 +646,16 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "غ"}
+                    {
+                        "unicode": "غ",
+                        "parents": [
+                            {
+                                "script": "Arabic",
+                                "grapheme": "ayn",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -429,7 +676,16 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ف"}
+                    {
+                        "unicode": "ف",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "pe",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -450,7 +706,16 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ق"}
+                    {
+                        "unicode": "ق",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "qoph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -471,7 +736,16 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ك"}
+                    {
+                        "unicode": "ك",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "kaph",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -492,7 +766,16 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ل"}
+                    {
+                        "unicode": "ل",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "lamedh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -513,7 +796,16 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "م"}
+                    {
+                        "unicode": "م",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "mem",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -534,7 +826,16 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ن"}
+                    {
+                        "unicode": "ن",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "nun",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -555,7 +856,16 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ه"}
+                    {
+                        "unicode": "ه",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "he",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -576,7 +886,16 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "و"}
+                    {
+                        "unicode": "و",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "waw",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -597,7 +916,16 @@
             {
                 "script": "Arabic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "ي"}
+                    {
+                        "unicode": "ي",
+                        "parents": [
+                            {
+                                "script": "Nabataean",
+                                "grapheme": "yodh",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]

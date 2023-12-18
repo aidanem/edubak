@@ -4,14 +4,45 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌀"}
+                    {
+                        "unicode": "𐌀",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "alpha",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "A"},
-                    {"form_type":"Minuscule", "unicode": "a"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "A",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "a",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "a",
+                        "parents": [
+                            {
+                                "script": "Latin",
+                                "form_type":"Majuscule",
+                                "grapheme": "a",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -21,14 +52,45 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌁"}
+                    {
+                        "unicode": "𐌁",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "beta",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "B"},
-                    {"form_type":"Minuscule", "unicode": "b"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "B",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "be",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "b",
+                        "parents": [
+                            {
+                                "script": "Latin",
+                                "form_type":"Majuscule",
+                                "grapheme": "be",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -38,14 +100,37 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌂"}
+                    {
+                        "unicode": "𐌂",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "gamma",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "C"},
-                    {"form_type":"Minuscule", "unicode": "c"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "C",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "ce",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "c"
+                    }
                 ]
             }
         ]
@@ -55,8 +140,22 @@
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "G"},
-                    {"form_type":"Minuscule", "unicode": "g"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "G",
+                        "parents": [
+                            {
+                                "script": "Latin",
+                                "form_type":"Majuscule",
+                                "grapheme": "ce",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "g"
+                    }
                 ]
             }
         ]
@@ -66,14 +165,37 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌃"}
+                    {
+                        "unicode": "𐌃",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "delta",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "D"},
-                    {"form_type":"Minuscule", "unicode": "d"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "D",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "de",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "d"
+                    }
                 ]
             }
         ]
@@ -83,14 +205,37 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌄"}
+                    {
+                        "unicode": "𐌄",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "epsilon",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "E"},
-                    {"form_type":"Minuscule", "unicode": "e"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "E",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "e",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "e"
+                    }
                 ]
             }
         ]
@@ -100,14 +245,37 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌅"}
+                    {
+                        "unicode": "𐌅",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "digamma",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "F"},
-                    {"form_type":"Minuscule", "unicode": "f"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "F",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "fe",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "f"
+                    }
                 ]
             }
         ]
@@ -117,14 +285,37 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌆"}
+                    {
+                        "unicode": "𐌆",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "zeta",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Z"},
-                    {"form_type":"Minuscule", "unicode": "z"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Z",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "ze",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "z"
+                    }
                 ]
             }
         ]
@@ -134,14 +325,37 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌇"}
+                    {
+                        "unicode": "𐌇",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "heta",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "H"},
-                    {"form_type":"Minuscule", "unicode": "h"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "H",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "he",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "h"
+                    }
                 ]
             }
         ]
@@ -151,7 +365,17 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌈"}
+                    {
+                        "unicode": "𐌈",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "theta",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -161,14 +385,37 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌉"}
+                    {
+                        "unicode": "𐌉",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "iota",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "I"},
-                    {"form_type":"Minuscule", "unicode": "i"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "I",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "i",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "i"
+                    }
                 ]
             }
         ]
@@ -178,8 +425,22 @@
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "J"},
-                    {"form_type":"Minuscule", "unicode": "j"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "J",
+                        "parents": [
+                            {
+                                "script": "Latin",
+                                "form_type":"Majuscule",
+                                "grapheme": "i",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "j"
+                    }
                 ]
             }
         ]
@@ -189,7 +450,17 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌝"}
+                    {
+                        "unicode": "𐌝",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "heta",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -199,14 +470,37 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌊"}
+                    {
+                        "unicode": "𐌊",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "kappa",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "K"},
-                    {"form_type":"Minuscule", "unicode": "k"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "K",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "ka",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "k"
+                    }
                 ]
             }
         ]
@@ -216,14 +510,45 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌋"}
+                    {
+                        "unicode": "𐌋",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "lambda",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "L"},
-                    {"form_type":"Minuscule", "unicode": "l"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "L",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "el",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "l",
+                        "parents": [
+                            {
+                                "script": "Latin",
+                                "form_type":"Majuscule",
+                                "grapheme": "el",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -233,14 +558,37 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌌"}
+                    {
+                        "unicode": "𐌌",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "mu",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "M"},
-                    {"form_type":"Minuscule", "unicode": "m"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "M",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "em",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "m"
+                    }
                 ]
             }
         ]
@@ -250,14 +598,37 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌍"}
+                    {
+                        "unicode": "𐌍",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "nu",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "N"},
-                    {"form_type":"Minuscule", "unicode": "n"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "N",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "en",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "n"
+                    }
                 ]
             }
         ]
@@ -267,7 +638,17 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌎"}
+                    {
+                        "unicode": "𐌎",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "xi",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -277,14 +658,37 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌏"}
+                    {
+                        "unicode": "𐌏",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "omicron",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "O"},
-                    {"form_type":"Minuscule", "unicode": "o"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "O",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "o",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "o"
+                    }
                 ]
             }
         ]
@@ -294,14 +698,37 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌐"}
+                    {
+                        "unicode": "𐌐",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "pi",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "P"},
-                    {"form_type":"Minuscule", "unicode": "p"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "P",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "pe",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "p"
+                    }
                 ]
             }
         ]
@@ -311,7 +738,17 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌑"}
+                    {
+                        "unicode": "𐌑",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "san",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -321,14 +758,37 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌒"}
+                    {
+                        "unicode": "𐌒",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "koppa",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Q"},
-                    {"form_type":"Minuscule", "unicode": "q"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Q",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "ku",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "q"
+                    }
                 ]
             }
         ]
@@ -338,14 +798,37 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌓"}
+                    {
+                        "unicode": "𐌓",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "rho",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "R"},
-                    {"form_type":"Minuscule", "unicode": "r"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "R",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "er",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "r"
+                    }
                 ]
             }
         ]
@@ -355,14 +838,37 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌔"}
+                    {
+                        "unicode": "𐌔",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "sigma",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "S"},
-                    {"form_type":"Minuscule", "unicode": "s"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "S",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "es",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "s"
+                    }
                 ]
             }
         ]
@@ -372,14 +878,37 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌕"}
+                    {
+                        "unicode": "𐌕",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "tau",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "T"},
-                    {"form_type":"Minuscule", "unicode": "t"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "T",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "te",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "t"
+                    }
                 ]
             }
         ]
@@ -389,14 +918,37 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌖"}
+                    {
+                        "unicode": "𐌖",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "upsilon",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "U"},
-                    {"form_type":"Minuscule", "unicode": "u"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "U",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "u",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "u"
+                    }
                 ]
             }
         ]
@@ -406,19 +958,38 @@
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "V"},
-                    {"form_type":"Minuscule", "unicode": "v"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "V",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "u",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "v"
+                    }
                 ]
             }
         ]
     },
-    "we": {
+    "double u": {
         "characters": [
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "W"},
-                    {"form_type":"Minuscule", "unicode": "w"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "W"
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "w"
+                    }
                 ]
             }
         ]
@@ -428,7 +999,9 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌞"}
+                    {
+                        "unicode": "𐌞"
+                    }
                 ]
             }
         ]
@@ -438,14 +1011,43 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌗"}
+                    {
+                        "unicode": "𐌗",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "chi",
+                                "confidence": true
+                            },
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "ksi",
+                                "confidence": false
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "X"},
-                    {"form_type":"Minuscule", "unicode": "x"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "X",
+                        "parents": [
+                            {
+                                "script": "Old Italic",
+                                "grapheme": "ex",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "x"
+                    }
                 ]
             }
         ]
@@ -455,7 +1057,17 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌘"}
+                    {
+                        "unicode": "𐌘",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "phi",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -465,7 +1077,9 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌙"}
+                    {
+                        "unicode": "𐌙"
+                    }
                 ]
             }
         ]
@@ -475,7 +1089,17 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌚"}
+                    {
+                        "unicode": "𐌚",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "phi",
+                                "confidence": true
+                            }
+                        ]
+                    }
                 ]
             }
         ]
@@ -485,7 +1109,9 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌛"}
+                    {
+                        "unicode": "𐌛"
+                    }
                 ]
             }
         ]
@@ -495,7 +1121,9 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌜"}
+                    {
+                        "unicode": "𐌜"
+                    }
                 ]
             }
         ]
@@ -505,18 +1133,34 @@
             {
                 "script": "Old Italic",
                 "forms": [
-                    {"form_type":"Normal", "unicode": "𐌟"}
+                    {
+                        "unicode": "𐌟"
+                    }
                 ]
             }
         ]
     },
-    "Greek y": {
+    "Greek i": {
         "characters": [
             {
                 "script": "Latin",
                 "forms": [
-                    {"form_type":"Majuscule", "unicode": "Y"},
-                    {"form_type":"Minuscule", "unicode": "y"}
+                    {
+                        "form_type":"Majuscule",
+                        "unicode": "Y",
+                        "parents": [
+                            {
+                                "script": "Greek",
+                                "form_type":"Majuscule",
+                                "grapheme": "upsilon",
+                                "confidence": true
+                            }
+                        ]
+                    },
+                    {
+                        "form_type":"Minuscule",
+                        "unicode": "y"
+                    }
                 ]
             }
         ]
